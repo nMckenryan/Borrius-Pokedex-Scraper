@@ -9,7 +9,7 @@ currentTime = datetime.datetime.now()
 pokemonJson = [
     {
         "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
-        "dataPulledOn": currentTime,
+        "dataPulledOn": str(currentTime),
     }
 ]
 
@@ -104,13 +104,14 @@ for i in range(1, 494):
     pokemonJson.append(pokemon_data);
     
 try:
-    with open(f'pokemon_unbound_pokedex.json', 'w') as fp:
+    with open(f'borrius_pokedex_data_{str(currentTime)}.json', 'w') as fp:
         json.dump(pokemonJson, fp, indent=4)
     end = time.time()
-    print(f"pokemon_unbound_pokedex.json successfully create in {end - start} seconds")
+    length = end - start
+    print(f"borrius_pokedex_data_{str(currentTime)}.json successfully create in {end - start} seconds ({str(length) / 60} minutes)")
 except Exception as e:
     end = time.time()
-    length = end - start;
-    print(f"Json Generation Failed at: {length} seconds ({length / 60} minutes). An error occurred: {e}")
+    length = end - start
+    print(f"Json Generation Failed at: {str(length)} seconds ({str(length) / 60} minutes). An error occurred: {e}")
 
 
