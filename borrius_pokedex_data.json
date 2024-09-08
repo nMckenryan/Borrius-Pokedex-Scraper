@@ -1,11 +1,14 @@
 [
     {
         "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
-        "dataPulledOn": "2024-09-08 22:19:53.220945"
+        "dataPulledOn": "2024-09-08 22:35:47.547326"
     },
     {
         "pokemon_index": 1,
         "name": "Snorunt",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/361.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 24.8,
@@ -279,6 +282,9 @@
     {
         "pokemon_index": 2,
         "name": "Glalie",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/362.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 9.8,
@@ -567,6 +573,9 @@
     {
         "pokemon_index": 3,
         "name": "Froslass",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/478.png"
+        ],
         "type": "['Ice', 'Ghost']",
         "catchRate": {
             "value": 9.8,
@@ -914,6 +923,9 @@
     {
         "pokemon_index": 4,
         "name": "Vanillite",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/582.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 33.3,
@@ -1172,6 +1184,9 @@
     {
         "pokemon_index": 5,
         "name": "Vanillish",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/583.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 15.7,
@@ -1430,6 +1445,9 @@
     {
         "pokemon_index": 6,
         "name": "Vanilluxe",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/584.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 5.9,
@@ -1733,6 +1751,9 @@
     {
         "pokemon_index": 7,
         "name": "Delibird",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/225.png"
+        ],
         "type": "['Ice', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -1811,6 +1832,9 @@
     {
         "pokemon_index": 8,
         "name": "Minior",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/774.png"
+        ],
         "type": "['Rock', 'Flying']",
         "catchRate": {
             "value": 3.9,
@@ -2082,6 +2106,9 @@
     {
         "pokemon_index": 9,
         "name": "Zubat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/41.png"
+        ],
         "type": "['Poison', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -2324,6 +2351,9 @@
     {
         "pokemon_index": 10,
         "name": "Golbat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/42.png"
+        ],
         "type": "['Poison', 'Flying']",
         "catchRate": {
             "value": 11.8,
@@ -2581,6 +2611,9 @@
     {
         "pokemon_index": 11,
         "name": "Crobat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/169.png"
+        ],
         "type": "['Poison', 'Flying']",
         "catchRate": {
             "value": 11.8,
@@ -2883,6 +2916,9 @@
     {
         "pokemon_index": 12,
         "name": "Makuhita",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/296.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 23.5,
@@ -3186,6 +3222,9 @@
     {
         "pokemon_index": 13,
         "name": "Hariyama",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/297.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 26.1,
@@ -3519,6 +3558,9 @@
     {
         "pokemon_index": 14,
         "name": "Spheal",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/363.png"
+        ],
         "type": "['Ice', 'Water']",
         "catchRate": {
             "value": 33.3,
@@ -3792,6 +3834,9 @@
     {
         "pokemon_index": 15,
         "name": "Sealeo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/364.png"
+        ],
         "type": "['Ice', 'Water']",
         "catchRate": {
             "value": 15.7,
@@ -4080,6 +4125,9 @@
     {
         "pokemon_index": 16,
         "name": "Walrein",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/365.png"
+        ],
         "type": "['Ice', 'Water']",
         "catchRate": {
             "value": 5.9,
@@ -4398,6 +4446,9 @@
     {
         "pokemon_index": 17,
         "name": "Smoochum",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/238.png"
+        ],
         "type": "['Ice', 'Psychic']",
         "catchRate": {
             "value": 5.9,
@@ -4656,6 +4707,9 @@
     {
         "pokemon_index": 18,
         "name": "Jynx",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/124.png"
+        ],
         "type": "['Ice', 'Psychic']",
         "catchRate": {
             "value": 5.9,
@@ -4929,6 +4983,9 @@
     {
         "pokemon_index": 19,
         "name": "Roggenrola",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/524.png"
+        ],
         "type": "['Rock']",
         "catchRate": {
             "value": 33.3,
@@ -5172,6 +5229,9 @@
     {
         "pokemon_index": 20,
         "name": "Boldore",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/525.png"
+        ],
         "type": "['Rock']",
         "catchRate": {
             "value": 15.7,
@@ -5430,6 +5490,9 @@
     {
         "pokemon_index": 21,
         "name": "Gigalith",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/526.png"
+        ],
         "type": "['Rock']",
         "catchRate": {
             "value": 5.9,
@@ -5688,6 +5751,9 @@
     {
         "pokemon_index": 22,
         "name": "Swinub",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/220.png"
+        ],
         "type": "['Ice', 'Ground']",
         "catchRate": {
             "value": 29.4,
@@ -5916,6 +5982,9 @@
     {
         "pokemon_index": 23,
         "name": "Piloswine",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/221.png"
+        ],
         "type": "['Ice', 'Ground']",
         "catchRate": {
             "value": 9.8,
@@ -6174,6 +6243,9 @@
     {
         "pokemon_index": 24,
         "name": "Mamoswine",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/473.png"
+        ],
         "type": "['Ice', 'Ground']",
         "catchRate": {
             "value": 6.5,
@@ -6447,6 +6519,9 @@
     {
         "pokemon_index": 25,
         "name": "Bergmite",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/712.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 24.8,
@@ -6735,6 +6810,9 @@
     {
         "pokemon_index": 26,
         "name": "Avalugg",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/713.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 7.2,
@@ -7053,6 +7131,9 @@
     {
         "pokemon_index": 27,
         "name": "Drilbur",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/529.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 15.7,
@@ -7311,6 +7392,9 @@
     {
         "pokemon_index": 28,
         "name": "Excadrill",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/530.png"
+        ],
         "type": "['Ground', 'Steel']",
         "catchRate": {
             "value": 7.8,
@@ -7584,6 +7668,9 @@
     {
         "pokemon_index": 29,
         "name": "Mawile",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/303.png"
+        ],
         "type": "['Steel', 'Fairy']",
         "catchRate": {
             "value": 5.9,
@@ -7872,6 +7959,9 @@
     {
         "pokemon_index": 30,
         "name": "Sandshrew",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/27.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 33.3,
@@ -8174,6 +8264,9 @@
     {
         "pokemon_index": 31,
         "name": "Sandslash",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/28.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 11.8,
@@ -8491,6 +8584,9 @@
     {
         "pokemon_index": 32,
         "name": "Pikipek",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/731.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -8734,6 +8830,9 @@
     {
         "pokemon_index": 33,
         "name": "Trumbeak",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/732.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 15.7,
@@ -9037,6 +9136,9 @@
     {
         "pokemon_index": 34,
         "name": "Toucannon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/733.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -9355,6 +9457,9 @@
     {
         "pokemon_index": 35,
         "name": "Hoothoot",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/163.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -9628,6 +9733,9 @@
     {
         "pokemon_index": 36,
         "name": "Noctowl",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/164.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 11.8,
@@ -9901,6 +10009,9 @@
     {
         "pokemon_index": 37,
         "name": "Patrat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/504.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -10204,6 +10315,9 @@
     {
         "pokemon_index": 38,
         "name": "Watchog",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/505.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -10582,6 +10696,9 @@
     {
         "pokemon_index": 39,
         "name": "Rattata",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/19.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -10825,6 +10942,9 @@
     {
         "pokemon_index": 40,
         "name": "Raticate",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/20.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 16.6,
@@ -11128,6 +11248,9 @@
     {
         "pokemon_index": 41,
         "name": "Minccino",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/572.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -11386,6 +11509,9 @@
     {
         "pokemon_index": 42,
         "name": "Cinccino",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/573.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 7.8,
@@ -11674,6 +11800,9 @@
     {
         "pokemon_index": 43,
         "name": "Electrike",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/309.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 15.7,
@@ -11917,6 +12046,9 @@
     {
         "pokemon_index": 44,
         "name": "Manectric",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/310.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 5.9,
@@ -12190,6 +12322,9 @@
     {
         "pokemon_index": 45,
         "name": "Azurill",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/298.png"
+        ],
         "type": "['Normal', 'Fairy']",
         "catchRate": {
             "value": 19.6,
@@ -12358,6 +12493,9 @@
     {
         "pokemon_index": 46,
         "name": "Marill",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/183.png"
+        ],
         "type": "['Water', 'Fairy']",
         "catchRate": {
             "value": 24.8,
@@ -12661,6 +12799,9 @@
     {
         "pokemon_index": 47,
         "name": "Azumarill",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/184.png"
+        ],
         "type": "['Water', 'Fairy']",
         "catchRate": {
             "value": 9.8,
@@ -12964,6 +13105,9 @@
     {
         "pokemon_index": 48,
         "name": "Stufful",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/759.png"
+        ],
         "type": "['Normal', 'Fighting']",
         "catchRate": {
             "value": 18.3,
@@ -13222,6 +13366,9 @@
     {
         "pokemon_index": 49,
         "name": "Bewear",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/760.png"
+        ],
         "type": "['Normal', 'Fighting']",
         "catchRate": {
             "value": 9.1,
@@ -13495,6 +13642,9 @@
     {
         "pokemon_index": 50,
         "name": "Scraggy",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/559.png"
+        ],
         "type": "['Dark', 'Fighting']",
         "catchRate": {
             "value": 23.5,
@@ -13768,6 +13918,9 @@
     {
         "pokemon_index": 51,
         "name": "Scrafty",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/560.png"
+        ],
         "type": "['Dark', 'Fighting']",
         "catchRate": {
             "value": 11.8,
@@ -14041,6 +14194,9 @@
     {
         "pokemon_index": 52,
         "name": "Riolu",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/447.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 9.8,
@@ -14329,6 +14485,9 @@
     {
         "pokemon_index": 53,
         "name": "Lucario",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/448.png"
+        ],
         "type": "['Fighting', 'Steel']",
         "catchRate": {
             "value": 5.9,
@@ -14752,6 +14911,9 @@
     {
         "pokemon_index": 54,
         "name": "Inkay",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/686.png"
+        ],
         "type": "['Dark', 'Psychic']",
         "catchRate": {
             "value": 24.8,
@@ -15025,6 +15187,9 @@
     {
         "pokemon_index": 55,
         "name": "Malamar",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/687.png"
+        ],
         "type": "['Dark', 'Psychic']",
         "catchRate": {
             "value": 10.5,
@@ -15313,6 +15478,9 @@
     {
         "pokemon_index": 56,
         "name": "Poochyena",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/261.png"
+        ],
         "type": "['Dark']",
         "catchRate": {
             "value": 33.3,
@@ -15586,6 +15754,9 @@
     {
         "pokemon_index": 57,
         "name": "Mightyena",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/262.png"
+        ],
         "type": "['Dark']",
         "catchRate": {
             "value": 16.6,
@@ -15919,6 +16090,9 @@
     {
         "pokemon_index": 58,
         "name": "Wingull",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/278.png"
+        ],
         "type": "['Water', 'Flying']",
         "catchRate": {
             "value": 24.8,
@@ -16132,6 +16306,9 @@
     {
         "pokemon_index": 59,
         "name": "Pelipper",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/279.png"
+        ],
         "type": "['Water', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -16465,6 +16642,9 @@
     {
         "pokemon_index": 60,
         "name": "Bidoof",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/399.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -16723,6 +16903,9 @@
     {
         "pokemon_index": 61,
         "name": "Bibarel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/400.png"
+        ],
         "type": "['Normal', 'Water']",
         "catchRate": {
             "value": 16.6,
@@ -17011,6 +17194,9 @@
     {
         "pokemon_index": 62,
         "name": "Buizel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/418.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 24.8,
@@ -17283,6 +17469,9 @@
     {
         "pokemon_index": 63,
         "name": "Floatzel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/419.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 9.8,
@@ -17570,6 +17759,9 @@
     {
         "pokemon_index": 64,
         "name": "Shellos",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/422.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 24.8,
@@ -17783,6 +17975,9 @@
     {
         "pokemon_index": 65,
         "name": "Gastrodon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/423.png"
+        ],
         "type": "['Water', 'Ground']",
         "catchRate": {
             "value": 9.8,
@@ -17996,6 +18191,9 @@
     {
         "pokemon_index": 66,
         "name": "Dewpider",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/751.png"
+        ],
         "type": "['Water', 'Bug']",
         "catchRate": {
             "value": 26.1,
@@ -18253,6 +18451,9 @@
     {
         "pokemon_index": 67,
         "name": "Araquanid",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/752.png"
+        ],
         "type": "['Water', 'Bug']",
         "catchRate": {
             "value": 13.1,
@@ -18525,6 +18726,9 @@
     {
         "pokemon_index": 68,
         "name": "Surskit",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/283.png"
+        ],
         "type": "['Bug', 'Water']",
         "catchRate": {
             "value": 26.1,
@@ -18722,6 +18926,9 @@
     {
         "pokemon_index": 69,
         "name": "Masquerain",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/284.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 9.8,
@@ -18964,6 +19171,9 @@
     {
         "pokemon_index": 70,
         "name": "Krabby",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/98.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 29.4,
@@ -19222,6 +19432,9 @@
     {
         "pokemon_index": 71,
         "name": "Kingler",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/99.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 7.8,
@@ -19510,6 +19723,9 @@
     {
         "pokemon_index": 72,
         "name": "Cherubi",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/420.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 24.8,
@@ -19721,6 +19937,9 @@
     {
         "pokemon_index": 73,
         "name": "Cherrim",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/421.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 9.8,
@@ -19977,6 +20196,9 @@
     {
         "pokemon_index": 74,
         "name": "Sandygast",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/769.png"
+        ],
         "type": "['Ghost', 'Ground']",
         "catchRate": {
             "value": 18.3,
@@ -20234,6 +20456,9 @@
     {
         "pokemon_index": 75,
         "name": "Palossand",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/770.png"
+        ],
         "type": "['Ghost', 'Ground']",
         "catchRate": {
             "value": 7.8,
@@ -20491,6 +20716,9 @@
     {
         "pokemon_index": 76,
         "name": "Sentret",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/161.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -20734,6 +20962,9 @@
     {
         "pokemon_index": 77,
         "name": "Furret",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/162.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 11.8,
@@ -20992,6 +21223,9 @@
     {
         "pokemon_index": 78,
         "name": "Flab\u00e9b\u00e9",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/669.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 29.4,
@@ -21249,6 +21483,9 @@
     {
         "pokemon_index": 79,
         "name": "Floette",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/670.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 15.7,
@@ -21506,6 +21743,9 @@
     {
         "pokemon_index": 80,
         "name": "Florges",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/671.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 5.9,
@@ -21733,6 +21973,9 @@
     {
         "pokemon_index": 81,
         "name": "Cutiefly",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/742.png"
+        ],
         "type": "['Bug', 'Fairy']",
         "catchRate": {
             "value": 24.8,
@@ -21946,6 +22189,9 @@
     {
         "pokemon_index": 82,
         "name": "Ribombee",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/743.png"
+        ],
         "type": "['Bug', 'Fairy']",
         "catchRate": {
             "value": 9.8,
@@ -22159,6 +22405,9 @@
     {
         "pokemon_index": 83,
         "name": "Oricorio",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/741.png"
+        ],
         "type": "['Fire', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -22430,6 +22679,9 @@
     {
         "pokemon_index": 84,
         "name": "Pansage",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/511.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 24.8,
@@ -22717,6 +22969,9 @@
     {
         "pokemon_index": 85,
         "name": "Simisage",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/512.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 9.8,
@@ -22824,6 +23079,9 @@
     {
         "pokemon_index": 86,
         "name": "Pansear",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/513.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 24.8,
@@ -23111,6 +23369,9 @@
     {
         "pokemon_index": 87,
         "name": "Simisear",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/514.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 9.8,
@@ -23218,6 +23479,9 @@
     {
         "pokemon_index": 88,
         "name": "Panpour",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/515.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 24.8,
@@ -23505,6 +23769,9 @@
     {
         "pokemon_index": 89,
         "name": "Simipour",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/516.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 9.8,
@@ -23612,6 +23879,9 @@
     {
         "pokemon_index": 90,
         "name": "Combee",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/415.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 15.7,
@@ -23719,6 +23989,9 @@
     {
         "pokemon_index": 91,
         "name": "Vespiquen",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/416.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -24036,6 +24309,9 @@
     {
         "pokemon_index": 92,
         "name": "Comfey",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/764.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 7.8,
@@ -24354,6 +24630,9 @@
     {
         "pokemon_index": 93,
         "name": "Caterpie",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/10.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 33.3,
@@ -24446,6 +24725,9 @@
     {
         "pokemon_index": 94,
         "name": "Metapod",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/11.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 15.7,
@@ -24505,6 +24787,9 @@
     {
         "pokemon_index": 95,
         "name": "Butterfree",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/12.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -24822,6 +25107,9 @@
     {
         "pokemon_index": 96,
         "name": "Weedle",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/13.png"
+        ],
         "type": "['Bug', 'Poison']",
         "catchRate": {
             "value": 33.3,
@@ -24914,6 +25202,9 @@
     {
         "pokemon_index": 97,
         "name": "Kakuna",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/14.png"
+        ],
         "type": "['Bug', 'Poison']",
         "catchRate": {
             "value": 15.7,
@@ -24973,6 +25264,9 @@
     {
         "pokemon_index": 98,
         "name": "Beedrill",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/15.png"
+        ],
         "type": "['Bug', 'Poison']",
         "catchRate": {
             "value": 5.9,
@@ -25275,6 +25569,9 @@
     {
         "pokemon_index": 99,
         "name": "Seedot",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/273.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 33.3,
@@ -25518,6 +25815,9 @@
     {
         "pokemon_index": 100,
         "name": "Nuzleaf",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/274.png"
+        ],
         "type": "['Grass', 'Dark']",
         "catchRate": {
             "value": 15.7,
@@ -25836,6 +26136,9 @@
     {
         "pokemon_index": 101,
         "name": "Shiftry",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/275.png"
+        ],
         "type": "['Grass', 'Dark']",
         "catchRate": {
             "value": 5.9,
@@ -25944,6 +26247,9 @@
     {
         "pokemon_index": 102,
         "name": "Pumpkaboo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/710.png"
+        ],
         "type": "['Ghost', 'Grass']",
         "catchRate": {
             "value": 15.7,
@@ -26232,6 +26538,9 @@
     {
         "pokemon_index": 103,
         "name": "Gourgeist",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/711.png"
+        ],
         "type": "['Ghost', 'Grass']",
         "catchRate": {
             "value": 7.8,
@@ -26565,6 +26874,9 @@
     {
         "pokemon_index": 104,
         "name": "Gastly",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/92.png"
+        ],
         "type": "['Ghost', 'Poison']",
         "catchRate": {
             "value": 24.8,
@@ -26821,6 +27133,9 @@
     {
         "pokemon_index": 105,
         "name": "Haunter",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/93.png"
+        ],
         "type": "['Ghost', 'Poison']",
         "catchRate": {
             "value": 11.8,
@@ -27077,6 +27392,9 @@
     {
         "pokemon_index": 106,
         "name": "Gengar",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/94.png"
+        ],
         "type": "['Ghost', 'Poison']",
         "catchRate": {
             "value": 5.9,
@@ -27378,6 +27696,9 @@
     {
         "pokemon_index": 107,
         "name": "Shuppet",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/353.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 29.4,
@@ -27621,6 +27942,9 @@
     {
         "pokemon_index": 108,
         "name": "Banette",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/354.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 5.9,
@@ -27849,6 +28173,9 @@
     {
         "pokemon_index": 109,
         "name": "Duskull",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/355.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 24.8,
@@ -28091,6 +28418,9 @@
     {
         "pokemon_index": 110,
         "name": "Dusclops",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/356.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 11.8,
@@ -28408,6 +28738,9 @@
     {
         "pokemon_index": 111,
         "name": "Dusknoir",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/477.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 5.9,
@@ -28755,6 +29088,9 @@
     {
         "pokemon_index": 112,
         "name": "Phantump",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/708.png"
+        ],
         "type": "['Ghost', 'Grass']",
         "catchRate": {
             "value": 15.7,
@@ -29028,6 +29364,9 @@
     {
         "pokemon_index": 113,
         "name": "Trevenant",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/709.png"
+        ],
         "type": "['Ghost', 'Grass']",
         "catchRate": {
             "value": 7.8,
@@ -29301,6 +29640,9 @@
     {
         "pokemon_index": 114,
         "name": "Starly",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/396.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -29528,6 +29870,9 @@
     {
         "pokemon_index": 115,
         "name": "Staravia",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/397.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 15.7,
@@ -29755,6 +30100,9 @@
     {
         "pokemon_index": 116,
         "name": "Staraptor",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/398.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -29982,6 +30330,9 @@
     {
         "pokemon_index": 117,
         "name": "Lillipup",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/506.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -30240,6 +30591,9 @@
     {
         "pokemon_index": 118,
         "name": "Herdier",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/507.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 15.7,
@@ -30498,6 +30852,9 @@
     {
         "pokemon_index": 119,
         "name": "Stoutland",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/508.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 5.9,
@@ -30801,6 +31158,9 @@
     {
         "pokemon_index": 120,
         "name": "Budew",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/406.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 33.3,
@@ -30909,6 +31269,9 @@
     {
         "pokemon_index": 121,
         "name": "Roselia",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/315.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 19.6,
@@ -31212,6 +31575,9 @@
     {
         "pokemon_index": 122,
         "name": "Roserade",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/407.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 9.8,
@@ -31545,6 +31911,9 @@
     {
         "pokemon_index": 123,
         "name": "Ekans",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/23.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 33.3,
@@ -31848,6 +32217,9 @@
     {
         "pokemon_index": 124,
         "name": "Arbok",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/24.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 11.8,
@@ -32196,6 +32568,9 @@
     {
         "pokemon_index": 125,
         "name": "Numel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/322.png"
+        ],
         "type": "['Fire', 'Ground']",
         "catchRate": {
             "value": 33.3,
@@ -32454,6 +32829,9 @@
     {
         "pokemon_index": 126,
         "name": "Camerupt",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/323.png"
+        ],
         "type": "['Fire', 'Ground']",
         "catchRate": {
             "value": 19.6,
@@ -32727,6 +33105,9 @@
     {
         "pokemon_index": 127,
         "name": "Mankey",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/56.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 24.8,
@@ -33015,6 +33396,9 @@
     {
         "pokemon_index": 128,
         "name": "Primeape",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/57.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 9.8,
@@ -33318,6 +33702,9 @@
     {
         "pokemon_index": 129,
         "name": "Ralts",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/280.png"
+        ],
         "type": "['Psychic', 'Fairy']",
         "catchRate": {
             "value": 30.7,
@@ -33591,6 +33978,9 @@
     {
         "pokemon_index": 130,
         "name": "Kirlia",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/281.png"
+        ],
         "type": "['Psychic', 'Fairy']",
         "catchRate": {
             "value": 15.7,
@@ -33864,6 +34254,9 @@
     {
         "pokemon_index": 131,
         "name": "Gardevoir",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/282.png"
+        ],
         "type": "['Psychic', 'Fairy']",
         "catchRate": {
             "value": 5.9,
@@ -34212,6 +34605,9 @@
     {
         "pokemon_index": 132,
         "name": "Gallade",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/475.png"
+        ],
         "type": "['Psychic', 'Fighting']",
         "catchRate": {
             "value": 5.9,
@@ -34740,6 +35136,9 @@
     {
         "pokemon_index": 133,
         "name": "Burmy",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/412.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 15.7,
@@ -34847,6 +35246,9 @@
     {
         "pokemon_index": 134,
         "name": "Wormadam",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/413.png"
+        ],
         "type": "['Bug', 'Grass']",
         "catchRate": {
             "value": 5.9,
@@ -35164,6 +35566,9 @@
     {
         "pokemon_index": 135,
         "name": "Mothim",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/414.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -35466,6 +35871,9 @@
     {
         "pokemon_index": 136,
         "name": "Woobat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/527.png"
+        ],
         "type": "['Psychic', 'Flying']",
         "catchRate": {
             "value": 24.8,
@@ -35709,6 +36117,9 @@
     {
         "pokemon_index": 137,
         "name": "Swoobat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/528.png"
+        ],
         "type": "['Psychic', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -35952,6 +36363,9 @@
     {
         "pokemon_index": 138,
         "name": "Slugma",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/218.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 24.8,
@@ -36225,6 +36639,9 @@
     {
         "pokemon_index": 139,
         "name": "Magcargo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/219.png"
+        ],
         "type": "['Fire', 'Rock']",
         "catchRate": {
             "value": 9.8,
@@ -36498,6 +36915,9 @@
     {
         "pokemon_index": 140,
         "name": "Salandit",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/757.png"
+        ],
         "type": "['Poison', 'Fire']",
         "catchRate": {
             "value": 15.7,
@@ -36740,6 +37160,9 @@
     {
         "pokemon_index": 141,
         "name": "Salazzle",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/758.png"
+        ],
         "type": "['Poison', 'Fire']",
         "catchRate": {
             "value": 5.9,
@@ -37072,6 +37495,9 @@
     {
         "pokemon_index": 142,
         "name": "Geodude",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/74.png"
+        ],
         "type": "['Rock', 'Ground']",
         "catchRate": {
             "value": 33.3,
@@ -37330,6 +37756,9 @@
     {
         "pokemon_index": 143,
         "name": "Graveler",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/75.png"
+        ],
         "type": "['Rock', 'Ground']",
         "catchRate": {
             "value": 15.7,
@@ -37588,6 +38017,9 @@
     {
         "pokemon_index": 144,
         "name": "Golem",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/76.png"
+        ],
         "type": "['Rock', 'Ground']",
         "catchRate": {
             "value": 5.9,
@@ -37846,6 +38278,9 @@
     {
         "pokemon_index": 145,
         "name": "Torkoal",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/324.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 11.8,
@@ -38164,6 +38599,9 @@
     {
         "pokemon_index": 146,
         "name": "Magby",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/240.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 5.9,
@@ -38421,6 +38859,9 @@
     {
         "pokemon_index": 147,
         "name": "Magmar",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/126.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 5.9,
@@ -38693,6 +39134,9 @@
     {
         "pokemon_index": 148,
         "name": "Magmortar",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/467.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 3.9,
@@ -38965,6 +39409,9 @@
     {
         "pokemon_index": 149,
         "name": "Heatmor",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/631.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 11.8,
@@ -39253,6 +39700,9 @@
     {
         "pokemon_index": 150,
         "name": "Vulpix",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/37.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 24.8,
@@ -39525,6 +39975,9 @@
     {
         "pokemon_index": 151,
         "name": "Ninetales",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/38.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 9.8,
@@ -39617,6 +40070,9 @@
     {
         "pokemon_index": 152,
         "name": "Taillow",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/276.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 26.1,
@@ -39859,6 +40315,9 @@
     {
         "pokemon_index": 153,
         "name": "Swellow",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/277.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -40176,6 +40635,9 @@
     {
         "pokemon_index": 154,
         "name": "Murkrow",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/198.png"
+        ],
         "type": "['Dark', 'Flying']",
         "catchRate": {
             "value": 3.9,
@@ -40419,6 +40881,9 @@
     {
         "pokemon_index": 155,
         "name": "Honchkrow",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/430.png"
+        ],
         "type": "['Dark', 'Flying']",
         "catchRate": {
             "value": 3.9,
@@ -40632,6 +41097,9 @@
     {
         "pokemon_index": 156,
         "name": "Lickitung",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/108.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 5.9,
@@ -40860,6 +41328,9 @@
     {
         "pokemon_index": 157,
         "name": "Lickilicky",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/463.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 3.9,
@@ -41088,6 +41559,9 @@
     {
         "pokemon_index": 158,
         "name": "Nidoran\u2642 (male)",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/32.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 30.7,
@@ -41331,6 +41805,9 @@
     {
         "pokemon_index": 159,
         "name": "Nidorino",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/33.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 15.7,
@@ -41574,6 +42051,9 @@
     {
         "pokemon_index": 160,
         "name": "Nidoking",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/34.png"
+        ],
         "type": "['Poison', 'Ground']",
         "catchRate": {
             "value": 5.9,
@@ -41847,6 +42327,9 @@
     {
         "pokemon_index": 161,
         "name": "Nidoran\u2640 (female)",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/29.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 30.7,
@@ -42090,6 +42573,9 @@
     {
         "pokemon_index": 162,
         "name": "Nidorina",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/30.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 15.7,
@@ -42333,6 +42819,9 @@
     {
         "pokemon_index": 163,
         "name": "Nidoqueen",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/31.png"
+        ],
         "type": "['Poison', 'Ground']",
         "catchRate": {
             "value": 5.9,
@@ -42606,6 +43095,9 @@
     {
         "pokemon_index": 164,
         "name": "Growlithe",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/58.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 24.8,
@@ -42894,6 +43386,9 @@
     {
         "pokemon_index": 165,
         "name": "Arcanine",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/59.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 9.8,
@@ -43182,6 +43677,9 @@
     {
         "pokemon_index": 166,
         "name": "Houndour",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/228.png"
+        ],
         "type": "['Dark', 'Fire']",
         "catchRate": {
             "value": 15.7,
@@ -43470,6 +43968,9 @@
     {
         "pokemon_index": 167,
         "name": "Houndoom",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/229.png"
+        ],
         "type": "['Dark', 'Fire']",
         "catchRate": {
             "value": 5.9,
@@ -43773,6 +44274,9 @@
     {
         "pokemon_index": 168,
         "name": "Yanma",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/193.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 9.8,
@@ -44046,6 +44550,9 @@
     {
         "pokemon_index": 169,
         "name": "Yanmega",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/469.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 3.9,
@@ -44319,6 +44826,9 @@
     {
         "pokemon_index": 170,
         "name": "Venonat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/48.png"
+        ],
         "type": "['Bug', 'Poison']",
         "catchRate": {
             "value": 24.8,
@@ -44562,6 +45072,9 @@
     {
         "pokemon_index": 171,
         "name": "Venomoth",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/49.png"
+        ],
         "type": "['Bug', 'Poison']",
         "catchRate": {
             "value": 9.8,
@@ -44820,6 +45333,9 @@
     {
         "pokemon_index": 172,
         "name": "Purrloin",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/509.png"
+        ],
         "type": "['Dark']",
         "catchRate": {
             "value": 33.3,
@@ -45048,6 +45564,9 @@
     {
         "pokemon_index": 173,
         "name": "Liepard",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/510.png"
+        ],
         "type": "['Dark']",
         "catchRate": {
             "value": 11.8,
@@ -45276,6 +45795,9 @@
     {
         "pokemon_index": 174,
         "name": "Elgyem",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/605.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 33.3,
@@ -45519,6 +46041,9 @@
     {
         "pokemon_index": 175,
         "name": "Beheeyem",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/606.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 11.8,
@@ -45777,6 +46302,9 @@
     {
         "pokemon_index": 176,
         "name": "Aron",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/304.png"
+        ],
         "type": "['Steel', 'Rock']",
         "catchRate": {
             "value": 23.5,
@@ -46080,6 +46608,9 @@
     {
         "pokemon_index": 177,
         "name": "Lairon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/305.png"
+        ],
         "type": "['Steel', 'Rock']",
         "catchRate": {
             "value": 11.8,
@@ -46383,6 +46914,9 @@
     {
         "pokemon_index": 178,
         "name": "Aggron",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/306.png"
+        ],
         "type": "['Steel', 'Rock']",
         "catchRate": {
             "value": 5.9,
@@ -46686,6 +47220,9 @@
     {
         "pokemon_index": 179,
         "name": "Nosepass",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/299.png"
+        ],
         "type": "['Rock']",
         "catchRate": {
             "value": 33.3,
@@ -46974,6 +47511,9 @@
     {
         "pokemon_index": 180,
         "name": "Probopass",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/476.png"
+        ],
         "type": "['Rock', 'Steel']",
         "catchRate": {
             "value": 7.8,
@@ -47307,6 +47847,9 @@
     {
         "pokemon_index": 181,
         "name": "Noibat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/714.png"
+        ],
         "type": "['Flying', 'Dragon']",
         "catchRate": {
             "value": 24.8,
@@ -47580,6 +48123,9 @@
     {
         "pokemon_index": 182,
         "name": "Noivern",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/715.png"
+        ],
         "type": "['Flying', 'Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -47883,6 +48429,9 @@
     {
         "pokemon_index": 183,
         "name": "Carbink",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/703.png"
+        ],
         "type": "['Rock', 'Fairy']",
         "catchRate": {
             "value": 7.8,
@@ -48140,6 +48689,9 @@
     {
         "pokemon_index": 184,
         "name": "Phanpy",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/231.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 15.7,
@@ -48367,6 +48919,9 @@
     {
         "pokemon_index": 185,
         "name": "Donphan",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/232.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 7.8,
@@ -48639,6 +49194,9 @@
     {
         "pokemon_index": 186,
         "name": "Gligar",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/207.png"
+        ],
         "type": "['Ground', 'Flying']",
         "catchRate": {
             "value": 7.8,
@@ -48897,6 +49455,9 @@
     {
         "pokemon_index": 187,
         "name": "Gliscor",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/472.png"
+        ],
         "type": "['Ground', 'Flying']",
         "catchRate": {
             "value": 3.9,
@@ -49185,6 +49746,9 @@
     {
         "pokemon_index": 188,
         "name": "Dunsparce",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/206.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 24.8,
@@ -49458,6 +50022,9 @@
     {
         "pokemon_index": 189,
         "name": "Bunnelby",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/659.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -49731,6 +50298,9 @@
     {
         "pokemon_index": 190,
         "name": "Diggersby",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/660.png"
+        ],
         "type": "['Normal', 'Ground']",
         "catchRate": {
             "value": 16.6,
@@ -50019,6 +50589,9 @@
     {
         "pokemon_index": 191,
         "name": "Ledyba",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/165.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -50277,6 +50850,9 @@
     {
         "pokemon_index": 192,
         "name": "Ledian",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/166.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 11.8,
@@ -50565,6 +51141,9 @@
     {
         "pokemon_index": 193,
         "name": "Spinarak",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/167.png"
+        ],
         "type": "['Bug', 'Poison']",
         "catchRate": {
             "value": 33.3,
@@ -50853,6 +51432,9 @@
     {
         "pokemon_index": 194,
         "name": "Ariados",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/168.png"
+        ],
         "type": "['Bug', 'Poison']",
         "catchRate": {
             "value": 11.8,
@@ -51186,6 +51768,9 @@
     {
         "pokemon_index": 195,
         "name": "Shinx",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/403.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 30.7,
@@ -51444,6 +52029,9 @@
     {
         "pokemon_index": 196,
         "name": "Luxio",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/404.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 15.7,
@@ -51702,6 +52290,9 @@
     {
         "pokemon_index": 197,
         "name": "Luxray",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/405.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 5.9,
@@ -51975,6 +52566,9 @@
     {
         "pokemon_index": 198,
         "name": "Deerling",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/585.png"
+        ],
         "type": "['Normal', 'Grass']",
         "catchRate": {
             "value": 24.8,
@@ -52203,6 +52797,9 @@
     {
         "pokemon_index": 199,
         "name": "Sawsbuck",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/586.png"
+        ],
         "type": "['Normal', 'Grass']",
         "catchRate": {
             "value": 9.8,
@@ -52446,6 +53043,9 @@
     {
         "pokemon_index": 200,
         "name": "Sunkern",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/191.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 30.7,
@@ -52689,6 +53289,9 @@
     {
         "pokemon_index": 201,
         "name": "Sunflora",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/192.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 15.7,
@@ -52992,6 +53595,9 @@
     {
         "pokemon_index": 202,
         "name": "Kricketot",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/401.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 33.3,
@@ -53099,6 +53705,9 @@
     {
         "pokemon_index": 203,
         "name": "Kricketune",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/402.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 5.9,
@@ -53356,6 +53965,9 @@
     {
         "pokemon_index": 204,
         "name": "Smeargle",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/235.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 5.9,
@@ -53554,6 +54166,9 @@
     {
         "pokemon_index": 205,
         "name": "Yungoos",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/734.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -53812,6 +54427,9 @@
     {
         "pokemon_index": 206,
         "name": "Gumshoos",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/735.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 16.6,
@@ -54070,6 +54688,9 @@
     {
         "pokemon_index": 207,
         "name": "Doduo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/84.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 24.8,
@@ -54358,6 +54979,9 @@
     {
         "pokemon_index": 208,
         "name": "Dodrio",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/85.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -54676,6 +55300,9 @@
     {
         "pokemon_index": 209,
         "name": "Buneary",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/427.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 24.8,
@@ -54949,6 +55576,9 @@
     {
         "pokemon_index": 210,
         "name": "Lopunny",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/428.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 7.8,
@@ -55267,6 +55897,9 @@
     {
         "pokemon_index": 211,
         "name": "Abra",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/63.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 26.1,
@@ -55328,6 +55961,9 @@
     {
         "pokemon_index": 212,
         "name": "Kadabra",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/64.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 13.1,
@@ -55586,6 +56222,9 @@
     {
         "pokemon_index": 213,
         "name": "Alakazam",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/65.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 6.5,
@@ -55844,6 +56483,9 @@
     {
         "pokemon_index": 214,
         "name": "Mareep",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/179.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 30.7,
@@ -56116,6 +56758,9 @@
     {
         "pokemon_index": 215,
         "name": "Flaaffy",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/180.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 15.7,
@@ -56388,6 +57033,9 @@
     {
         "pokemon_index": 216,
         "name": "Ampharos",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/181.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 5.9,
@@ -56720,6 +57368,9 @@
     {
         "pokemon_index": 217,
         "name": "Espurr",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/677.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 24.8,
@@ -56918,6 +57569,9 @@
     {
         "pokemon_index": 218,
         "name": "Meowstic",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/678.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 9.8,
@@ -57251,6 +57905,9 @@
     {
         "pokemon_index": 219,
         "name": "Drowzee",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/96.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 24.8,
@@ -57509,6 +58166,9 @@
     {
         "pokemon_index": 220,
         "name": "Hypno",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/97.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 9.8,
@@ -57782,6 +58442,9 @@
     {
         "pokemon_index": 221,
         "name": "Mime Jr.",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/439.png"
+        ],
         "type": "['Psychic', 'Fairy']",
         "catchRate": {
             "value": 19.0,
@@ -58085,6 +58748,9 @@
     {
         "pokemon_index": 222,
         "name": "Mr. Mime",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/122.png"
+        ],
         "type": "['Psychic', 'Fairy']",
         "catchRate": {
             "value": 5.9,
@@ -58448,6 +59114,9 @@
     {
         "pokemon_index": 223,
         "name": "Magikarp",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/129.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 33.3,
@@ -58540,6 +59209,9 @@
     {
         "pokemon_index": 224,
         "name": "Gyarados",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/130.png"
+        ],
         "type": "['Water', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -58857,6 +59529,9 @@
     {
         "pokemon_index": 225,
         "name": "Bronzor",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/436.png"
+        ],
         "type": "['Steel', 'Psychic']",
         "catchRate": {
             "value": 33.3,
@@ -59100,6 +59775,9 @@
     {
         "pokemon_index": 226,
         "name": "Bronzong",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/437.png"
+        ],
         "type": "['Steel', 'Psychic']",
         "catchRate": {
             "value": 11.8,
@@ -59388,6 +60066,9 @@
     {
         "pokemon_index": 227,
         "name": "Onix",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/95.png"
+        ],
         "type": "['Rock', 'Ground']",
         "catchRate": {
             "value": 5.9,
@@ -59706,6 +60387,9 @@
     {
         "pokemon_index": 228,
         "name": "Steelix",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/208.png"
+        ],
         "type": "['Steel', 'Ground']",
         "catchRate": {
             "value": 3.3,
@@ -60114,6 +60798,9 @@
     {
         "pokemon_index": 229,
         "name": "Sneasel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/215.png"
+        ],
         "type": "['Dark', 'Ice']",
         "catchRate": {
             "value": 7.8,
@@ -60342,6 +61029,9 @@
     {
         "pokemon_index": 230,
         "name": "Weavile",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/461.png"
+        ],
         "type": "['Dark', 'Ice']",
         "catchRate": {
             "value": 5.9,
@@ -60659,6 +61349,9 @@
     {
         "pokemon_index": 231,
         "name": "Cryogonal",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/615.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 3.3,
@@ -60990,6 +61683,9 @@
     {
         "pokemon_index": 232,
         "name": "Snover",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/459.png"
+        ],
         "type": "['Grass', 'Ice']",
         "catchRate": {
             "value": 15.7,
@@ -61217,6 +61913,9 @@
     {
         "pokemon_index": 233,
         "name": "Abomasnow",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/460.png"
+        ],
         "type": "['Grass', 'Ice']",
         "catchRate": {
             "value": 7.8,
@@ -61459,6 +62158,9 @@
     {
         "pokemon_index": 234,
         "name": "Cubchoo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/613.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 15.7,
@@ -61747,6 +62449,9 @@
     {
         "pokemon_index": 235,
         "name": "Beartic",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/614.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 7.8,
@@ -62080,6 +62785,9 @@
     {
         "pokemon_index": 236,
         "name": "Stantler",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/234.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 5.9,
@@ -62323,6 +63031,9 @@
     {
         "pokemon_index": 237,
         "name": "Crabrawler",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/739.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 29.4,
@@ -62566,6 +63277,9 @@
     {
         "pokemon_index": 238,
         "name": "Crabominable",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/740.png"
+        ],
         "type": "['Fighting', 'Ice']",
         "catchRate": {
             "value": 7.8,
@@ -62794,6 +63508,9 @@
     {
         "pokemon_index": 239,
         "name": "Spearow",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/21.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -63021,6 +63738,9 @@
     {
         "pokemon_index": 240,
         "name": "Fearow",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/22.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 11.8,
@@ -63308,6 +64028,9 @@
     {
         "pokemon_index": 241,
         "name": "Grubbin",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/736.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 33.3,
@@ -63504,6 +64227,9 @@
     {
         "pokemon_index": 242,
         "name": "Charjabug",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/737.png"
+        ],
         "type": "['Bug', 'Electric']",
         "catchRate": {
             "value": 15.7,
@@ -63730,6 +64456,9 @@
     {
         "pokemon_index": 243,
         "name": "Vikavolt",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/738.png"
+        ],
         "type": "['Bug', 'Electric']",
         "catchRate": {
             "value": 5.9,
@@ -63956,6 +64685,9 @@
     {
         "pokemon_index": 244,
         "name": "Shroomish",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/285.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 33.3,
@@ -64184,6 +64916,9 @@
     {
         "pokemon_index": 245,
         "name": "Breloom",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/286.png"
+        ],
         "type": "['Grass', 'Fighting']",
         "catchRate": {
             "value": 11.8,
@@ -64487,6 +65222,9 @@
     {
         "pokemon_index": 246,
         "name": "Skorupi",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/451.png"
+        ],
         "type": "['Poison', 'Bug']",
         "catchRate": {
             "value": 15.7,
@@ -64805,6 +65543,9 @@
     {
         "pokemon_index": 247,
         "name": "Drapion",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/452.png"
+        ],
         "type": "['Poison', 'Dark']",
         "catchRate": {
             "value": 5.9,
@@ -65168,6 +65909,9 @@
     {
         "pokemon_index": 248,
         "name": "Happiny",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/440.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 17.0,
@@ -65321,6 +66065,9 @@
     {
         "pokemon_index": 249,
         "name": "Chansey",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/113.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 3.9,
@@ -65669,6 +66416,9 @@
     {
         "pokemon_index": 250,
         "name": "Blissey",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/242.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 3.9,
@@ -66017,6 +66767,9 @@
     {
         "pokemon_index": 251,
         "name": "Karrablast",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/588.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 26.1,
@@ -66275,6 +67028,9 @@
     {
         "pokemon_index": 252,
         "name": "Escavalier",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/589.png"
+        ],
         "type": "['Bug', 'Steel']",
         "catchRate": {
             "value": 9.8,
@@ -66638,6 +67394,9 @@
     {
         "pokemon_index": 253,
         "name": "Lotad",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/270.png"
+        ],
         "type": "['Water', 'Grass']",
         "catchRate": {
             "value": 33.3,
@@ -66881,6 +67640,9 @@
     {
         "pokemon_index": 254,
         "name": "Lombre",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/271.png"
+        ],
         "type": "['Water', 'Grass']",
         "catchRate": {
             "value": 15.7,
@@ -67184,6 +67946,9 @@
     {
         "pokemon_index": 255,
         "name": "Ludicolo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/272.png"
+        ],
         "type": "['Water', 'Grass']",
         "catchRate": {
             "value": 5.9,
@@ -67277,6 +68042,9 @@
     {
         "pokemon_index": 256,
         "name": "Tympole",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/535.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 33.3,
@@ -67535,6 +68303,9 @@
     {
         "pokemon_index": 257,
         "name": "Palpitoad",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/536.png"
+        ],
         "type": "['Water', 'Ground']",
         "catchRate": {
             "value": 15.7,
@@ -67793,6 +68564,9 @@
     {
         "pokemon_index": 258,
         "name": "Seismitoad",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/537.png"
+        ],
         "type": "['Water', 'Ground']",
         "catchRate": {
             "value": 5.9,
@@ -68081,6 +68855,9 @@
     {
         "pokemon_index": 259,
         "name": "Zigzagoon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/263.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 33.3,
@@ -68339,6 +69116,9 @@
     {
         "pokemon_index": 260,
         "name": "Linoone",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/264.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 11.8,
@@ -68657,6 +69437,9 @@
     {
         "pokemon_index": 261,
         "name": "Goomy",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/704.png"
+        ],
         "type": "['Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -68885,6 +69668,9 @@
     {
         "pokemon_index": 262,
         "name": "Sliggoo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/705.png"
+        ],
         "type": "['Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -69128,6 +69914,9 @@
     {
         "pokemon_index": 263,
         "name": "Goodra",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/706.png"
+        ],
         "type": "['Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -69416,6 +70205,9 @@
     {
         "pokemon_index": 264,
         "name": "Shelmet",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/616.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 26.1,
@@ -69674,6 +70466,9 @@
     {
         "pokemon_index": 265,
         "name": "Accelgor",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/617.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 9.8,
@@ -70052,6 +70847,9 @@
     {
         "pokemon_index": 266,
         "name": "Exeggcute",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/102.png"
+        ],
         "type": "['Grass', 'Psychic']",
         "catchRate": {
             "value": 11.8,
@@ -70294,6 +71092,9 @@
     {
         "pokemon_index": 267,
         "name": "Exeggutor",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/103.png"
+        ],
         "type": "['Grass', 'Psychic']",
         "catchRate": {
             "value": 5.9,
@@ -70611,6 +71412,9 @@
     {
         "pokemon_index": 268,
         "name": "Swablu",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/333.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -70853,6 +71657,9 @@
     {
         "pokemon_index": 269,
         "name": "Altaria",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/334.png"
+        ],
         "type": "['Dragon', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -71125,6 +71932,9 @@
     {
         "pokemon_index": 270,
         "name": "Togedemaru",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/777.png"
+        ],
         "type": "['Electric', 'Steel']",
         "catchRate": {
             "value": 23.5,
@@ -71383,6 +72193,9 @@
     {
         "pokemon_index": 271,
         "name": "Spoink",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/325.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 33.3,
@@ -71626,6 +72439,9 @@
     {
         "pokemon_index": 272,
         "name": "Grumpig",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/326.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 7.8,
@@ -71884,6 +72700,9 @@
     {
         "pokemon_index": 273,
         "name": "Meditite",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/307.png"
+        ],
         "type": "['Fighting', 'Psychic']",
         "catchRate": {
             "value": 23.5,
@@ -72171,6 +72990,9 @@
     {
         "pokemon_index": 274,
         "name": "Medicham",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/308.png"
+        ],
         "type": "['Fighting', 'Psychic']",
         "catchRate": {
             "value": 11.8,
@@ -72503,6 +73325,9 @@
     {
         "pokemon_index": 275,
         "name": "Gulpin",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/316.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 29.4,
@@ -72791,6 +73616,9 @@
     {
         "pokemon_index": 276,
         "name": "Swalot",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/317.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 9.8,
@@ -73064,6 +73892,9 @@
     {
         "pokemon_index": 277,
         "name": "Glameow",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/431.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 24.8,
@@ -73322,6 +74153,9 @@
     {
         "pokemon_index": 278,
         "name": "Purugly",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/432.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 9.8,
@@ -73640,6 +74474,9 @@
     {
         "pokemon_index": 279,
         "name": "Seel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/86.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 24.8,
@@ -73943,6 +74780,9 @@
     {
         "pokemon_index": 280,
         "name": "Dewgong",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/87.png"
+        ],
         "type": "['Water', 'Ice']",
         "catchRate": {
             "value": 9.8,
@@ -74321,6 +75161,9 @@
     {
         "pokemon_index": 281,
         "name": "Shellder",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/90.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 24.8,
@@ -74579,6 +75422,9 @@
     {
         "pokemon_index": 282,
         "name": "Cloyster",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/91.png"
+        ],
         "type": "['Water', 'Ice']",
         "catchRate": {
             "value": 7.8,
@@ -74882,6 +75728,9 @@
     {
         "pokemon_index": 283,
         "name": "Staryu",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/120.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 29.4,
@@ -75170,6 +76019,9 @@
     {
         "pokemon_index": 284,
         "name": "Starmie",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/121.png"
+        ],
         "type": "['Water', 'Psychic']",
         "catchRate": {
             "value": 7.8,
@@ -75458,6 +76310,9 @@
     {
         "pokemon_index": 285,
         "name": "Corphish",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/341.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 26.8,
@@ -75731,6 +76586,9 @@
     {
         "pokemon_index": 286,
         "name": "Crawdaunt",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/342.png"
+        ],
         "type": "['Water', 'Dark']",
         "catchRate": {
             "value": 20.3,
@@ -76004,6 +76862,9 @@
     {
         "pokemon_index": 287,
         "name": "Goldeen",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/118.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 29.4,
@@ -76232,6 +77093,9 @@
     {
         "pokemon_index": 288,
         "name": "Seaking",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/119.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 7.8,
@@ -76460,6 +77324,9 @@
     {
         "pokemon_index": 289,
         "name": "Remoraid",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/223.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 24.8,
@@ -76703,6 +77570,9 @@
     {
         "pokemon_index": 290,
         "name": "Octillery",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/224.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 9.8,
@@ -77006,6 +77876,9 @@
     {
         "pokemon_index": 291,
         "name": "Wishiwashi",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/746.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 7.8,
@@ -77262,6 +78135,9 @@
     {
         "pokemon_index": 292,
         "name": "Carvanha",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/318.png"
+        ],
         "type": "['Water', 'Dark']",
         "catchRate": {
             "value": 29.4,
@@ -77504,6 +78380,9 @@
     {
         "pokemon_index": 293,
         "name": "Sharpedo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/319.png"
+        ],
         "type": "['Water', 'Dark']",
         "catchRate": {
             "value": 7.8,
@@ -77776,6 +78655,9 @@
     {
         "pokemon_index": 294,
         "name": "Luvdisc",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/370.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 29.4,
@@ -78063,6 +78945,9 @@
     {
         "pokemon_index": 295,
         "name": "Barboach",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/339.png"
+        ],
         "type": "['Water', 'Ground']",
         "catchRate": {
             "value": 24.8,
@@ -78276,6 +79161,9 @@
     {
         "pokemon_index": 296,
         "name": "Whiscash",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/340.png"
+        ],
         "type": "['Water', 'Ground']",
         "catchRate": {
             "value": 9.8,
@@ -78534,6 +79422,9 @@
     {
         "pokemon_index": 297,
         "name": "Magnemite",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/81.png"
+        ],
         "type": "['Electric', 'Steel']",
         "catchRate": {
             "value": 24.8,
@@ -78807,6 +79698,9 @@
     {
         "pokemon_index": 298,
         "name": "Magneton",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/82.png"
+        ],
         "type": "['Electric', 'Steel']",
         "catchRate": {
             "value": 7.8,
@@ -79095,6 +79989,9 @@
     {
         "pokemon_index": 299,
         "name": "Magnezone",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/462.png"
+        ],
         "type": "['Electric', 'Steel']",
         "catchRate": {
             "value": 3.9,
@@ -79428,6 +80325,9 @@
     {
         "pokemon_index": 300,
         "name": "Cubone",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/104.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 24.8,
@@ -79686,6 +80586,9 @@
     {
         "pokemon_index": 301,
         "name": "Marowak",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/105.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 9.8,
@@ -79944,6 +80847,9 @@
     {
         "pokemon_index": 302,
         "name": "Klink",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/599.png"
+        ],
         "type": "['Steel']",
         "catchRate": {
             "value": 17.0,
@@ -80202,6 +81108,9 @@
     {
         "pokemon_index": 303,
         "name": "Klang",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/600.png"
+        ],
         "type": "['Steel']",
         "catchRate": {
             "value": 7.8,
@@ -80460,6 +81369,9 @@
     {
         "pokemon_index": 304,
         "name": "Klinklang",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/601.png"
+        ],
         "type": "['Steel']",
         "catchRate": {
             "value": 3.9,
@@ -80763,6 +81675,9 @@
     {
         "pokemon_index": 305,
         "name": "Elekid",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/239.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 5.9,
@@ -81020,6 +81935,9 @@
     {
         "pokemon_index": 306,
         "name": "Electabuzz",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/125.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 5.9,
@@ -81292,6 +82210,9 @@
     {
         "pokemon_index": 307,
         "name": "Electivire",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/466.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 3.9,
@@ -81579,6 +82500,9 @@
     {
         "pokemon_index": 308,
         "name": "Tynamo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/602.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 24.8,
@@ -81685,6 +82609,9 @@
     {
         "pokemon_index": 309,
         "name": "Eelektrik",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/603.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 7.8,
@@ -81941,6 +82868,9 @@
     {
         "pokemon_index": 310,
         "name": "Eelektross",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/604.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 3.9,
@@ -82137,6 +83067,9 @@
     {
         "pokemon_index": 311,
         "name": "Timburr",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/532.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 23.5,
@@ -82395,6 +83328,9 @@
     {
         "pokemon_index": 312,
         "name": "Gurdurr",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/533.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 11.8,
@@ -82653,6 +83589,9 @@
     {
         "pokemon_index": 313,
         "name": "Conkeldurr",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/534.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 5.9,
@@ -82911,6 +83850,9 @@
     {
         "pokemon_index": 314,
         "name": "Joltik",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/595.png"
+        ],
         "type": "['Bug', 'Electric']",
         "catchRate": {
             "value": 24.8,
@@ -83169,6 +84111,9 @@
     {
         "pokemon_index": 315,
         "name": "Galvantula",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/596.png"
+        ],
         "type": "['Bug', 'Electric']",
         "catchRate": {
             "value": 9.8,
@@ -83442,6 +84387,9 @@
     {
         "pokemon_index": 316,
         "name": "Ferroseed",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/597.png"
+        ],
         "type": "['Grass', 'Steel']",
         "catchRate": {
             "value": 33.3,
@@ -83668,6 +84616,9 @@
     {
         "pokemon_index": 317,
         "name": "Ferrothorn",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/598.png"
+        ],
         "type": "['Grass', 'Steel']",
         "catchRate": {
             "value": 11.8,
@@ -83910,6 +84861,9 @@
     {
         "pokemon_index": 318,
         "name": "Chinchou",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/170.png"
+        ],
         "type": "['Water', 'Electric']",
         "catchRate": {
             "value": 24.8,
@@ -84153,6 +85107,9 @@
     {
         "pokemon_index": 319,
         "name": "Lanturn",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/171.png"
+        ],
         "type": "['Water', 'Electric']",
         "catchRate": {
             "value": 9.8,
@@ -84456,6 +85413,9 @@
     {
         "pokemon_index": 320,
         "name": "Machop",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/66.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 23.5,
@@ -84729,6 +85689,9 @@
     {
         "pokemon_index": 321,
         "name": "Machoke",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/67.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 11.8,
@@ -85002,6 +85965,9 @@
     {
         "pokemon_index": 322,
         "name": "Machamp",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/68.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 5.9,
@@ -85290,6 +86256,9 @@
     {
         "pokemon_index": 323,
         "name": "Wooper",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/194.png"
+        ],
         "type": "['Water', 'Ground']",
         "catchRate": {
             "value": 33.3,
@@ -85533,6 +86502,9 @@
     {
         "pokemon_index": 324,
         "name": "Quagsire",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/195.png"
+        ],
         "type": "['Water', 'Ground']",
         "catchRate": {
             "value": 11.8,
@@ -85776,6 +86748,9 @@
     {
         "pokemon_index": 325,
         "name": "Misdreavus",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/200.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 5.9,
@@ -86002,6 +86977,9 @@
     {
         "pokemon_index": 326,
         "name": "Mismagius",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/429.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 5.9,
@@ -86153,6 +87131,9 @@
     {
         "pokemon_index": 327,
         "name": "Poliwag",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/60.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 33.3,
@@ -86366,6 +87347,9 @@
     {
         "pokemon_index": 328,
         "name": "Poliwhirl",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/61.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 15.7,
@@ -86579,6 +87563,9 @@
     {
         "pokemon_index": 329,
         "name": "Poliwrath",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/62.png"
+        ],
         "type": "['Water', 'Fighting']",
         "catchRate": {
             "value": 5.9,
@@ -86672,6 +87659,9 @@
     {
         "pokemon_index": 330,
         "name": "Politoed",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/186.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 5.9,
@@ -86780,6 +87770,9 @@
     {
         "pokemon_index": 331,
         "name": "Psyduck",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/54.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 24.8,
@@ -87038,6 +88031,9 @@
     {
         "pokemon_index": 332,
         "name": "Golduck",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/55.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 9.8,
@@ -87326,6 +88322,9 @@
     {
         "pokemon_index": 333,
         "name": "Fletchling",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/661.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -87553,6 +88552,9 @@
     {
         "pokemon_index": 334,
         "name": "Fletchinder",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/662.png"
+        ],
         "type": "['Fire', 'Flying']",
         "catchRate": {
             "value": 15.7,
@@ -87795,6 +88797,9 @@
     {
         "pokemon_index": 335,
         "name": "Talonflame",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/663.png"
+        ],
         "type": "['Fire', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -88082,6 +89087,9 @@
     {
         "pokemon_index": 336,
         "name": "Rockruff",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/744.png"
+        ],
         "type": "['Rock']",
         "catchRate": {
             "value": 24.8,
@@ -88340,6 +89348,9 @@
     {
         "pokemon_index": 337,
         "name": "Lycanroc",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/745.png"
+        ],
         "type": "['Rock']",
         "catchRate": {
             "value": 11.8,
@@ -88643,6 +89654,9 @@
     {
         "pokemon_index": 338,
         "name": "Ponyta",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/77.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 24.8,
@@ -88886,6 +89900,9 @@
     {
         "pokemon_index": 339,
         "name": "Rapidash",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/78.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 7.8,
@@ -89189,6 +90206,9 @@
     {
         "pokemon_index": 340,
         "name": "Snubbull",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/209.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 24.8,
@@ -89462,6 +90482,9 @@
     {
         "pokemon_index": 341,
         "name": "Granbull",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/210.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 9.8,
@@ -89765,6 +90788,9 @@
     {
         "pokemon_index": 342,
         "name": "Mienfoo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/619.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 23.5,
@@ -90023,6 +91049,9 @@
     {
         "pokemon_index": 343,
         "name": "Mienshao",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/620.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 5.9,
@@ -90296,6 +91325,9 @@
     {
         "pokemon_index": 344,
         "name": "Dedenne",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/702.png"
+        ],
         "type": "['Electric', 'Fairy']",
         "catchRate": {
             "value": 23.5,
@@ -90569,6 +91601,9 @@
     {
         "pokemon_index": 345,
         "name": "Gothita",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/574.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 26.1,
@@ -90827,6 +91862,9 @@
     {
         "pokemon_index": 346,
         "name": "Gothorita",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/575.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 13.1,
@@ -91070,6 +92108,9 @@
     {
         "pokemon_index": 347,
         "name": "Gothitelle",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/576.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 6.5,
@@ -91328,6 +92369,9 @@
     {
         "pokemon_index": 348,
         "name": "Solosis",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/577.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 26.1,
@@ -91601,6 +92645,9 @@
     {
         "pokemon_index": 349,
         "name": "Duosion",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/578.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 13.1,
@@ -91874,6 +92921,9 @@
     {
         "pokemon_index": 350,
         "name": "Reuniclus",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/579.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 6.5,
@@ -92162,6 +93212,9 @@
     {
         "pokemon_index": 351,
         "name": "Swirlix",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/684.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 26.1,
@@ -92434,6 +93487,9 @@
     {
         "pokemon_index": 352,
         "name": "Slurpuff",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/685.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 18.3,
@@ -92721,6 +93777,9 @@
     {
         "pokemon_index": 353,
         "name": "Spritzee",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/682.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 26.1,
@@ -92993,6 +94052,9 @@
     {
         "pokemon_index": 354,
         "name": "Aromatisse",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/683.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 18.3,
@@ -93310,6 +94372,9 @@
     {
         "pokemon_index": 355,
         "name": "Wailmer",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/320.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 16.3,
@@ -93598,6 +94663,9 @@
     {
         "pokemon_index": 356,
         "name": "Wailord",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/321.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 7.8,
@@ -93916,6 +94984,9 @@
     {
         "pokemon_index": 357,
         "name": "Eevee",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/133.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 5.9,
@@ -94204,6 +95275,9 @@
     {
         "pokemon_index": 358,
         "name": "Vaporeon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/134.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 5.9,
@@ -94596,6 +95670,9 @@
     {
         "pokemon_index": 359,
         "name": "Jolteon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/135.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 5.9,
@@ -94988,6 +96065,9 @@
     {
         "pokemon_index": 360,
         "name": "Flareon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/136.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 5.9,
@@ -95365,6 +96445,9 @@
     {
         "pokemon_index": 361,
         "name": "Espeon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/196.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 5.9,
@@ -95742,6 +96825,9 @@
     {
         "pokemon_index": 362,
         "name": "Umbreon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/197.png"
+        ],
         "type": "['Dark']",
         "catchRate": {
             "value": 5.9,
@@ -96134,6 +97220,9 @@
     {
         "pokemon_index": 363,
         "name": "Leafeon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/470.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 5.9,
@@ -96526,6 +97615,9 @@
     {
         "pokemon_index": 364,
         "name": "Glaceon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/471.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 5.9,
@@ -96903,6 +97995,9 @@
     {
         "pokemon_index": 365,
         "name": "Sylveon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/700.png"
+        ],
         "type": "['Fairy']",
         "catchRate": {
             "value": 5.9,
@@ -97280,6 +98375,9 @@
     {
         "pokemon_index": 366,
         "name": "Axew",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/610.png"
+        ],
         "type": "['Dragon']",
         "catchRate": {
             "value": 9.8,
@@ -97598,6 +98696,9 @@
     {
         "pokemon_index": 367,
         "name": "Fraxure",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/611.png"
+        ],
         "type": "['Dragon']",
         "catchRate": {
             "value": 7.8,
@@ -97916,6 +99017,9 @@
     {
         "pokemon_index": 368,
         "name": "Haxorus",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/612.png"
+        ],
         "type": "['Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -98234,6 +99338,9 @@
     {
         "pokemon_index": 369,
         "name": "Porygon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/137.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 5.9,
@@ -98492,6 +99599,9 @@
     {
         "pokemon_index": 370,
         "name": "Porygon2",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/233.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 5.9,
@@ -98780,6 +99890,9 @@
     {
         "pokemon_index": 371,
         "name": "Porygon-Z",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/474.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 3.9,
@@ -99098,6 +100211,9 @@
     {
         "pokemon_index": 372,
         "name": "Emolga",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/587.png"
+        ],
         "type": "['Electric', 'Flying']",
         "catchRate": {
             "value": 26.1,
@@ -99340,6 +100456,9 @@
     {
         "pokemon_index": 373,
         "name": "Hawlucha",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/701.png"
+        ],
         "type": "['Fighting', 'Flying']",
         "catchRate": {
             "value": 13.1,
@@ -99628,6 +100747,9 @@
     {
         "pokemon_index": 374,
         "name": "Klefki",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/707.png"
+        ],
         "type": "['Steel', 'Fairy']",
         "catchRate": {
             "value": 9.8,
@@ -99885,6 +101007,9 @@
     {
         "pokemon_index": 375,
         "name": "Golett",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/622.png"
+        ],
         "type": "['Ground', 'Ghost']",
         "catchRate": {
             "value": 24.8,
@@ -100173,6 +101298,9 @@
     {
         "pokemon_index": 376,
         "name": "Golurk",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/623.png"
+        ],
         "type": "['Ground', 'Ghost']",
         "catchRate": {
             "value": 11.8,
@@ -100491,6 +101619,9 @@
     {
         "pokemon_index": 377,
         "name": "Chingling",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/433.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 15.7,
@@ -100657,6 +101788,9 @@
     {
         "pokemon_index": 378,
         "name": "Chimecho",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/358.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 5.9,
@@ -100913,6 +102047,9 @@
     {
         "pokemon_index": 379,
         "name": "Horsea",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/116.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 29.4,
@@ -101156,6 +102293,9 @@
     {
         "pokemon_index": 380,
         "name": "Seadra",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/117.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 9.8,
@@ -101399,6 +102539,9 @@
     {
         "pokemon_index": 381,
         "name": "Kingdra",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/230.png"
+        ],
         "type": "['Water', 'Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -101672,6 +102815,9 @@
     {
         "pokemon_index": 382,
         "name": "Baltoy",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/343.png"
+        ],
         "type": "['Ground', 'Psychic']",
         "catchRate": {
             "value": 33.3,
@@ -101973,6 +103119,9 @@
     {
         "pokemon_index": 383,
         "name": "Claydol",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/344.png"
+        ],
         "type": "['Ground', 'Psychic']",
         "catchRate": {
             "value": 11.8,
@@ -102304,6 +103453,9 @@
     {
         "pokemon_index": 384,
         "name": "Yamask",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/562.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 24.8,
@@ -102590,6 +103742,9 @@
     {
         "pokemon_index": 385,
         "name": "Cofagrigus",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/563.png"
+        ],
         "type": "['Ghost']",
         "catchRate": {
             "value": 11.8,
@@ -102906,6 +104061,9 @@
     {
         "pokemon_index": 386,
         "name": "Sableye",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/302.png"
+        ],
         "type": "['Dark', 'Ghost']",
         "catchRate": {
             "value": 5.9,
@@ -103209,6 +104367,9 @@
     {
         "pokemon_index": 387,
         "name": "Lunatone",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/337.png"
+        ],
         "type": "['Rock', 'Psychic']",
         "catchRate": {
             "value": 5.9,
@@ -103495,6 +104656,9 @@
     {
         "pokemon_index": 388,
         "name": "Solrock",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/338.png"
+        ],
         "type": "['Rock', 'Psychic']",
         "catchRate": {
             "value": 5.9,
@@ -103781,6 +104945,9 @@
     {
         "pokemon_index": 389,
         "name": "Sigilyph",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/561.png"
+        ],
         "type": "['Psychic', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -104054,6 +105221,9 @@
     {
         "pokemon_index": 390,
         "name": "Tentacool",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/72.png"
+        ],
         "type": "['Water', 'Poison']",
         "catchRate": {
             "value": 24.8,
@@ -104312,6 +105482,9 @@
     {
         "pokemon_index": 391,
         "name": "Tentacruel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/73.png"
+        ],
         "type": "['Water', 'Poison']",
         "catchRate": {
             "value": 7.8,
@@ -104585,6 +105758,9 @@
     {
         "pokemon_index": 392,
         "name": "Lapras",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/131.png"
+        ],
         "type": "['Water', 'Ice']",
         "catchRate": {
             "value": 5.9,
@@ -104858,6 +106034,9 @@
     {
         "pokemon_index": 393,
         "name": "Basculin",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/550.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 3.3,
@@ -105146,6 +106325,9 @@
     {
         "pokemon_index": 394,
         "name": "Mantyke",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/458.png"
+        ],
         "type": "['Water', 'Flying']",
         "catchRate": {
             "value": 3.3,
@@ -105404,6 +106586,9 @@
     {
         "pokemon_index": 395,
         "name": "Mantine",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/226.png"
+        ],
         "type": "['Water', 'Flying']",
         "catchRate": {
             "value": 3.3,
@@ -105707,6 +106892,9 @@
     {
         "pokemon_index": 396,
         "name": "Pyukumuku",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/771.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 7.8,
@@ -105964,6 +107152,9 @@
     {
         "pokemon_index": 397,
         "name": "Finneon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/456.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 24.8,
@@ -106207,6 +107398,9 @@
     {
         "pokemon_index": 398,
         "name": "Lumineon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/457.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 9.8,
@@ -106450,6 +107644,9 @@
     {
         "pokemon_index": 399,
         "name": "Stunfisk",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/618.png"
+        ],
         "type": "['Ground', 'Electric']",
         "catchRate": {
             "value": 9.8,
@@ -106723,6 +107920,9 @@
     {
         "pokemon_index": 400,
         "name": "Alomomola",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/594.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 9.8,
@@ -106996,6 +108196,9 @@
     {
         "pokemon_index": 401,
         "name": "Skrelp",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/690.png"
+        ],
         "type": "['Poison', 'Water']",
         "catchRate": {
             "value": 29.4,
@@ -107239,6 +108442,9 @@
     {
         "pokemon_index": 402,
         "name": "Dragalge",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/691.png"
+        ],
         "type": "['Poison', 'Dragon']",
         "catchRate": {
             "value": 7.2,
@@ -107497,6 +108703,9 @@
     {
         "pokemon_index": 403,
         "name": "Clauncher",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/692.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 29.4,
@@ -107738,6 +108947,9 @@
     {
         "pokemon_index": 404,
         "name": "Clawitzer",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/693.png"
+        ],
         "type": "['Water']",
         "catchRate": {
             "value": 7.2,
@@ -108024,6 +109236,9 @@
     {
         "pokemon_index": 405,
         "name": "Slowpoke",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/79.png"
+        ],
         "type": "['Water', 'Psychic']",
         "catchRate": {
             "value": 24.8,
@@ -108327,6 +109542,9 @@
     {
         "pokemon_index": 406,
         "name": "Slowbro",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/80.png"
+        ],
         "type": "['Water', 'Psychic']",
         "catchRate": {
             "value": 9.8,
@@ -108645,6 +109863,9 @@
     {
         "pokemon_index": 407,
         "name": "Slowking",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/199.png"
+        ],
         "type": "['Water', 'Psychic']",
         "catchRate": {
             "value": 9.1,
@@ -108978,6 +110199,9 @@
     {
         "pokemon_index": 408,
         "name": "Bellsprout",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/69.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 33.3,
@@ -109235,6 +110459,9 @@
     {
         "pokemon_index": 409,
         "name": "Weepinbell",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/70.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 15.7,
@@ -109492,6 +110719,9 @@
     {
         "pokemon_index": 410,
         "name": "Victreebel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/71.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 5.9,
@@ -109614,6 +110844,9 @@
     {
         "pokemon_index": 411,
         "name": "Oddish",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/43.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 33.3,
@@ -109871,6 +111104,9 @@
     {
         "pokemon_index": 412,
         "name": "Gloom",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/44.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 15.7,
@@ -110128,6 +111364,9 @@
     {
         "pokemon_index": 413,
         "name": "Vileplume",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/45.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 5.9,
@@ -110415,6 +111654,9 @@
     {
         "pokemon_index": 414,
         "name": "Bellossom",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/182.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 5.9,
@@ -110702,6 +111944,9 @@
     {
         "pokemon_index": 415,
         "name": "Dwebble",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/557.png"
+        ],
         "type": "['Bug', 'Rock']",
         "catchRate": {
             "value": 24.8,
@@ -110960,6 +112205,9 @@
     {
         "pokemon_index": 416,
         "name": "Crustle",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/558.png"
+        ],
         "type": "['Bug', 'Rock']",
         "catchRate": {
             "value": 9.8,
@@ -111218,6 +112466,9 @@
     {
         "pokemon_index": 417,
         "name": "Sandile",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/551.png"
+        ],
         "type": "['Ground', 'Dark']",
         "catchRate": {
             "value": 23.5,
@@ -111491,6 +112742,9 @@
     {
         "pokemon_index": 418,
         "name": "Krokorok",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/552.png"
+        ],
         "type": "['Ground', 'Dark']",
         "catchRate": {
             "value": 11.8,
@@ -111764,6 +113018,9 @@
     {
         "pokemon_index": 419,
         "name": "Krookodile",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/553.png"
+        ],
         "type": "['Ground', 'Dark']",
         "catchRate": {
             "value": 5.9,
@@ -112052,6 +113309,9 @@
     {
         "pokemon_index": 420,
         "name": "Cacnea",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/331.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 24.8,
@@ -112354,6 +113614,9 @@
     {
         "pokemon_index": 421,
         "name": "Cacturne",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/332.png"
+        ],
         "type": "['Grass', 'Dark']",
         "catchRate": {
             "value": 7.8,
@@ -112656,6 +113919,9 @@
     {
         "pokemon_index": 422,
         "name": "Darumaka",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/554.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 15.7,
@@ -112913,6 +114179,9 @@
     {
         "pokemon_index": 423,
         "name": "Darmanitan",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/555.png"
+        ],
         "type": "['Fire']",
         "catchRate": {
             "value": 7.8,
@@ -113185,6 +114454,9 @@
     {
         "pokemon_index": 424,
         "name": "Hippopotas",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/449.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 18.3,
@@ -113457,6 +114729,9 @@
     {
         "pokemon_index": 425,
         "name": "Hippowdon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/450.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 7.8,
@@ -113774,6 +115049,9 @@
     {
         "pokemon_index": 426,
         "name": "Trapinch",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/328.png"
+        ],
         "type": "['Ground']",
         "catchRate": {
             "value": 33.3,
@@ -114032,6 +115310,9 @@
     {
         "pokemon_index": 427,
         "name": "Vibrava",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/329.png"
+        ],
         "type": "['Ground', 'Dragon']",
         "catchRate": {
             "value": 15.7,
@@ -114408,6 +115689,9 @@
     {
         "pokemon_index": 428,
         "name": "Flygon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/330.png"
+        ],
         "type": "['Ground', 'Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -114844,6 +116128,9 @@
     {
         "pokemon_index": 429,
         "name": "Maractus",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/556.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 33.3,
@@ -115192,6 +116479,9 @@
     {
         "pokemon_index": 430,
         "name": "Wurmple",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/265.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 33.3,
@@ -115299,6 +116589,9 @@
     {
         "pokemon_index": 431,
         "name": "Silcoon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/266.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 15.7,
@@ -115358,6 +116651,9 @@
     {
         "pokemon_index": 432,
         "name": "Beautifly",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/267.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -115675,6 +116971,9 @@
     {
         "pokemon_index": 433,
         "name": "Cascoon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/268.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 15.7,
@@ -115734,6 +117033,9 @@
     {
         "pokemon_index": 434,
         "name": "Dustox",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/269.png"
+        ],
         "type": "['Bug', 'Poison']",
         "catchRate": {
             "value": 5.9,
@@ -116051,6 +117353,9 @@
     {
         "pokemon_index": 435,
         "name": "Scatterbug",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/664.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 33.3,
@@ -116159,6 +117464,9 @@
     {
         "pokemon_index": 436,
         "name": "Spewpa",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/665.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 15.7,
@@ -116219,6 +117527,9 @@
     {
         "pokemon_index": 437,
         "name": "Vivillon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/666.png"
+        ],
         "type": "['Bug', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -116447,6 +117758,9 @@
     {
         "pokemon_index": 438,
         "name": "Cottonee",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/546.png"
+        ],
         "type": "['Grass', 'Fairy']",
         "catchRate": {
             "value": 24.8,
@@ -116750,6 +118064,9 @@
     {
         "pokemon_index": 439,
         "name": "Whimsicott",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/547.png"
+        ],
         "type": "['Grass', 'Fairy']",
         "catchRate": {
             "value": 9.8,
@@ -117128,6 +118445,9 @@
     {
         "pokemon_index": 440,
         "name": "Petilil",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/548.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 24.8,
@@ -117416,6 +118736,9 @@
     {
         "pokemon_index": 441,
         "name": "Lilligant",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/549.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 9.8,
@@ -117749,6 +119072,9 @@
     {
         "pokemon_index": 442,
         "name": "Paras",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/46.png"
+        ],
         "type": "['Bug', 'Grass']",
         "catchRate": {
             "value": 24.8,
@@ -117977,6 +119303,9 @@
     {
         "pokemon_index": 443,
         "name": "Parasect",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/47.png"
+        ],
         "type": "['Bug', 'Grass']",
         "catchRate": {
             "value": 9.8,
@@ -118265,6 +119594,9 @@
     {
         "pokemon_index": 444,
         "name": "Foongus",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/590.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 24.8,
@@ -118522,6 +119854,9 @@
     {
         "pokemon_index": 445,
         "name": "Amoonguss",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/591.png"
+        ],
         "type": "['Grass', 'Poison']",
         "catchRate": {
             "value": 9.8,
@@ -118779,6 +120114,9 @@
     {
         "pokemon_index": 446,
         "name": "Morelull",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/755.png"
+        ],
         "type": "['Grass', 'Fairy']",
         "catchRate": {
             "value": 24.8,
@@ -119022,6 +120360,9 @@
     {
         "pokemon_index": 447,
         "name": "Shiinotic",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/756.png"
+        ],
         "type": "['Grass', 'Fairy']",
         "catchRate": {
             "value": 9.8,
@@ -119265,6 +120606,9 @@
     {
         "pokemon_index": 448,
         "name": "Pichu",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/172.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 24.8,
@@ -119417,6 +120761,9 @@
     {
         "pokemon_index": 449,
         "name": "Pikachu",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/25.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 24.8,
@@ -119764,6 +121111,9 @@
     {
         "pokemon_index": 450,
         "name": "Raichu",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/26.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 9.8,
@@ -120111,6 +121461,9 @@
     {
         "pokemon_index": 451,
         "name": "Tangela",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/114.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 5.9,
@@ -120399,6 +121752,9 @@
     {
         "pokemon_index": 452,
         "name": "Tangrowth",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/465.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 3.9,
@@ -120702,6 +122058,9 @@
     {
         "pokemon_index": 453,
         "name": "Girafarig",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/203.png"
+        ],
         "type": "['Normal', 'Psychic']",
         "catchRate": {
             "value": 7.8,
@@ -120990,6 +122349,9 @@
     {
         "pokemon_index": 454,
         "name": "Pancham",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/674.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 28.8,
@@ -121233,6 +122595,9 @@
     {
         "pokemon_index": 455,
         "name": "Pangoro",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/675.png"
+        ],
         "type": "['Fighting', 'Dark']",
         "catchRate": {
             "value": 8.5,
@@ -121521,6 +122886,9 @@
     {
         "pokemon_index": 456,
         "name": "Pawniard",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/624.png"
+        ],
         "type": "['Dark', 'Steel']",
         "catchRate": {
             "value": 15.7,
@@ -121794,6 +123162,9 @@
     {
         "pokemon_index": 457,
         "name": "Bisharp",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/625.png"
+        ],
         "type": "['Dark', 'Steel']",
         "catchRate": {
             "value": 5.9,
@@ -122082,6 +123453,9 @@
     {
         "pokemon_index": 458,
         "name": "Chatot",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/441.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 3.9,
@@ -122400,6 +123774,9 @@
     {
         "pokemon_index": 459,
         "name": "Throh",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/538.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 5.9,
@@ -122643,6 +124020,9 @@
     {
         "pokemon_index": 460,
         "name": "Sawk",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/539.png"
+        ],
         "type": "['Fighting']",
         "catchRate": {
             "value": 5.9,
@@ -122886,6 +124266,9 @@
     {
         "pokemon_index": 461,
         "name": "Grimer",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/88.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 24.8,
@@ -123174,6 +124557,9 @@
     {
         "pokemon_index": 462,
         "name": "Muk",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/89.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 9.8,
@@ -123462,6 +124848,9 @@
     {
         "pokemon_index": 463,
         "name": "Koffing",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/109.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 24.8,
@@ -123735,6 +125124,9 @@
     {
         "pokemon_index": 464,
         "name": "Weezing",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/110.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 7.8,
@@ -124023,6 +125415,9 @@
     {
         "pokemon_index": 465,
         "name": "Hoppip",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/187.png"
+        ],
         "type": "['Grass', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -124341,6 +125736,9 @@
     {
         "pokemon_index": 466,
         "name": "Skiploom",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/188.png"
+        ],
         "type": "['Grass', 'Flying']",
         "catchRate": {
             "value": 15.7,
@@ -124659,6 +126057,9 @@
     {
         "pokemon_index": 467,
         "name": "Jumpluff",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/189.png"
+        ],
         "type": "['Grass', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -124977,6 +126378,9 @@
     {
         "pokemon_index": 468,
         "name": "Tropius",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/357.png"
+        ],
         "type": "['Grass', 'Flying']",
         "catchRate": {
             "value": 26.1,
@@ -125250,6 +126654,9 @@
     {
         "pokemon_index": 469,
         "name": "Pidgey",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/16.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 33.3,
@@ -125508,6 +126915,9 @@
     {
         "pokemon_index": 470,
         "name": "Pidgeotto",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/17.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 15.7,
@@ -125796,6 +127206,9 @@
     {
         "pokemon_index": 471,
         "name": "Pidgeot",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/18.png"
+        ],
         "type": "['Normal', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -126114,6 +127527,9 @@
     {
         "pokemon_index": 472,
         "name": "Zangoose",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/335.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 11.8,
@@ -126401,6 +127817,9 @@
     {
         "pokemon_index": 473,
         "name": "Seviper",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/336.png"
+        ],
         "type": "['Poison']",
         "catchRate": {
             "value": 11.8,
@@ -126703,6 +128122,9 @@
     {
         "pokemon_index": 474,
         "name": "Bagon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/371.png"
+        ],
         "type": "['Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -126945,6 +128367,9 @@
     {
         "pokemon_index": 475,
         "name": "Shelgon",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/372.png"
+        ],
         "type": "['Dragon']",
         "catchRate": {
             "value": 5.9,
@@ -127187,6 +128612,9 @@
     {
         "pokemon_index": 476,
         "name": "Salamence",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/373.png"
+        ],
         "type": "['Dragon', 'Flying']",
         "catchRate": {
             "value": 5.9,
@@ -127474,6 +128902,9 @@
     {
         "pokemon_index": 477,
         "name": "Volbeat",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/313.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 19.6,
@@ -127732,6 +129163,9 @@
     {
         "pokemon_index": 478,
         "name": "Illumise",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/314.png"
+        ],
         "type": "['Bug']",
         "catchRate": {
             "value": 19.6,
@@ -128005,6 +129439,9 @@
     {
         "pokemon_index": 479,
         "name": "Articuno",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/144.png"
+        ],
         "type": "['Ice', 'Flying']",
         "catchRate": {
             "value": 0.4,
@@ -128292,6 +129729,9 @@
     {
         "pokemon_index": 480,
         "name": "Zapdos",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/145.png"
+        ],
         "type": "['Electric', 'Flying']",
         "catchRate": {
             "value": 0.4,
@@ -128579,6 +130019,9 @@
     {
         "pokemon_index": 481,
         "name": "Moltres",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/146.png"
+        ],
         "type": "['Fire', 'Flying']",
         "catchRate": {
             "value": 0.4,
@@ -128866,6 +130309,9 @@
     {
         "pokemon_index": 482,
         "name": "Regirock",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/377.png"
+        ],
         "type": "['Rock']",
         "catchRate": {
             "value": 0.4,
@@ -129138,6 +130584,9 @@
     {
         "pokemon_index": 483,
         "name": "Regice",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/378.png"
+        ],
         "type": "['Ice']",
         "catchRate": {
             "value": 0.4,
@@ -129410,6 +130859,9 @@
     {
         "pokemon_index": 484,
         "name": "Registeel",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/379.png"
+        ],
         "type": "['Steel']",
         "catchRate": {
             "value": 0.4,
@@ -129712,6 +131164,9 @@
     {
         "pokemon_index": 485,
         "name": "Regigigas",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/486.png"
+        ],
         "type": "['Normal']",
         "catchRate": {
             "value": 0.4,
@@ -129983,6 +131438,9 @@
     {
         "pokemon_index": 486,
         "name": "Jirachi",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/385.png"
+        ],
         "type": "['Steel', 'Psychic']",
         "catchRate": {
             "value": 0.4,
@@ -130254,6 +131712,9 @@
     {
         "pokemon_index": 487,
         "name": "Deoxys",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/386.png"
+        ],
         "type": "['Psychic']",
         "catchRate": {
             "value": 0.4,
@@ -130510,6 +131971,9 @@
     {
         "pokemon_index": 488,
         "name": "Heatran",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/485.png"
+        ],
         "type": "['Fire', 'Steel']",
         "catchRate": {
             "value": 0.4,
@@ -130767,6 +132231,9 @@
     {
         "pokemon_index": 489,
         "name": "Shaymin",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/492.png"
+        ],
         "type": "['Grass']",
         "catchRate": {
             "value": 5.9,
@@ -130993,6 +132460,9 @@
     {
         "pokemon_index": 490,
         "name": "Keldeo",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/647.png"
+        ],
         "type": "['Water', 'Fighting']",
         "catchRate": {
             "value": 0.4,
@@ -131264,6 +132734,9 @@
     {
         "pokemon_index": 491,
         "name": "Diancie",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/719.png"
+        ],
         "type": "['Rock', 'Fairy']",
         "catchRate": {
             "value": 0.4,
@@ -131535,6 +133008,9 @@
     {
         "pokemon_index": 492,
         "name": "Magearna",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/801.png"
+        ],
         "type": "['Steel', 'Fairy']",
         "catchRate": {
             "value": 0.4,
@@ -131836,6 +133312,9 @@
     {
         "pokemon_index": 493,
         "name": "Zeraora",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/807.png"
+        ],
         "type": "['Electric']",
         "catchRate": {
             "value": 0.4,
@@ -132152,6 +133631,9 @@
     {
         "pokemon_index": 494,
         "name": "Hoopa",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/720.png"
+        ],
         "type": "['Psychic', 'Ghost']",
         "catchRate": {
             "value": 0.4,

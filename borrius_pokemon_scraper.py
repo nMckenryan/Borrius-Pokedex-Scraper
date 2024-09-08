@@ -35,6 +35,10 @@ with requests.Session() as s:
             move_table = learned_move_table_parent.find("tbody");
             tmhm_move_table = tmhm_move_table_parent.find("tbody");
             
+            sprite_src = soup.find("img")["src"]
+            sprite_link = "https://www.pokemonunboundpokedex.com/" + sprite_src.replace("../", ""),
+
+            
             moves = []
             for row in move_table.find_all("tr"):
                 columns = row.find_all("td")
@@ -80,6 +84,7 @@ with requests.Session() as s:
             pokemon_data = {
                 "pokemon_index": int(top_card.find("h3", class_="card-title text-5xl").text.strip().replace("Dex Num: ", "")),
                 "name": top_card.find("h3", class_="card-title text-4xl").text.strip().replace("Name: ", ""),
+                "sprite": sprite_link,
                 "type": top_card.find_all("p", class_="text-3xl font-bold")[0].text.strip(),
                 "catchRate": {
                     "value": float(top_card.find_all("p", class_="text-3xl font-bold")[1].text.strip().replace("%", "").split(" ")[1]),
