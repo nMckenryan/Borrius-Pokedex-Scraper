@@ -1,3 +1,18 @@
-# Build a Web Scraper With Requests and Beautiful Soup
+# Pokemon Unbound Pokedex Scraper
 
-This repository contains [`scrape_jobs.py`](https://github.com/realpython/materials/blob/master/web-scraping-bs4/scrape_jobs.py), which is the sample script built in the Real Python tutorial on how to [Build a Web Scraper With Requests and Beautiful Soup](https://realpython.com/beautiful-soup-web-scraper-python/).
+Build with:
+
+- Python
+- Requests
+- BeautifulSoup
+- PokeAPI
+
+Based on the code from https://github.com/realpython/materials/blob/master/web-scraping-bs4/
+
+TO DO:
+
+- [] Scrape all pokemon
+- [] Print retrieved data into JSON
+- [] Save JSON to a file
+- [] Add missing information from Pokeapi
+- [] Make this available publically/for other projects
