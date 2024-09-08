@@ -1,28 +1,43 @@
-## Borrius Pokedex Scraper
+# Borrius Pokedex Scraper
 
-### Overview
+## Overview
 
-A web scraper to extract data from the [Pokemon Unbound Pokedex](https://pokemonunbound.com/pokedex) website and outputs it to a JSON file.
+A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://pokemonunbound.com/pokedex) website and outputs it to a JSON file.
 
-Based on a tutorial from [RealPython](https://github.com/realpython/materials/blob/master/web-scraping-bs4/)
+- Built with Python and BeautifulSoup, Based on a tutorial from [RealPython](https://github.com/realpython/materials/blob/master/web-scraping-bs4/)
+- Contains data for the 494 Borrius Region Pokemon found in the Popular Romhack [Pokemon Unbound](https://www.pokecommunity.com/threads/pok%C3%A9mon-unbound-completed.382178/)
+- Data provided includes:
+  - Number, Name and Types
+  - Catch Rate
+  - Gender Ratio
+  - Ability
+  - Weight and Height (Metric and Imperial)
+  - Stats (Min, Avg Max)
+  - Learned Moves (Level, Move-name, Type, Category, Power, Accuracy)
+  - TM/HM Moves ( Move-name, Type, Category, Power, Accuracy)
 
-Contains data for 494 Borrius Pokemon - [View JSON here](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/pokemon_unbound_pokedex.json)
+### [View Sample JSON here!](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json)
 
-- Number, Name, Types Catch Rate, Gender Ratio, Ability, Weight, Height, Stats, Learned Moves, TM/HM Moves of every Pokemon found in the Borrius Region
+## Instructions
 
-### Built with:
+#### Note: As the project is completed, the Pokedex is unlikely to have changed, so you may want ot download the [ JSON provided](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json). Otherwise:
 
-- Python and BeautifulSoup
+1. Download and extract the project by cloning this project or running the ZIP
+2. Run `python borrius_pokemon_scraper.py` in the terminal
+3. Wait for the process to completes (takes around ~2-5 Minutes)
+4. Open the `borrius_pokedex_data.json` file in your favorite text editor and enjoy
 
 ### TO DO:
 
 - [x] Scrape all pokemon
+- [] Extract Sprite Data from Site! (Not yet Implemented)
 - [x] Print retrieved data into JSON
 - [x] Save JSON to a file
-- [x] Implement Error Messages
+- [x] Implement Error Messages for process
 - [x] Make this available publically/for other projects
+
+### FUTURE FEATURES:
+
+- [] Add back sprites from PokeApi
 - [] Compile API
-
-FUTURE:
-
 - [] Patch in missing data from PokeAPI
