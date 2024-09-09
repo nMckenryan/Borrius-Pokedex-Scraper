@@ -16,17 +16,6 @@ pokemonJson = [
 
 start = time.time()
 
-print(f"Started creating Borrius Pokedex Json file at {currentTime}")
-print("Creating Json file...")
-
-
-borrius_numbers = range(1, 495)
-starter_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]
-
-
-national_page = "https://www.pokemonunboundpokedex.com/national/"
-borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
-
 # Loop through all 494 in the borrius dex
 def createPokemonJson(dex_page, numbers, indexCount):
     with requests.Session() as s:
@@ -120,26 +109,38 @@ def createPokemonJson(dex_page, numbers, indexCount):
                 indexCount += 1
                 pokemonJson.append(pokemon_data)
 
-try:
-    createPokemonJson(national_page, starter_numbers, 1)
-    createPokemonJson(borrius_page, borrius_numbers, 10)
-
-except Exception as e:
-    print(f"Failed to retrieve data from Pokemon Unbound Site: {e}")
+borrius_numbers = range(1, 495)
+starter_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]
 
 
-try:
-    fileName = 'borrius_pokedex_data.json'
-    
-    with open(fileName, 'w') as fp:
-        json.dump(pokemonJson, fp, indent=4)
-    end = time.time()
-    length = end - start
-    print(f"{fileName} successfully create in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes)")
-except Exception as e:
-    end = time.time()
-    length = end - start
-    print(f"Json Generation Failed at: {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes). An error occurred: {e}")
+national_page = "https://www.pokemonunboundpokedex.com/national/"
+borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
+
+
+def compile_pokedex():
+    print(f"Started creating Borrius Pokedex Json file at {currentTime}\n Creating Json file...")
+    try:
+        createPokemonJson(national_page, starter_numbers, 1)
+        createPokemonJson(borrius_page, borrius_numbers, 10)
+        print(f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes)")
+    except Exception as e:
+        print(f"Failed to retrieve data from Pokemon Unbound Site: {e}")
+
+def output_pokedex_json():
+    compile_pokedex()
+    printTime = datetime.datetime.now()
+    print(f"Printing JSON to file process started at {printTime}")
+    try:
+        fileName = 'borrius_pokedex_data.json'
+        with open(fileName, 'w') as fp:
+            json.dump(pokemonJson, fp, indent=4)
+        end = time.time()
+        length = end - start
+        print(f"{fileName} successfully create in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes)")
+    except Exception as e:
+        end = time.time()
+        length = end - start
+        print(f"Json Generation Failed at: {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes). An error occurred: {e}")
 
 
 ## GET FROM POKEAPI
