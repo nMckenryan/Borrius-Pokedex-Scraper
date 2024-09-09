@@ -5,7 +5,8 @@
 A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://pokemonunbound.com/pokedex) website and outputs it to a JSON file.
 
 - Built with Python and BeautifulSoup, Based on a tutorial from [RealPython](https://github.com/realpython/materials/blob/master/web-scraping-bs4/)
-- Contains data for the 494 Borrius Region Pokemon found in the Popular Romhack [Pokemon Unbound](https://www.pokecommunity.com/threads/pok%C3%A9mon-unbound-completed.382178/)
+- Contains data for the 503 Borrius Region Pokemon found in the Popular Romhack [Pokemon Unbound](https://www.pokecommunity.com/threads/pok%C3%A9mon-unbound-completed.382178/)
+- Unlike the Borrius Dex, this scraper contains the 3 Starter Pokemon (Larvitar, Metang, Gible). They're at the beginning of the Pokedex Data.
 
 - Data provided includes:
   - Number, Name and Types
@@ -42,7 +43,7 @@ A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://poke
 
 - [] Download and store images for perpetuity
 - [] Add back sprites from PokeApi
-- [] Implement starter pokemon data from Borrius National Dex (+9 more attached to tip)
+- [x] Implement starter pokemon data from Borrius National Dex (+9 more attached to start)
 - [] Patch in missing data from PokeAPI
 - [] Line up data for use with Curadex project
 - [] Compile API

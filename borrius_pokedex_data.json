@@ -1,10 +1,2257 @@
 [
     {
         "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
-        "dataPulledOn": "2024-09-08 22:35:47.547326"
+        "dataPulledOn": "2024-09-09 17:53:59.109320"
     },
     {
         "pokemon_index": 1,
+        "name": "Larvitar",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/246.png"
+        ],
+        "type": "['Rock', 'Ground']",
+        "catchRate": {
+            "value": 5.9,
+            "percentage": "45"
+        },
+        "gender": {
+            "isGenderless": false,
+            "maleChance": "50",
+            "femaleChance": "50"
+        },
+        "abilities": [
+            "['Guts'",
+            "'Sand Veil']"
+        ],
+        "weight": {
+            "imperial": "158.7lbs",
+            "metric": "72.0kg"
+        },
+        "height": {
+            "imperial": "2'00'",
+            "metric": "0.6m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 50,
+                "min": 210,
+                "max": 304
+            },
+            "attack": {
+                "avg": 64,
+                "min": 119,
+                "max": 249
+            },
+            "defense": {
+                "avg": 50,
+                "min": 94,
+                "max": 218
+            },
+            "specialAttack": {
+                "avg": 45,
+                "min": 85,
+                "max": 207
+            },
+            "specialDefense": {
+                "avg": 50,
+                "min": 94,
+                "max": 218
+            },
+            "speed": {
+                "avg": 41,
+                "min": 78,
+                "max": 199
+            }
+        },
+        "learnedMoves": [
+            {
+                "level": "1",
+                "move": "Leer",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "3",
+                "move": "Rock Throw",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "90"
+            },
+            {
+                "level": "6",
+                "move": "Payback",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "level": "9",
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "12",
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "15",
+                "move": "Rock Slide",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "90"
+            },
+            {
+                "level": "18",
+                "move": "Stomping Tantrum",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "100"
+            },
+            {
+                "level": "21",
+                "move": "Screech",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "85"
+            },
+            {
+                "level": "24",
+                "move": "Smack Down",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "level": "27",
+                "move": "Crunch",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "31",
+                "move": "Earthquake",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "100"
+            },
+            {
+                "level": "33",
+                "move": "Stone Edge",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "80"
+            },
+            {
+                "level": "36",
+                "move": "Thrash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "120",
+                "accuracy": "100"
+            },
+            {
+                "level": "39",
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            }
+        ],
+        "tmhmMoves": [
+            {
+                "move": "Leer",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Rock Throw",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "90"
+            },
+            {
+                "move": "Payback",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Rock Slide",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "90"
+            },
+            {
+                "move": "Stomping Tantrum",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "100"
+            },
+            {
+                "move": "Screech",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "85"
+            },
+            {
+                "move": "Smack Down",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "move": "Crunch",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Earthquake",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "100"
+            },
+            {
+                "move": "Stone Edge",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "80"
+            },
+            {
+                "move": "Thrash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "120",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            }
+        ]
+    },
+    {
+        "pokemon_index": 2,
+        "name": "Pupitar",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/247.png"
+        ],
+        "type": "['Rock', 'Ground']",
+        "catchRate": {
+            "value": 5.9,
+            "percentage": "45"
+        },
+        "gender": {
+            "isGenderless": false,
+            "maleChance": "50",
+            "femaleChance": "50"
+        },
+        "abilities": [
+            "['Shed Skin']"
+        ],
+        "weight": {
+            "imperial": "335.1lbs",
+            "metric": "152.0kg"
+        },
+        "height": {
+            "imperial": "3'11'",
+            "metric": "1.2m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 70,
+                "min": 250,
+                "max": 344
+            },
+            "attack": {
+                "avg": 84,
+                "min": 155,
+                "max": 293
+            },
+            "defense": {
+                "avg": 70,
+                "min": 130,
+                "max": 262
+            },
+            "specialAttack": {
+                "avg": 65,
+                "min": 121,
+                "max": 251
+            },
+            "specialDefense": {
+                "avg": 70,
+                "min": 130,
+                "max": 262
+            },
+            "speed": {
+                "avg": 51,
+                "min": 96,
+                "max": 221
+            }
+        },
+        "learnedMoves": [
+            {
+                "level": "1",
+                "move": "Leer",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Payback",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Rock Throw",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "90"
+            },
+            {
+                "level": "1",
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "9",
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "12",
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "15",
+                "move": "Rock Slide",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "90"
+            },
+            {
+                "level": "18",
+                "move": "Stomping Tantrum",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "100"
+            },
+            {
+                "level": "21",
+                "move": "Screech",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "85"
+            },
+            {
+                "level": "24",
+                "move": "Smack Down",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "level": "27",
+                "move": "Crunch",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "33",
+                "move": "Earthquake",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "100"
+            },
+            {
+                "level": "37",
+                "move": "Stone Edge",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "80"
+            },
+            {
+                "level": "42",
+                "move": "Thrash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "120",
+                "accuracy": "100"
+            },
+            {
+                "level": "47",
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            }
+        ],
+        "tmhmMoves": [
+            {
+                "move": "Leer",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Payback",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "move": "Rock Throw",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "90"
+            },
+            {
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Rock Slide",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "90"
+            },
+            {
+                "move": "Stomping Tantrum",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "100"
+            },
+            {
+                "move": "Screech",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "85"
+            },
+            {
+                "move": "Smack Down",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "move": "Crunch",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Earthquake",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "100"
+            },
+            {
+                "move": "Stone Edge",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "80"
+            },
+            {
+                "move": "Thrash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "120",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            }
+        ]
+    },
+    {
+        "pokemon_index": 3,
+        "name": "Tyranitar",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/248.png"
+        ],
+        "type": "['Rock', 'Dark']",
+        "catchRate": {
+            "value": 5.9,
+            "percentage": "45"
+        },
+        "gender": {
+            "isGenderless": false,
+            "maleChance": "50",
+            "femaleChance": "50"
+        },
+        "abilities": [
+            "['Sand Stream'",
+            "'Unnerve']"
+        ],
+        "weight": {
+            "imperial": "445.3lbs",
+            "metric": "202.0kg"
+        },
+        "height": {
+            "imperial": "6'07'",
+            "metric": "2.0m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 100,
+                "min": 310,
+                "max": 404
+            },
+            "attack": {
+                "avg": 134,
+                "min": 245,
+                "max": 403
+            },
+            "defense": {
+                "avg": 110,
+                "min": 202,
+                "max": 350
+            },
+            "specialAttack": {
+                "avg": 95,
+                "min": 175,
+                "max": 317
+            },
+            "specialDefense": {
+                "avg": 100,
+                "min": 184,
+                "max": 328
+            },
+            "speed": {
+                "avg": 61,
+                "min": 114,
+                "max": 243
+            }
+        },
+        "learnedMoves": [
+            {
+                "level": "1",
+                "move": "Dark Pulse",
+                "type": "Dark",
+                "category": "Special",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Fire Fang",
+                "type": "Fire",
+                "category": "Physical",
+                "power": "65",
+                "accuracy": "95"
+            },
+            {
+                "level": "1",
+                "move": "Ice Fang",
+                "type": "Ice",
+                "category": "Physical",
+                "power": "65",
+                "accuracy": "95"
+            },
+            {
+                "level": "1",
+                "move": "Iron Defense",
+                "type": "Steel",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "1",
+                "move": "Leer",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Payback",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Rock Throw",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "90"
+            },
+            {
+                "level": "1",
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Thunder Fang",
+                "type": "Electric",
+                "category": "Physical",
+                "power": "65",
+                "accuracy": "95"
+            },
+            {
+                "level": "9",
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "12",
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "15",
+                "move": "Rock Slide",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "90"
+            },
+            {
+                "level": "18",
+                "move": "Stomping Tantrum",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "100"
+            },
+            {
+                "level": "21",
+                "move": "Screech",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "85"
+            },
+            {
+                "level": "24",
+                "move": "Smack Down",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "level": "27",
+                "move": "Crunch",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "33",
+                "move": "Earthquake",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "100"
+            },
+            {
+                "level": "37",
+                "move": "Stone Edge",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "80"
+            },
+            {
+                "level": "42",
+                "move": "Thrash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "120",
+                "accuracy": "100"
+            },
+            {
+                "level": "47",
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "52",
+                "move": "Hyper Beam",
+                "type": "Normal",
+                "category": "Special",
+                "power": "150",
+                "accuracy": "90"
+            }
+        ],
+        "tmhmMoves": [
+            {
+                "move": "Dark Pulse",
+                "type": "Dark",
+                "category": "Special",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Fire Fang",
+                "type": "Fire",
+                "category": "Physical",
+                "power": "65",
+                "accuracy": "95"
+            },
+            {
+                "move": "Ice Fang",
+                "type": "Ice",
+                "category": "Physical",
+                "power": "65",
+                "accuracy": "95"
+            },
+            {
+                "move": "Iron Defense",
+                "type": "Steel",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Leer",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Payback",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "move": "Rock Throw",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "90"
+            },
+            {
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Thunder Fang",
+                "type": "Electric",
+                "category": "Physical",
+                "power": "65",
+                "accuracy": "95"
+            },
+            {
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Rock Slide",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "90"
+            },
+            {
+                "move": "Stomping Tantrum",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "75",
+                "accuracy": "100"
+            },
+            {
+                "move": "Screech",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "85"
+            },
+            {
+                "move": "Smack Down",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "move": "Crunch",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Earthquake",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "100"
+            },
+            {
+                "move": "Stone Edge",
+                "type": "Rock",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "80"
+            },
+            {
+                "move": "Thrash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "120",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Hyper Beam",
+                "type": "Normal",
+                "category": "Special",
+                "power": "150",
+                "accuracy": "90"
+            }
+        ]
+    },
+    {
+        "pokemon_index": 4,
+        "name": "Beldum",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/374.png"
+        ],
+        "type": "['Steel', 'Psychic']",
+        "catchRate": {
+            "value": 0.4,
+            "percentage": "3"
+        },
+        "gender": {
+            "isGenderless": true,
+            "maleChance": 0,
+            "femaleChance": 0
+        },
+        "abilities": [
+            "['Clear Body'",
+            "'Light Metal']"
+        ],
+        "weight": {
+            "imperial": "209.9lbs",
+            "metric": "95.2kg"
+        },
+        "height": {
+            "imperial": "2'00'",
+            "metric": "0.6m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 40,
+                "min": 190,
+                "max": 284
+            },
+            "attack": {
+                "avg": 55,
+                "min": 103,
+                "max": 229
+            },
+            "defense": {
+                "avg": 80,
+                "min": 148,
+                "max": 284
+            },
+            "specialAttack": {
+                "avg": 35,
+                "min": 67,
+                "max": 185
+            },
+            "specialDefense": {
+                "avg": 60,
+                "min": 112,
+                "max": 240
+            },
+            "speed": {
+                "avg": 30,
+                "min": 58,
+                "max": 174
+            }
+        },
+        "learnedMoves": [],
+        "tmhmMoves": []
+    },
+    {
+        "pokemon_index": 5,
+        "name": "Metang",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/375.png"
+        ],
+        "type": "['Steel', 'Psychic']",
+        "catchRate": {
+            "value": 0.4,
+            "percentage": "3"
+        },
+        "gender": {
+            "isGenderless": true,
+            "maleChance": 0,
+            "femaleChance": 0
+        },
+        "abilities": [
+            "['Clear Body'",
+            "'Light Metal']"
+        ],
+        "weight": {
+            "imperial": "446.4lbs",
+            "metric": "202.5kg"
+        },
+        "height": {
+            "imperial": "3'11'",
+            "metric": "1.2m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 60,
+                "min": 230,
+                "max": 324
+            },
+            "attack": {
+                "avg": 75,
+                "min": 139,
+                "max": 273
+            },
+            "defense": {
+                "avg": 100,
+                "min": 184,
+                "max": 328
+            },
+            "specialAttack": {
+                "avg": 55,
+                "min": 103,
+                "max": 229
+            },
+            "specialDefense": {
+                "avg": 80,
+                "min": 148,
+                "max": 284
+            },
+            "speed": {
+                "avg": 50,
+                "min": 94,
+                "max": 218
+            }
+        },
+        "learnedMoves": [
+            {
+                "level": "1",
+                "move": "Bullet Punch",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Confusion",
+                "type": "Psychic",
+                "category": "Special",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Metal Claw",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "95"
+            },
+            {
+                "level": "1",
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "6",
+                "move": "Zen Headbutt",
+                "type": "Psychic",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "90"
+            },
+            {
+                "level": "12",
+                "move": "Magnet Rise",
+                "type": "Electric",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "18",
+                "move": "Flash Cannon",
+                "type": "Steel",
+                "category": "Special",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "26",
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            },
+            {
+                "level": "34",
+                "move": "Psychic",
+                "type": "Psychic",
+                "category": "Special",
+                "power": "90",
+                "accuracy": "100"
+            },
+            {
+                "level": "42",
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "50",
+                "move": "Meteor Mash",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "90"
+            },
+            {
+                "level": "58",
+                "move": "Iron Defense",
+                "type": "Steel",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "66",
+                "move": "Agility",
+                "type": "Psychic",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            }
+        ],
+        "tmhmMoves": [
+            {
+                "move": "Bullet Punch",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Confusion",
+                "type": "Psychic",
+                "category": "Special",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "move": "Metal Claw",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "95"
+            },
+            {
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Zen Headbutt",
+                "type": "Psychic",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "90"
+            },
+            {
+                "move": "Magnet Rise",
+                "type": "Electric",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Flash Cannon",
+                "type": "Steel",
+                "category": "Special",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            },
+            {
+                "move": "Psychic",
+                "type": "Psychic",
+                "category": "Special",
+                "power": "90",
+                "accuracy": "100"
+            },
+            {
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Meteor Mash",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "90"
+            },
+            {
+                "move": "Iron Defense",
+                "type": "Steel",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Agility",
+                "type": "Psychic",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            }
+        ]
+    },
+    {
+        "pokemon_index": 6,
+        "name": "Metagross",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/376.png"
+        ],
+        "type": "['Steel', 'Psychic']",
+        "catchRate": {
+            "value": 0.4,
+            "percentage": "3"
+        },
+        "gender": {
+            "isGenderless": true,
+            "maleChance": 0,
+            "femaleChance": 0
+        },
+        "abilities": [
+            "['Clear Body'",
+            "'Light Metal']"
+        ],
+        "weight": {
+            "imperial": "1212.5lbs",
+            "metric": "550.0kg"
+        },
+        "height": {
+            "imperial": "5'03'",
+            "metric": "1.6m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 80,
+                "min": 270,
+                "max": 364
+            },
+            "attack": {
+                "avg": 135,
+                "min": 247,
+                "max": 405
+            },
+            "defense": {
+                "avg": 130,
+                "min": 238,
+                "max": 394
+            },
+            "specialAttack": {
+                "avg": 95,
+                "min": 175,
+                "max": 317
+            },
+            "specialDefense": {
+                "avg": 90,
+                "min": 166,
+                "max": 306
+            },
+            "speed": {
+                "avg": 70,
+                "min": 130,
+                "max": 262
+            }
+        },
+        "learnedMoves": [
+            {
+                "level": "1",
+                "move": "Bullet Punch",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Confusion",
+                "type": "Psychic",
+                "category": "Special",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Hammer Arm",
+                "type": "Fighting",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "90"
+            },
+            {
+                "level": "1",
+                "move": "Metal Claw",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "95"
+            },
+            {
+                "level": "1",
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "6",
+                "move": "Zen Headbutt",
+                "type": "Psychic",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "90"
+            },
+            {
+                "level": "12",
+                "move": "Magnet Rise",
+                "type": "Electric",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "16",
+                "move": "Flash Cannon",
+                "type": "Steel",
+                "category": "Special",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "26",
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            },
+            {
+                "level": "34",
+                "move": "Psychic",
+                "type": "Psychic",
+                "category": "Special",
+                "power": "90",
+                "accuracy": "100"
+            },
+            {
+                "level": "42",
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "52",
+                "move": "Meteor Mash",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "90"
+            },
+            {
+                "level": "62",
+                "move": "Iron Defense",
+                "type": "Steel",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "72",
+                "move": "Agility",
+                "type": "Psychic",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            }
+        ],
+        "tmhmMoves": [
+            {
+                "move": "Bullet Punch",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Confusion",
+                "type": "Psychic",
+                "category": "Special",
+                "power": "50",
+                "accuracy": "100"
+            },
+            {
+                "move": "Hammer Arm",
+                "type": "Fighting",
+                "category": "Physical",
+                "power": "100",
+                "accuracy": "90"
+            },
+            {
+                "move": "Metal Claw",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "50",
+                "accuracy": "95"
+            },
+            {
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Zen Headbutt",
+                "type": "Psychic",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "90"
+            },
+            {
+                "move": "Magnet Rise",
+                "type": "Electric",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Flash Cannon",
+                "type": "Steel",
+                "category": "Special",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            },
+            {
+                "move": "Psychic",
+                "type": "Psychic",
+                "category": "Special",
+                "power": "90",
+                "accuracy": "100"
+            },
+            {
+                "move": "Scary Face",
+                "type": "Normal",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Meteor Mash",
+                "type": "Steel",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "90"
+            },
+            {
+                "move": "Iron Defense",
+                "type": "Steel",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Agility",
+                "type": "Psychic",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            }
+        ]
+    },
+    {
+        "pokemon_index": 7,
+        "name": "Gible",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/443.png"
+        ],
+        "type": "['Dragon', 'Ground']",
+        "catchRate": {
+            "value": 5.9,
+            "percentage": "45"
+        },
+        "gender": {
+            "isGenderless": false,
+            "maleChance": "50",
+            "femaleChance": "50"
+        },
+        "abilities": [
+            "['Sand Veil'",
+            "'Rough Skin']"
+        ],
+        "weight": {
+            "imperial": "45.2lbs",
+            "metric": "20.5kg"
+        },
+        "height": {
+            "imperial": "2'04'",
+            "metric": "0.7m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 58,
+                "min": 226,
+                "max": 320
+            },
+            "attack": {
+                "avg": 70,
+                "min": 130,
+                "max": 262
+            },
+            "defense": {
+                "avg": 45,
+                "min": 85,
+                "max": 207
+            },
+            "specialAttack": {
+                "avg": 40,
+                "min": 76,
+                "max": 196
+            },
+            "specialDefense": {
+                "avg": 45,
+                "min": 85,
+                "max": 207
+            },
+            "speed": {
+                "avg": 42,
+                "min": 80,
+                "max": 201
+            }
+        },
+        "learnedMoves": [
+            {
+                "level": "1",
+                "move": "Sand Tomb",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "35",
+                "accuracy": "85"
+            },
+            {
+                "level": "1",
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "6",
+                "move": "Sand Attack",
+                "type": "Ground",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "12",
+                "move": "Dragon Breath",
+                "type": "Dragon",
+                "category": "Special",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "18",
+                "move": "Bulldoze",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "25",
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "30",
+                "move": "Slash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "70",
+                "accuracy": "100"
+            },
+            {
+                "level": "36",
+                "move": "Dragon Claw",
+                "type": "Dragon",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "42",
+                "move": "Dig",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "48",
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "54",
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            }
+        ],
+        "tmhmMoves": [
+            {
+                "move": "Sand Tomb",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "35",
+                "accuracy": "85"
+            },
+            {
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sand Attack",
+                "type": "Ground",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Dragon Breath",
+                "type": "Dragon",
+                "category": "Special",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Bulldoze",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Slash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "70",
+                "accuracy": "100"
+            },
+            {
+                "move": "Dragon Claw",
+                "type": "Dragon",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Dig",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            }
+        ]
+    },
+    {
+        "pokemon_index": 8,
+        "name": "Gabite",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/444.png"
+        ],
+        "type": "['Dragon', 'Ground']",
+        "catchRate": {
+            "value": 5.9,
+            "percentage": "45"
+        },
+        "gender": {
+            "isGenderless": false,
+            "maleChance": "50",
+            "femaleChance": "50"
+        },
+        "abilities": [
+            "['Sand Veil'",
+            "'Rough Skin']"
+        ],
+        "weight": {
+            "imperial": "123.5lbs",
+            "metric": "56.0kg"
+        },
+        "height": {
+            "imperial": "4'07'",
+            "metric": "1.4m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 68,
+                "min": 246,
+                "max": 340
+            },
+            "attack": {
+                "avg": 90,
+                "min": 166,
+                "max": 306
+            },
+            "defense": {
+                "avg": 65,
+                "min": 121,
+                "max": 251
+            },
+            "specialAttack": {
+                "avg": 50,
+                "min": 94,
+                "max": 218
+            },
+            "specialDefense": {
+                "avg": 55,
+                "min": 103,
+                "max": 229
+            },
+            "speed": {
+                "avg": 82,
+                "min": 152,
+                "max": 289
+            }
+        },
+        "learnedMoves": [
+            {
+                "level": "1",
+                "move": "Dragon Breath",
+                "type": "Dragon",
+                "category": "Special",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Sand Attack",
+                "type": "Ground",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Sand Tomb",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "35",
+                "accuracy": "85"
+            },
+            {
+                "level": "1",
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "18",
+                "move": "Bulldoze",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "27",
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "34",
+                "move": "Slash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "70",
+                "accuracy": "100"
+            },
+            {
+                "level": "42",
+                "move": "Dragon Claw",
+                "type": "Dragon",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "50",
+                "move": "Dig",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "58",
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "66",
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            }
+        ],
+        "tmhmMoves": [
+            {
+                "move": "Dragon Breath",
+                "type": "Dragon",
+                "category": "Special",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sand Attack",
+                "type": "Ground",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sand Tomb",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "35",
+                "accuracy": "85"
+            },
+            {
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Bulldoze",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Slash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "70",
+                "accuracy": "100"
+            },
+            {
+                "move": "Dragon Claw",
+                "type": "Dragon",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Dig",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            }
+        ]
+    },
+    {
+        "pokemon_index": 9,
+        "name": "Garchomp",
+        "sprite": [
+            "https://www.pokemonunboundpokedex.com/static/pixelart/445.png"
+        ],
+        "type": "['Dragon', 'Ground']",
+        "catchRate": {
+            "value": 5.9,
+            "percentage": "45"
+        },
+        "gender": {
+            "isGenderless": false,
+            "maleChance": "50",
+            "femaleChance": "50"
+        },
+        "abilities": [
+            "['Sand Veil'",
+            "'Rough Skin']"
+        ],
+        "weight": {
+            "imperial": "209.4lbs",
+            "metric": "95.0kg"
+        },
+        "height": {
+            "imperial": "6'03'",
+            "metric": "1.9m"
+        },
+        "stats": {
+            "hp": {
+                "avg": 108,
+                "min": 326,
+                "max": 420
+            },
+            "attack": {
+                "avg": 130,
+                "min": 238,
+                "max": 394
+            },
+            "defense": {
+                "avg": 95,
+                "min": 175,
+                "max": 317
+            },
+            "specialAttack": {
+                "avg": 80,
+                "min": 148,
+                "max": 284
+            },
+            "specialDefense": {
+                "avg": 85,
+                "min": 157,
+                "max": 295
+            },
+            "speed": {
+                "avg": 102,
+                "min": 188,
+                "max": 333
+            }
+        },
+        "learnedMoves": [
+            {
+                "level": "1",
+                "move": "Dragon Breath",
+                "type": "Dragon",
+                "category": "Special",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Sand Attack",
+                "type": "Ground",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "level": "1",
+                "move": "Sand Tomb",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "35",
+                "accuracy": "85"
+            },
+            {
+                "level": "1",
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "level": "18",
+                "move": "Bulldoze",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "27",
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "level": "34",
+                "move": "Slash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "70",
+                "accuracy": "100"
+            },
+            {
+                "level": "42",
+                "move": "Dragon Claw",
+                "type": "Dragon",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "52",
+                "move": "Dig",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "level": "62",
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "level": "72",
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            }
+        ],
+        "tmhmMoves": [
+            {
+                "move": "Dragon Breath",
+                "type": "Dragon",
+                "category": "Special",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sand Attack",
+                "type": "Ground",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sand Tomb",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "35",
+                "accuracy": "85"
+            },
+            {
+                "move": "Tackle",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "40",
+                "accuracy": "100"
+            },
+            {
+                "move": "Bulldoze",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Bite",
+                "type": "Dark",
+                "category": "Physical",
+                "power": "60",
+                "accuracy": "100"
+            },
+            {
+                "move": "Slash",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "70",
+                "accuracy": "100"
+            },
+            {
+                "move": "Dragon Claw",
+                "type": "Dragon",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Dig",
+                "type": "Ground",
+                "category": "Physical",
+                "power": "80",
+                "accuracy": "100"
+            },
+            {
+                "move": "Sandstorm",
+                "type": "Rock",
+                "category": "Status",
+                "power": "-",
+                "accuracy": "-"
+            },
+            {
+                "move": "Take Down",
+                "type": "Normal",
+                "category": "Physical",
+                "power": "90",
+                "accuracy": "85"
+            }
+        ]
+    },
+    {
+        "pokemon_index": 10,
         "name": "Snorunt",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/361.png"
@@ -280,7 +2527,7 @@
         ]
     },
     {
-        "pokemon_index": 2,
+        "pokemon_index": 11,
         "name": "Glalie",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/362.png"
@@ -571,7 +2818,7 @@
         ]
     },
     {
-        "pokemon_index": 3,
+        "pokemon_index": 12,
         "name": "Froslass",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/478.png"
@@ -921,7 +3168,7 @@
         ]
     },
     {
-        "pokemon_index": 4,
+        "pokemon_index": 13,
         "name": "Vanillite",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/582.png"
@@ -1182,7 +3429,7 @@
         ]
     },
     {
-        "pokemon_index": 5,
+        "pokemon_index": 14,
         "name": "Vanillish",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/583.png"
@@ -1443,7 +3690,7 @@
         ]
     },
     {
-        "pokemon_index": 6,
+        "pokemon_index": 15,
         "name": "Vanilluxe",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/584.png"
@@ -1749,7 +3996,7 @@
         ]
     },
     {
-        "pokemon_index": 7,
+        "pokemon_index": 16,
         "name": "Delibird",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/225.png"
@@ -1830,7 +4077,7 @@
         ]
     },
     {
-        "pokemon_index": 8,
+        "pokemon_index": 17,
         "name": "Minior",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/774.png"
@@ -2104,7 +4351,7 @@
         ]
     },
     {
-        "pokemon_index": 9,
+        "pokemon_index": 18,
         "name": "Zubat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/41.png"
@@ -2349,7 +4596,7 @@
         ]
     },
     {
-        "pokemon_index": 10,
+        "pokemon_index": 19,
         "name": "Golbat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/42.png"
@@ -2609,7 +4856,7 @@
         ]
     },
     {
-        "pokemon_index": 11,
+        "pokemon_index": 20,
         "name": "Crobat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/169.png"
@@ -2914,7 +5161,7 @@
         ]
     },
     {
-        "pokemon_index": 12,
+        "pokemon_index": 21,
         "name": "Makuhita",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/296.png"
@@ -3220,7 +5467,7 @@
         ]
     },
     {
-        "pokemon_index": 13,
+        "pokemon_index": 22,
         "name": "Hariyama",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/297.png"
@@ -3556,7 +5803,7 @@
         ]
     },
     {
-        "pokemon_index": 14,
+        "pokemon_index": 23,
         "name": "Spheal",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/363.png"
@@ -3832,7 +6079,7 @@
         ]
     },
     {
-        "pokemon_index": 15,
+        "pokemon_index": 24,
         "name": "Sealeo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/364.png"
@@ -4123,7 +6370,7 @@
         ]
     },
     {
-        "pokemon_index": 16,
+        "pokemon_index": 25,
         "name": "Walrein",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/365.png"
@@ -4444,7 +6691,7 @@
         ]
     },
     {
-        "pokemon_index": 17,
+        "pokemon_index": 26,
         "name": "Smoochum",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/238.png"
@@ -4705,7 +6952,7 @@
         ]
     },
     {
-        "pokemon_index": 18,
+        "pokemon_index": 27,
         "name": "Jynx",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/124.png"
@@ -4981,7 +7228,7 @@
         ]
     },
     {
-        "pokemon_index": 19,
+        "pokemon_index": 28,
         "name": "Roggenrola",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/524.png"
@@ -5227,7 +7474,7 @@
         ]
     },
     {
-        "pokemon_index": 20,
+        "pokemon_index": 29,
         "name": "Boldore",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/525.png"
@@ -5488,7 +7735,7 @@
         ]
     },
     {
-        "pokemon_index": 21,
+        "pokemon_index": 30,
         "name": "Gigalith",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/526.png"
@@ -5749,7 +7996,7 @@
         ]
     },
     {
-        "pokemon_index": 22,
+        "pokemon_index": 31,
         "name": "Swinub",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/220.png"
@@ -5980,7 +8227,7 @@
         ]
     },
     {
-        "pokemon_index": 23,
+        "pokemon_index": 32,
         "name": "Piloswine",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/221.png"
@@ -6241,7 +8488,7 @@
         ]
     },
     {
-        "pokemon_index": 24,
+        "pokemon_index": 33,
         "name": "Mamoswine",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/473.png"
@@ -6517,7 +8764,7 @@
         ]
     },
     {
-        "pokemon_index": 25,
+        "pokemon_index": 34,
         "name": "Bergmite",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/712.png"
@@ -6808,7 +9055,7 @@
         ]
     },
     {
-        "pokemon_index": 26,
+        "pokemon_index": 35,
         "name": "Avalugg",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/713.png"
@@ -7129,7 +9376,7 @@
         ]
     },
     {
-        "pokemon_index": 27,
+        "pokemon_index": 36,
         "name": "Drilbur",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/529.png"
@@ -7390,7 +9637,7 @@
         ]
     },
     {
-        "pokemon_index": 28,
+        "pokemon_index": 37,
         "name": "Excadrill",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/530.png"
@@ -7666,7 +9913,7 @@
         ]
     },
     {
-        "pokemon_index": 29,
+        "pokemon_index": 38,
         "name": "Mawile",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/303.png"
@@ -7957,7 +10204,7 @@
         ]
     },
     {
-        "pokemon_index": 30,
+        "pokemon_index": 39,
         "name": "Sandshrew",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/27.png"
@@ -8262,7 +10509,7 @@
         ]
     },
     {
-        "pokemon_index": 31,
+        "pokemon_index": 40,
         "name": "Sandslash",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/28.png"
@@ -8582,7 +10829,7 @@
         ]
     },
     {
-        "pokemon_index": 32,
+        "pokemon_index": 41,
         "name": "Pikipek",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/731.png"
@@ -8828,7 +11075,7 @@
         ]
     },
     {
-        "pokemon_index": 33,
+        "pokemon_index": 42,
         "name": "Trumbeak",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/732.png"
@@ -9134,7 +11381,7 @@
         ]
     },
     {
-        "pokemon_index": 34,
+        "pokemon_index": 43,
         "name": "Toucannon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/733.png"
@@ -9455,7 +11702,7 @@
         ]
     },
     {
-        "pokemon_index": 35,
+        "pokemon_index": 44,
         "name": "Hoothoot",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/163.png"
@@ -9731,7 +11978,7 @@
         ]
     },
     {
-        "pokemon_index": 36,
+        "pokemon_index": 45,
         "name": "Noctowl",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/164.png"
@@ -10007,7 +12254,7 @@
         ]
     },
     {
-        "pokemon_index": 37,
+        "pokemon_index": 46,
         "name": "Patrat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/504.png"
@@ -10313,7 +12560,7 @@
         ]
     },
     {
-        "pokemon_index": 38,
+        "pokemon_index": 47,
         "name": "Watchog",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/505.png"
@@ -10694,7 +12941,7 @@
         ]
     },
     {
-        "pokemon_index": 39,
+        "pokemon_index": 48,
         "name": "Rattata",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/19.png"
@@ -10940,7 +13187,7 @@
         ]
     },
     {
-        "pokemon_index": 40,
+        "pokemon_index": 49,
         "name": "Raticate",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/20.png"
@@ -11246,7 +13493,7 @@
         ]
     },
     {
-        "pokemon_index": 41,
+        "pokemon_index": 50,
         "name": "Minccino",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/572.png"
@@ -11507,7 +13754,7 @@
         ]
     },
     {
-        "pokemon_index": 42,
+        "pokemon_index": 51,
         "name": "Cinccino",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/573.png"
@@ -11798,7 +14045,7 @@
         ]
     },
     {
-        "pokemon_index": 43,
+        "pokemon_index": 52,
         "name": "Electrike",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/309.png"
@@ -12044,7 +14291,7 @@
         ]
     },
     {
-        "pokemon_index": 44,
+        "pokemon_index": 53,
         "name": "Manectric",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/310.png"
@@ -12320,7 +14567,7 @@
         ]
     },
     {
-        "pokemon_index": 45,
+        "pokemon_index": 54,
         "name": "Azurill",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/298.png"
@@ -12491,7 +14738,7 @@
         ]
     },
     {
-        "pokemon_index": 46,
+        "pokemon_index": 55,
         "name": "Marill",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/183.png"
@@ -12797,7 +15044,7 @@
         ]
     },
     {
-        "pokemon_index": 47,
+        "pokemon_index": 56,
         "name": "Azumarill",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/184.png"
@@ -13103,7 +15350,7 @@
         ]
     },
     {
-        "pokemon_index": 48,
+        "pokemon_index": 57,
         "name": "Stufful",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/759.png"
@@ -13364,7 +15611,7 @@
         ]
     },
     {
-        "pokemon_index": 49,
+        "pokemon_index": 58,
         "name": "Bewear",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/760.png"
@@ -13640,7 +15887,7 @@
         ]
     },
     {
-        "pokemon_index": 50,
+        "pokemon_index": 59,
         "name": "Scraggy",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/559.png"
@@ -13916,7 +16163,7 @@
         ]
     },
     {
-        "pokemon_index": 51,
+        "pokemon_index": 60,
         "name": "Scrafty",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/560.png"
@@ -14192,7 +16439,7 @@
         ]
     },
     {
-        "pokemon_index": 52,
+        "pokemon_index": 61,
         "name": "Riolu",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/447.png"
@@ -14483,7 +16730,7 @@
         ]
     },
     {
-        "pokemon_index": 53,
+        "pokemon_index": 62,
         "name": "Lucario",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/448.png"
@@ -14909,7 +17156,7 @@
         ]
     },
     {
-        "pokemon_index": 54,
+        "pokemon_index": 63,
         "name": "Inkay",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/686.png"
@@ -15185,7 +17432,7 @@
         ]
     },
     {
-        "pokemon_index": 55,
+        "pokemon_index": 64,
         "name": "Malamar",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/687.png"
@@ -15476,7 +17723,7 @@
         ]
     },
     {
-        "pokemon_index": 56,
+        "pokemon_index": 65,
         "name": "Poochyena",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/261.png"
@@ -15752,7 +17999,7 @@
         ]
     },
     {
-        "pokemon_index": 57,
+        "pokemon_index": 66,
         "name": "Mightyena",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/262.png"
@@ -16088,7 +18335,7 @@
         ]
     },
     {
-        "pokemon_index": 58,
+        "pokemon_index": 67,
         "name": "Wingull",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/278.png"
@@ -16304,7 +18551,7 @@
         ]
     },
     {
-        "pokemon_index": 59,
+        "pokemon_index": 68,
         "name": "Pelipper",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/279.png"
@@ -16640,7 +18887,7 @@
         ]
     },
     {
-        "pokemon_index": 60,
+        "pokemon_index": 69,
         "name": "Bidoof",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/399.png"
@@ -16901,7 +19148,7 @@
         ]
     },
     {
-        "pokemon_index": 61,
+        "pokemon_index": 70,
         "name": "Bibarel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/400.png"
@@ -17192,7 +19439,7 @@
         ]
     },
     {
-        "pokemon_index": 62,
+        "pokemon_index": 71,
         "name": "Buizel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/418.png"
@@ -17467,7 +19714,7 @@
         ]
     },
     {
-        "pokemon_index": 63,
+        "pokemon_index": 72,
         "name": "Floatzel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/419.png"
@@ -17757,7 +20004,7 @@
         ]
     },
     {
-        "pokemon_index": 64,
+        "pokemon_index": 73,
         "name": "Shellos",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/422.png"
@@ -17973,7 +20220,7 @@
         ]
     },
     {
-        "pokemon_index": 65,
+        "pokemon_index": 74,
         "name": "Gastrodon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/423.png"
@@ -18189,7 +20436,7 @@
         ]
     },
     {
-        "pokemon_index": 66,
+        "pokemon_index": 75,
         "name": "Dewpider",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/751.png"
@@ -18449,7 +20696,7 @@
         ]
     },
     {
-        "pokemon_index": 67,
+        "pokemon_index": 76,
         "name": "Araquanid",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/752.png"
@@ -18724,7 +20971,7 @@
         ]
     },
     {
-        "pokemon_index": 68,
+        "pokemon_index": 77,
         "name": "Surskit",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/283.png"
@@ -18924,7 +21171,7 @@
         ]
     },
     {
-        "pokemon_index": 69,
+        "pokemon_index": 78,
         "name": "Masquerain",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/284.png"
@@ -19169,7 +21416,7 @@
         ]
     },
     {
-        "pokemon_index": 70,
+        "pokemon_index": 79,
         "name": "Krabby",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/98.png"
@@ -19430,7 +21677,7 @@
         ]
     },
     {
-        "pokemon_index": 71,
+        "pokemon_index": 80,
         "name": "Kingler",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/99.png"
@@ -19721,7 +21968,7 @@
         ]
     },
     {
-        "pokemon_index": 72,
+        "pokemon_index": 81,
         "name": "Cherubi",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/420.png"
@@ -19935,7 +22182,7 @@
         ]
     },
     {
-        "pokemon_index": 73,
+        "pokemon_index": 82,
         "name": "Cherrim",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/421.png"
@@ -20194,7 +22441,7 @@
         ]
     },
     {
-        "pokemon_index": 74,
+        "pokemon_index": 83,
         "name": "Sandygast",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/769.png"
@@ -20454,7 +22701,7 @@
         ]
     },
     {
-        "pokemon_index": 75,
+        "pokemon_index": 84,
         "name": "Palossand",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/770.png"
@@ -20714,7 +22961,7 @@
         ]
     },
     {
-        "pokemon_index": 76,
+        "pokemon_index": 85,
         "name": "Sentret",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/161.png"
@@ -20960,7 +23207,7 @@
         ]
     },
     {
-        "pokemon_index": 77,
+        "pokemon_index": 86,
         "name": "Furret",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/162.png"
@@ -21221,7 +23468,7 @@
         ]
     },
     {
-        "pokemon_index": 78,
+        "pokemon_index": 87,
         "name": "Flab\u00e9b\u00e9",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/669.png"
@@ -21481,7 +23728,7 @@
         ]
     },
     {
-        "pokemon_index": 79,
+        "pokemon_index": 88,
         "name": "Floette",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/670.png"
@@ -21741,7 +23988,7 @@
         ]
     },
     {
-        "pokemon_index": 80,
+        "pokemon_index": 89,
         "name": "Florges",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/671.png"
@@ -21971,7 +24218,7 @@
         ]
     },
     {
-        "pokemon_index": 81,
+        "pokemon_index": 90,
         "name": "Cutiefly",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/742.png"
@@ -22187,7 +24434,7 @@
         ]
     },
     {
-        "pokemon_index": 82,
+        "pokemon_index": 91,
         "name": "Ribombee",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/743.png"
@@ -22403,7 +24650,7 @@
         ]
     },
     {
-        "pokemon_index": 83,
+        "pokemon_index": 92,
         "name": "Oricorio",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/741.png"
@@ -22677,7 +24924,7 @@
         ]
     },
     {
-        "pokemon_index": 84,
+        "pokemon_index": 93,
         "name": "Pansage",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/511.png"
@@ -22967,7 +25214,7 @@
         ]
     },
     {
-        "pokemon_index": 85,
+        "pokemon_index": 94,
         "name": "Simisage",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/512.png"
@@ -23077,7 +25324,7 @@
         ]
     },
     {
-        "pokemon_index": 86,
+        "pokemon_index": 95,
         "name": "Pansear",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/513.png"
@@ -23367,7 +25614,7 @@
         ]
     },
     {
-        "pokemon_index": 87,
+        "pokemon_index": 96,
         "name": "Simisear",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/514.png"
@@ -23477,7 +25724,7 @@
         ]
     },
     {
-        "pokemon_index": 88,
+        "pokemon_index": 97,
         "name": "Panpour",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/515.png"
@@ -23767,7 +26014,7 @@
         ]
     },
     {
-        "pokemon_index": 89,
+        "pokemon_index": 98,
         "name": "Simipour",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/516.png"
@@ -23877,7 +26124,7 @@
         ]
     },
     {
-        "pokemon_index": 90,
+        "pokemon_index": 99,
         "name": "Combee",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/415.png"
@@ -23987,7 +26234,7 @@
         ]
     },
     {
-        "pokemon_index": 91,
+        "pokemon_index": 100,
         "name": "Vespiquen",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/416.png"
@@ -24307,7 +26554,7 @@
         ]
     },
     {
-        "pokemon_index": 92,
+        "pokemon_index": 101,
         "name": "Comfey",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/764.png"
@@ -24628,7 +26875,7 @@
         ]
     },
     {
-        "pokemon_index": 93,
+        "pokemon_index": 102,
         "name": "Caterpie",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/10.png"
@@ -24723,7 +26970,7 @@
         ]
     },
     {
-        "pokemon_index": 94,
+        "pokemon_index": 103,
         "name": "Metapod",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/11.png"
@@ -24785,7 +27032,7 @@
         "tmhmMoves": []
     },
     {
-        "pokemon_index": 95,
+        "pokemon_index": 104,
         "name": "Butterfree",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/12.png"
@@ -25105,7 +27352,7 @@
         ]
     },
     {
-        "pokemon_index": 96,
+        "pokemon_index": 105,
         "name": "Weedle",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/13.png"
@@ -25200,7 +27447,7 @@
         ]
     },
     {
-        "pokemon_index": 97,
+        "pokemon_index": 106,
         "name": "Kakuna",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/14.png"
@@ -25262,7 +27509,7 @@
         "tmhmMoves": []
     },
     {
-        "pokemon_index": 98,
+        "pokemon_index": 107,
         "name": "Beedrill",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/15.png"
@@ -25567,7 +27814,7 @@
         ]
     },
     {
-        "pokemon_index": 99,
+        "pokemon_index": 108,
         "name": "Seedot",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/273.png"
@@ -25813,7 +28060,7 @@
         ]
     },
     {
-        "pokemon_index": 100,
+        "pokemon_index": 109,
         "name": "Nuzleaf",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/274.png"
@@ -26134,7 +28381,7 @@
         ]
     },
     {
-        "pokemon_index": 101,
+        "pokemon_index": 110,
         "name": "Shiftry",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/275.png"
@@ -26245,7 +28492,7 @@
         ]
     },
     {
-        "pokemon_index": 102,
+        "pokemon_index": 111,
         "name": "Pumpkaboo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/710.png"
@@ -26536,7 +28783,7 @@
         ]
     },
     {
-        "pokemon_index": 103,
+        "pokemon_index": 112,
         "name": "Gourgeist",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/711.png"
@@ -26872,7 +29119,7 @@
         ]
     },
     {
-        "pokemon_index": 104,
+        "pokemon_index": 113,
         "name": "Gastly",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/92.png"
@@ -27131,7 +29378,7 @@
         ]
     },
     {
-        "pokemon_index": 105,
+        "pokemon_index": 114,
         "name": "Haunter",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/93.png"
@@ -27390,7 +29637,7 @@
         ]
     },
     {
-        "pokemon_index": 106,
+        "pokemon_index": 115,
         "name": "Gengar",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/94.png"
@@ -27694,7 +29941,7 @@
         ]
     },
     {
-        "pokemon_index": 107,
+        "pokemon_index": 116,
         "name": "Shuppet",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/353.png"
@@ -27940,7 +30187,7 @@
         ]
     },
     {
-        "pokemon_index": 108,
+        "pokemon_index": 117,
         "name": "Banette",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/354.png"
@@ -28171,7 +30418,7 @@
         ]
     },
     {
-        "pokemon_index": 109,
+        "pokemon_index": 118,
         "name": "Duskull",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/355.png"
@@ -28416,7 +30663,7 @@
         ]
     },
     {
-        "pokemon_index": 110,
+        "pokemon_index": 119,
         "name": "Dusclops",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/356.png"
@@ -28736,7 +30983,7 @@
         ]
     },
     {
-        "pokemon_index": 111,
+        "pokemon_index": 120,
         "name": "Dusknoir",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/477.png"
@@ -29086,7 +31333,7 @@
         ]
     },
     {
-        "pokemon_index": 112,
+        "pokemon_index": 121,
         "name": "Phantump",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/708.png"
@@ -29362,7 +31609,7 @@
         ]
     },
     {
-        "pokemon_index": 113,
+        "pokemon_index": 122,
         "name": "Trevenant",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/709.png"
@@ -29638,7 +31885,7 @@
         ]
     },
     {
-        "pokemon_index": 114,
+        "pokemon_index": 123,
         "name": "Starly",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/396.png"
@@ -29868,7 +32115,7 @@
         ]
     },
     {
-        "pokemon_index": 115,
+        "pokemon_index": 124,
         "name": "Staravia",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/397.png"
@@ -30098,7 +32345,7 @@
         ]
     },
     {
-        "pokemon_index": 116,
+        "pokemon_index": 125,
         "name": "Staraptor",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/398.png"
@@ -30328,7 +32575,7 @@
         ]
     },
     {
-        "pokemon_index": 117,
+        "pokemon_index": 126,
         "name": "Lillipup",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/506.png"
@@ -30589,7 +32836,7 @@
         ]
     },
     {
-        "pokemon_index": 118,
+        "pokemon_index": 127,
         "name": "Herdier",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/507.png"
@@ -30850,7 +33097,7 @@
         ]
     },
     {
-        "pokemon_index": 119,
+        "pokemon_index": 128,
         "name": "Stoutland",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/508.png"
@@ -31156,7 +33403,7 @@
         ]
     },
     {
-        "pokemon_index": 120,
+        "pokemon_index": 129,
         "name": "Budew",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/406.png"
@@ -31267,7 +33514,7 @@
         ]
     },
     {
-        "pokemon_index": 121,
+        "pokemon_index": 130,
         "name": "Roselia",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/315.png"
@@ -31573,7 +33820,7 @@
         ]
     },
     {
-        "pokemon_index": 122,
+        "pokemon_index": 131,
         "name": "Roserade",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/407.png"
@@ -31909,7 +34156,7 @@
         ]
     },
     {
-        "pokemon_index": 123,
+        "pokemon_index": 132,
         "name": "Ekans",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/23.png"
@@ -32215,7 +34462,7 @@
         ]
     },
     {
-        "pokemon_index": 124,
+        "pokemon_index": 133,
         "name": "Arbok",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/24.png"
@@ -32566,7 +34813,7 @@
         ]
     },
     {
-        "pokemon_index": 125,
+        "pokemon_index": 134,
         "name": "Numel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/322.png"
@@ -32827,7 +35074,7 @@
         ]
     },
     {
-        "pokemon_index": 126,
+        "pokemon_index": 135,
         "name": "Camerupt",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/323.png"
@@ -33103,7 +35350,7 @@
         ]
     },
     {
-        "pokemon_index": 127,
+        "pokemon_index": 136,
         "name": "Mankey",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/56.png"
@@ -33394,7 +35641,7 @@
         ]
     },
     {
-        "pokemon_index": 128,
+        "pokemon_index": 137,
         "name": "Primeape",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/57.png"
@@ -33700,7 +35947,7 @@
         ]
     },
     {
-        "pokemon_index": 129,
+        "pokemon_index": 138,
         "name": "Ralts",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/280.png"
@@ -33976,7 +36223,7 @@
         ]
     },
     {
-        "pokemon_index": 130,
+        "pokemon_index": 139,
         "name": "Kirlia",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/281.png"
@@ -34252,7 +36499,7 @@
         ]
     },
     {
-        "pokemon_index": 131,
+        "pokemon_index": 140,
         "name": "Gardevoir",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/282.png"
@@ -34603,7 +36850,7 @@
         ]
     },
     {
-        "pokemon_index": 132,
+        "pokemon_index": 141,
         "name": "Gallade",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/475.png"
@@ -35134,7 +37381,7 @@
         ]
     },
     {
-        "pokemon_index": 133,
+        "pokemon_index": 142,
         "name": "Burmy",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/412.png"
@@ -35244,7 +37491,7 @@
         ]
     },
     {
-        "pokemon_index": 134,
+        "pokemon_index": 143,
         "name": "Wormadam",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/413.png"
@@ -35564,7 +37811,7 @@
         ]
     },
     {
-        "pokemon_index": 135,
+        "pokemon_index": 144,
         "name": "Mothim",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/414.png"
@@ -35869,7 +38116,7 @@
         ]
     },
     {
-        "pokemon_index": 136,
+        "pokemon_index": 145,
         "name": "Woobat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/527.png"
@@ -36115,7 +38362,7 @@
         ]
     },
     {
-        "pokemon_index": 137,
+        "pokemon_index": 146,
         "name": "Swoobat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/528.png"
@@ -36361,7 +38608,7 @@
         ]
     },
     {
-        "pokemon_index": 138,
+        "pokemon_index": 147,
         "name": "Slugma",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/218.png"
@@ -36637,7 +38884,7 @@
         ]
     },
     {
-        "pokemon_index": 139,
+        "pokemon_index": 148,
         "name": "Magcargo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/219.png"
@@ -36913,7 +39160,7 @@
         ]
     },
     {
-        "pokemon_index": 140,
+        "pokemon_index": 149,
         "name": "Salandit",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/757.png"
@@ -37158,7 +39405,7 @@
         ]
     },
     {
-        "pokemon_index": 141,
+        "pokemon_index": 150,
         "name": "Salazzle",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/758.png"
@@ -37493,7 +39740,7 @@
         ]
     },
     {
-        "pokemon_index": 142,
+        "pokemon_index": 151,
         "name": "Geodude",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/74.png"
@@ -37754,7 +40001,7 @@
         ]
     },
     {
-        "pokemon_index": 143,
+        "pokemon_index": 152,
         "name": "Graveler",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/75.png"
@@ -38015,7 +40262,7 @@
         ]
     },
     {
-        "pokemon_index": 144,
+        "pokemon_index": 153,
         "name": "Golem",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/76.png"
@@ -38276,7 +40523,7 @@
         ]
     },
     {
-        "pokemon_index": 145,
+        "pokemon_index": 154,
         "name": "Torkoal",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/324.png"
@@ -38597,7 +40844,7 @@
         ]
     },
     {
-        "pokemon_index": 146,
+        "pokemon_index": 155,
         "name": "Magby",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/240.png"
@@ -38857,7 +41104,7 @@
         ]
     },
     {
-        "pokemon_index": 147,
+        "pokemon_index": 156,
         "name": "Magmar",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/126.png"
@@ -39132,7 +41379,7 @@
         ]
     },
     {
-        "pokemon_index": 148,
+        "pokemon_index": 157,
         "name": "Magmortar",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/467.png"
@@ -39407,7 +41654,7 @@
         ]
     },
     {
-        "pokemon_index": 149,
+        "pokemon_index": 158,
         "name": "Heatmor",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/631.png"
@@ -39698,7 +41945,7 @@
         ]
     },
     {
-        "pokemon_index": 150,
+        "pokemon_index": 159,
         "name": "Vulpix",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/37.png"
@@ -39973,7 +42220,7 @@
         ]
     },
     {
-        "pokemon_index": 151,
+        "pokemon_index": 160,
         "name": "Ninetales",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/38.png"
@@ -40068,7 +42315,7 @@
         ]
     },
     {
-        "pokemon_index": 152,
+        "pokemon_index": 161,
         "name": "Taillow",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/276.png"
@@ -40313,7 +42560,7 @@
         ]
     },
     {
-        "pokemon_index": 153,
+        "pokemon_index": 162,
         "name": "Swellow",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/277.png"
@@ -40633,7 +42880,7 @@
         ]
     },
     {
-        "pokemon_index": 154,
+        "pokemon_index": 163,
         "name": "Murkrow",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/198.png"
@@ -40879,7 +43126,7 @@
         ]
     },
     {
-        "pokemon_index": 155,
+        "pokemon_index": 164,
         "name": "Honchkrow",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/430.png"
@@ -41095,7 +43342,7 @@
         ]
     },
     {
-        "pokemon_index": 156,
+        "pokemon_index": 165,
         "name": "Lickitung",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/108.png"
@@ -41326,7 +43573,7 @@
         ]
     },
     {
-        "pokemon_index": 157,
+        "pokemon_index": 166,
         "name": "Lickilicky",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/463.png"
@@ -41557,7 +43804,7 @@
         ]
     },
     {
-        "pokemon_index": 158,
+        "pokemon_index": 167,
         "name": "Nidoran\u2642 (male)",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/32.png"
@@ -41803,7 +44050,7 @@
         ]
     },
     {
-        "pokemon_index": 159,
+        "pokemon_index": 168,
         "name": "Nidorino",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/33.png"
@@ -42049,7 +44296,7 @@
         ]
     },
     {
-        "pokemon_index": 160,
+        "pokemon_index": 169,
         "name": "Nidoking",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/34.png"
@@ -42325,7 +44572,7 @@
         ]
     },
     {
-        "pokemon_index": 161,
+        "pokemon_index": 170,
         "name": "Nidoran\u2640 (female)",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/29.png"
@@ -42571,7 +44818,7 @@
         ]
     },
     {
-        "pokemon_index": 162,
+        "pokemon_index": 171,
         "name": "Nidorina",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/30.png"
@@ -42817,7 +45064,7 @@
         ]
     },
     {
-        "pokemon_index": 163,
+        "pokemon_index": 172,
         "name": "Nidoqueen",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/31.png"
@@ -43093,7 +45340,7 @@
         ]
     },
     {
-        "pokemon_index": 164,
+        "pokemon_index": 173,
         "name": "Growlithe",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/58.png"
@@ -43384,7 +45631,7 @@
         ]
     },
     {
-        "pokemon_index": 165,
+        "pokemon_index": 174,
         "name": "Arcanine",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/59.png"
@@ -43675,7 +45922,7 @@
         ]
     },
     {
-        "pokemon_index": 166,
+        "pokemon_index": 175,
         "name": "Houndour",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/228.png"
@@ -43966,7 +46213,7 @@
         ]
     },
     {
-        "pokemon_index": 167,
+        "pokemon_index": 176,
         "name": "Houndoom",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/229.png"
@@ -44272,7 +46519,7 @@
         ]
     },
     {
-        "pokemon_index": 168,
+        "pokemon_index": 177,
         "name": "Yanma",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/193.png"
@@ -44548,7 +46795,7 @@
         ]
     },
     {
-        "pokemon_index": 169,
+        "pokemon_index": 178,
         "name": "Yanmega",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/469.png"
@@ -44824,7 +47071,7 @@
         ]
     },
     {
-        "pokemon_index": 170,
+        "pokemon_index": 179,
         "name": "Venonat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/48.png"
@@ -45070,7 +47317,7 @@
         ]
     },
     {
-        "pokemon_index": 171,
+        "pokemon_index": 180,
         "name": "Venomoth",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/49.png"
@@ -45331,7 +47578,7 @@
         ]
     },
     {
-        "pokemon_index": 172,
+        "pokemon_index": 181,
         "name": "Purrloin",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/509.png"
@@ -45562,7 +47809,7 @@
         ]
     },
     {
-        "pokemon_index": 173,
+        "pokemon_index": 182,
         "name": "Liepard",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/510.png"
@@ -45793,7 +48040,7 @@
         ]
     },
     {
-        "pokemon_index": 174,
+        "pokemon_index": 183,
         "name": "Elgyem",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/605.png"
@@ -46039,7 +48286,7 @@
         ]
     },
     {
-        "pokemon_index": 175,
+        "pokemon_index": 184,
         "name": "Beheeyem",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/606.png"
@@ -46300,7 +48547,7 @@
         ]
     },
     {
-        "pokemon_index": 176,
+        "pokemon_index": 185,
         "name": "Aron",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/304.png"
@@ -46606,7 +48853,7 @@
         ]
     },
     {
-        "pokemon_index": 177,
+        "pokemon_index": 186,
         "name": "Lairon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/305.png"
@@ -46912,7 +49159,7 @@
         ]
     },
     {
-        "pokemon_index": 178,
+        "pokemon_index": 187,
         "name": "Aggron",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/306.png"
@@ -47218,7 +49465,7 @@
         ]
     },
     {
-        "pokemon_index": 179,
+        "pokemon_index": 188,
         "name": "Nosepass",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/299.png"
@@ -47509,7 +49756,7 @@
         ]
     },
     {
-        "pokemon_index": 180,
+        "pokemon_index": 189,
         "name": "Probopass",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/476.png"
@@ -47845,7 +50092,7 @@
         ]
     },
     {
-        "pokemon_index": 181,
+        "pokemon_index": 190,
         "name": "Noibat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/714.png"
@@ -48121,7 +50368,7 @@
         ]
     },
     {
-        "pokemon_index": 182,
+        "pokemon_index": 191,
         "name": "Noivern",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/715.png"
@@ -48427,7 +50674,7 @@
         ]
     },
     {
-        "pokemon_index": 183,
+        "pokemon_index": 192,
         "name": "Carbink",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/703.png"
@@ -48687,7 +50934,7 @@
         ]
     },
     {
-        "pokemon_index": 184,
+        "pokemon_index": 193,
         "name": "Phanpy",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/231.png"
@@ -48917,7 +51164,7 @@
         ]
     },
     {
-        "pokemon_index": 185,
+        "pokemon_index": 194,
         "name": "Donphan",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/232.png"
@@ -49192,7 +51439,7 @@
         ]
     },
     {
-        "pokemon_index": 186,
+        "pokemon_index": 195,
         "name": "Gligar",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/207.png"
@@ -49453,7 +51700,7 @@
         ]
     },
     {
-        "pokemon_index": 187,
+        "pokemon_index": 196,
         "name": "Gliscor",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/472.png"
@@ -49744,7 +51991,7 @@
         ]
     },
     {
-        "pokemon_index": 188,
+        "pokemon_index": 197,
         "name": "Dunsparce",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/206.png"
@@ -50020,7 +52267,7 @@
         ]
     },
     {
-        "pokemon_index": 189,
+        "pokemon_index": 198,
         "name": "Bunnelby",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/659.png"
@@ -50296,7 +52543,7 @@
         ]
     },
     {
-        "pokemon_index": 190,
+        "pokemon_index": 199,
         "name": "Diggersby",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/660.png"
@@ -50587,7 +52834,7 @@
         ]
     },
     {
-        "pokemon_index": 191,
+        "pokemon_index": 200,
         "name": "Ledyba",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/165.png"
@@ -50848,7 +53095,7 @@
         ]
     },
     {
-        "pokemon_index": 192,
+        "pokemon_index": 201,
         "name": "Ledian",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/166.png"
@@ -51139,7 +53386,7 @@
         ]
     },
     {
-        "pokemon_index": 193,
+        "pokemon_index": 202,
         "name": "Spinarak",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/167.png"
@@ -51430,7 +53677,7 @@
         ]
     },
     {
-        "pokemon_index": 194,
+        "pokemon_index": 203,
         "name": "Ariados",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/168.png"
@@ -51766,7 +54013,7 @@
         ]
     },
     {
-        "pokemon_index": 195,
+        "pokemon_index": 204,
         "name": "Shinx",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/403.png"
@@ -52027,7 +54274,7 @@
         ]
     },
     {
-        "pokemon_index": 196,
+        "pokemon_index": 205,
         "name": "Luxio",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/404.png"
@@ -52288,7 +54535,7 @@
         ]
     },
     {
-        "pokemon_index": 197,
+        "pokemon_index": 206,
         "name": "Luxray",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/405.png"
@@ -52564,7 +54811,7 @@
         ]
     },
     {
-        "pokemon_index": 198,
+        "pokemon_index": 207,
         "name": "Deerling",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/585.png"
@@ -52795,7 +55042,7 @@
         ]
     },
     {
-        "pokemon_index": 199,
+        "pokemon_index": 208,
         "name": "Sawsbuck",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/586.png"
@@ -53041,7 +55288,7 @@
         ]
     },
     {
-        "pokemon_index": 200,
+        "pokemon_index": 209,
         "name": "Sunkern",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/191.png"
@@ -53287,7 +55534,7 @@
         ]
     },
     {
-        "pokemon_index": 201,
+        "pokemon_index": 210,
         "name": "Sunflora",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/192.png"
@@ -53593,7 +55840,7 @@
         ]
     },
     {
-        "pokemon_index": 202,
+        "pokemon_index": 211,
         "name": "Kricketot",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/401.png"
@@ -53703,7 +55950,7 @@
         ]
     },
     {
-        "pokemon_index": 203,
+        "pokemon_index": 212,
         "name": "Kricketune",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/402.png"
@@ -53963,7 +56210,7 @@
         ]
     },
     {
-        "pokemon_index": 204,
+        "pokemon_index": 213,
         "name": "Smeargle",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/235.png"
@@ -54164,7 +56411,7 @@
         ]
     },
     {
-        "pokemon_index": 205,
+        "pokemon_index": 214,
         "name": "Yungoos",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/734.png"
@@ -54425,7 +56672,7 @@
         ]
     },
     {
-        "pokemon_index": 206,
+        "pokemon_index": 215,
         "name": "Gumshoos",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/735.png"
@@ -54686,7 +56933,7 @@
         ]
     },
     {
-        "pokemon_index": 207,
+        "pokemon_index": 216,
         "name": "Doduo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/84.png"
@@ -54977,7 +57224,7 @@
         ]
     },
     {
-        "pokemon_index": 208,
+        "pokemon_index": 217,
         "name": "Dodrio",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/85.png"
@@ -55298,7 +57545,7 @@
         ]
     },
     {
-        "pokemon_index": 209,
+        "pokemon_index": 218,
         "name": "Buneary",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/427.png"
@@ -55574,7 +57821,7 @@
         ]
     },
     {
-        "pokemon_index": 210,
+        "pokemon_index": 219,
         "name": "Lopunny",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/428.png"
@@ -55895,7 +58142,7 @@
         ]
     },
     {
-        "pokemon_index": 211,
+        "pokemon_index": 220,
         "name": "Abra",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/63.png"
@@ -55959,7 +58206,7 @@
         "tmhmMoves": []
     },
     {
-        "pokemon_index": 212,
+        "pokemon_index": 221,
         "name": "Kadabra",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/64.png"
@@ -56220,7 +58467,7 @@
         ]
     },
     {
-        "pokemon_index": 213,
+        "pokemon_index": 222,
         "name": "Alakazam",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/65.png"
@@ -56481,7 +58728,7 @@
         ]
     },
     {
-        "pokemon_index": 214,
+        "pokemon_index": 223,
         "name": "Mareep",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/179.png"
@@ -56756,7 +59003,7 @@
         ]
     },
     {
-        "pokemon_index": 215,
+        "pokemon_index": 224,
         "name": "Flaaffy",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/180.png"
@@ -57031,7 +59278,7 @@
         ]
     },
     {
-        "pokemon_index": 216,
+        "pokemon_index": 225,
         "name": "Ampharos",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/181.png"
@@ -57366,7 +59613,7 @@
         ]
     },
     {
-        "pokemon_index": 217,
+        "pokemon_index": 226,
         "name": "Espurr",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/677.png"
@@ -57567,7 +59814,7 @@
         ]
     },
     {
-        "pokemon_index": 218,
+        "pokemon_index": 227,
         "name": "Meowstic",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/678.png"
@@ -57903,7 +60150,7 @@
         ]
     },
     {
-        "pokemon_index": 219,
+        "pokemon_index": 228,
         "name": "Drowzee",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/96.png"
@@ -58164,7 +60411,7 @@
         ]
     },
     {
-        "pokemon_index": 220,
+        "pokemon_index": 229,
         "name": "Hypno",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/97.png"
@@ -58440,7 +60687,7 @@
         ]
     },
     {
-        "pokemon_index": 221,
+        "pokemon_index": 230,
         "name": "Mime Jr.",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/439.png"
@@ -58746,7 +60993,7 @@
         ]
     },
     {
-        "pokemon_index": 222,
+        "pokemon_index": 231,
         "name": "Mr. Mime",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/122.png"
@@ -59112,7 +61359,7 @@
         ]
     },
     {
-        "pokemon_index": 223,
+        "pokemon_index": 232,
         "name": "Magikarp",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/129.png"
@@ -59207,7 +61454,7 @@
         ]
     },
     {
-        "pokemon_index": 224,
+        "pokemon_index": 233,
         "name": "Gyarados",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/130.png"
@@ -59527,7 +61774,7 @@
         ]
     },
     {
-        "pokemon_index": 225,
+        "pokemon_index": 234,
         "name": "Bronzor",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/436.png"
@@ -59773,7 +62020,7 @@
         ]
     },
     {
-        "pokemon_index": 226,
+        "pokemon_index": 235,
         "name": "Bronzong",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/437.png"
@@ -60064,7 +62311,7 @@
         ]
     },
     {
-        "pokemon_index": 227,
+        "pokemon_index": 236,
         "name": "Onix",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/95.png"
@@ -60385,7 +62632,7 @@
         ]
     },
     {
-        "pokemon_index": 228,
+        "pokemon_index": 237,
         "name": "Steelix",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/208.png"
@@ -60796,7 +63043,7 @@
         ]
     },
     {
-        "pokemon_index": 229,
+        "pokemon_index": 238,
         "name": "Sneasel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/215.png"
@@ -61027,7 +63274,7 @@
         ]
     },
     {
-        "pokemon_index": 230,
+        "pokemon_index": 239,
         "name": "Weavile",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/461.png"
@@ -61347,7 +63594,7 @@
         ]
     },
     {
-        "pokemon_index": 231,
+        "pokemon_index": 240,
         "name": "Cryogonal",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/615.png"
@@ -61681,7 +63928,7 @@
         ]
     },
     {
-        "pokemon_index": 232,
+        "pokemon_index": 241,
         "name": "Snover",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/459.png"
@@ -61911,7 +64158,7 @@
         ]
     },
     {
-        "pokemon_index": 233,
+        "pokemon_index": 242,
         "name": "Abomasnow",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/460.png"
@@ -62156,7 +64403,7 @@
         ]
     },
     {
-        "pokemon_index": 234,
+        "pokemon_index": 243,
         "name": "Cubchoo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/613.png"
@@ -62447,7 +64694,7 @@
         ]
     },
     {
-        "pokemon_index": 235,
+        "pokemon_index": 244,
         "name": "Beartic",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/614.png"
@@ -62783,7 +65030,7 @@
         ]
     },
     {
-        "pokemon_index": 236,
+        "pokemon_index": 245,
         "name": "Stantler",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/234.png"
@@ -63029,7 +65276,7 @@
         ]
     },
     {
-        "pokemon_index": 237,
+        "pokemon_index": 246,
         "name": "Crabrawler",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/739.png"
@@ -63275,7 +65522,7 @@
         ]
     },
     {
-        "pokemon_index": 238,
+        "pokemon_index": 247,
         "name": "Crabominable",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/740.png"
@@ -63506,7 +65753,7 @@
         ]
     },
     {
-        "pokemon_index": 239,
+        "pokemon_index": 248,
         "name": "Spearow",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/21.png"
@@ -63736,7 +65983,7 @@
         ]
     },
     {
-        "pokemon_index": 240,
+        "pokemon_index": 249,
         "name": "Fearow",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/22.png"
@@ -64026,7 +66273,7 @@
         ]
     },
     {
-        "pokemon_index": 241,
+        "pokemon_index": 250,
         "name": "Grubbin",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/736.png"
@@ -64225,7 +66472,7 @@
         ]
     },
     {
-        "pokemon_index": 242,
+        "pokemon_index": 251,
         "name": "Charjabug",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/737.png"
@@ -64454,7 +66701,7 @@
         ]
     },
     {
-        "pokemon_index": 243,
+        "pokemon_index": 252,
         "name": "Vikavolt",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/738.png"
@@ -64683,7 +66930,7 @@
         ]
     },
     {
-        "pokemon_index": 244,
+        "pokemon_index": 253,
         "name": "Shroomish",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/285.png"
@@ -64914,7 +67161,7 @@
         ]
     },
     {
-        "pokemon_index": 245,
+        "pokemon_index": 254,
         "name": "Breloom",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/286.png"
@@ -65220,7 +67467,7 @@
         ]
     },
     {
-        "pokemon_index": 246,
+        "pokemon_index": 255,
         "name": "Skorupi",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/451.png"
@@ -65541,7 +67788,7 @@
         ]
     },
     {
-        "pokemon_index": 247,
+        "pokemon_index": 256,
         "name": "Drapion",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/452.png"
@@ -65907,7 +68154,7 @@
         ]
     },
     {
-        "pokemon_index": 248,
+        "pokemon_index": 257,
         "name": "Happiny",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/440.png"
@@ -66063,7 +68310,7 @@
         ]
     },
     {
-        "pokemon_index": 249,
+        "pokemon_index": 258,
         "name": "Chansey",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/113.png"
@@ -66414,7 +68661,7 @@
         ]
     },
     {
-        "pokemon_index": 250,
+        "pokemon_index": 259,
         "name": "Blissey",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/242.png"
@@ -66765,7 +69012,7 @@
         ]
     },
     {
-        "pokemon_index": 251,
+        "pokemon_index": 260,
         "name": "Karrablast",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/588.png"
@@ -67026,7 +69273,7 @@
         ]
     },
     {
-        "pokemon_index": 252,
+        "pokemon_index": 261,
         "name": "Escavalier",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/589.png"
@@ -67392,7 +69639,7 @@
         ]
     },
     {
-        "pokemon_index": 253,
+        "pokemon_index": 262,
         "name": "Lotad",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/270.png"
@@ -67638,7 +69885,7 @@
         ]
     },
     {
-        "pokemon_index": 254,
+        "pokemon_index": 263,
         "name": "Lombre",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/271.png"
@@ -67944,7 +70191,7 @@
         ]
     },
     {
-        "pokemon_index": 255,
+        "pokemon_index": 264,
         "name": "Ludicolo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/272.png"
@@ -68040,7 +70287,7 @@
         ]
     },
     {
-        "pokemon_index": 256,
+        "pokemon_index": 265,
         "name": "Tympole",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/535.png"
@@ -68301,7 +70548,7 @@
         ]
     },
     {
-        "pokemon_index": 257,
+        "pokemon_index": 266,
         "name": "Palpitoad",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/536.png"
@@ -68562,7 +70809,7 @@
         ]
     },
     {
-        "pokemon_index": 258,
+        "pokemon_index": 267,
         "name": "Seismitoad",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/537.png"
@@ -68853,7 +71100,7 @@
         ]
     },
     {
-        "pokemon_index": 259,
+        "pokemon_index": 268,
         "name": "Zigzagoon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/263.png"
@@ -69114,7 +71361,7 @@
         ]
     },
     {
-        "pokemon_index": 260,
+        "pokemon_index": 269,
         "name": "Linoone",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/264.png"
@@ -69435,7 +71682,7 @@
         ]
     },
     {
-        "pokemon_index": 261,
+        "pokemon_index": 270,
         "name": "Goomy",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/704.png"
@@ -69666,7 +71913,7 @@
         ]
     },
     {
-        "pokemon_index": 262,
+        "pokemon_index": 271,
         "name": "Sliggoo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/705.png"
@@ -69912,7 +72159,7 @@
         ]
     },
     {
-        "pokemon_index": 263,
+        "pokemon_index": 272,
         "name": "Goodra",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/706.png"
@@ -70203,7 +72450,7 @@
         ]
     },
     {
-        "pokemon_index": 264,
+        "pokemon_index": 273,
         "name": "Shelmet",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/616.png"
@@ -70464,7 +72711,7 @@
         ]
     },
     {
-        "pokemon_index": 265,
+        "pokemon_index": 274,
         "name": "Accelgor",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/617.png"
@@ -70845,7 +73092,7 @@
         ]
     },
     {
-        "pokemon_index": 266,
+        "pokemon_index": 275,
         "name": "Exeggcute",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/102.png"
@@ -71090,7 +73337,7 @@
         ]
     },
     {
-        "pokemon_index": 267,
+        "pokemon_index": 276,
         "name": "Exeggutor",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/103.png"
@@ -71410,7 +73657,7 @@
         ]
     },
     {
-        "pokemon_index": 268,
+        "pokemon_index": 277,
         "name": "Swablu",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/333.png"
@@ -71655,7 +73902,7 @@
         ]
     },
     {
-        "pokemon_index": 269,
+        "pokemon_index": 278,
         "name": "Altaria",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/334.png"
@@ -71930,7 +74177,7 @@
         ]
     },
     {
-        "pokemon_index": 270,
+        "pokemon_index": 279,
         "name": "Togedemaru",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/777.png"
@@ -72191,7 +74438,7 @@
         ]
     },
     {
-        "pokemon_index": 271,
+        "pokemon_index": 280,
         "name": "Spoink",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/325.png"
@@ -72437,7 +74684,7 @@
         ]
     },
     {
-        "pokemon_index": 272,
+        "pokemon_index": 281,
         "name": "Grumpig",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/326.png"
@@ -72698,7 +74945,7 @@
         ]
     },
     {
-        "pokemon_index": 273,
+        "pokemon_index": 282,
         "name": "Meditite",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/307.png"
@@ -72988,7 +75235,7 @@
         ]
     },
     {
-        "pokemon_index": 274,
+        "pokemon_index": 283,
         "name": "Medicham",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/308.png"
@@ -73323,7 +75570,7 @@
         ]
     },
     {
-        "pokemon_index": 275,
+        "pokemon_index": 284,
         "name": "Gulpin",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/316.png"
@@ -73614,7 +75861,7 @@
         ]
     },
     {
-        "pokemon_index": 276,
+        "pokemon_index": 285,
         "name": "Swalot",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/317.png"
@@ -73890,7 +76137,7 @@
         ]
     },
     {
-        "pokemon_index": 277,
+        "pokemon_index": 286,
         "name": "Glameow",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/431.png"
@@ -74151,7 +76398,7 @@
         ]
     },
     {
-        "pokemon_index": 278,
+        "pokemon_index": 287,
         "name": "Purugly",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/432.png"
@@ -74472,7 +76719,7 @@
         ]
     },
     {
-        "pokemon_index": 279,
+        "pokemon_index": 288,
         "name": "Seel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/86.png"
@@ -74778,7 +77025,7 @@
         ]
     },
     {
-        "pokemon_index": 280,
+        "pokemon_index": 289,
         "name": "Dewgong",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/87.png"
@@ -75159,7 +77406,7 @@
         ]
     },
     {
-        "pokemon_index": 281,
+        "pokemon_index": 290,
         "name": "Shellder",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/90.png"
@@ -75420,7 +77667,7 @@
         ]
     },
     {
-        "pokemon_index": 282,
+        "pokemon_index": 291,
         "name": "Cloyster",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/91.png"
@@ -75726,7 +77973,7 @@
         ]
     },
     {
-        "pokemon_index": 283,
+        "pokemon_index": 292,
         "name": "Staryu",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/120.png"
@@ -76017,7 +78264,7 @@
         ]
     },
     {
-        "pokemon_index": 284,
+        "pokemon_index": 293,
         "name": "Starmie",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/121.png"
@@ -76308,7 +78555,7 @@
         ]
     },
     {
-        "pokemon_index": 285,
+        "pokemon_index": 294,
         "name": "Corphish",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/341.png"
@@ -76584,7 +78831,7 @@
         ]
     },
     {
-        "pokemon_index": 286,
+        "pokemon_index": 295,
         "name": "Crawdaunt",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/342.png"
@@ -76860,7 +79107,7 @@
         ]
     },
     {
-        "pokemon_index": 287,
+        "pokemon_index": 296,
         "name": "Goldeen",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/118.png"
@@ -77091,7 +79338,7 @@
         ]
     },
     {
-        "pokemon_index": 288,
+        "pokemon_index": 297,
         "name": "Seaking",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/119.png"
@@ -77322,7 +79569,7 @@
         ]
     },
     {
-        "pokemon_index": 289,
+        "pokemon_index": 298,
         "name": "Remoraid",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/223.png"
@@ -77568,7 +79815,7 @@
         ]
     },
     {
-        "pokemon_index": 290,
+        "pokemon_index": 299,
         "name": "Octillery",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/224.png"
@@ -77874,7 +80121,7 @@
         ]
     },
     {
-        "pokemon_index": 291,
+        "pokemon_index": 300,
         "name": "Wishiwashi",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/746.png"
@@ -78133,7 +80380,7 @@
         ]
     },
     {
-        "pokemon_index": 292,
+        "pokemon_index": 301,
         "name": "Carvanha",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/318.png"
@@ -78378,7 +80625,7 @@
         ]
     },
     {
-        "pokemon_index": 293,
+        "pokemon_index": 302,
         "name": "Sharpedo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/319.png"
@@ -78653,7 +80900,7 @@
         ]
     },
     {
-        "pokemon_index": 294,
+        "pokemon_index": 303,
         "name": "Luvdisc",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/370.png"
@@ -78943,7 +81190,7 @@
         ]
     },
     {
-        "pokemon_index": 295,
+        "pokemon_index": 304,
         "name": "Barboach",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/339.png"
@@ -79159,7 +81406,7 @@
         ]
     },
     {
-        "pokemon_index": 296,
+        "pokemon_index": 305,
         "name": "Whiscash",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/340.png"
@@ -79420,7 +81667,7 @@
         ]
     },
     {
-        "pokemon_index": 297,
+        "pokemon_index": 306,
         "name": "Magnemite",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/81.png"
@@ -79696,7 +81943,7 @@
         ]
     },
     {
-        "pokemon_index": 298,
+        "pokemon_index": 307,
         "name": "Magneton",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/82.png"
@@ -79987,7 +82234,7 @@
         ]
     },
     {
-        "pokemon_index": 299,
+        "pokemon_index": 308,
         "name": "Magnezone",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/462.png"
@@ -80323,7 +82570,7 @@
         ]
     },
     {
-        "pokemon_index": 300,
+        "pokemon_index": 309,
         "name": "Cubone",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/104.png"
@@ -80584,7 +82831,7 @@
         ]
     },
     {
-        "pokemon_index": 301,
+        "pokemon_index": 310,
         "name": "Marowak",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/105.png"
@@ -80845,7 +83092,7 @@
         ]
     },
     {
-        "pokemon_index": 302,
+        "pokemon_index": 311,
         "name": "Klink",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/599.png"
@@ -81106,7 +83353,7 @@
         ]
     },
     {
-        "pokemon_index": 303,
+        "pokemon_index": 312,
         "name": "Klang",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/600.png"
@@ -81367,7 +83614,7 @@
         ]
     },
     {
-        "pokemon_index": 304,
+        "pokemon_index": 313,
         "name": "Klinklang",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/601.png"
@@ -81673,7 +83920,7 @@
         ]
     },
     {
-        "pokemon_index": 305,
+        "pokemon_index": 314,
         "name": "Elekid",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/239.png"
@@ -81933,7 +84180,7 @@
         ]
     },
     {
-        "pokemon_index": 306,
+        "pokemon_index": 315,
         "name": "Electabuzz",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/125.png"
@@ -82208,7 +84455,7 @@
         ]
     },
     {
-        "pokemon_index": 307,
+        "pokemon_index": 316,
         "name": "Electivire",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/466.png"
@@ -82498,7 +84745,7 @@
         ]
     },
     {
-        "pokemon_index": 308,
+        "pokemon_index": 317,
         "name": "Tynamo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/602.png"
@@ -82607,7 +84854,7 @@
         ]
     },
     {
-        "pokemon_index": 309,
+        "pokemon_index": 318,
         "name": "Eelektrik",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/603.png"
@@ -82866,7 +85113,7 @@
         ]
     },
     {
-        "pokemon_index": 310,
+        "pokemon_index": 319,
         "name": "Eelektross",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/604.png"
@@ -83065,7 +85312,7 @@
         ]
     },
     {
-        "pokemon_index": 311,
+        "pokemon_index": 320,
         "name": "Timburr",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/532.png"
@@ -83326,7 +85573,7 @@
         ]
     },
     {
-        "pokemon_index": 312,
+        "pokemon_index": 321,
         "name": "Gurdurr",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/533.png"
@@ -83587,7 +85834,7 @@
         ]
     },
     {
-        "pokemon_index": 313,
+        "pokemon_index": 322,
         "name": "Conkeldurr",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/534.png"
@@ -83848,7 +86095,7 @@
         ]
     },
     {
-        "pokemon_index": 314,
+        "pokemon_index": 323,
         "name": "Joltik",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/595.png"
@@ -84109,7 +86356,7 @@
         ]
     },
     {
-        "pokemon_index": 315,
+        "pokemon_index": 324,
         "name": "Galvantula",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/596.png"
@@ -84385,7 +86632,7 @@
         ]
     },
     {
-        "pokemon_index": 316,
+        "pokemon_index": 325,
         "name": "Ferroseed",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/597.png"
@@ -84614,7 +86861,7 @@
         ]
     },
     {
-        "pokemon_index": 317,
+        "pokemon_index": 326,
         "name": "Ferrothorn",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/598.png"
@@ -84859,7 +87106,7 @@
         ]
     },
     {
-        "pokemon_index": 318,
+        "pokemon_index": 327,
         "name": "Chinchou",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/170.png"
@@ -85105,7 +87352,7 @@
         ]
     },
     {
-        "pokemon_index": 319,
+        "pokemon_index": 328,
         "name": "Lanturn",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/171.png"
@@ -85411,7 +87658,7 @@
         ]
     },
     {
-        "pokemon_index": 320,
+        "pokemon_index": 329,
         "name": "Machop",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/66.png"
@@ -85687,7 +87934,7 @@
         ]
     },
     {
-        "pokemon_index": 321,
+        "pokemon_index": 330,
         "name": "Machoke",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/67.png"
@@ -85963,7 +88210,7 @@
         ]
     },
     {
-        "pokemon_index": 322,
+        "pokemon_index": 331,
         "name": "Machamp",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/68.png"
@@ -86254,7 +88501,7 @@
         ]
     },
     {
-        "pokemon_index": 323,
+        "pokemon_index": 332,
         "name": "Wooper",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/194.png"
@@ -86500,7 +88747,7 @@
         ]
     },
     {
-        "pokemon_index": 324,
+        "pokemon_index": 333,
         "name": "Quagsire",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/195.png"
@@ -86746,7 +88993,7 @@
         ]
     },
     {
-        "pokemon_index": 325,
+        "pokemon_index": 334,
         "name": "Misdreavus",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/200.png"
@@ -86975,7 +89222,7 @@
         ]
     },
     {
-        "pokemon_index": 326,
+        "pokemon_index": 335,
         "name": "Mismagius",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/429.png"
@@ -87129,7 +89376,7 @@
         ]
     },
     {
-        "pokemon_index": 327,
+        "pokemon_index": 336,
         "name": "Poliwag",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/60.png"
@@ -87345,7 +89592,7 @@
         ]
     },
     {
-        "pokemon_index": 328,
+        "pokemon_index": 337,
         "name": "Poliwhirl",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/61.png"
@@ -87561,7 +89808,7 @@
         ]
     },
     {
-        "pokemon_index": 329,
+        "pokemon_index": 338,
         "name": "Poliwrath",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/62.png"
@@ -87657,7 +89904,7 @@
         ]
     },
     {
-        "pokemon_index": 330,
+        "pokemon_index": 339,
         "name": "Politoed",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/186.png"
@@ -87768,7 +90015,7 @@
         ]
     },
     {
-        "pokemon_index": 331,
+        "pokemon_index": 340,
         "name": "Psyduck",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/54.png"
@@ -88029,7 +90276,7 @@
         ]
     },
     {
-        "pokemon_index": 332,
+        "pokemon_index": 341,
         "name": "Golduck",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/55.png"
@@ -88320,7 +90567,7 @@
         ]
     },
     {
-        "pokemon_index": 333,
+        "pokemon_index": 342,
         "name": "Fletchling",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/661.png"
@@ -88550,7 +90797,7 @@
         ]
     },
     {
-        "pokemon_index": 334,
+        "pokemon_index": 343,
         "name": "Fletchinder",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/662.png"
@@ -88795,7 +91042,7 @@
         ]
     },
     {
-        "pokemon_index": 335,
+        "pokemon_index": 344,
         "name": "Talonflame",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/663.png"
@@ -89085,7 +91332,7 @@
         ]
     },
     {
-        "pokemon_index": 336,
+        "pokemon_index": 345,
         "name": "Rockruff",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/744.png"
@@ -89346,7 +91593,7 @@
         ]
     },
     {
-        "pokemon_index": 337,
+        "pokemon_index": 346,
         "name": "Lycanroc",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/745.png"
@@ -89652,7 +91899,7 @@
         ]
     },
     {
-        "pokemon_index": 338,
+        "pokemon_index": 347,
         "name": "Ponyta",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/77.png"
@@ -89898,7 +92145,7 @@
         ]
     },
     {
-        "pokemon_index": 339,
+        "pokemon_index": 348,
         "name": "Rapidash",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/78.png"
@@ -90204,7 +92451,7 @@
         ]
     },
     {
-        "pokemon_index": 340,
+        "pokemon_index": 349,
         "name": "Snubbull",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/209.png"
@@ -90480,7 +92727,7 @@
         ]
     },
     {
-        "pokemon_index": 341,
+        "pokemon_index": 350,
         "name": "Granbull",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/210.png"
@@ -90786,7 +93033,7 @@
         ]
     },
     {
-        "pokemon_index": 342,
+        "pokemon_index": 351,
         "name": "Mienfoo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/619.png"
@@ -91047,7 +93294,7 @@
         ]
     },
     {
-        "pokemon_index": 343,
+        "pokemon_index": 352,
         "name": "Mienshao",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/620.png"
@@ -91323,7 +93570,7 @@
         ]
     },
     {
-        "pokemon_index": 344,
+        "pokemon_index": 353,
         "name": "Dedenne",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/702.png"
@@ -91599,7 +93846,7 @@
         ]
     },
     {
-        "pokemon_index": 345,
+        "pokemon_index": 354,
         "name": "Gothita",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/574.png"
@@ -91860,7 +94107,7 @@
         ]
     },
     {
-        "pokemon_index": 346,
+        "pokemon_index": 355,
         "name": "Gothorita",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/575.png"
@@ -92106,7 +94353,7 @@
         ]
     },
     {
-        "pokemon_index": 347,
+        "pokemon_index": 356,
         "name": "Gothitelle",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/576.png"
@@ -92367,7 +94614,7 @@
         ]
     },
     {
-        "pokemon_index": 348,
+        "pokemon_index": 357,
         "name": "Solosis",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/577.png"
@@ -92643,7 +94890,7 @@
         ]
     },
     {
-        "pokemon_index": 349,
+        "pokemon_index": 358,
         "name": "Duosion",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/578.png"
@@ -92919,7 +95166,7 @@
         ]
     },
     {
-        "pokemon_index": 350,
+        "pokemon_index": 359,
         "name": "Reuniclus",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/579.png"
@@ -93210,7 +95457,7 @@
         ]
     },
     {
-        "pokemon_index": 351,
+        "pokemon_index": 360,
         "name": "Swirlix",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/684.png"
@@ -93485,7 +95732,7 @@
         ]
     },
     {
-        "pokemon_index": 352,
+        "pokemon_index": 361,
         "name": "Slurpuff",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/685.png"
@@ -93775,7 +96022,7 @@
         ]
     },
     {
-        "pokemon_index": 353,
+        "pokemon_index": 362,
         "name": "Spritzee",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/682.png"
@@ -94050,7 +96297,7 @@
         ]
     },
     {
-        "pokemon_index": 354,
+        "pokemon_index": 363,
         "name": "Aromatisse",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/683.png"
@@ -94370,7 +96617,7 @@
         ]
     },
     {
-        "pokemon_index": 355,
+        "pokemon_index": 364,
         "name": "Wailmer",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/320.png"
@@ -94661,7 +96908,7 @@
         ]
     },
     {
-        "pokemon_index": 356,
+        "pokemon_index": 365,
         "name": "Wailord",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/321.png"
@@ -94982,7 +97229,7 @@
         ]
     },
     {
-        "pokemon_index": 357,
+        "pokemon_index": 366,
         "name": "Eevee",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/133.png"
@@ -95273,7 +97520,7 @@
         ]
     },
     {
-        "pokemon_index": 358,
+        "pokemon_index": 367,
         "name": "Vaporeon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/134.png"
@@ -95668,7 +97915,7 @@
         ]
     },
     {
-        "pokemon_index": 359,
+        "pokemon_index": 368,
         "name": "Jolteon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/135.png"
@@ -96063,7 +98310,7 @@
         ]
     },
     {
-        "pokemon_index": 360,
+        "pokemon_index": 369,
         "name": "Flareon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/136.png"
@@ -96443,7 +98690,7 @@
         ]
     },
     {
-        "pokemon_index": 361,
+        "pokemon_index": 370,
         "name": "Espeon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/196.png"
@@ -96823,7 +99070,7 @@
         ]
     },
     {
-        "pokemon_index": 362,
+        "pokemon_index": 371,
         "name": "Umbreon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/197.png"
@@ -97218,7 +99465,7 @@
         ]
     },
     {
-        "pokemon_index": 363,
+        "pokemon_index": 372,
         "name": "Leafeon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/470.png"
@@ -97613,7 +99860,7 @@
         ]
     },
     {
-        "pokemon_index": 364,
+        "pokemon_index": 373,
         "name": "Glaceon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/471.png"
@@ -97993,7 +100240,7 @@
         ]
     },
     {
-        "pokemon_index": 365,
+        "pokemon_index": 374,
         "name": "Sylveon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/700.png"
@@ -98373,7 +100620,7 @@
         ]
     },
     {
-        "pokemon_index": 366,
+        "pokemon_index": 375,
         "name": "Axew",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/610.png"
@@ -98694,7 +100941,7 @@
         ]
     },
     {
-        "pokemon_index": 367,
+        "pokemon_index": 376,
         "name": "Fraxure",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/611.png"
@@ -99015,7 +101262,7 @@
         ]
     },
     {
-        "pokemon_index": 368,
+        "pokemon_index": 377,
         "name": "Haxorus",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/612.png"
@@ -99336,7 +101583,7 @@
         ]
     },
     {
-        "pokemon_index": 369,
+        "pokemon_index": 378,
         "name": "Porygon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/137.png"
@@ -99597,7 +101844,7 @@
         ]
     },
     {
-        "pokemon_index": 370,
+        "pokemon_index": 379,
         "name": "Porygon2",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/233.png"
@@ -99888,7 +102135,7 @@
         ]
     },
     {
-        "pokemon_index": 371,
+        "pokemon_index": 380,
         "name": "Porygon-Z",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/474.png"
@@ -100209,7 +102456,7 @@
         ]
     },
     {
-        "pokemon_index": 372,
+        "pokemon_index": 381,
         "name": "Emolga",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/587.png"
@@ -100454,7 +102701,7 @@
         ]
     },
     {
-        "pokemon_index": 373,
+        "pokemon_index": 382,
         "name": "Hawlucha",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/701.png"
@@ -100745,7 +102992,7 @@
         ]
     },
     {
-        "pokemon_index": 374,
+        "pokemon_index": 383,
         "name": "Klefki",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/707.png"
@@ -101005,7 +103252,7 @@
         ]
     },
     {
-        "pokemon_index": 375,
+        "pokemon_index": 384,
         "name": "Golett",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/622.png"
@@ -101296,7 +103543,7 @@
         ]
     },
     {
-        "pokemon_index": 376,
+        "pokemon_index": 385,
         "name": "Golurk",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/623.png"
@@ -101617,7 +103864,7 @@
         ]
     },
     {
-        "pokemon_index": 377,
+        "pokemon_index": 386,
         "name": "Chingling",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/433.png"
@@ -101786,7 +104033,7 @@
         ]
     },
     {
-        "pokemon_index": 378,
+        "pokemon_index": 387,
         "name": "Chimecho",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/358.png"
@@ -102045,7 +104292,7 @@
         ]
     },
     {
-        "pokemon_index": 379,
+        "pokemon_index": 388,
         "name": "Horsea",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/116.png"
@@ -102291,7 +104538,7 @@
         ]
     },
     {
-        "pokemon_index": 380,
+        "pokemon_index": 389,
         "name": "Seadra",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/117.png"
@@ -102537,7 +104784,7 @@
         ]
     },
     {
-        "pokemon_index": 381,
+        "pokemon_index": 390,
         "name": "Kingdra",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/230.png"
@@ -102813,7 +105060,7 @@
         ]
     },
     {
-        "pokemon_index": 382,
+        "pokemon_index": 391,
         "name": "Baltoy",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/343.png"
@@ -103117,7 +105364,7 @@
         ]
     },
     {
-        "pokemon_index": 383,
+        "pokemon_index": 392,
         "name": "Claydol",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/344.png"
@@ -103451,7 +105698,7 @@
         ]
     },
     {
-        "pokemon_index": 384,
+        "pokemon_index": 393,
         "name": "Yamask",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/562.png"
@@ -103740,7 +105987,7 @@
         ]
     },
     {
-        "pokemon_index": 385,
+        "pokemon_index": 394,
         "name": "Cofagrigus",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/563.png"
@@ -104059,7 +106306,7 @@
         ]
     },
     {
-        "pokemon_index": 386,
+        "pokemon_index": 395,
         "name": "Sableye",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/302.png"
@@ -104365,7 +106612,7 @@
         ]
     },
     {
-        "pokemon_index": 387,
+        "pokemon_index": 396,
         "name": "Lunatone",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/337.png"
@@ -104654,7 +106901,7 @@
         ]
     },
     {
-        "pokemon_index": 388,
+        "pokemon_index": 397,
         "name": "Solrock",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/338.png"
@@ -104943,7 +107190,7 @@
         ]
     },
     {
-        "pokemon_index": 389,
+        "pokemon_index": 398,
         "name": "Sigilyph",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/561.png"
@@ -105219,7 +107466,7 @@
         ]
     },
     {
-        "pokemon_index": 390,
+        "pokemon_index": 399,
         "name": "Tentacool",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/72.png"
@@ -105480,7 +107727,7 @@
         ]
     },
     {
-        "pokemon_index": 391,
+        "pokemon_index": 400,
         "name": "Tentacruel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/73.png"
@@ -105756,7 +108003,7 @@
         ]
     },
     {
-        "pokemon_index": 392,
+        "pokemon_index": 401,
         "name": "Lapras",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/131.png"
@@ -106032,7 +108279,7 @@
         ]
     },
     {
-        "pokemon_index": 393,
+        "pokemon_index": 402,
         "name": "Basculin",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/550.png"
@@ -106323,7 +108570,7 @@
         ]
     },
     {
-        "pokemon_index": 394,
+        "pokemon_index": 403,
         "name": "Mantyke",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/458.png"
@@ -106584,7 +108831,7 @@
         ]
     },
     {
-        "pokemon_index": 395,
+        "pokemon_index": 404,
         "name": "Mantine",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/226.png"
@@ -106890,7 +109137,7 @@
         ]
     },
     {
-        "pokemon_index": 396,
+        "pokemon_index": 405,
         "name": "Pyukumuku",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/771.png"
@@ -107150,7 +109397,7 @@
         ]
     },
     {
-        "pokemon_index": 397,
+        "pokemon_index": 406,
         "name": "Finneon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/456.png"
@@ -107396,7 +109643,7 @@
         ]
     },
     {
-        "pokemon_index": 398,
+        "pokemon_index": 407,
         "name": "Lumineon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/457.png"
@@ -107642,7 +109889,7 @@
         ]
     },
     {
-        "pokemon_index": 399,
+        "pokemon_index": 408,
         "name": "Stunfisk",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/618.png"
@@ -107918,7 +110165,7 @@
         ]
     },
     {
-        "pokemon_index": 400,
+        "pokemon_index": 409,
         "name": "Alomomola",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/594.png"
@@ -108194,7 +110441,7 @@
         ]
     },
     {
-        "pokemon_index": 401,
+        "pokemon_index": 410,
         "name": "Skrelp",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/690.png"
@@ -108440,7 +110687,7 @@
         ]
     },
     {
-        "pokemon_index": 402,
+        "pokemon_index": 411,
         "name": "Dragalge",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/691.png"
@@ -108701,7 +110948,7 @@
         ]
     },
     {
-        "pokemon_index": 403,
+        "pokemon_index": 412,
         "name": "Clauncher",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/692.png"
@@ -108945,7 +111192,7 @@
         ]
     },
     {
-        "pokemon_index": 404,
+        "pokemon_index": 413,
         "name": "Clawitzer",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/693.png"
@@ -109234,7 +111481,7 @@
         ]
     },
     {
-        "pokemon_index": 405,
+        "pokemon_index": 414,
         "name": "Slowpoke",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/79.png"
@@ -109540,7 +111787,7 @@
         ]
     },
     {
-        "pokemon_index": 406,
+        "pokemon_index": 415,
         "name": "Slowbro",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/80.png"
@@ -109861,7 +112108,7 @@
         ]
     },
     {
-        "pokemon_index": 407,
+        "pokemon_index": 416,
         "name": "Slowking",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/199.png"
@@ -110197,7 +112444,7 @@
         ]
     },
     {
-        "pokemon_index": 408,
+        "pokemon_index": 417,
         "name": "Bellsprout",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/69.png"
@@ -110457,7 +112704,7 @@
         ]
     },
     {
-        "pokemon_index": 409,
+        "pokemon_index": 418,
         "name": "Weepinbell",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/70.png"
@@ -110717,7 +112964,7 @@
         ]
     },
     {
-        "pokemon_index": 410,
+        "pokemon_index": 419,
         "name": "Victreebel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/71.png"
@@ -110842,7 +113089,7 @@
         ]
     },
     {
-        "pokemon_index": 411,
+        "pokemon_index": 420,
         "name": "Oddish",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/43.png"
@@ -111102,7 +113349,7 @@
         ]
     },
     {
-        "pokemon_index": 412,
+        "pokemon_index": 421,
         "name": "Gloom",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/44.png"
@@ -111362,7 +113609,7 @@
         ]
     },
     {
-        "pokemon_index": 413,
+        "pokemon_index": 422,
         "name": "Vileplume",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/45.png"
@@ -111652,7 +113899,7 @@
         ]
     },
     {
-        "pokemon_index": 414,
+        "pokemon_index": 423,
         "name": "Bellossom",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/182.png"
@@ -111942,7 +114189,7 @@
         ]
     },
     {
-        "pokemon_index": 415,
+        "pokemon_index": 424,
         "name": "Dwebble",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/557.png"
@@ -112203,7 +114450,7 @@
         ]
     },
     {
-        "pokemon_index": 416,
+        "pokemon_index": 425,
         "name": "Crustle",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/558.png"
@@ -112464,7 +114711,7 @@
         ]
     },
     {
-        "pokemon_index": 417,
+        "pokemon_index": 426,
         "name": "Sandile",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/551.png"
@@ -112740,7 +114987,7 @@
         ]
     },
     {
-        "pokemon_index": 418,
+        "pokemon_index": 427,
         "name": "Krokorok",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/552.png"
@@ -113016,7 +115263,7 @@
         ]
     },
     {
-        "pokemon_index": 419,
+        "pokemon_index": 428,
         "name": "Krookodile",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/553.png"
@@ -113307,7 +115554,7 @@
         ]
     },
     {
-        "pokemon_index": 420,
+        "pokemon_index": 429,
         "name": "Cacnea",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/331.png"
@@ -113612,7 +115859,7 @@
         ]
     },
     {
-        "pokemon_index": 421,
+        "pokemon_index": 430,
         "name": "Cacturne",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/332.png"
@@ -113917,7 +116164,7 @@
         ]
     },
     {
-        "pokemon_index": 422,
+        "pokemon_index": 431,
         "name": "Darumaka",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/554.png"
@@ -114177,7 +116424,7 @@
         ]
     },
     {
-        "pokemon_index": 423,
+        "pokemon_index": 432,
         "name": "Darmanitan",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/555.png"
@@ -114452,7 +116699,7 @@
         ]
     },
     {
-        "pokemon_index": 424,
+        "pokemon_index": 433,
         "name": "Hippopotas",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/449.png"
@@ -114727,7 +116974,7 @@
         ]
     },
     {
-        "pokemon_index": 425,
+        "pokemon_index": 434,
         "name": "Hippowdon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/450.png"
@@ -115047,7 +117294,7 @@
         ]
     },
     {
-        "pokemon_index": 426,
+        "pokemon_index": 435,
         "name": "Trapinch",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/328.png"
@@ -115308,7 +117555,7 @@
         ]
     },
     {
-        "pokemon_index": 427,
+        "pokemon_index": 436,
         "name": "Vibrava",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/329.png"
@@ -115687,7 +117934,7 @@
         ]
     },
     {
-        "pokemon_index": 428,
+        "pokemon_index": 437,
         "name": "Flygon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/330.png"
@@ -116126,7 +118373,7 @@
         ]
     },
     {
-        "pokemon_index": 429,
+        "pokemon_index": 438,
         "name": "Maractus",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/556.png"
@@ -116477,7 +118724,7 @@
         ]
     },
     {
-        "pokemon_index": 430,
+        "pokemon_index": 439,
         "name": "Wurmple",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/265.png"
@@ -116587,7 +118834,7 @@
         ]
     },
     {
-        "pokemon_index": 431,
+        "pokemon_index": 440,
         "name": "Silcoon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/266.png"
@@ -116649,7 +118896,7 @@
         "tmhmMoves": []
     },
     {
-        "pokemon_index": 432,
+        "pokemon_index": 441,
         "name": "Beautifly",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/267.png"
@@ -116969,7 +119216,7 @@
         ]
     },
     {
-        "pokemon_index": 433,
+        "pokemon_index": 442,
         "name": "Cascoon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/268.png"
@@ -117031,7 +119278,7 @@
         "tmhmMoves": []
     },
     {
-        "pokemon_index": 434,
+        "pokemon_index": 443,
         "name": "Dustox",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/269.png"
@@ -117351,7 +119598,7 @@
         ]
     },
     {
-        "pokemon_index": 435,
+        "pokemon_index": 444,
         "name": "Scatterbug",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/664.png"
@@ -117462,7 +119709,7 @@
         ]
     },
     {
-        "pokemon_index": 436,
+        "pokemon_index": 445,
         "name": "Spewpa",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/665.png"
@@ -117525,7 +119772,7 @@
         "tmhmMoves": []
     },
     {
-        "pokemon_index": 437,
+        "pokemon_index": 446,
         "name": "Vivillon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/666.png"
@@ -117756,7 +120003,7 @@
         ]
     },
     {
-        "pokemon_index": 438,
+        "pokemon_index": 447,
         "name": "Cottonee",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/546.png"
@@ -118062,7 +120309,7 @@
         ]
     },
     {
-        "pokemon_index": 439,
+        "pokemon_index": 448,
         "name": "Whimsicott",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/547.png"
@@ -118443,7 +120690,7 @@
         ]
     },
     {
-        "pokemon_index": 440,
+        "pokemon_index": 449,
         "name": "Petilil",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/548.png"
@@ -118734,7 +120981,7 @@
         ]
     },
     {
-        "pokemon_index": 441,
+        "pokemon_index": 450,
         "name": "Lilligant",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/549.png"
@@ -119070,7 +121317,7 @@
         ]
     },
     {
-        "pokemon_index": 442,
+        "pokemon_index": 451,
         "name": "Paras",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/46.png"
@@ -119301,7 +121548,7 @@
         ]
     },
     {
-        "pokemon_index": 443,
+        "pokemon_index": 452,
         "name": "Parasect",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/47.png"
@@ -119592,7 +121839,7 @@
         ]
     },
     {
-        "pokemon_index": 444,
+        "pokemon_index": 453,
         "name": "Foongus",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/590.png"
@@ -119852,7 +122099,7 @@
         ]
     },
     {
-        "pokemon_index": 445,
+        "pokemon_index": 454,
         "name": "Amoonguss",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/591.png"
@@ -120112,7 +122359,7 @@
         ]
     },
     {
-        "pokemon_index": 446,
+        "pokemon_index": 455,
         "name": "Morelull",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/755.png"
@@ -120358,7 +122605,7 @@
         ]
     },
     {
-        "pokemon_index": 447,
+        "pokemon_index": 456,
         "name": "Shiinotic",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/756.png"
@@ -120604,7 +122851,7 @@
         ]
     },
     {
-        "pokemon_index": 448,
+        "pokemon_index": 457,
         "name": "Pichu",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/172.png"
@@ -120759,7 +123006,7 @@
         ]
     },
     {
-        "pokemon_index": 449,
+        "pokemon_index": 458,
         "name": "Pikachu",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/25.png"
@@ -121109,7 +123356,7 @@
         ]
     },
     {
-        "pokemon_index": 450,
+        "pokemon_index": 459,
         "name": "Raichu",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/26.png"
@@ -121459,7 +123706,7 @@
         ]
     },
     {
-        "pokemon_index": 451,
+        "pokemon_index": 460,
         "name": "Tangela",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/114.png"
@@ -121750,7 +123997,7 @@
         ]
     },
     {
-        "pokemon_index": 452,
+        "pokemon_index": 461,
         "name": "Tangrowth",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/465.png"
@@ -122056,7 +124303,7 @@
         ]
     },
     {
-        "pokemon_index": 453,
+        "pokemon_index": 462,
         "name": "Girafarig",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/203.png"
@@ -122347,7 +124594,7 @@
         ]
     },
     {
-        "pokemon_index": 454,
+        "pokemon_index": 463,
         "name": "Pancham",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/674.png"
@@ -122593,7 +124840,7 @@
         ]
     },
     {
-        "pokemon_index": 455,
+        "pokemon_index": 464,
         "name": "Pangoro",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/675.png"
@@ -122884,7 +125131,7 @@
         ]
     },
     {
-        "pokemon_index": 456,
+        "pokemon_index": 465,
         "name": "Pawniard",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/624.png"
@@ -123160,7 +125407,7 @@
         ]
     },
     {
-        "pokemon_index": 457,
+        "pokemon_index": 466,
         "name": "Bisharp",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/625.png"
@@ -123451,7 +125698,7 @@
         ]
     },
     {
-        "pokemon_index": 458,
+        "pokemon_index": 467,
         "name": "Chatot",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/441.png"
@@ -123772,7 +126019,7 @@
         ]
     },
     {
-        "pokemon_index": 459,
+        "pokemon_index": 468,
         "name": "Throh",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/538.png"
@@ -124018,7 +126265,7 @@
         ]
     },
     {
-        "pokemon_index": 460,
+        "pokemon_index": 469,
         "name": "Sawk",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/539.png"
@@ -124264,7 +126511,7 @@
         ]
     },
     {
-        "pokemon_index": 461,
+        "pokemon_index": 470,
         "name": "Grimer",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/88.png"
@@ -124555,7 +126802,7 @@
         ]
     },
     {
-        "pokemon_index": 462,
+        "pokemon_index": 471,
         "name": "Muk",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/89.png"
@@ -124846,7 +127093,7 @@
         ]
     },
     {
-        "pokemon_index": 463,
+        "pokemon_index": 472,
         "name": "Koffing",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/109.png"
@@ -125122,7 +127369,7 @@
         ]
     },
     {
-        "pokemon_index": 464,
+        "pokemon_index": 473,
         "name": "Weezing",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/110.png"
@@ -125413,7 +127660,7 @@
         ]
     },
     {
-        "pokemon_index": 465,
+        "pokemon_index": 474,
         "name": "Hoppip",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/187.png"
@@ -125734,7 +127981,7 @@
         ]
     },
     {
-        "pokemon_index": 466,
+        "pokemon_index": 475,
         "name": "Skiploom",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/188.png"
@@ -126055,7 +128302,7 @@
         ]
     },
     {
-        "pokemon_index": 467,
+        "pokemon_index": 476,
         "name": "Jumpluff",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/189.png"
@@ -126376,7 +128623,7 @@
         ]
     },
     {
-        "pokemon_index": 468,
+        "pokemon_index": 477,
         "name": "Tropius",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/357.png"
@@ -126652,7 +128899,7 @@
         ]
     },
     {
-        "pokemon_index": 469,
+        "pokemon_index": 478,
         "name": "Pidgey",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/16.png"
@@ -126913,7 +129160,7 @@
         ]
     },
     {
-        "pokemon_index": 470,
+        "pokemon_index": 479,
         "name": "Pidgeotto",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/17.png"
@@ -127204,7 +129451,7 @@
         ]
     },
     {
-        "pokemon_index": 471,
+        "pokemon_index": 480,
         "name": "Pidgeot",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/18.png"
@@ -127525,7 +129772,7 @@
         ]
     },
     {
-        "pokemon_index": 472,
+        "pokemon_index": 481,
         "name": "Zangoose",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/335.png"
@@ -127815,7 +130062,7 @@
         ]
     },
     {
-        "pokemon_index": 473,
+        "pokemon_index": 482,
         "name": "Seviper",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/336.png"
@@ -128120,7 +130367,7 @@
         ]
     },
     {
-        "pokemon_index": 474,
+        "pokemon_index": 483,
         "name": "Bagon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/371.png"
@@ -128365,7 +130612,7 @@
         ]
     },
     {
-        "pokemon_index": 475,
+        "pokemon_index": 484,
         "name": "Shelgon",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/372.png"
@@ -128610,7 +130857,7 @@
         ]
     },
     {
-        "pokemon_index": 476,
+        "pokemon_index": 485,
         "name": "Salamence",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/373.png"
@@ -128900,7 +131147,7 @@
         ]
     },
     {
-        "pokemon_index": 477,
+        "pokemon_index": 486,
         "name": "Volbeat",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/313.png"
@@ -129161,7 +131408,7 @@
         ]
     },
     {
-        "pokemon_index": 478,
+        "pokemon_index": 487,
         "name": "Illumise",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/314.png"
@@ -129437,7 +131684,7 @@
         ]
     },
     {
-        "pokemon_index": 479,
+        "pokemon_index": 488,
         "name": "Articuno",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/144.png"
@@ -129727,7 +131974,7 @@
         ]
     },
     {
-        "pokemon_index": 480,
+        "pokemon_index": 489,
         "name": "Zapdos",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/145.png"
@@ -130017,7 +132264,7 @@
         ]
     },
     {
-        "pokemon_index": 481,
+        "pokemon_index": 490,
         "name": "Moltres",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/146.png"
@@ -130307,7 +132554,7 @@
         ]
     },
     {
-        "pokemon_index": 482,
+        "pokemon_index": 491,
         "name": "Regirock",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/377.png"
@@ -130582,7 +132829,7 @@
         ]
     },
     {
-        "pokemon_index": 483,
+        "pokemon_index": 492,
         "name": "Regice",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/378.png"
@@ -130857,7 +133104,7 @@
         ]
     },
     {
-        "pokemon_index": 484,
+        "pokemon_index": 493,
         "name": "Registeel",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/379.png"
@@ -131162,7 +133409,7 @@
         ]
     },
     {
-        "pokemon_index": 485,
+        "pokemon_index": 494,
         "name": "Regigigas",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/486.png"
@@ -131436,7 +133683,7 @@
         ]
     },
     {
-        "pokemon_index": 486,
+        "pokemon_index": 495,
         "name": "Jirachi",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/385.png"
@@ -131710,7 +133957,7 @@
         ]
     },
     {
-        "pokemon_index": 487,
+        "pokemon_index": 496,
         "name": "Deoxys",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/386.png"
@@ -131969,7 +134216,7 @@
         ]
     },
     {
-        "pokemon_index": 488,
+        "pokemon_index": 497,
         "name": "Heatran",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/485.png"
@@ -132229,7 +134476,7 @@
         ]
     },
     {
-        "pokemon_index": 489,
+        "pokemon_index": 498,
         "name": "Shaymin",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/492.png"
@@ -132458,7 +134705,7 @@
         ]
     },
     {
-        "pokemon_index": 490,
+        "pokemon_index": 499,
         "name": "Keldeo",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/647.png"
@@ -132732,7 +134979,7 @@
         ]
     },
     {
-        "pokemon_index": 491,
+        "pokemon_index": 500,
         "name": "Diancie",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/719.png"
@@ -133006,7 +135253,7 @@
         ]
     },
     {
-        "pokemon_index": 492,
+        "pokemon_index": 501,
         "name": "Magearna",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/801.png"
@@ -133310,7 +135557,7 @@
         ]
     },
     {
-        "pokemon_index": 493,
+        "pokemon_index": 502,
         "name": "Zeraora",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/807.png"
@@ -133629,7 +135876,7 @@
         ]
     },
     {
-        "pokemon_index": 494,
+        "pokemon_index": 503,
         "name": "Hoopa",
         "sprite": [
             "https://www.pokemonunboundpokedex.com/static/pixelart/720.png"
