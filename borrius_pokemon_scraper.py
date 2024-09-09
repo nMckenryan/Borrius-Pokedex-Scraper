@@ -46,35 +46,32 @@ def createPokemonJson(dex_page, numbers, indexCount):
                 tmhm_move_table = tmhm_move_table_parent.find("tbody");
                 
                 sprite_src = soup.find("img")["src"]
-                sprite_link = "https://www.pokemonunboundpokedex.com/" + sprite_src.replace("../", ""),
-
+                sprite_link = f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",
                 
                 moves = []
                 for row in move_table.find_all("tr"):
                     columns = row.find_all("td")
                     if len(columns) > 0:
-                        retrieved_move = {
+                        moves.append({
                             "level": columns[0].text.strip(),
                             "move": columns[1].text.strip(),
                             "type": columns[2].text.strip(),
                             "category": columns[3].text.strip(),
                             "power": columns[4].text.strip().replace("\u2014", "-"),
                             "accuracy": columns[5].text.strip().replace("\u2014", "-"),
-                        }
-                        moves.append(retrieved_move)
+                        })
                         
                 tmhm_moves = []
                 for row in tmhm_move_table.find_all("tr"):
                     columns = row.find_all("td")
                     if len(columns) > 0:
-                        retrieved_tm_move = {
+                        tmhm_moves.append({
                             "move": columns[1].text.strip(),
                             "type": columns[2].text.strip(),
                             "category": columns[3].text.strip(),
                             "power": columns[4].text.strip().replace("\u2014", "-"),
                             "accuracy": columns[5].text.strip().replace("\u2014", "-"),
-                        }
-                        tmhm_moves.append(retrieved_tm_move)
+                        })
 
                 gender_data = re.findall(r'\d+', top_card.find_all("p", class_="text-3xl font-bold")[2].text.strip()) 
                 isGenderLess = len(gender_data) == 0
