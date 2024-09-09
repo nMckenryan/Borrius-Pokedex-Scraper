@@ -7,7 +7,7 @@ app = FastAPI()
 @app.get("/pokemon/")
 async def read_pokemon():
     with open('borrius_pokedex_data.json') as json_file:
-        pokemon_data = json.load(json_file)
+        pokemon_data = json.load(json_file)[1:]
     return {"pokemon": pokemon_data}
 
 @app.get("/pokemon/{pokemon_id}")

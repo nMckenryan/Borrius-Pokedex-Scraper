@@ -39,8 +39,7 @@ def createPokemonJson(dex_page, numbers, indexCount):
                 tmhm_move_table = tmhm_move_table_parent.find("tbody");
                 
                 sprite_src = soup.find("img")["src"]
-                sprite_link = f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",
-                
+                sprite_link = f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",                
                 moves = []
                 for row in move_table.find_all("tr"):
                     columns = row.find_all("td")
@@ -122,6 +121,7 @@ borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
 
 def compile_pokedex():
+    print("\n\n---- BORRIUS POKEDEX SCRAPER --------")
     print(f"Started creating Borrius Pokedex Json file at {currentTime}\n Creating Json file...")
     try:
         createPokemonJson(national_page, starter_numbers, 1)

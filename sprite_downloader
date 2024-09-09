@@ -1,0 +1,16 @@
+import requests
+
+def download_sprite(url, filename):
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(filename, 'wb') as f:
+            f.write(response.content) 
+    else:
+        print({"Sprite {filename} could not be saved." + response.status_code})
+
+    borrius_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445] + range(1, 495)
+
+    sprite_link = f"https://www.pokemonunboundpokedex.com/static/pixelart{sprite_src}"
+
+    for i in borrius_numbers:
+        download_sprite(sprite_link, f"sprites/{i}.png")
