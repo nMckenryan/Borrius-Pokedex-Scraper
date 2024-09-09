@@ -10,9 +10,9 @@ async def read_pokemon():
         pokemon_data = json.load(json_file)
     return {"pokemon": pokemon_data}
 
-# @app.get("/pokemon/{pokemon_id}")
-# async def read_pokemon(pokemon_id: int):
-#     pokemon_data = compile_pokedex()
-#     pokemon = next((p for p in pokemon_data if p["id"] == pokemon_id), None)
-#     return {"pokemon": pokemon}
-
+@app.get("/pokemon/{pokemon_id}")
+async def read_pokemon(pokemon_id: int):
+    with open('borrius_pokedex_data.json') as json_file:
+        pokemon_data = json.load(json_file)[1:]
+    pokemon = next((p for p in pokemon_data if p["id"] == pokemon_id), None)
+    return {"pokemon": pokemon}

@@ -7,10 +7,14 @@ from bs4 import BeautifulSoup
 import re
 
 currentTime = datetime.datetime.now()
+
 pokemonJson = [
-    {
-        "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
-        "dataPulledOn": str(currentTime),
+    { 
+        "info": {
+            "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
+            "dataPulledOn": str(currentTime),
+        },
+        "pokemon": []
     }
 ]
 
@@ -107,7 +111,7 @@ def createPokemonJson(dex_page, numbers, indexCount):
                 }
                 
                 indexCount += 1
-                pokemonJson.append(pokemon_data)
+                pokemonJson[0]["pokemon"].append(pokemon_data)
 
 borrius_numbers = range(1, 495)
 starter_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]
@@ -142,6 +146,7 @@ def output_pokedex_json():
         length = end - start
         print(f"Json Generation Failed at: {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes). An error occurred: {e}")
 
+output_pokedex_json()
 
 ## GET FROM POKEAPI
     # starters = [246, 247, 248, 374, 375, 376, 443, 444, 445]
