@@ -38,10 +38,15 @@ def createPokemonJson(dex_page, numbers, indexCount):
                 )
                 move_table = learned_move_table_parent.find("tbody")
                 tmhm_move_table = tmhm_move_table_parent.find("tbody")
+
+                # Get Sprites (also extracts actual pokemon number from official dex)
                 sprite_src = soup.find("img")["src"]
+                officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
+
                 sprite_link = str(
                     f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",
                 )
+
                 moves = []
                 for row in move_table.find_all("tr"):
                     columns = row.find_all("td")
@@ -102,70 +107,79 @@ def createPokemonJson(dex_page, numbers, indexCount):
 
                 # APPLY DATA TO JSON
                 pokemon_data = {
-                    "pokemon_index": indexCount,
-                    "name": top_card.find("h3", class_="card-title text-4xl")
-                    .text.strip()
-                    .replace("Name: ", ""),
-                    "sprite": sprite_link,
-                    "type": top_card.find_all("p", class_="text-3xl font-bold")[
-                        0
-                    ].text.strip(),
-                    "catchRate": {
-                        "value": float(
-                            top_card.find_all("p", class_="text-3xl font-bold")[1]
+                    officialDexNumber: {
+                        "borrius_dex_number": indexCount,
+                        "official_dex_number": officialDexNumber,
+                        "name": top_card.find("h3", class_="card-title text-4xl")
+                        .text.strip()
+                        .replace("Name: ", ""),
+                        "sprite": sprite_link,
+                        "type": top_card.find_all("p", class_="text-3xl font-bold")[
+                            0
+                        ].text.strip(),
+                        "catchRate": {
+                            "value": float(
+                                top_card.find_all("p", class_="text-3xl font-bold")[1]
+                                .text.strip()
+                                .replace("%", "")
+                                .split(" ")[1]
+                            ),
+                            "percentage": top_card.find_all(
+                                "p", class_="text-3xl font-bold"
+                            )[1]
                             .text.strip()
-                            .replace("%", "")
+                            .split(" ")[0],
+                        },
+                        "gender": {
+                            "isGenderless": top_card.find_all(
+                                "p", class_="text-3xl font-bold"
+                            )[2].text.strip()
+                            == "Genderless",
+                            "maleChance": gender_data[0],
+                            "femaleChance": gender_data[1],
+                        },
+                        "abilities": top_card.find_all(
+                            "p", class_="text-3xl font-bold"
+                        )[3]
+                        .text.strip()
+                        .split(", "),
+                        "weight": {
+                            "imperial": top_card.find_all(
+                                "p", class_="text-3xl font-bold"
+                            )[4]
+                            .text.strip()
                             .split(" ")[1]
-                        ),
-                        "percentage": top_card.find_all(
-                            "p", class_="text-3xl font-bold"
-                        )[1]
-                        .text.strip()
-                        .split(" ")[0],
-                    },
-                    "gender": {
-                        "isGenderless": top_card.find_all(
-                            "p", class_="text-3xl font-bold"
-                        )[2].text.strip()
-                        == "Genderless",
-                        "maleChance": gender_data[0],
-                        "femaleChance": gender_data[1],
-                    },
-                    "abilities": top_card.find_all("p", class_="text-3xl font-bold")[3]
-                    .text.strip()
-                    .split(", "),
-                    "weight": {
-                        "imperial": top_card.find_all("p", class_="text-3xl font-bold")[
-                            4
-                        ]
-                        .text.strip()
-                        .split(" ")[1]
-                        .replace("\u00a0", "")
-                        .replace("(", "")
-                        .replace(")", ""),
-                        "metric": top_card.find_all("p", class_="text-3xl font-bold")[4]
-                        .text.strip()
-                        .split(" ")[0]
-                        .replace("\u00a0", ""),
-                    },
-                    "height": {
-                        "imperial": top_card.find_all("p", class_="text-3xl font-bold")[
-                            5
-                        ]
-                        .text.strip()
-                        .split(" ")[1]
-                        .replace("\u2032", "'")
-                        .replace("\u2033", "'")
-                        .replace("(", "")
-                        .replace(")", ""),
-                        "metric": top_card.find_all("p", class_="text-3xl font-bold")[5]
-                        .text.strip()
-                        .split(" ")[0]
-                        .replace("\u00a0", ""),
-                    },
-                    "stats": stats_table_output,
-                    "learnedMoves": moves,
-                    "tmhmMoves": tmhm_moves,
+                            .replace("\u00a0", "")
+                            .replace("(", "")
+                            .replace(")", ""),
+                            "metric": top_card.find_all(
+                                "p", class_="text-3xl font-bold"
+                            )[4]
+                            .text.strip()
+                            .split(" ")[0]
+                            .replace("\u00a0", ""),
+                        },
+                        "height": {
+                            "imperial": top_card.find_all(
+                                "p", class_="text-3xl font-bold"
+                            )[5]
+                            .text.strip()
+                            .split(" ")[1]
+                            .replace("\u2032", "'")
+                            .replace("\u2033", "'")
+                            .replace("(", "")
+                            .replace(")", ""),
+                            "metric": top_card.find_all(
+                                "p", class_="text-3xl font-bold"
+                            )[5]
+                            .text.strip()
+                            .split(" ")[0]
+                            .replace("\u00a0", ""),
+                        },
+                        "stats": stats_table_output,
+                        "learnedMoves": moves,
+                        "tmhmMoves": tmhm_moves,
+                    }
                 }
 
                 indexCount += 1
@@ -193,7 +207,7 @@ def compile_pokedex():
         end = time.time()
         length = end - start
         print(
-            f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes)"
+            f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes"
         )
     except Exception as e:
         print(f"Failed to retrieve data from Pokemon Unbound Site: {e}")
@@ -208,7 +222,7 @@ def output_pokedex_json():
         fileName = "borrius_pokedex_data.json"
         with open(fileName, "w") as fp:
             json.dump(pokemonJson, fp, indent=4)
-        print(f"{fileName} successfully created)")
+        print(f"{fileName} successfully created")
     except Exception as e:
         print(f"Json Generation Failed : {e}")
 

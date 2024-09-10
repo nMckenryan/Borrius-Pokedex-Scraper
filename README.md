@@ -42,6 +42,7 @@ A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://poke
 ### FUTURE FEATURES:
 
 - [x] Download and store images for perpetuity in case i need to self host
+- [] Get real pokemon national number (extract from url, Recycling!)
 - [] Add back sprites from PokeApi
 - [x] Implement starter pokemon data from Borrius National Dex (+9 more attached to start)
 - [] Patch in missing data from PokeAPI
