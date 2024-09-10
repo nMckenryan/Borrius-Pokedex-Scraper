@@ -20,5 +20,5 @@ jobs:
         run: |
           echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
           docker build -t my-fastapi-app .
-          docker tag my-fastapi-app:latest my-fastapi-app:$(date +%s)
-          docker push my-fastapi-app:$(date +%s)
+          docker tag my-fastapi-app:latest ${{ secrets.DOCKERHUB_USERNAME }}/my-fastapi-app:$(date +%s)
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/my-fastapi-app:$(date +%s)
