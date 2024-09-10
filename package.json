@@ -1,0 +1,25 @@
+{
+  "name": "borrius_pokemon_scraper",
+  "version": "1.0.0",
+  "description": "An Api that scrapes and compiles the contents of the Pokemon Unbound Borrius Region Pokedex",
+  "main": "main.py",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nMckenryan/Borrius-Pokedex-Scraper.git"
+  },
+  "keywords": [
+    "api",
+    "pokemon",
+    "pokedex"
+  ],
+  "author": "N Mckenzie Ryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nMckenryan/Borrius-Pokedex-Scraper/issues"
+  },
+  "homepage": "https://github.com/nMckenryan/Borrius-Pokedex-Scraper#readme"
+}

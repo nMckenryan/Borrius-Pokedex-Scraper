@@ -46,7 +46,7 @@ A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://poke
 - [x] Get real pokemon national number (extract from url, Recycling!)
 - [x] speed up json generation
 - [x] Implement starter pokemon data from Borrius National Dex (+9 more attached to start)
-- [/] Compile API
+- [x] Compile API and publish to NPM
 - [/] Patch in missing data from PokeAPI
   - [] Line up data for use with Curadex project
   - [] Add back sprites from PokeApi
