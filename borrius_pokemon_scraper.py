@@ -241,8 +241,6 @@ async def output_pokedex_json():
         print(f"Json Generation Failed : {e}")
 
 
-asyncio.run(output_pokedex_json())
-
 ## GET FROM POKEAPI
 # starters = [246, 247, 248, 374, 375, 376, 443, 444, 445]
 # starter = 1
