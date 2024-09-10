@@ -1,8 +1,8 @@
-# Borrius Pokedex Scraper
+# Borrius Pokedex Scraper API
 
 ## Overview
 
-A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://pokemonunbound.com/pokedex) website and outputs it to a JSON file.
+A Web Scraper API that extracts data from the [Pokemon Unbound Pokedex](https://pokemonunbound.com/pokedex) website and outputs it to a JSON file.
 
 - Built with Python and BeautifulSoup, Based on a tutorial from [RealPython](https://github.com/realpython/materials/blob/master/web-scraping-bs4/)
 - Contains data for the 503 Borrius Region Pokemon found in the Popular Romhack [Pokemon Unbound](https://www.pokecommunity.com/threads/pok%C3%A9mon-unbound-completed.382178/)
@@ -21,7 +21,7 @@ A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://poke
 
 ### [View Sample JSON here!](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json)
 
-## Instructions
+## Instructions for installing
 
 #### Note: As the project is completed, the Pokedex is unlikely to have changed, so you may want ot download the [ JSON provided](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json). Otherwise:
 
