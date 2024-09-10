@@ -18,6 +18,7 @@ jobs:
           pip install -r requirements.txt
       - name: Build the Docker image
         run: |
+          docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password ${{ secrets.DOCKERHUB_TOKEN }}
           docker build -t my-fastapi-app .
           docker tag my-fastapi-app:latest my-fastapi-app:$(date +%s)
           docker push my-fastapi-app:$(date +%s)
