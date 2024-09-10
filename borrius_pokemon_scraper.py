@@ -4,6 +4,8 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import re
+import aiohttp
+import asyncio
 
 currentTime = datetime.datetime.now()
 
@@ -19,13 +21,25 @@ pokemonJson = [
 
 
 # Loop through all 494 in the borrius dex
-def createPokemonJson(dex_page, numbers, indexCount):
-    with requests.Session() as s:
+
+
+async def fetch_page(session, link):
+    async with session.get(link) as page:
+        if page.status == 200:
+            return await page.text()
+
+
+async def createPokemonJson(dex_page, numbers, indexCount):
+    async with aiohttp.ClientSession() as session:
+        tasks = []
         for i in numbers:
             link = f"{dex_page}{i}"
-            page = s.get(link)
-            if page.status_code == 200:
-                soup = BeautifulSoup(page.content, "html.parser")
+            tasks.append(fetch_page(session, link))
+        pages = await asyncio.gather(*tasks)
+
+        for page in pages:
+            if page is not None:
+                soup = BeautifulSoup(page, "html.parser")
                 top_card = soup.find("div", class_="card-body")
                 stats_table = soup.find("table", class_="table table-zebra")
                 learned_move_table_parent = soup.find(
@@ -194,7 +208,7 @@ national_page = "https://www.pokemonunboundpokedex.com/national/"
 borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
 
-def compile_pokedex():
+async def compile_pokedex():
     start = time.time()
     print("\n\n---- BORRIUS POKEDEX SCRAPER --------")
     print(
@@ -202,8 +216,8 @@ def compile_pokedex():
     )
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        createPokemonJson(national_page, starter_numbers, 1)
-        createPokemonJson(borrius_page, borrius_numbers, 10)
+        await createPokemonJson(national_page, starter_numbers, 1)
+        await createPokemonJson(borrius_page, borrius_numbers, 10)
         end = time.time()
         length = end - start
         print(
@@ -213,8 +227,8 @@ def compile_pokedex():
         print(f"Failed to retrieve data from Pokemon Unbound Site: {e}")
 
 
-def output_pokedex_json():
-    compile_pokedex()
+async def output_pokedex_json():
+    await compile_pokedex()
 
     printTime = datetime.datetime.now()
     print(f"Printing JSON to file process started at {printTime}")
@@ -227,7 +241,7 @@ def output_pokedex_json():
         print(f"Json Generation Failed : {e}")
 
 
-output_pokedex_json()
+asyncio.run(output_pokedex_json())
 
 ## GET FROM POKEAPI
 # starters = [246, 247, 248, 374, 375, 376, 443, 444, 445]

@@ -25,9 +25,10 @@ A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://poke
 
 #### Note: As the project is completed, the Pokedex is unlikely to have changed, so you may want ot download the [ JSON provided](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json). Otherwise:
 
+0. Install Python dependancies from requirements.txt
 1. Download and extract the project by cloning this project or running the ZIP
 2. Run `python borrius_pokemon_scraper.py` in the terminal
-3. Wait for the process to completes (takes around ~2-5 Minutes)
+3. Wait for the process to completes (takes around >2 minutes)
 4. Open the `borrius_pokedex_data.json` file in your favorite text editor and enjoy
 
 ### TO DO:
@@ -42,9 +43,11 @@ A Web Scraper that extracts data from the [Pokemon Unbound Pokedex](https://poke
 ### FUTURE FEATURES:
 
 - [x] Download and store images for perpetuity in case i need to self host
-- [] Get real pokemon national number (extract from url, Recycling!)
-- [] Add back sprites from PokeApi
+- [x] Get real pokemon national number (extract from url, Recycling!)
+- [x] speed up json generation
 - [x] Implement starter pokemon data from Borrius National Dex (+9 more attached to start)
-- [] Patch in missing data from PokeAPI
-- [] Line up data for use with Curadex project
 - [/] Compile API
+- [/] Patch in missing data from PokeAPI
+  - [] Line up data for use with Curadex project
+  - [] Add back sprites from PokeApi
+  - [] Handle movelists so they're not collosal lists for each pokemon
