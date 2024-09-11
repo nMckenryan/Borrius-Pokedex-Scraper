@@ -1,4 +1,4 @@
-name: Docker Deployment
+name: Deploy to Production
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-and-push:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -18,9 +18,11 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v6.7.0
-        with:
-          context: .
-          push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/borrius-pokedex-scraper:latest
+      - name: Build and push images
+        run: |
+          docker-compose build
+          docker-compose push
+
+      - name: Deploy to production
+        run: |
+          docker-compose up -d

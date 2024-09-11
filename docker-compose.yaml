@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload --workers 1
+  docker-service:
+    build: .
+    image: nmckenryan/borrius-pokemon-scraper
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload --workers 1
+

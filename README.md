@@ -47,7 +47,18 @@ A Web Scraper API that extracts data from the [Pokemon Unbound Pokedex](https://
 - [x] speed up json generation
 - [x] Implement starter pokemon data from Borrius National Dex (+9 more attached to start)
 - [x] Compile API and publish to NPM
+- [x] Compile Docker Image
+- [x] Publish Docker Image to Dockerhub
+- [] Publish Docker Image to Google Cloud
+
 - [/] Patch in missing data from PokeAPI
   - [] Line up data for use with Curadex project
   - [] Add back sprites from PokeApi
   - [] Handle movelists so they're not collosal lists for each pokemon
+  <!-- 
+  gcloud artifacts repositories create borrius-pokedex-api --repository-format=docker \
+      --location=australia-southeast2 --description="Docker repository"
+
+gcloud builds submit --region=australia-southeast2 --tag australia-southeast2-docker.pkg.dev/pokemon-borrius-scraper/borrius-pokedex-api/borrius-pokemon-scraper:tag1 -->
+
+gcloud builds submit --region=australia-southeast1 --config cloudbuild.yaml
