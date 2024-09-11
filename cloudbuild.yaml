@@ -1,0 +1,7 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    script: |
+      docker build -t australia-southeast1-docker.pkg.dev/pokemon-borrius-scraper/borrius-pokedex-api/borrius-pokemon-scraper:tag1 .
+    automapSubstitutions: true
+images:
+  - "australia-southeast1-docker.pkg.dev/pokemon-borrius-scraper/borrius-pokedex-api/borrius-pokemon-scraper:tag1"
