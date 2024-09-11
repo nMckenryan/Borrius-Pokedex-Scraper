@@ -5,6 +5,8 @@
 A Web Scraper API that extracts data from the [Pokemon Unbound Pokedex](https://pokemonunbound.com/pokedex) website and outputs it to a JSON file.
 
 - Built with Python and BeautifulSoup, Based on a tutorial from [RealPython](https://github.com/realpython/materials/blob/master/web-scraping-bs4/)
+- API Endpoints Managed by FastAPI
+- Hosted on Google Cloud via a Docker Container
 - Contains data for the 503 Borrius Region Pokemon found in the Popular Romhack [Pokemon Unbound](https://www.pokecommunity.com/threads/pok%C3%A9mon-unbound-completed.382178/)
 - Unlike the Borrius Dex, this scraper contains the 3 Starter Pokemon (Larvitar, Metang, Gible). They're at the beginning of the Pokedex Data.
 
@@ -21,10 +23,14 @@ A Web Scraper API that extracts data from the [Pokemon Unbound Pokedex](https://
 
 ### [View Sample JSON here!](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json)
 
-## Instructions for installing
+## Instructions
 
 #### Note: As the project is completed, the Pokedex is unlikely to have changed, so you may want ot download the [ JSON provided](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json). Otherwise:
 
+### USING THE API ENDPOINT
+Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australia-southeast1.run.app/docs 
+
+### Installing and running manually
 0. Install Python dependancies from requirements.txt
 1. Download and extract the project by cloning this project or running the ZIP
 2. Run `python borrius_pokemon_scraper.py` in the terminal
@@ -49,7 +55,7 @@ A Web Scraper API that extracts data from the [Pokemon Unbound Pokedex](https://
 - [x] Compile API and publish to NPM
 - [x] Compile Docker Image
 - [x] Publish Docker Image to Dockerhub
-- [] Publish Docker Image to Google Cloud
+- [x] Publish Docker Image to Google Cloud https://borrius-pokemon-scraper-321133146790.australia-southeast1.run.app/borrius_pokemon
 
 - [/] Patch in missing data from PokeAPI
   - [] Line up data for use with Curadex project
