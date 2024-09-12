@@ -67,14 +67,27 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     if len(columns) > 0:
                         moves.append(
                             {
-                                "level": columns[0].text.strip(),
-                                "move": columns[1].text.strip(),
-                                "type": columns[2].text.strip(),
-                                "category": columns[3].text.strip(),
-                                "power": columns[4].text.strip().replace("\u2014", "-"),
-                                "accuracy": columns[5]
-                                .text.strip()
-                                .replace("\u2014", "-"),
+                                "move": {
+                                    "name": columns[1].text.strip(),
+                                    "type": columns[2].text.strip(),
+                                    "category": columns[3].text.strip(),
+                                    "power": columns[4]
+                                    .text.strip()
+                                    .replace("\u2014", "-"),
+                                    "accuracy": columns[5]
+                                    .text.strip()
+                                    .replace("\u2014", "-"),
+                                },
+                                "version_group_details": [
+                                    {
+                                        "level_learned_at": columns[0].text.strip(),
+                                        "move_learn_method": {
+                                            "name": "level-up",
+                                            "url": "https://pokeapi.co/api/v2/move-learn-method/1/",
+                                        },
+                                        "version_group": {"name": "unbound"},
+                                    }
+                                ],
                             }
                         )
 
@@ -84,13 +97,27 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     if len(columns) > 0:
                         tmhm_moves.append(
                             {
-                                "move": columns[1].text.strip(),
-                                "type": columns[2].text.strip(),
-                                "category": columns[3].text.strip(),
-                                "power": columns[4].text.strip().replace("\u2014", "-"),
-                                "accuracy": columns[5]
-                                .text.strip()
-                                .replace("\u2014", "-"),
+                                "move": {
+                                    "name": columns[1].text.strip(),
+                                    "type": columns[2].text.strip(),
+                                    "category": columns[3].text.strip(),
+                                    "power": columns[4]
+                                    .text.strip()
+                                    .replace("\u2014", "-"),
+                                    "accuracy": columns[5]
+                                    .text.strip()
+                                    .replace("\u2014", "-"),
+                                },
+                                "version_group_details": [
+                                    {
+                                        "level_learned_at": 0,
+                                        "move_learn_method": {
+                                            "name": "machine",
+                                            "url": "https://pokeapi.co/api/v2/move-learn-method/4/",
+                                        },
+                                        "version_group": {"name": "unbound"},
+                                    }
+                                ],
                             }
                         )
 
@@ -114,24 +141,72 @@ async def createPokemonJson(dex_page, numbers, indexCount):
 
                 for i, stat in enumerate(stats):
                     stats_table_output[stat] = {
-                        "avg": int(stats_table.find_all("td")[i * 3].text.strip()),
-                        "min": int(stats_table.find_all("td")[i * 3 + 1].text.strip()),
-                        "max": int(stats_table.find_all("td")[i * 3 + 2].text.strip()),
+                        "base_stat": int(
+                            stats_table.find_all("td")[i * 3].text.strip()
+                        ),
+                        "effort": 0,
+                        "stat": {
+                            "name": stat,
+                            "url": f"https://pokeapi.co/api/v2/stat/{i+1}/",
+                        },
                     }
+
+                abilitiesList = (
+                    top_card.find_all("p", class_="text-3xl font-bold")[3]
+                    .text.strip("[]")
+                    .replace("'", "")
+                    .split(", "),
+                )
+
+                abilities = []
+                for ability in abilitiesList:
+                    ab = {
+                        "ability": {
+                            "name": ability,
+                            # "url": f"https://pokeapi.co/api/v2/ability/{ability.lower()}/",
+                        },
+                        "is_hidden": 0,
+                        "slot": 1,
+                    }
+                    abilities.append(ab)
+
+                heightInDecimetres = (
+                    float(
+                        top_card.find_all("p", class_="text-3xl font-bold")[5]
+                        .text.strip()
+                        .split(" ")[0]
+                        .replace("\u00a0", "")
+                        .replace("m", "")
+                        .replace(" ", "")
+                        .replace(".", "")
+                        .replace(",", "")
+                    )
+                    * 10
+                )
 
                 # APPLY DATA TO JSON
                 pokemon_data = {
                     officialDexNumber: {
-                        "borrius_dex_number": indexCount,
-                        "official_dex_number": officialDexNumber,
+                        "abilities": abilities,
+                        "game_indices": [
+                            {
+                                "game_index": indexCount,
+                                "version": {
+                                    "name": "red",
+                                    "url": "https://pokeapi.co/api/v2/version/1/",
+                                },
+                            },
+                            {
+                                "game_index": officialDexNumber,
+                                "version": {"name": "unbound", "url": "-"},
+                            },
+                        ],
+                        "height": heightInDecimetres,
+                        "id": officialDexNumber,
                         "name": top_card.find("h3", class_="card-title text-4xl")
                         .text.strip()
                         .replace("Name: ", ""),
-                        "sprite": sprite_link,
-                        "type": top_card.find_all("p", class_="text-3xl font-bold")[
-                            0
-                        ].text.strip(),
-                        "catchRate": {
+                        "capture_rate": {
                             "value": float(
                                 top_card.find_all("p", class_="text-3xl font-bold")[1]
                                 .text.strip()
@@ -144,6 +219,19 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                             .text.strip()
                             .split(" ")[0],
                         },
+                        "moves": [moves + tmhm_moves],
+                        "sprites": {
+                            "front_default": sprite_link,
+                            "other": {
+                                "home": {
+                                    "front_default": sprite_link,
+                                }
+                            },
+                        },
+                        "stats": stats_table_output,
+                        "types": top_card.find_all("p", class_="text-3xl font-bold")[
+                            0
+                        ].text.strip(),
                         "gender": {
                             "isGenderless": top_card.find_all(
                                 "p", class_="text-3xl font-bold"
@@ -152,47 +240,6 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                             "maleChance": gender_data[0],
                             "femaleChance": gender_data[1],
                         },
-                        "abilities": top_card.find_all(
-                            "p", class_="text-3xl font-bold"
-                        )[3]
-                        .text.strip()
-                        .split(", "),
-                        "weight": {
-                            "imperial": top_card.find_all(
-                                "p", class_="text-3xl font-bold"
-                            )[4]
-                            .text.strip()
-                            .split(" ")[1]
-                            .replace("\u00a0", "")
-                            .replace("(", "")
-                            .replace(")", ""),
-                            "metric": top_card.find_all(
-                                "p", class_="text-3xl font-bold"
-                            )[4]
-                            .text.strip()
-                            .split(" ")[0]
-                            .replace("\u00a0", ""),
-                        },
-                        "height": {
-                            "imperial": top_card.find_all(
-                                "p", class_="text-3xl font-bold"
-                            )[5]
-                            .text.strip()
-                            .split(" ")[1]
-                            .replace("\u2032", "'")
-                            .replace("\u2033", "'")
-                            .replace("(", "")
-                            .replace(")", ""),
-                            "metric": top_card.find_all(
-                                "p", class_="text-3xl font-bold"
-                            )[5]
-                            .text.strip()
-                            .split(" ")[0]
-                            .replace("\u00a0", ""),
-                        },
-                        "stats": stats_table_output,
-                        "learnedMoves": moves,
-                        "tmhmMoves": tmhm_moves,
                     }
                 }
 
