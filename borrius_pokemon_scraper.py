@@ -186,7 +186,6 @@ async def createPokemonJson(dex_page, numbers, indexCount):
 
                 # APPLY DATA TO JSON
                 pokemon_data = {
-                    officialDexNumber: {
                         "abilities": abilities,
                         "game_indices": [
                             {
@@ -241,7 +240,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                             "femaleChance": gender_data[1],
                         },
                     }
-                }
+                
 
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
