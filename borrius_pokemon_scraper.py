@@ -1,3 +1,4 @@
+import ast
 import datetime
 import time
 import requests
@@ -39,6 +40,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
 
         for page in pages:
             if page is not None:
+                # GET DATA FROM PAGE
                 soup = BeautifulSoup(page, "html.parser")
                 top_card = soup.find("div", class_="card-body")
                 stats_table = soup.find("table", class_="table table-zebra")
@@ -53,14 +55,14 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                 move_table = learned_move_table_parent.find("tbody")
                 tmhm_move_table = tmhm_move_table_parent.find("tbody")
 
-                # Get Sprites (also extracts actual pokemon number from official dex)
+                # Get SPRITES (also extracts actual pokemon number from official dex)
                 sprite_src = soup.find("img")["src"]
                 officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
 
                 sprite_link = str(
                     f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",
                 )
-
+                # MOVES
                 moves = []
                 for row in move_table.find_all("tr"):
                     columns = row.find_all("td")
@@ -121,6 +123,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                             }
                         )
 
+                # GENDER RATES
                 gender_data = re.findall(
                     r"\d+",
                     top_card.find_all("p", class_="text-3xl font-bold")[2].text.strip(),
@@ -129,6 +132,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                 if isGenderLess:
                     gender_data = [0, 0]
 
+                # STATS
                 stats_table_output = {}
                 stats = [
                     "hp",
@@ -151,12 +155,12 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         },
                     }
 
-                abilitiesList = (
-                    top_card.find_all("p", class_="text-3xl font-bold")[3]
-                    .text.strip("[]")
-                    .replace("'", "")
-                    .split(", "),
-                )
+                # ABILITIES
+                abl = top_card.find_all("p", class_="text-3xl font-bold")[
+                    3
+                ].text.strip()
+
+                abilitiesList = ast.literal_eval(abl)
 
                 abilities = []
                 for ability in abilitiesList:
@@ -170,6 +174,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     }
                     abilities.append(ab)
 
+                # HEIGHT
                 heightInDecimetres = (
                     float(
                         top_card.find_all("p", class_="text-3xl font-bold")[5]
@@ -184,63 +189,65 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     * 10
                 )
 
+                # TYPES
+                tA = top_card.find_all("p", class_="text-3xl font-bold")[0].text.strip()
+
+                typeArray = ast.literal_eval(tA)
+
                 # APPLY DATA TO JSON
                 pokemon_data = {
-                        "abilities": abilities,
-                        "game_indices": [
-                            {
-                                "game_index": indexCount,
-                                "version": {
-                                    "name": "red",
-                                    "url": "https://pokeapi.co/api/v2/version/1/",
-                                },
+                    "abilities": abilities,
+                    "game_indices": [
+                        {
+                            "game_index": indexCount,
+                            "version": {
+                                "name": "red",
+                                "url": "https://pokeapi.co/api/v2/version/1/",
                             },
-                            {
-                                "game_index": officialDexNumber,
-                                "version": {"name": "unbound", "url": "-"},
-                            },
-                        ],
-                        "height": heightInDecimetres,
-                        "id": officialDexNumber,
-                        "name": top_card.find("h3", class_="card-title text-4xl")
-                        .text.strip()
-                        .replace("Name: ", ""),
-                        "capture_rate": {
-                            "value": float(
-                                top_card.find_all("p", class_="text-3xl font-bold")[1]
-                                .text.strip()
-                                .replace("%", "")
-                                .split(" ")[1]
-                            ),
-                            "percentage": top_card.find_all(
-                                "p", class_="text-3xl font-bold"
-                            )[1]
+                        },
+                        {
+                            "game_index": officialDexNumber,
+                            "version": {"name": "unbound", "url": "-"},
+                        },
+                    ],
+                    "height": heightInDecimetres,
+                    "id": officialDexNumber,
+                    "name": top_card.find("h3", class_="card-title text-4xl")
+                    .text.strip()
+                    .replace("Name: ", ""),
+                    "capture_rate": {
+                        "value": float(
+                            top_card.find_all("p", class_="text-3xl font-bold")[1]
                             .text.strip()
-                            .split(" ")[0],
+                            .replace("%", "")
+                            .split(" ")[1]
+                        ),
+                        "percentage": top_card.find_all(
+                            "p", class_="text-3xl font-bold"
+                        )[1]
+                        .text.strip()
+                        .split(" ")[0],
+                    },
+                    "moves": [moves + tmhm_moves],
+                    "sprites": {
+                        "front_default": sprite_link,
+                        "other": {
+                            "home": {
+                                "front_default": sprite_link,
+                            }
                         },
-                        "moves": [moves + tmhm_moves],
-                        "sprites": {
-                            "front_default": sprite_link,
-                            "other": {
-                                "home": {
-                                    "front_default": sprite_link,
-                                }
-                            },
-                        },
-                        "stats": stats_table_output,
-                        "types": top_card.find_all("p", class_="text-3xl font-bold")[
-                            0
-                        ].text.strip(),
-                        "gender": {
-                            "isGenderless": top_card.find_all(
-                                "p", class_="text-3xl font-bold"
-                            )[2].text.strip()
-                            == "Genderless",
-                            "maleChance": gender_data[0],
-                            "femaleChance": gender_data[1],
-                        },
-                    }
-                
+                    },
+                    "stats": stats_table_output,
+                    "types": typeArray,
+                    "gender": {
+                        "isGenderless": top_card.find_all(
+                            "p", class_="text-3xl font-bold"
+                        )[2].text.strip()
+                        == "Genderless",
+                        "maleChance": gender_data[0],
+                        "femaleChance": gender_data[1],
+                    },
+                }
 
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
