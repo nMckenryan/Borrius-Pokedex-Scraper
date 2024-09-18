@@ -62,6 +62,6 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Publish Docker Image to Google Cloud https://borrius-pokemon-scraper-321133146790.australia-southeast1.run.app/borrius_pokemon
 
 - [/] Patch in missing data from PokeAPI
-  - [/] Line up data for use with Curadex project
-  - [] Add back sprites from PokeApi
+  - [x] Line up data for use with Curadex project
+  - [] Add official portraits from PokeApi
   - [] Handle movelists so they're not collosal lists for each pokemon

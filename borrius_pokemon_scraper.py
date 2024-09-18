@@ -36,6 +36,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
         for i in numbers:
             link = f"{dex_page}{i}"
             tasks.append(fetch_page(session, link))
+
         pages = await asyncio.gather(*tasks)
 
         for page in pages:
@@ -59,8 +60,23 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                 sprite_src = soup.find("img")["src"]
                 officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
 
+                try:
+                    getEvoDetails = await getPokeApiData(officialDexNumber)
+                    evoDetails = getEvoDetails.get("evolution_details", {}).get(
+                        "chain", None
+                    )
+                except Exception as e:
+                    print(
+                        f"Failed to retrieve pokeapi data for {officialDexNumber}: {e}"
+                    )
+                    evoDetails = None
+
                 sprite_link = str(
                     f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",
+                )
+
+                official_sprite_link = str(
+                    f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{str(officialDexNumber)}.png"
                 )
                 # MOVES
                 moves = []
@@ -174,6 +190,21 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     }
                     abilities.append(ab)
 
+                    # WEIGHT
+                weightInHectograms = (
+                    float(
+                        top_card.find_all("p", class_="text-3xl font-bold")[4]
+                        .text.strip()
+                        .split(" ")[0]
+                        .replace("\u00a0", "")
+                        .replace("kg", "")
+                        .replace(" ", "")
+                        .replace(".", "")
+                        .replace(",", "")
+                    )
+                    * 10
+                )
+
                 # HEIGHT
                 heightInDecimetres = (
                     float(
@@ -211,6 +242,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         },
                     ],
                     "height": heightInDecimetres,
+                    "weight": weightInHectograms,
                     "id": officialDexNumber,
                     "name": top_card.find("h3", class_="card-title text-4xl")
                     .text.strip()
@@ -231,12 +263,9 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     "moves": [moves + tmhm_moves],
                     "sprites": {
                         "front_default": sprite_link,
-                        "other": {
-                            "home": {
-                                "front_default": sprite_link,
-                            }
-                        },
+                        "other": {"home": {"front_default": official_sprite_link}},
                     },
+                    "evolution_chain": evoDetails,
                     "stats": stats_table_output,
                     "types": typeArray,
                     "gender": {
@@ -294,53 +323,22 @@ async def output_pokedex_json():
         print(f"Json Generation Failed : {e}")
 
 
-## GET FROM POKEAPI
-# starters = [246, 247, 248, 374, 375, 376, 443, 444, 445]
-# starter = 1
-# pokemonGet = [];
-# for index in starters:
-#     pokeapi_page = s.get(f"https://pokeapi.co/api/v2/pokemon/{index}")
-#     # Get pokeapi data for missing pokemon
-#     url = f"https://pokeapi.co/api/v2/pokemon/{index}"
-#     response = requests.get(url)
-#     if response.status_code == 200:
-#         pokemonData = response.json()
-#         try:
-#             # capRate = pokemonData["capture_rate"]
-#             capRate = 1
+async def getPokeApiData(pokemonNumber):
+    async with aiohttp.ClientSession() as session:
+        try:
+            pokeapi_species = await session.get(
+                f"https://pokeapi.co/api/v2/pokemon-species/{pokemonNumber}"
+            )
 
-#             pokemonGet.append(
-#                 {
-#                 "pokemon_index": starter + 1,
-#                 "name": pokemonData["name"],
-#                     "sprite": pokemonData["sprites"]["front_default"],
-#                     "type": [pokemonData["types"]],
-#                 "catchRate": {
-#                     "value": capRate,
-#                     "percentage": 999,
-#                 },
-#                 "gender": {
-#                         "isGenderless": 0,
-#                         "maleChance": 50,
-#                         "femaleChance": 50
-#                 },
-#                 "abilities": pokemonData["abilities"],
-#                 "weight": {
-#                     "imperial": round(pokemonData["weight"] * 0.220462, 1),
-#                     "metric": pokemonData["weight"],
-#                 },
-#                 "height": {
-#                     "imperial": pokemonData["height"] * 0.393701,
-#                     "metric": pokemonData["height"],
-#                 },
-#                 "stats": pokemonData["stats"],
-#                 "learnedMoves": pokemonData["moves"],
-#                 "tmhmMoves": pokemonData["moves"],
-#                 }
-#             )
+            speciesData = await pokeapi_species.json()
 
-#         except Exception as e:
-#             print(f"Failed to retrieve data from PokeAPI: {e}")
+            evoChainUrl = speciesData["evolution_chain"]["url"]
 
+            pokeapi_evochain = await session.get(evoChainUrl)
+            evoData = await pokeapi_evochain.json()
 
-# pokemonJson += pokemonGet
+            pokeapiData = {"evolution_details": evoData}
+
+            return pokeapiData
+        except Exception as e:
+            print(f"Failed to retrieve data from PokeAPI: {e}")
