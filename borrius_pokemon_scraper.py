@@ -260,7 +260,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         .text.strip()
                         .split(" ")[0],
                     },
-                    "moves": [moves + tmhm_moves],
+                    "moves": moves + tmhm_moves,
                     "sprites": {
                         "front_default": sprite_link,
                         "other": {"home": {"front_default": official_sprite_link}},
