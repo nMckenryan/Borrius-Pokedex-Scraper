@@ -49,6 +49,8 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Save JSON to a file
 - [x] Implement Error Messages for process
 - [x] Make this available publically/for other projects
+- [] Collate Alolan Forms
+- [] Get this data, and add to dex
 
 ### FUTURE FEATURES:
 

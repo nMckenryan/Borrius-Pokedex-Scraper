@@ -1,0 +1,7092 @@
+[
+    {
+        "pokemon": "Snorunt",
+        "locationData": [
+            {
+                "location": "Route 1",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Vanillite",
+        "locationData": [
+            {
+                "location": "Route 1",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Delibird",
+        "locationData": [
+            {
+                "location": "Route 1",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Minior",
+        "locationData": [
+            {
+                "location": "Route 1",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pikipek",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Patrat",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Minccino",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Inkay",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hoothoot",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Rattata",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Electrike",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Azurill",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Stufful",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Scraggy",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Riolu",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Poochyena",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Clobbopus",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Wingull",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bidoof",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Slowpoke ",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Shellos",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cherubi",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dewpider ",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Surskit",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Buizel",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Poliwag",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sentret",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Skwovet",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Chewtle",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Starly",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Budew",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hoothoot",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lillipup",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ekans",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Numel",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mankey",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ralts",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Burmy",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sizzlipede",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lickitung",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Taillow",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Murkrow",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nidoran\u2642\ufe0f",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nidoran\u2640\ufe0f",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Growlithe",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Yanma",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Houndour",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Venonat",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ditto",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Purrloin",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Elgyem",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Yamper",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nickit",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bunnelby",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ledyba",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Spinarak",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Shinx",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Deerling",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sunkern",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ledian",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Kricketot",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ariados",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Luxio",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Smeargle",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Morpeko",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Yungoos",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Doduo",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Rattata",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hoothoot",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Buneary",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Espurr",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Drowzee",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Abra",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mareep",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Shinx",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Luxio",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gumshoos",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Raticate",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mr. Mime",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Indeedee\u2642\ufe0f",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Indeedee\u2640\ufe0f",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Snover",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Snorunt",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sneasel",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cubchoo",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Deerling",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Flaaffy",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Minior",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Stantler",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Mr. Mime",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mr. Rime",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Spearow",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Grubbin",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Marill",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Deerling",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Shroomish",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Skorupi",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Audino",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Karrablast",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Toxel",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lotad",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tympole",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Marill",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Linoone",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lombre",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Palpitoad",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Goomy",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ditto",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Shelmet",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Linoone",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Obstagoon",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swablu",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noctowl",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Exeggcute",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Spoink",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Meditite",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Togedemaru",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gulpin",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Glameow",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Milcery",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Fletchling",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hoothoot",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Rockruff",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Solosis",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gothita",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mienfoo",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ponyta",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Snubbull",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Deerling",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Fletchinder",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noctowl",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dedenne",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Spritzee",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swirlix",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Ponyta",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Applin",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pelipper",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bibarel",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golduck",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gastrodon",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Floatzel",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Slowpoke",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Weepinbell",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bellsprout",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gloom",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Oddish",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Eldegoss",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tangela",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Girafarig",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pancham",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pawniard",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Chatot",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Throh",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sawk",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Copperajah",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Falinks",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Skiploom",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noctowl",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pelipper",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tropius",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pidgeotto",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Zangoose",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Seviper",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bagon",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Volbeat",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Illumise",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Farfetch'd",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sirfetch'd",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Farfetch'd",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noctowl",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Skuntank",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Persian",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bouffalant",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sudowoodo",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Happiny",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bayleef",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Stonjourner",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hariyama",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sealeo",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Jynx",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Avalugg",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Boldore",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Piloswine",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Eiscue",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Regieleki",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Regidrago",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "4F - 1F",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Zubat",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Makuhita",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Spheal",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Smoochum",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bergmite",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Roggenrola",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swinub",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "4F (Secret Entrance)",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Zubat",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Roggenrola",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Makuhita",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Drilbur",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mawile",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "4F (Outside)",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Sandshrew",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F + B1F",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hariyama",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sealeo",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Jynx",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Avalugg",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Boldore",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Piloswine",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Yellow Flowers",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Flabe\u0301be\u0301",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cutiefly",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Oricorio",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Combee",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pink Flowers",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Flabe\u0301be\u0301",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cutiefly",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Oricorio",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Comfey",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pansage",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Combee",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Blue Flowers",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Flabe\u0301be\u0301",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cutiefly",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Panpour",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Combee",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Red Flowers",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Flabe\u0301be\u0301",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cutiefly",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Oricorio",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Comfey",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pansear",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Combee",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Blue-Yellow Flowers",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Flabe\u0301be\u0301",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cutiefly",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Oricorio",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Combee",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pink-Purple Flowers",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Flabe\u0301be\u0301",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cutiefly",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Oricorio",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Comfey",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Combee",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Caterpie",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Weedle",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Seedot",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pumpkaboo",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gastly",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Shuppet",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Duskull",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Phantump",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Blipbug",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F - 4F",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Slugma",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Salandit",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Numel",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Geodude",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Drilbur",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Torkoal",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magby",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Shadow Basement",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Slugma",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Salandit",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Camerupt",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Graveler",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Excadrill",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Heatmor",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magmar",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Vulpix",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Rolycoly",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Carkol",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F - 2F",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Phanpy",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Aron",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B1F",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Phanpy",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Aron",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noibat",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gligar",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dunsparce",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Meowth",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Perrserker",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Frozen Heights, Crater, ",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Blizzard, Fallshore, ",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tehl, Epidimy Entrances ",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Zubat",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Makuhita",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Aron",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Geodude",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noibat",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dehara, Gurun, Antisis, ",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Seaport Entrances",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hariyama",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lairon",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Graveler",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noibat",
+        "locationData": [
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Roggenrola",
+        "locationData": [
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Aron",
+        "locationData": [
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bronzor",
+        "locationData": [
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sneasel",
+        "locationData": [
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Onix",
+        "locationData": [
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cryogonal",
+        "locationData": [
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lotad",
+        "locationData": [
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tympole",
+        "locationData": [
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Marill",
+        "locationData": [
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Linoone",
+        "locationData": [
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lombre",
+        "locationData": [
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Palpitoad",
+        "locationData": [
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Goomy",
+        "locationData": [
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ditto",
+        "locationData": [
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Snover",
+        "locationData": [
+            {
+                "location": "Frozen Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cubchoo",
+        "locationData": [
+            {
+                "location": "Frozen Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sneasel",
+        "locationData": [
+            {
+                "location": "Frozen Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Frozen Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Snom",
+        "locationData": [
+            {
+                "location": "Frozen Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Graveler",
+        "locationData": [
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lairon",
+        "locationData": [
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Diglett",
+        "locationData": [
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dugtrio",
+        "locationData": [
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F + 3F",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magnemite",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cubone",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Klink",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Elekid",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tynamo",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magneton",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Electabuzz",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "2F + 4F",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magnemite",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Timburr",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Klink",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Elekid",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tynamo",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magneton",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Electabuzz",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "2F (Small Floor)",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magneton",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gurdurr",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Klink",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Electabuzz",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tynamo",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Klang",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "3F",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nosepass",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magneton",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Marowak",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Klank",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Electabuzz",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Eelektrik",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Joltik",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ferroseed",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pincurchin",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Geodude",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Machop",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Onix",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Wooper",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Misdreavus",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Quagsire",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Graveler",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Machoke",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Steelix",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B3F - B1F",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Baltoy",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Yamask",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Duskull",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sableye",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bronzong",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dusclops",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lunatone",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Solrock",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sigilyph",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cofagrigus",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B1F - B2F",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Claydol",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cofagrigus",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dusclops",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sableye",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bronzong",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lunatone",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Solrock",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sigilyph",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Yamask",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Runerigus",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Haunter",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Duskull",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golett",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bronzor",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Chimecho",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bronzong",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dusclops",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B1F - B2F",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Haunter",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dusclops",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golurk",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bronzong",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Chimecho",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sinistea",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sandslash",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dwebble",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Krokorok",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cacnea",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Darumaka",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hippowdon",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Vibrava",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Maractus",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Silicobra",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Grimer",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Raticate",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Koffing",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Muk",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Weezing",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Whirlipede",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Weezing",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown A",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown B",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown C",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown D",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown E",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sigilyph",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B4F",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown F",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown G",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown H",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown I",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown J",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sigilyph",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B3F",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown K",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown L",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown M",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown N",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown O",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sigilyph",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B2F",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown P",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown Q",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown R",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown S",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown T",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sigilyph",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B1F",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown U",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown V",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown W",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown X",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown Y",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sigilyph",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F (Main Room)",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown Z",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown !",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Unown ?",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Caterpie",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Weedle",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Wurmple",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Scatterbug",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cottonee",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swadloon",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Petilil",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Spewpa",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Metapod",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Kakuna",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Silcoon",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Cascoon",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pikachu",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hattrem",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Morgrem",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Croagunk",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Quagsire",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sliggoo",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Drapion",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Carnivine",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Weepinbell",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gloom",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Toxicroak",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Croconaw",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Stunfisk",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Easy",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Skitty",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Rhyhorn",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Natu",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Meowth",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Plusle",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Minun",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Bounsweet",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Blitzle",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Helioptile",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Treecko",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Torchic",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mudkip",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Medium",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Steenee",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Zebstrika",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Xatu",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Diglett",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Spinda",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Wobbuffet",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tauros",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Rhyhorn",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Helioptile",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Kangaskhan",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Treecko",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Torchic",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mudkip",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hard",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Rhydon",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Wobbuffet",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Kangaskhan",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Zebstrika",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Spinda",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tauros",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Helioptile",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Exeggcute",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Diglett",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golisopod",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Grovyle",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Combusken",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Marshtomp",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Insane",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Rhydon",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tauros",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Doublade",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Kangaskhan",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Wobbuffet",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Exeggcute",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golisopod",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Heliolisk",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Alolan Dugtrio",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Grovyle",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Combusken",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Marshtomp",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B1F + 1F - 5F",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Loudred",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Onix",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noibat",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Zweilous",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Steelix",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Skarmory",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Loudred",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Onix",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noivern",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Zweilous",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Steelix",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Skarmory",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Outside ",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Drifblim",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Rufflet",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Vullaby",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Absol",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Duraludon",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dracozolt",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Arctozolt",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Noctowl",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tranquill",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Furfrou",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Mudsdale",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Gogoat",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Miltank",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Tauros",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Quilava",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Dubwool",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ledian",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ariados",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Vigoroth",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Ursaring",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Heracross",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Komala",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Passimian",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Oranguru",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Headbutt Trees",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Aipom",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pineco",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Scyther",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Pinsir",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Heracross",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Swarm",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Nincada",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Raboot",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Thwackey",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "1F",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Boldore",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Durant",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B1F",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Graveler",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Durant",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "B1F",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magcargo",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Salazzle",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Camerupt",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Graveler",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Excadrill",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Heatmor",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Magmar",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "2F",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Druddigon",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Turtonator",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Drampa",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Drakloak",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Maze Area",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Heatmor",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Roselia",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Chansey",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Lurantis",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Jigglypuff",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Corvisquire",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "3F",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Durant",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Turtonator",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Drampa",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hakamo-o",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Snowy Area",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Abomasnow",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Glalie",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Vanillish",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Beartic",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Minior",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Special Encounter",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Galarian Darmanitan",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "4F + Kyurem's Cave",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Hariyama",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Sealeo",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Jynx",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Avalugg",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Glalie",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    },
+    {
+        "pokemon": "Piloswine",
+        "locationData": [
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day"
+            }
+        ]
+    }
+]

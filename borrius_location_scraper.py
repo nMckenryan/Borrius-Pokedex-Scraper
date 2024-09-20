@@ -1,36 +1,47 @@
+import json
 import openpyxl
-
 
 wb = openpyxl.load_workbook("./borrius_location_data.xlsx", data_only=True)
 sheet = wb["Grass & Cave Encounters"]
 
 
 locationDataList = []
-for pokemon, color in zip(sheet["A"][1:], sheet["B"][1:]):
-    if pokemon.value is not None:
-        timeOfDay = (
-            "Morning"
-            if color.font.color.rgb == "ffb500"
-            else "Night"
-            if color.fill.start_color.rgb == "b300ff"
-            else "Swarm"
-            if color.fill.start_color.rgb == "ff0000"
-            else "Special Encounter"
-            if color.fill.start_color.rgb == "00ff00"
-            else "All Day"
-        )
-        locationDataList.append(
-            {
-                "pokemon": pokemon.value,
-                "locationData": [
-                    {
-                        "location": sheet.cell(row=1, column=2).value,
-                        "encounterMethod": "Grass",
-                        "timeOfDay": timeOfDay,
-                    }
-                ],
-            }
-        )
 
+# map through each column of the spreadsheet, apply the headers as locationData.location
+for col in range(1, sheet.max_column + 1):
+    location_header = sheet.cell(row=1, column=col).value
+    # map down through each row, applying each value from there as "pokemon"
+    for row in range(2, sheet.max_row + 1):
+        pokemon = sheet.cell(row=row, column=col).value
+        if pokemon is not None:
+            match sheet.cell(row=row, column=col).fill.start_color.rgb:
+                case "ffb500":
+                    timeOfDay = "Morning"
+                case "b300ff":
+                    timeOfDay = "Night"
+                case "ff0000":
+                    timeOfDay = "Swarm"
+                case "00ff00":
+                    timeOfDay = "Special Encounter"
+                case _:
+                    timeOfDay = "All Day"
+            locationDataList.append(
+                {
+                    "pokemon": pokemon,
+                    "locationData": [
+                        {
+                            "location": location_header,
+                            "encounterMethod": "Grass" if col < 5 else "Cave",
+                            "timeOfDay": timeOfDay,
+                        }
+                    ],
+                }
+            )
 
-print(locationDataList)
+try:
+    fileName = "locationData.json"
+    with open(fileName, "w") as fp:
+        json.dump(locationDataList, fp, indent=4)
+    print(f"{fileName} successfully created")
+except Exception as e:
+    print(f"Json Generation Failed : {e}")
