@@ -70,7 +70,7 @@ for col in range(1, sheet.max_column + 1):
 
 
 try:
-    fileName = "locationData.json"
+    fileName = "scraperData/locationData.json"
     with open(fileName, "w") as fp:
         json.dump(locationDataList, fp, indent=4)
     print(f"{fileName} successfully created")

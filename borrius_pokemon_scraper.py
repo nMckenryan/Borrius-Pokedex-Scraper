@@ -21,6 +21,16 @@ pokemonJson = [
 ]
 
 
+async def getLocations(pokemonName):
+    with open("scraperData/locationData.json") as f:
+        data = json.load(f)
+        for pokemon in data:
+            if pokemon["pokemon"] == pokemonName:
+                return pokemon["locationData"]
+
+    return []
+
+
 # Loop through all 494 in the borrius dex
 
 
@@ -225,6 +235,13 @@ async def createPokemonJson(dex_page, numbers, indexCount):
 
                 typeArray = ast.literal_eval(tA)
 
+                pokemonName = str(
+                    top_card.find("h3", class_="card-title text-4xl")
+                    .text.strip()
+                    .replace("Name: ", ""),
+                )
+
+                locations = await getLocations(pokemonName)
                 # APPLY DATA TO JSON
                 pokemon_data = {
                     "abilities": abilities,
@@ -244,9 +261,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     "height": heightInDecimetres,
                     "weight": weightInHectograms,
                     "id": officialDexNumber,
-                    "name": top_card.find("h3", class_="card-title text-4xl")
-                    .text.strip()
-                    .replace("Name: ", ""),
+                    "name": pokemonName,
                     "capture_rate": {
                         "value": float(
                             top_card.find_all("p", class_="text-3xl font-bold")[1]
@@ -276,8 +291,8 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         "maleChance": gender_data[0],
                         "femaleChance": gender_data[1],
                     },
+                    "locations": locations,
                 }
-
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
 
@@ -315,7 +330,7 @@ async def output_pokedex_json():
     printTime = datetime.datetime.now()
     print(f"Printing JSON to file process started at {printTime}")
     try:
-        fileName = "borrius_pokedex_data.json"
+        fileName = "scraperData/borrius_pokedex_data.json"
         with open(fileName, "w") as fp:
             json.dump(pokemonJson, fp, indent=4)
         print(f"{fileName} successfully created")
