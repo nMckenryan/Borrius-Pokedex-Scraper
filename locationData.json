@@ -7,6 +7,12 @@
                 "encounterMethod": "Grass",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -40,6 +46,18 @@
                 "encounterMethod": "Grass",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -93,6 +111,24 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
             }
@@ -214,6 +250,12 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
             }
@@ -341,17 +383,6 @@
         ]
     },
     {
-        "pokemon": "Hoothoot",
-        "locationData": [
-            {
-                "location": "Route 4",
-                "encounterMethod": "Grass",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Lillipup",
         "locationData": [
             {
@@ -379,6 +410,12 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
             }
@@ -535,6 +572,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -623,6 +672,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -631,6 +686,24 @@
         "locationData": [
             {
                 "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 8",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -656,6 +729,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -678,6 +757,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -686,6 +771,12 @@
         "locationData": [
             {
                 "location": "Route 6",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -748,17 +839,6 @@
         ]
     },
     {
-        "pokemon": "Hoothoot",
-        "locationData": [
-            {
-                "location": "Route 7",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Buneary",
         "locationData": [
             {
@@ -804,28 +884,6 @@
     },
     {
         "pokemon": "Mareep",
-        "locationData": [
-            {
-                "location": "Route 7",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Shinx",
-        "locationData": [
-            {
-                "location": "Route 7",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Luxio",
         "locationData": [
             {
                 "location": "Route 7",
@@ -898,14 +956,9 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Snorunt",
-        "locationData": [
+            },
             {
-                "location": "Route 8",
+                "location": "Frozen Forest",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -920,6 +973,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frozen Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -931,14 +996,9 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Deerling",
-        "locationData": [
+            },
             {
-                "location": "Route 8",
+                "location": "Frozen Forest",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -947,17 +1007,6 @@
     },
     {
         "pokemon": "Flaaffy",
-        "locationData": [
-            {
-                "location": "Route 8",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Minior",
         "locationData": [
             {
                 "location": "Route 8",
@@ -1030,14 +1079,15 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Deerling",
-        "locationData": [
+            },
             {
-                "location": "Route 9 + Autl Woods",
+                "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -1107,6 +1157,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1118,14 +1174,9 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Marill",
-        "locationData": [
+            },
             {
-                "location": "Route 10",
+                "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -1140,6 +1191,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1148,6 +1205,12 @@
         "locationData": [
             {
                 "location": "Route 10",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -1162,6 +1225,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1173,14 +1242,9 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Ditto",
-        "locationData": [
+            },
             {
-                "location": "Route 10",
+                "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -1236,6 +1300,30 @@
         "locationData": [
             {
                 "location": "Route 11",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -1331,17 +1419,6 @@
         ]
     },
     {
-        "pokemon": "Hoothoot",
-        "locationData": [
-            {
-                "location": "Route 12",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Rockruff",
         "locationData": [
             {
@@ -1408,29 +1485,7 @@
         ]
     },
     {
-        "pokemon": "Deerling",
-        "locationData": [
-            {
-                "location": "Route 12",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Fletchinder",
-        "locationData": [
-            {
-                "location": "Route 12",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Noctowl",
         "locationData": [
             {
                 "location": "Route 12",
@@ -1503,6 +1558,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1551,21 +1612,16 @@
         ]
     },
     {
-        "pokemon": "Slowpoke",
+        "pokemon": "Weepinbell",
         "locationData": [
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Weepinbell",
-        "locationData": [
+            },
             {
-                "location": "Route 14",
+                "location": "Cootes Bog",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -1588,6 +1644,12 @@
         "locationData": [
             {
                 "location": "Route 14",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -1727,28 +1789,6 @@
         ]
     },
     {
-        "pokemon": "Noctowl",
-        "locationData": [
-            {
-                "location": "Route 17",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Pelipper",
-        "locationData": [
-            {
-                "location": "Route 17",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Tropius",
         "locationData": [
             {
@@ -1859,17 +1899,6 @@
         ]
     },
     {
-        "pokemon": "Noctowl",
-        "locationData": [
-            {
-                "location": "Route 18",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Skuntank",
         "locationData": [
             {
@@ -1954,6 +1983,54 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1965,6 +2042,24 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1976,6 +2071,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1987,6 +2094,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1998,6 +2117,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -2006,6 +2137,18 @@
         "locationData": [
             {
                 "location": "Ice Hole",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -2020,6 +2163,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -2075,6 +2230,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2083,6 +2250,18 @@
         "locationData": [
             {
                 "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -2130,6 +2309,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2156,43 +2347,16 @@
         ]
     },
     {
-        "pokemon": "Zubat",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Roggenrola",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Makuhita",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Drilbur",
         "locationData": [
             {
                 "location": "Icicle Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -2244,83 +2408,6 @@
         ]
     },
     {
-        "pokemon": "Golbat",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Hariyama",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sealeo",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Jynx",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Avalugg",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Boldore",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Piloswine",
-        "locationData": [
-            {
-                "location": "Icicle Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Yellow Flowers",
         "locationData": [
             {
@@ -2339,12 +2426,72 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Cutiefly",
         "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
@@ -2361,12 +2508,66 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Combee",
         "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
@@ -2387,41 +2588,20 @@
         ]
     },
     {
-        "pokemon": "Flabe\u0301be\u0301",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Cutiefly",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Oricorio",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Comfey",
         "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
@@ -2432,17 +2612,6 @@
     },
     {
         "pokemon": "Pansage",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Combee",
         "locationData": [
             {
                 "location": "Flower Paradise",
@@ -2464,40 +2633,7 @@
         ]
     },
     {
-        "pokemon": "Flabe\u0301be\u0301",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Cutiefly",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Panpour",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Combee",
         "locationData": [
             {
                 "location": "Flower Paradise",
@@ -2519,62 +2655,7 @@
         ]
     },
     {
-        "pokemon": "Flabe\u0301be\u0301",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Cutiefly",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Oricorio",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Comfey",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Pansear",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Combee",
         "locationData": [
             {
                 "location": "Flower Paradise",
@@ -2596,106 +2677,7 @@
         ]
     },
     {
-        "pokemon": "Flabe\u0301be\u0301",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Cutiefly",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Oricorio",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Combee",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Pink-Purple Flowers",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Flabe\u0301be\u0301",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Cutiefly",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Oricorio",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Comfey",
-        "locationData": [
-            {
-                "location": "Flower Paradise",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Combee",
         "locationData": [
             {
                 "location": "Flower Paradise",
@@ -2713,6 +2695,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2721,6 +2709,12 @@
         "locationData": [
             {
                 "location": "Grim Woods",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -2779,6 +2773,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2823,12 +2829,90 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
     {
         "pokemon": "Slugma",
         "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
@@ -2845,12 +2929,7 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Numel",
-        "locationData": [
+            },
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
@@ -2867,14 +2946,9 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Drilbur",
-        "locationData": [
+            },
             {
-                "location": "Cinder Volcano",
+                "location": "KBT Expressway",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -2915,43 +2989,16 @@
         ]
     },
     {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "Cinder Volcano",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Slugma",
-        "locationData": [
-            {
-                "location": "Cinder Volcano",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Salandit",
-        "locationData": [
-            {
-                "location": "Cinder Volcano",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Camerupt",
         "locationData": [
             {
                 "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -2966,6 +3013,30 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2974,6 +3045,12 @@
         "locationData": [
             {
                 "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -2988,6 +3065,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -2996,6 +3085,12 @@
         "locationData": [
             {
                 "location": "Cinder Volcano",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -3047,19 +3142,14 @@
         ]
     },
     {
-        "pokemon": "Woobat",
+        "pokemon": "Phanpy",
         "locationData": [
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Phanpy",
-        "locationData": [
+            },
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
@@ -3076,6 +3166,54 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3084,6 +3222,24 @@
         "locationData": [
             {
                 "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -3098,47 +3254,15 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
+            },
             {
-                "location": "Valley Cave",
+                "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Phanpy",
-        "locationData": [
+            },
             {
-                "location": "Valley Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Nosepass",
-        "locationData": [
-            {
-                "location": "Valley Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Aron",
-        "locationData": [
-            {
-                "location": "Valley Cave",
+                "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -3150,6 +3274,24 @@
         "locationData": [
             {
                 "location": "Valley Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "KBT Expressway",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -3234,83 +3376,6 @@
         ]
     },
     {
-        "pokemon": "Zubat",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Makuhita",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Aron",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Nosepass",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Geodude",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Noibat",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Dehara, Gurun, Antisis,",
         "locationData": [
             {
@@ -3333,39 +3398,6 @@
         ]
     },
     {
-        "pokemon": "Golbat",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Hariyama",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Lairon",
         "locationData": [
             {
@@ -3373,69 +3405,9 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Nosepass",
-        "locationData": [
+            },
             {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Graveler",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Noibat",
-        "locationData": [
-            {
-                "location": "KBT Expressway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Roggenrola",
-        "locationData": [
-            {
-                "location": "Frost Mountain",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "Frost Mountain",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Aron",
-        "locationData": [
-            {
-                "location": "Frost Mountain",
+                "location": "Lost Tunnel",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -3450,25 +3422,9 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Nosepass",
-        "locationData": [
+            },
             {
-                "location": "Frost Mountain",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sneasel",
-        "locationData": [
-            {
-                "location": "Frost Mountain",
+                "location": "Rift Cave",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -3480,6 +3436,24 @@
         "locationData": [
             {
                 "location": "Frost Mountain",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -3498,127 +3472,6 @@
         ]
     },
     {
-        "pokemon": "Lotad",
-        "locationData": [
-            {
-                "location": "Auburn Waterway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Tympole",
-        "locationData": [
-            {
-                "location": "Auburn Waterway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Marill",
-        "locationData": [
-            {
-                "location": "Auburn Waterway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Linoone",
-        "locationData": [
-            {
-                "location": "Auburn Waterway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Lombre",
-        "locationData": [
-            {
-                "location": "Auburn Waterway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Palpitoad",
-        "locationData": [
-            {
-                "location": "Auburn Waterway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Goomy",
-        "locationData": [
-            {
-                "location": "Auburn Waterway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Ditto",
-        "locationData": [
-            {
-                "location": "Auburn Waterway",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Snover",
-        "locationData": [
-            {
-                "location": "Frozen Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Cubchoo",
-        "locationData": [
-            {
-                "location": "Frozen Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sneasel",
-        "locationData": [
-            {
-                "location": "Frozen Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Snom",
         "locationData": [
             {
@@ -3626,39 +3479,6 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Graveler",
-        "locationData": [
-            {
-                "location": "Lost Tunnel",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "Lost Tunnel",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Lairon",
-        "locationData": [
-            {
-                "location": "Lost Tunnel",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3696,19 +3516,14 @@
         ]
     },
     {
-        "pokemon": "Nosepass",
+        "pokemon": "Magnemite",
         "locationData": [
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Magnemite",
-        "locationData": [
+            },
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
@@ -3736,12 +3551,30 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Elekid",
         "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
@@ -3758,12 +3591,42 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Magneton",
         "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
@@ -3780,33 +3643,29 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "2F + 4F",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Nosepass",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Magnemite",
         "locationData": [
             {
                 "location": "Thundercap Mt.",
@@ -3828,61 +3687,6 @@
         ]
     },
     {
-        "pokemon": "Klink",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Elekid",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Tynamo",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Magneton",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Electabuzz",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "2F (Small Floor)",
         "locationData": [
             {
@@ -3894,62 +3698,7 @@
         ]
     },
     {
-        "pokemon": "Nosepass",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Magneton",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Gurdurr",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Klink",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Electabuzz",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Tynamo",
         "locationData": [
             {
                 "location": "Thundercap Mt.",
@@ -3978,28 +3727,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Nosepass",
-        "locationData": [
+            },
             {
-                "location": "Thundercap Mt.",
+                "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Magneton",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -4016,17 +3749,6 @@
     },
     {
         "pokemon": "Klank",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Electabuzz",
         "locationData": [
             {
                 "location": "Thundercap Mt.",
@@ -4081,17 +3803,6 @@
         ]
     },
     {
-        "pokemon": "Golbat",
-        "locationData": [
-            {
-                "location": "Cliff Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Alolan Geodude",
         "locationData": [
             {
@@ -4104,17 +3815,6 @@
     },
     {
         "pokemon": "Machop",
-        "locationData": [
-            {
-                "location": "Cliff Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Onix",
         "locationData": [
             {
                 "location": "Cliff Cave",
@@ -4154,6 +3854,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4184,6 +3890,18 @@
         "locationData": [
             {
                 "location": "Cliff Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -4224,19 +3942,14 @@
         ]
     },
     {
-        "pokemon": "Duskull",
+        "pokemon": "Sableye",
         "locationData": [
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sableye",
-        "locationData": [
+            },
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
@@ -4253,6 +3966,24 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4264,12 +3995,36 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Lunatone",
         "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
@@ -4286,6 +4041,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4297,12 +4058,30 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Cofagrigus",
         "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
@@ -4319,88 +4098,17 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Claydol",
-        "locationData": [
-            {
-                "location": "Ruins of Void",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Cofagrigus",
-        "locationData": [
-            {
-                "location": "Ruins of Void",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Dusclops",
-        "locationData": [
-            {
-                "location": "Ruins of Void",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sableye",
-        "locationData": [
-            {
-                "location": "Ruins of Void",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Bronzong",
-        "locationData": [
-            {
-                "location": "Ruins of Void",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Lunatone",
-        "locationData": [
-            {
-                "location": "Ruins of Void",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Solrock",
-        "locationData": [
-            {
-                "location": "Ruins of Void",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sigilyph",
         "locationData": [
             {
                 "location": "Ruins of Void",
@@ -4440,14 +4148,15 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Golbat",
-        "locationData": [
+            },
             {
-                "location": "Rift Cave",
+                "location": "Crystal Peak",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -4462,12 +4171,7 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Duskull",
-        "locationData": [
+            },
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
@@ -4488,17 +4192,6 @@
         ]
     },
     {
-        "pokemon": "Bronzor",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Chimecho",
         "locationData": [
             {
@@ -4506,67 +4199,7 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Bronzong",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Dusclops",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "B1F - B2F",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Golbat",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Haunter",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Dusclops",
-        "locationData": [
+            },
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
@@ -4577,28 +4210,6 @@
     },
     {
         "pokemon": "Golurk",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Bronzong",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Chimecho",
         "locationData": [
             {
                 "location": "Rift Cave",
@@ -4741,17 +4352,6 @@
         ]
     },
     {
-        "pokemon": "Golbat",
-        "locationData": [
-            {
-                "location": "Antisis Sewers",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Koffing",
         "locationData": [
             {
@@ -4807,43 +4407,10 @@
         ]
     },
     {
-        "pokemon": "Sigilyph",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Unown",
         "locationData": [
             {
                 "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Caterpie",
-        "locationData": [
-            {
-                "location": "Vivill Woods",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Weedle",
-        "locationData": [
-            {
-                "location": "Vivill Woods",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -5005,17 +4572,6 @@
         ]
     },
     {
-        "pokemon": "Quagsire",
-        "locationData": [
-            {
-                "location": "Cootes Bog",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Sliggoo",
         "locationData": [
             {
@@ -5039,28 +4595,6 @@
     },
     {
         "pokemon": "Carnivine",
-        "locationData": [
-            {
-                "location": "Cootes Bog",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Weepinbell",
-        "locationData": [
-            {
-                "location": "Cootes Bog",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Gloom",
         "locationData": [
             {
                 "location": "Cootes Bog",
@@ -5128,6 +4662,12 @@
     {
         "pokemon": "Rhyhorn",
         "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5210,12 +4750,30 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Treecko",
         "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5232,12 +4790,24 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Mudkip",
         "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5276,6 +4846,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5298,12 +4874,24 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Spinda",
         "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5320,6 +4908,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5331,25 +4931,21 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Rhyhorn",
-        "locationData": [
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Helioptile",
-        "locationData": [
+            },
             {
                 "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
@@ -5364,34 +4960,13 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Treecko",
-        "locationData": [
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Torchic",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Mudkip",
-        "locationData": [
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5419,67 +4994,7 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Wobbuffet",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Kangaskhan",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Zebstrika",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Spinda",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Tauros",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Helioptile",
-        "locationData": [
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5496,12 +5011,7 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Alolan Diglett",
-        "locationData": [
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5518,12 +5028,24 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Grovyle",
         "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5540,12 +5062,24 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
     {
         "pokemon": "Marshtomp",
         "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
@@ -5566,73 +5100,7 @@
         ]
     },
     {
-        "pokemon": "Rhydon",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Tauros",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Doublade",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Kangaskhan",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Wobbuffet",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Alolan Exeggcute",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Golisopod",
         "locationData": [
             {
                 "location": "Safari Zone",
@@ -5665,39 +5133,6 @@
         ]
     },
     {
-        "pokemon": "Grovyle",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Combusken",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Marshtomp",
-        "locationData": [
-            {
-                "location": "Safari Zone",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "B1F + 1F - 5F",
         "locationData": [
             {
@@ -5716,34 +5151,7 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Onix",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Noibat",
-        "locationData": [
+            },
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
@@ -5760,12 +5168,7 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Steelix",
-        "locationData": [
+            },
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
@@ -5782,45 +5185,7 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "1F",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Loudred",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Onix",
-        "locationData": [
+            },
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
@@ -5831,39 +5196,6 @@
     },
     {
         "pokemon": "Noivern",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Zweilous",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Steelix",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Skarmory",
         "locationData": [
             {
                 "location": "Crystal Peak",
@@ -5962,17 +5294,6 @@
         ]
     },
     {
-        "pokemon": "Noctowl",
-        "locationData": [
-            {
-                "location": "Magnolia Fields",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Tranquill",
         "locationData": [
             {
@@ -6028,17 +5349,6 @@
         ]
     },
     {
-        "pokemon": "Tauros",
-        "locationData": [
-            {
-                "location": "Magnolia Fields",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Quilava",
         "locationData": [
             {
@@ -6057,28 +5367,6 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Ledian",
-        "locationData": [
-            {
-                "location": "Redwood Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Ariados",
-        "locationData": [
-            {
-                "location": "Redwood Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6107,6 +5395,12 @@
     {
         "pokemon": "Heracross",
         "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
@@ -6204,17 +5498,6 @@
         ]
     },
     {
-        "pokemon": "Heracross",
-        "locationData": [
-            {
-                "location": "Redwood Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Nincada",
         "locationData": [
             {
@@ -6248,39 +5531,6 @@
         ]
     },
     {
-        "pokemon": "1F",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Golbat",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Boldore",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Durant",
         "locationData": [
             {
@@ -6288,72 +5538,18 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "B1F",
-        "locationData": [
+            },
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
+            },
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Graveler",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Durant",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "B1F",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6370,61 +5566,6 @@
     },
     {
         "pokemon": "Salazzle",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Camerupt",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Graveler",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Excadrill",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Heatmor",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Magmar",
         "locationData": [
             {
                 "location": "Victory Road",
@@ -6464,6 +5605,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6475,6 +5622,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6491,17 +5644,6 @@
     },
     {
         "pokemon": "Maze Area",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Heatmor",
         "locationData": [
             {
                 "location": "Victory Road",
@@ -6567,61 +5709,6 @@
         ]
     },
     {
-        "pokemon": "3F",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Woobat",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Durant",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Turtonator",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Drampa",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
         "pokemon": "Hakamo-o",
         "locationData": [
             {
@@ -6662,6 +5749,12 @@
                 "encounterMethod": "Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 1
+            },
+            {
+                "location": "Victory Road",
+                "encounterMethod": "Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6688,17 +5781,6 @@
         ]
     },
     {
-        "pokemon": "Minior",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
         "pokemon": "Galarian Darmanitan",
         "locationData": [
             {
@@ -6711,83 +5793,6 @@
     },
     {
         "pokemon": "4F + Kyurem's Cave",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Golbat",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Hariyama",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Sealeo",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Jynx",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Avalugg",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Glalie",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 1
-            }
-        ]
-    },
-    {
-        "pokemon": "Piloswine",
         "locationData": [
             {
                 "location": "Victory Road",

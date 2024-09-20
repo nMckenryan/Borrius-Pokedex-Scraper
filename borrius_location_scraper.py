@@ -40,19 +40,34 @@ for col in range(1, sheet.max_column + 1):
         else:
             timeOfDay = "Other"
 
-        locationDataList.append(
-            {
-                "pokemon": pokemon,
-                "locationData": [
-                    {
-                        "location": location_header,
-                        "encounterMethod": "Grass" if col < 5 else "Cave",
-                        "timeOfDay": timeOfDay,
-                        "isSpecialEncounter": isSpecialEncounter,
-                    }
-                ],
-            }
+        # check if "pokemon" already exists in locationDataList, then appends locationData object to array
+        existingPokemon = next(
+            (p for p in locationDataList if p["pokemon"] == pokemon), None
         )
+        if existingPokemon is not None:
+            existingPokemon["locationData"].append(
+                {
+                    "location": location_header,
+                    "encounterMethod": "Grass" if col < 5 else "Cave",
+                    "timeOfDay": timeOfDay,
+                    "isSpecialEncounter": isSpecialEncounter,
+                }
+            )
+        else:
+            locationDataList.append(
+                {
+                    "pokemon": pokemon,
+                    "locationData": [
+                        {
+                            "location": location_header,
+                            "encounterMethod": "Grass" if col < 5 else "Cave",
+                            "timeOfDay": timeOfDay,
+                            "isSpecialEncounter": isSpecialEncounter,
+                        }
+                    ],
+                }
+            )
+
 
 try:
     fileName = "locationData.json"
