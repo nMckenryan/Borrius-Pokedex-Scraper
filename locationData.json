@@ -165,17 +165,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Route 2",
-                "encounterMethod": "Grass",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Poochyena",
         "locationData": [
             {
@@ -220,7 +209,7 @@
         ]
     },
     {
-        "pokemon": "Slowpoke ",
+        "pokemon": "Slowpoke",
         "locationData": [
             {
                 "location": "Route 3",
@@ -253,7 +242,7 @@
         ]
     },
     {
-        "pokemon": "Dewpider ",
+        "pokemon": "Dewpider",
         "locationData": [
             {
                 "location": "Route 3",
@@ -287,17 +276,6 @@
     },
     {
         "pokemon": "Poliwag",
-        "locationData": [
-            {
-                "location": "Route 3",
-                "encounterMethod": "Grass",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Route 3",
@@ -419,17 +397,6 @@
     },
     {
         "pokemon": "Ralts",
-        "locationData": [
-            {
-                "location": "Route 4",
-                "encounterMethod": "Grass",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Route 4",
@@ -583,17 +550,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Route 5",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Elgyem",
         "locationData": [
             {
@@ -727,17 +683,6 @@
     },
     {
         "pokemon": "Luxio",
-        "locationData": [
-            {
-                "location": "Route 6",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Route 6",
@@ -913,17 +858,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Route 7",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Mr. Mime",
         "locationData": [
             {
@@ -1024,17 +958,6 @@
     },
     {
         "pokemon": "Minior",
-        "locationData": [
-            {
-                "location": "Route 8",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Route 8",
@@ -1155,17 +1078,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Route 9 + Autl Woods",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Karrablast",
         "locationData": [
             {
@@ -1276,17 +1188,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Route 10",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Shelmet",
         "locationData": [
             {
@@ -1387,17 +1288,6 @@
     },
     {
         "pokemon": "Gulpin",
-        "locationData": [
-            {
-                "location": "Route 11",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Route 11",
@@ -1552,17 +1442,6 @@
     },
     {
         "pokemon": "Dedenne",
-        "locationData": [
-            {
-                "location": "Route 12",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Route 12",
@@ -1925,17 +1804,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Route 17",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Volbeat",
         "locationData": [
             {
@@ -2047,17 +1915,6 @@
     },
     {
         "pokemon": "Happiny",
-        "locationData": [
-            {
-                "location": "Route 18",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Route 18",
@@ -3146,17 +3003,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Cinder Volcano",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Vulpix",
         "locationData": [
             {
@@ -3322,17 +3168,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Valley Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Dunsparce",
         "locationData": [
             {
@@ -3366,7 +3201,7 @@
         ]
     },
     {
-        "pokemon": "Frozen Heights, Crater, ",
+        "pokemon": "Frozen Heights, Crater,",
         "locationData": [
             {
                 "location": "KBT Expressway",
@@ -3377,7 +3212,7 @@
         ]
     },
     {
-        "pokemon": "Blizzard, Fallshore, ",
+        "pokemon": "Blizzard, Fallshore,",
         "locationData": [
             {
                 "location": "KBT Expressway",
@@ -3388,7 +3223,7 @@
         ]
     },
     {
-        "pokemon": "Tehl, Epidimy Entrances ",
+        "pokemon": "Tehl, Epidimy Entrances",
         "locationData": [
             {
                 "location": "KBT Expressway",
@@ -3476,7 +3311,7 @@
         ]
     },
     {
-        "pokemon": "Dehara, Gurun, Antisis, ",
+        "pokemon": "Dehara, Gurun, Antisis,",
         "locationData": [
             {
                 "location": "KBT Expressway",
@@ -4203,17 +4038,6 @@
     },
     {
         "pokemon": "Eelektrik",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Thundercap Mt.",
@@ -4961,17 +4785,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Antisis Sewers",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Whirlipede",
         "locationData": [
             {
@@ -4994,72 +4807,6 @@
         ]
     },
     {
-        "pokemon": "1F",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown A",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown B",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown C",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown D",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown E",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Sigilyph",
         "locationData": [
             {
@@ -5071,348 +4818,7 @@
         ]
     },
     {
-        "pokemon": "B4F",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown F",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown G",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown H",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown I",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown J",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sigilyph",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "B3F",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown K",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown L",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown M",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown N",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown O",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sigilyph",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "B2F",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown P",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown Q",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown R",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown S",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown T",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sigilyph",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "B1F",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown U",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown V",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown W",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown X",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown Y",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Sigilyph",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "1F (Main Room)",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown Z",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown !",
-        "locationData": [
-            {
-                "location": "Tomb of Borrius",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Unown ?",
+        "pokemon": "Unown",
         "locationData": [
             {
                 "location": "Tomb of Borrius",
@@ -5555,17 +4961,6 @@
         ]
     },
     {
-        "pokemon": "Swarm",
-        "locationData": [
-            {
-                "location": "Vivill Woods",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "Pikachu",
         "locationData": [
             {
@@ -5677,17 +5072,6 @@
     },
     {
         "pokemon": "Toxicroak",
-        "locationData": [
-            {
-                "location": "Cootes Bog",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Cootes Bog",
@@ -6490,7 +5874,7 @@
         ]
     },
     {
-        "pokemon": "Outside ",
+        "pokemon": "Outside",
         "locationData": [
             {
                 "location": "Crystal Peak",
@@ -6645,17 +6029,6 @@
     },
     {
         "pokemon": "Tauros",
-        "locationData": [
-            {
-                "location": "Magnolia Fields",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Magnolia Fields",
@@ -6832,17 +6205,6 @@
     },
     {
         "pokemon": "Heracross",
-        "locationData": [
-            {
-                "location": "Redwood Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "Swarm",
         "locationData": [
             {
                 "location": "Redwood Forest",

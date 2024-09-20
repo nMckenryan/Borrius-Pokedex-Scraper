@@ -4,7 +4,6 @@ import openpyxl
 wb = openpyxl.load_workbook("./borrius_location_data.xlsx", data_only=True)
 sheet = wb["Grass & Cave Encounters"]
 
-
 locationDataList = []
 
 # map through each column of the spreadsheet, apply the headers as locationData.location
@@ -16,20 +15,30 @@ for col in range(1, sheet.max_column + 1):
         pokemon = sheet.cell(row=row, column=col).value
         if pokemon is None:
             continue
-        # Special encounters are shown at the bottom of the row.
+        # Special encounters are always shown at the bottom of the row.
         if pokemon == "Special Encounter":
             isSpecialEncounter = 1
             continue
-
-        match sheet.cell(row=row, column=col).fill.start_color.rgb:
-            case "ffb500":
-                timeOfDay = "Morning"
-            case "b300ff":
-                timeOfDay = "Night"
-            case "ff0000":
-                timeOfDay = "Swarm"
-            case _:
-                timeOfDay = "All Day"
+        fontColor = sheet.cell(row=row, column=col).font.color
+        if fontColor:
+            rgb = [0, 0, 0]
+            rgb = f"#{rgb[0]:02X}{rgb[1]:02X}{rgb[2]:02X}"
+            match rgb:
+                # orange
+                case "#FFB500":
+                    timeOfDay = "Morning"
+                # purple
+                case "#B300FF":
+                    timeOfDay = "Night"
+                # red
+                case "#FF0000":
+                    timeOfDay = "Swarm"
+                case "#000000":
+                    timeOfDay = "All Day"
+                case _:
+                    timeOfDay = "Other"
+        else:
+            timeOfDay = "Other"
 
         locationDataList.append(
             {
