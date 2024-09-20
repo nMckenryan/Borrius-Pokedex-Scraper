@@ -224,6 +224,3 @@ async def printLocationJson():
         print(f"{fileName} successfully created")
     except Exception as e:
         print(f"Json Generation Failed : {e}")
-
-
-asyncio.run(printLocationJson())
