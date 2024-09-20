@@ -25,15 +25,12 @@ async def getLocations(pokemonName):
     with open("scraperData/locationData.json") as f:
         data = json.load(f)
         for pokemon in data:
-            if pokemon["pokemon"] == pokemonName:
+            if pokemonName in pokemon["pokemon"]:
                 return pokemon["locationData"]
-
     return []
 
 
 # Loop through all 494 in the borrius dex
-
-
 async def fetch_page(session, link):
     async with session.get(link) as page:
         if page.status == 200:
@@ -242,6 +239,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                 )
 
                 locations = await getLocations(pokemonName)
+
                 # APPLY DATA TO JSON
                 pokemon_data = {
                     "abilities": abilities,
