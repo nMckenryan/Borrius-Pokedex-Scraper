@@ -5,7 +5,8 @@
             {
                 "location": "Route 1",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -15,7 +16,8 @@
             {
                 "location": "Route 1",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -25,7 +27,8 @@
             {
                 "location": "Route 1",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -35,7 +38,8 @@
             {
                 "location": "Route 1",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -45,7 +49,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -55,7 +60,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -65,7 +71,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -75,7 +82,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -85,7 +93,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -95,7 +104,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -105,7 +115,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -115,7 +126,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -125,7 +137,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -135,7 +148,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -145,7 +159,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -155,7 +170,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -165,17 +181,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 2",
-                "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -185,7 +192,8 @@
             {
                 "location": "Route 2",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -195,7 +203,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -205,7 +214,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -215,7 +225,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -225,7 +236,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -235,7 +247,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -245,7 +258,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -255,7 +269,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -265,7 +280,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -275,7 +291,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -285,7 +302,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -295,17 +313,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 3",
-                "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -315,7 +324,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -325,7 +335,8 @@
             {
                 "location": "Route 3",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -335,7 +346,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -345,7 +357,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -355,7 +368,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -365,7 +379,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -375,7 +390,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -385,7 +401,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -395,7 +412,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -405,7 +423,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -415,7 +434,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -425,17 +445,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 4",
-                "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -445,7 +456,8 @@
             {
                 "location": "Route 4",
                 "encounterMethod": "Grass",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -455,7 +467,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -465,7 +478,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -475,7 +489,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -485,7 +500,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -495,7 +511,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -505,7 +522,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -515,7 +533,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -525,7 +544,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -535,7 +555,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -545,7 +566,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -555,7 +577,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -565,7 +588,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -575,17 +599,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 5",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -595,7 +610,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -605,7 +621,8 @@
             {
                 "location": "Route 5",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -615,7 +632,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -625,7 +643,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -635,7 +654,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -645,7 +665,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -655,7 +676,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -665,7 +687,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -675,7 +698,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -685,7 +709,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -695,7 +720,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -705,7 +731,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -715,7 +742,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -725,17 +753,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 6",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -745,7 +764,8 @@
             {
                 "location": "Route 6",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -755,7 +775,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -765,7 +786,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -775,7 +797,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -785,7 +808,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -795,7 +819,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -805,7 +830,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -815,7 +841,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -825,7 +852,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -835,7 +863,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -845,7 +874,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -855,7 +885,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -865,7 +896,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -875,7 +907,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -885,7 +918,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -895,17 +929,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 7",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -915,7 +940,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -925,7 +951,8 @@
             {
                 "location": "Route 7",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -935,7 +962,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -945,7 +973,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -955,7 +984,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -965,7 +995,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -975,7 +1006,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -985,7 +1017,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -995,7 +1028,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1005,7 +1039,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1015,17 +1050,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 8",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1035,7 +1061,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1045,7 +1072,8 @@
             {
                 "location": "Route 8",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1055,7 +1083,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1065,7 +1094,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1075,7 +1105,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1085,7 +1116,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1095,7 +1127,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1105,7 +1138,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1115,7 +1149,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1125,7 +1160,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1135,17 +1171,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 9 + Autl Woods",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1155,7 +1182,8 @@
             {
                 "location": "Route 9 + Autl Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1165,7 +1193,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1175,7 +1204,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1185,7 +1215,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1195,7 +1226,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1205,7 +1237,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1215,7 +1248,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1225,7 +1259,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1235,7 +1270,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1245,7 +1281,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1255,17 +1292,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 10",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1275,7 +1303,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1285,7 +1314,8 @@
             {
                 "location": "Route 10",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1295,7 +1325,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1305,7 +1336,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1315,7 +1347,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1325,7 +1358,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1335,7 +1369,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1345,7 +1380,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1355,7 +1391,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1365,7 +1402,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1375,17 +1413,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 11",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1395,7 +1424,8 @@
             {
                 "location": "Route 11",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1405,7 +1435,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1415,7 +1446,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1425,7 +1457,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1435,7 +1468,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1445,7 +1479,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1455,7 +1490,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1465,7 +1501,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1475,7 +1512,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1485,7 +1523,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1495,7 +1534,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1505,7 +1545,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1515,7 +1556,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1525,7 +1567,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1535,7 +1578,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1545,17 +1589,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 12",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1565,7 +1600,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1575,7 +1611,8 @@
             {
                 "location": "Route 12",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1585,7 +1622,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1595,7 +1633,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1605,7 +1644,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1615,7 +1655,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1625,7 +1666,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1635,7 +1677,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1645,7 +1688,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1655,7 +1699,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1665,7 +1710,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1675,17 +1721,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 14",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1695,7 +1732,8 @@
             {
                 "location": "Route 14",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1705,7 +1743,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1715,7 +1754,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1725,7 +1765,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1735,7 +1776,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1745,7 +1787,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1755,7 +1798,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1765,17 +1809,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 16",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1785,7 +1820,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1795,7 +1831,8 @@
             {
                 "location": "Route 16",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1805,7 +1842,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1815,7 +1853,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1825,7 +1864,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1835,7 +1875,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1845,7 +1886,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1855,7 +1897,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1865,7 +1908,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1875,7 +1919,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1885,7 +1930,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1895,7 +1941,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1905,17 +1952,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 17",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1925,7 +1963,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1935,7 +1974,8 @@
             {
                 "location": "Route 17",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -1945,7 +1985,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1955,7 +1996,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1965,7 +2007,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1975,7 +2018,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1985,7 +2029,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -1995,7 +2040,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2005,7 +2051,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2015,7 +2062,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2025,17 +2073,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Route 18",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2045,7 +2084,8 @@
             {
                 "location": "Route 18",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -2055,7 +2095,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2065,7 +2106,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2075,7 +2117,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2085,7 +2128,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2095,7 +2139,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2105,7 +2150,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2115,17 +2161,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Ice Hole",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2135,7 +2172,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -2145,7 +2183,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -2155,7 +2194,8 @@
             {
                 "location": "Ice Hole",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -2165,7 +2205,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2175,7 +2216,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2185,7 +2227,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2195,7 +2238,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2205,7 +2249,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2215,7 +2260,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2225,7 +2271,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2235,7 +2282,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2245,7 +2293,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2255,7 +2304,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2265,7 +2315,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2275,7 +2326,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2285,7 +2337,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2295,7 +2348,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2305,7 +2359,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2315,7 +2370,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2325,7 +2381,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2335,7 +2392,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2345,7 +2403,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2355,7 +2414,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2365,7 +2425,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2375,7 +2436,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2385,7 +2447,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2395,7 +2458,8 @@
             {
                 "location": "Icicle Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2405,7 +2469,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2415,7 +2480,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2425,7 +2491,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2435,7 +2502,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2445,7 +2513,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2455,7 +2524,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2465,7 +2535,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2475,7 +2546,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2485,7 +2557,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2495,7 +2568,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2505,7 +2579,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2515,7 +2590,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2525,7 +2601,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2535,7 +2612,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2545,7 +2623,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2555,7 +2634,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2565,7 +2645,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2575,7 +2656,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2585,7 +2667,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2595,7 +2678,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2605,7 +2689,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2615,7 +2700,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2625,7 +2711,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2635,7 +2722,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2645,7 +2733,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2655,7 +2744,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2665,7 +2755,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2675,7 +2766,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2685,7 +2777,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2695,7 +2788,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2705,7 +2799,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2715,7 +2810,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2725,7 +2821,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2735,7 +2832,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2745,7 +2843,8 @@
             {
                 "location": "Flower Paradise",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2755,7 +2854,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2765,7 +2865,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2775,7 +2876,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2785,7 +2887,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2795,7 +2898,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2805,7 +2909,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2815,7 +2920,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2825,17 +2931,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Grim Woods",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2845,7 +2942,8 @@
             {
                 "location": "Grim Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -2855,7 +2953,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2865,7 +2964,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2875,7 +2975,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2885,7 +2986,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2895,7 +2997,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2905,7 +3008,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2915,7 +3019,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2925,7 +3030,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2935,7 +3041,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2945,7 +3052,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2955,7 +3063,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2965,7 +3074,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2975,7 +3085,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2985,7 +3096,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -2995,7 +3107,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3005,7 +3118,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3015,7 +3129,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3025,7 +3140,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3035,7 +3151,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3045,17 +3162,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Cinder Volcano",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3065,7 +3173,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -3075,7 +3184,8 @@
             {
                 "location": "Cinder Volcano",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -3085,7 +3195,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3095,7 +3206,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3105,7 +3217,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3115,7 +3228,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3125,7 +3239,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3135,7 +3250,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3145,7 +3261,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3155,7 +3272,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3165,7 +3283,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3175,7 +3294,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3185,7 +3305,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3195,7 +3316,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3205,7 +3327,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3215,17 +3338,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Valley Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3235,7 +3349,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -3245,7 +3360,8 @@
             {
                 "location": "Valley Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -3255,7 +3371,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3265,7 +3382,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3275,7 +3393,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3285,7 +3404,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3295,7 +3415,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3305,7 +3426,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3315,7 +3437,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3325,7 +3448,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3335,7 +3459,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3345,7 +3470,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3355,7 +3481,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3365,7 +3492,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3375,7 +3503,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3385,7 +3514,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3395,7 +3525,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3405,7 +3536,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3415,7 +3547,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3425,7 +3558,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3435,7 +3569,8 @@
             {
                 "location": "KBT Expressway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3445,7 +3580,8 @@
             {
                 "location": "Frost Mountain",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3455,7 +3591,8 @@
             {
                 "location": "Frost Mountain",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3465,7 +3602,8 @@
             {
                 "location": "Frost Mountain",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3475,7 +3613,8 @@
             {
                 "location": "Frost Mountain",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3485,7 +3624,8 @@
             {
                 "location": "Frost Mountain",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3495,7 +3635,8 @@
             {
                 "location": "Frost Mountain",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3505,7 +3646,8 @@
             {
                 "location": "Frost Mountain",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3515,7 +3657,8 @@
             {
                 "location": "Frost Mountain",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3525,7 +3668,8 @@
             {
                 "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3535,7 +3679,8 @@
             {
                 "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3545,7 +3690,8 @@
             {
                 "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3555,7 +3701,8 @@
             {
                 "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3565,7 +3712,8 @@
             {
                 "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3575,7 +3723,8 @@
             {
                 "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3585,7 +3734,8 @@
             {
                 "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3595,7 +3745,8 @@
             {
                 "location": "Auburn Waterway",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3605,7 +3756,8 @@
             {
                 "location": "Frozen Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3615,7 +3767,8 @@
             {
                 "location": "Frozen Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3625,17 +3778,8 @@
             {
                 "location": "Frozen Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Frozen Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3645,7 +3789,8 @@
             {
                 "location": "Frozen Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -3655,7 +3800,8 @@
             {
                 "location": "Lost Tunnel",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3665,7 +3811,8 @@
             {
                 "location": "Lost Tunnel",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3675,7 +3822,8 @@
             {
                 "location": "Lost Tunnel",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3685,7 +3833,8 @@
             {
                 "location": "Lost Tunnel",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3695,7 +3844,8 @@
             {
                 "location": "Lost Tunnel",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3705,7 +3855,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3715,7 +3866,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3725,7 +3877,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3735,7 +3888,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3745,7 +3899,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3755,7 +3910,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3765,7 +3921,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3775,7 +3932,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3785,7 +3943,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3795,7 +3954,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3805,7 +3965,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3815,7 +3976,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3825,7 +3987,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3835,7 +3998,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3845,7 +4009,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3855,7 +4020,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3865,7 +4031,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3875,7 +4042,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3885,7 +4053,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3895,7 +4064,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3905,7 +4075,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3915,7 +4086,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3925,7 +4097,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3935,7 +4108,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3945,7 +4119,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3955,7 +4130,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3965,7 +4141,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3975,7 +4152,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3985,7 +4163,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3995,7 +4174,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4005,7 +4185,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4015,7 +4196,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4025,7 +4207,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4035,7 +4218,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4045,7 +4229,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4055,17 +4240,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Thundercap Mt.",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4075,7 +4251,8 @@
             {
                 "location": "Thundercap Mt.",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -4085,7 +4262,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4095,7 +4273,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4105,7 +4284,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4115,7 +4295,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4125,7 +4306,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4135,7 +4317,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4145,7 +4328,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4155,7 +4339,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4165,7 +4350,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4175,7 +4361,8 @@
             {
                 "location": "Cliff Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4185,7 +4372,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4195,7 +4383,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4205,7 +4394,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4215,7 +4405,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4225,7 +4416,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4235,7 +4427,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4245,7 +4438,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4255,7 +4449,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4265,7 +4460,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4275,7 +4471,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4285,7 +4482,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4295,7 +4493,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4305,7 +4504,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4315,7 +4515,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4325,7 +4526,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4335,7 +4537,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4345,7 +4548,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4355,7 +4559,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4365,7 +4570,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4375,17 +4581,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Ruins of Void",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4395,7 +4592,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -4405,7 +4603,8 @@
             {
                 "location": "Ruins of Void",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -4415,7 +4614,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4425,7 +4625,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4435,7 +4636,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4445,7 +4647,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4455,7 +4658,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4465,7 +4669,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4475,7 +4680,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4485,7 +4691,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4495,7 +4702,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4505,7 +4713,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4515,7 +4724,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4525,7 +4735,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4535,7 +4746,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4545,7 +4757,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4555,7 +4768,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4565,17 +4779,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Rift Cave",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4585,7 +4790,8 @@
             {
                 "location": "Rift Cave",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -4595,7 +4801,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4605,7 +4812,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4615,7 +4823,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4625,7 +4834,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4635,7 +4845,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4645,7 +4856,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4655,7 +4867,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4665,17 +4878,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Great Desert",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4685,7 +4889,8 @@
             {
                 "location": "Great Desert",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -4695,7 +4900,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4705,7 +4911,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4715,7 +4922,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4725,7 +4933,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4735,7 +4944,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4745,7 +4955,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4755,7 +4966,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4765,17 +4977,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Antisis Sewers",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4785,7 +4988,8 @@
             {
                 "location": "Antisis Sewers",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -4795,7 +4999,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4805,7 +5010,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4815,7 +5021,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4825,7 +5032,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4835,7 +5043,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4845,7 +5054,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4855,7 +5065,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4865,7 +5076,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4875,7 +5087,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4885,7 +5098,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4895,7 +5109,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4905,7 +5120,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4915,7 +5131,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4925,7 +5142,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4935,7 +5153,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4945,7 +5164,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4955,7 +5175,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4965,7 +5186,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4975,7 +5197,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4985,7 +5208,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -4995,7 +5219,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5005,7 +5230,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5015,7 +5241,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5025,7 +5252,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5035,7 +5263,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5045,7 +5274,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5055,7 +5285,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5065,7 +5296,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5075,7 +5307,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5085,7 +5318,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5095,7 +5329,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5105,7 +5340,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5115,7 +5351,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5125,7 +5362,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5135,7 +5373,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5145,7 +5384,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5155,7 +5395,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5165,7 +5406,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5175,7 +5417,8 @@
             {
                 "location": "Tomb of Borrius",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5185,7 +5428,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5195,7 +5439,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5205,7 +5450,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5215,7 +5461,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5225,7 +5472,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5235,7 +5483,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5245,7 +5494,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5255,7 +5505,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5265,7 +5516,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5275,7 +5527,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5285,7 +5538,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5295,7 +5549,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5305,7 +5560,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5315,17 +5571,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Vivill Woods",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5335,7 +5582,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -5345,7 +5593,8 @@
             {
                 "location": "Vivill Woods",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -5355,7 +5604,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5365,7 +5615,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5375,7 +5626,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5385,7 +5637,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5395,7 +5648,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5405,7 +5659,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5415,7 +5670,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5425,7 +5681,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5435,7 +5692,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5445,17 +5703,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Cootes Bog",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5465,7 +5714,8 @@
             {
                 "location": "Cootes Bog",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -5475,7 +5725,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5485,7 +5736,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5495,7 +5747,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5505,7 +5758,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5515,7 +5769,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5525,7 +5780,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5535,7 +5791,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5545,7 +5802,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5555,7 +5813,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5565,7 +5824,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5575,7 +5835,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5585,7 +5846,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5595,7 +5857,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5605,7 +5868,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5615,7 +5879,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5625,7 +5890,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5635,7 +5901,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5645,7 +5912,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5655,7 +5923,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5665,7 +5934,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5675,7 +5945,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5685,7 +5956,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5695,7 +5967,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5705,7 +5978,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5715,7 +5989,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5725,7 +6000,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5735,7 +6011,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5745,7 +6022,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5755,7 +6033,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5765,7 +6044,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5775,7 +6055,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5785,7 +6066,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5795,7 +6077,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5805,7 +6088,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5815,7 +6099,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5825,7 +6110,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5835,7 +6121,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5845,7 +6132,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5855,7 +6143,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5865,7 +6154,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5875,7 +6165,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5885,7 +6176,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5895,7 +6187,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5905,7 +6198,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5915,7 +6209,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5925,7 +6220,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5935,7 +6231,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5945,7 +6242,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5955,7 +6253,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5965,7 +6264,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5975,7 +6275,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5985,7 +6286,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -5995,7 +6297,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6005,7 +6308,8 @@
             {
                 "location": "Safari Zone",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6015,7 +6319,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6025,7 +6330,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6035,7 +6341,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6045,7 +6352,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6055,7 +6363,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6065,7 +6374,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6075,7 +6385,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6085,7 +6396,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6095,7 +6407,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6105,7 +6418,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6115,7 +6429,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6125,7 +6440,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6135,7 +6451,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6145,7 +6462,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6155,7 +6473,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6165,7 +6484,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6175,7 +6495,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6185,7 +6506,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6195,7 +6517,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6205,7 +6528,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6215,17 +6539,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Crystal Peak",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6235,7 +6550,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6245,7 +6561,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6255,7 +6572,8 @@
             {
                 "location": "Crystal Peak",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6265,7 +6583,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6275,7 +6594,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6285,7 +6605,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6295,7 +6616,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6305,7 +6627,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6315,7 +6638,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6325,7 +6649,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6335,7 +6660,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6345,17 +6671,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Magnolia Fields",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6365,7 +6682,8 @@
             {
                 "location": "Magnolia Fields",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6375,7 +6693,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6385,7 +6704,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6395,7 +6715,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6405,7 +6726,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6415,7 +6737,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6425,7 +6748,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6435,7 +6759,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6445,7 +6770,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6455,7 +6781,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6465,7 +6792,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6475,7 +6803,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6485,7 +6814,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6495,7 +6825,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6505,7 +6836,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6515,7 +6847,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6525,17 +6858,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Redwood Forest",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6545,7 +6869,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6555,7 +6880,8 @@
             {
                 "location": "Redwood Forest",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6565,7 +6891,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6575,7 +6902,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6585,7 +6913,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6595,7 +6924,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6605,7 +6935,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6615,7 +6946,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6625,7 +6957,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6635,7 +6968,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6645,7 +6979,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6655,7 +6990,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6665,7 +7001,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6675,7 +7012,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6685,7 +7023,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6695,7 +7034,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6705,7 +7045,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6715,7 +7056,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6725,7 +7067,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6735,7 +7078,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6745,7 +7089,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6755,7 +7100,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6765,17 +7111,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -6785,7 +7122,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6795,7 +7133,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6805,7 +7144,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6815,7 +7155,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6825,7 +7166,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6835,7 +7177,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6845,17 +7188,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6865,7 +7199,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6875,7 +7210,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6885,7 +7221,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6895,7 +7232,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6905,7 +7243,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6915,7 +7254,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6925,7 +7265,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6935,7 +7276,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6945,7 +7287,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6955,7 +7298,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6965,7 +7309,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6975,7 +7320,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -6985,17 +7331,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
-            }
-        ]
-    },
-    {
-        "pokemon": "Special Encounter",
-        "locationData": [
-            {
-                "location": "Victory Road",
-                "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7005,7 +7342,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7015,7 +7353,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7025,7 +7364,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7035,7 +7375,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7045,7 +7386,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7055,7 +7397,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7065,7 +7408,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7075,7 +7419,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     },
@@ -7085,7 +7430,8 @@
             {
                 "location": "Victory Road",
                 "encounterMethod": "Cave",
-                "timeOfDay": "All Day"
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
             }
         ]
     }
