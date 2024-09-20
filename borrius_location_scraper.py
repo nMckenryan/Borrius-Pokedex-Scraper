@@ -1,7 +1,7 @@
 import json
 import openpyxl
 
-wb = openpyxl.load_workbook("./borrius_location_data.xlsx", data_only=True)
+wb = openpyxl.load_workbook("./scraperData/borrius_location_data.xlsx", data_only=True)
 sheet = wb["Grass & Cave Encounters"]
 
 locationDataList = []
