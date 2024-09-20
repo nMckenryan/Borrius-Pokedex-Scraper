@@ -8537,5 +8537,49 @@
                 "isSpecialEncounter": 0
             }
         ]
+    },
+    {
+        "pokemon": "Larvitar",
+        "locationData": [
+            {
+                "location": "Frozen Heights",
+                "encounterMethod": "Starter",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Metang",
+        "locationData": [
+            {
+                "location": "Frozen Heights",
+                "encounterMethod": "Starter",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Gible",
+        "locationData": [
+            {
+                "location": "Frozen Heights",
+                "encounterMethod": "Starter",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Magikarp",
+        "locationData": [
+            {
+                "location": "Pretty much every Water Spot",
+                "encounterMethod": "Old Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
     }
 ]

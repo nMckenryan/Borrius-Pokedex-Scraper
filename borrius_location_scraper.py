@@ -7,6 +7,44 @@ wb = openpyxl.load_workbook("./scraperData/borrius_location_data.xlsx", data_onl
 locationDataList = []
 
 
+async def getUniquePokemon():
+    starters = [
+        "Larvitar",
+        "Metang",
+        "Gible",
+    ]
+
+    for starter in starters:
+        locationDataList.append(
+            {
+                "pokemon": starter,
+                "locationData": [
+                    {
+                        "location": "Frozen Heights",
+                        "encounterMethod": "Starter",
+                        "timeOfDay": "All Day",
+                        "isSpecialEncounter": 0,
+                    }
+                ],
+            }
+        )
+
+    # Handle Magikarp as it is very prevalent
+    locationDataList.append(
+        {
+            "pokemon": "Magikarp",
+            "locationData": [
+                {
+                    "location": "Pretty much every Water Spot",
+                    "encounterMethod": "Old Rod",
+                    "timeOfDay": "All Day",
+                    "isSpecialEncounter": 0,
+                }
+            ],
+        }
+    )
+
+
 async def getGrassCaveLocations():
     grassSheet = wb["Grass & Cave Encounters"]
     # map through each column of the spreadsheet, apply the headers as locationData.location
@@ -218,6 +256,7 @@ async def printLocationJson():
         await getGrassCaveLocations()
         await getSurfLocations()
         await getFishingLocations()
+        await getUniquePokemon()
         fileName = "scraperData/locationData.json"
         with open(fileName, "w") as fp:
             json.dump(locationDataList, fp, indent=4)
