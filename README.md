@@ -6,6 +6,7 @@ A Web Scraper API that extracts data from the [Pokemon Unbound Pokedex](https://
 
 - Built with Python and BeautifulSoup, Based on a tutorial from [RealPython](https://github.com/realpython/materials/blob/master/web-scraping-bs4/)
 - API Endpoints Managed by FastAPI, Hosted on Google Cloud via a Docker Container
+- Location Data scraped from the [Pokémon Unbound Location Guide v2.1.1.1](https://docs.google.com/spreadsheets/d/1bkNm3P9NI3AZTf53dxhCBjwiSPl830KDm28PE5zpYfs/edit?gid=897380238#gid=897380238) Excel File via OpenPyxl
 
 ## Features
 
@@ -49,6 +50,8 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Save JSON to a file
 - [x] Implement Error Messages for process
 - [x] Make this available publically/for other projects
+- [] Collate Alolan Forms
+- [] Get this data, and add to dex
 
 ### FUTURE FEATURES:
 
@@ -62,6 +65,6 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Publish Docker Image to Google Cloud https://borrius-pokemon-scraper-321133146790.australia-southeast1.run.app/borrius_pokemon
 
 - [/] Patch in missing data from PokeAPI
-  - [] Line up data for use with Curadex project
-  - [] Add back sprites from PokeApi
+  - [x] Line up data for use with Curadex project
+  - [] Add official portraits from PokeApi
   - [] Handle movelists so they're not collosal lists for each pokemon
