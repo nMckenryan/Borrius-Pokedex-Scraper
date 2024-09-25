@@ -47,7 +47,6 @@ async def getUniquePokemon():
 
 def correctPokemonName(pokemon):
     pokemon = pokemon.lower().replace(". ", "-").replace("'", "")
-
     if "dome fossil" in pokemon:
         return "kabuto"
     if "helix fossil" in pokemon:
@@ -70,7 +69,8 @@ def correctPokemonName(pokemon):
         return "amaura"
     if "old amber" in pokemon:
         return "aerodactyl"
-
+    if "galarian slowpoke" in pokemon:
+        return "slowpoke-galar"
     if "galarian " in pokemon:
         return pokemon.replace("galarian ", "") + "-galar"
     if "alolan " in pokemon:
@@ -309,6 +309,7 @@ async def printLocationJson():
         await getSurfLocations()
         await getFishingLocations()
         await getUniquePokemon()
+
         fileName = "scraperData/locationData.json"
         with open(fileName, "w") as fp:
             json.dump(locationDataList, fp, indent=4)
