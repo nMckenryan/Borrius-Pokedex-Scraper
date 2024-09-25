@@ -129,6 +129,30 @@ async def getFishingLocations():
             if pokemon is None:
                 continue
 
+            if "Fossil" in pokemon or "Old Amber" in pokemon:
+                if "Dome" in pokemon:
+                    pokemon = "Kabuto"
+                if "Helix" in pokemon:
+                    pokemon = "Omanyte"
+                if "Claw" in pokemon:
+                    pokemon = "Anorith"
+                if "Root" in pokemon:
+                    pokemon = "Lileep"
+                if "Skull" in pokemon:
+                    pokemon = "Cranidos"
+                if "Armour" in pokemon:
+                    pokemon = "Shieldon"
+                if "Cover" in pokemon:
+                    pokemon = "Tirtouga"
+                if "Plume" in pokemon:
+                    pokemon = "Archen"
+                if "Jaw" in pokemon:
+                    pokemon = "Tyrunt"
+                if "Sail" in pokemon:
+                    pokemon = "Amaura"
+                if "Old Amber" in pokemon:
+                    pokemon = "Aerodactyl"
+
             # Special encounters are always shown at the bottom of the row (only one in this case).
             if pokemon == "Special Encounter":
                 isSpecialEncounter = 1
