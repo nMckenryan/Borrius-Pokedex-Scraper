@@ -45,6 +45,53 @@ async def getUniquePokemon():
     )
 
 
+def correctPokemonName(pokemon):
+    if "Dome Fossil" in pokemon:
+        return "Kabuto"
+    if "Helix Fossil" in pokemon:
+        return "Omanyte"
+    if "Claw Fossil" in pokemon:
+        return "Anorith"
+    if "Root Fossil" in pokemon:
+        return "Lileep"
+    if "Skull Fossil" in pokemon:
+        return "Cranidos"
+    if "Armour Fossil" in pokemon:
+        return "Shieldon"
+    if "Cover Fossil" in pokemon:
+        return "Tirtouga"
+    if "Plume Fossil" in pokemon:
+        return "Archen"
+    if "Jaw Fossil" in pokemon:
+        return "Tyrunt"
+    if "Sail Fossil" in pokemon:
+        return "Amaura"
+    if "Old Amber" in pokemon:
+        return "Aerodactyl"
+
+    if "sirfetch'd" in pokemon or "farfetch'd" in pokemon:
+        return pokemon.replace("sirfetch'd", "sirfetchd").replace(
+            "farfetch'd", "farfetchd-galar"
+        )
+    if "Galarian " in pokemon:
+        return pokemon.replace("Galarian ", "") + "-Galar"
+    if "Alolan " in pokemon:
+        return pokemon.replace("Alolan ", "") + "-Alola"
+
+    if "Indeedee\u2642\ufe0f" in pokemon or "indeedee♀️" in pokemon:
+        return pokemon.replace("indeedee♂️", "Indeedee\u2640\ufe0f").replace(
+            "indeedee♀️", "indeedee-female"
+        )
+
+    if "flabébé" in pokemon:
+        return "flabebe"
+
+    if "nidoran♀️" in pokemon or "nidoran♂️" in pokemon:
+        return pokemon.replace("nidoran♀️", "nidoran-f").replace("nidoran♂️", "nidoran-m")
+
+    return pokemon
+
+
 async def getGrassCaveLocations():
     grassSheet = wb["Grass & Cave Encounters"]
     # map through each column of the spreadsheet, apply the headers as locationData.location
@@ -56,8 +103,10 @@ async def getGrassCaveLocations():
             pokemon = grassSheet.cell(row=row, column=col).value
             if pokemon is None:
                 continue
+            pokemonName = correctPokemonName(pokemon)
+
             # Special encounters are always shown at the bottom of the row.
-            if pokemon == "Special Encounter":
+            if pokemonName == "Special Encounter":
                 isSpecialEncounter = 1
                 continue
             fontColor = grassSheet.cell(row=row, column=col).font.color
@@ -83,7 +132,7 @@ async def getGrassCaveLocations():
 
             # check if "pokemon" already exists in locationDataList, then appends locationData object to array
             existingPokemon = next(
-                (p for p in locationDataList if p["pokemon"] == pokemon), None
+                (p for p in locationDataList if p["pokemon"] == pokemonName), None
             )
             if existingPokemon is not None:
                 existingPokemon["locationData"].append(
@@ -97,7 +146,7 @@ async def getGrassCaveLocations():
             else:
                 locationDataList.append(
                     {
-                        "pokemon": pokemon,
+                        "pokemon": pokemonName,
                         "locationData": [
                             {
                                 "location": location_header,
@@ -128,30 +177,6 @@ async def getFishingLocations():
             pokemon = grassSheet.cell(row=row, column=col).value
             if pokemon is None:
                 continue
-
-            if "Fossil" in pokemon or "Old Amber" in pokemon:
-                if "Dome" in pokemon:
-                    pokemon = "Kabuto"
-                if "Helix" in pokemon:
-                    pokemon = "Omanyte"
-                if "Claw" in pokemon:
-                    pokemon = "Anorith"
-                if "Root" in pokemon:
-                    pokemon = "Lileep"
-                if "Skull" in pokemon:
-                    pokemon = "Cranidos"
-                if "Armour" in pokemon:
-                    pokemon = "Shieldon"
-                if "Cover" in pokemon:
-                    pokemon = "Tirtouga"
-                if "Plume" in pokemon:
-                    pokemon = "Archen"
-                if "Jaw" in pokemon:
-                    pokemon = "Tyrunt"
-                if "Sail" in pokemon:
-                    pokemon = "Amaura"
-                if "Old Amber" in pokemon:
-                    pokemon = "Aerodactyl"
 
             # Special encounters are always shown at the bottom of the row (only one in this case).
             if pokemon == "Special Encounter":
@@ -200,9 +225,10 @@ async def getFishingLocations():
                 case _:
                     method = "Unknown"
 
+            pokemonName = correctPokemonName(pokemon)
             # check if "pokemon" already exists in locationDataList, then appends locationData object to array
             existingPokemon = next(
-                (p for p in locationDataList if p["pokemon"] == pokemon), None
+                (p for p in locationDataList if p["pokemon"] == pokemonName), None
             )
             if existingPokemon is not None:
                 existingPokemon["locationData"].append(
@@ -216,7 +242,7 @@ async def getFishingLocations():
             else:
                 locationDataList.append(
                     {
-                        "pokemon": pokemon,
+                        "pokemon": pokemonName,
                         "locationData": [
                             {
                                 "location": location_header,

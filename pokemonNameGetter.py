@@ -23,38 +23,36 @@ def getMissingPokemon():
 
     results = sorted(not_in_pokedex, key=lambda x: len(x.split()) != 1)
 
-    for i, name in enumerate(results):
-        if name.startswith("Galarian "):
-            results[i] = name[9:].replace(" ", "-").replace(".", "") + "-Galar"
-        if name.startswith("Alolan "):
-            results[i] = name[7:].replace(" ", "-") + "-Alola"
-    return results
+    return [name.lower() for name in results]
 
 
-# async def getMissingPokemonIndexes():
-#     missingPokemon = getMissingPokemon()
-#     borrius_pokedex_data = None
-#     with open("scraperData/borrius_pokedex_data.json") as f:
-#         borrius_pokedex_data = json.load(f)
+async def getMissingPokemonIndexes():
+    missingPokemon = getMissingPokemon()
+    borrius_pokedex_data = None
+    with open("scraperData/borrius_pokedex_data.json") as f:
+        borrius_pokedex_data = json.load(f)
 
-#     async with aiohttp.ClientSession() as session:
-#         tasks = []
-#         for pokemon_name in missingPokemon:
-#             tasks.append(
-#                 fetch_page(session, "https://pokeapi.co/api/v2/pokemon/" + pokemon_name)
-#             )
-#         pokeapi_responses = await asyncio.gather(*tasks)
+    async with aiohttp.ClientSession() as session:
+        tasks = []
+        for pokemon_name in missingPokemon:
+            tasks.append(
+                fetch_page(session, "https://pokeapi.co/api/v2/pokemon/" + pokemon_name)
+            )
+        pokeapi_responses = await asyncio.gather(*tasks)
 
-#         for response in pokeapi_responses:
-#             if response is not None:
-#                 pokemon_number = response["id"]
-#                 missingPokemonIndexes = borrius_pokedex_data[0]["pokemon"].index(
-#                     next(
-#                         pokemon
-#                         for pokemon in borrius_pokedex_data[0]["pokemon"]
-#                         if pokemon["number"] == pokemon_number
-#                     )
-#                 )
+        missingPokemonIndexes = []
+        for pokemon_name, response in zip(missingPokemon, pokeapi_responses):
+            if response is not None:
+                pokemon_number = response["id"]
+                index = next(
+                    (
+                        i
+                        for i, pokemon in enumerate(borrius_pokedex_data[0]["pokemon"])
+                        if pokemon["number"] == pokemon_number
+                    ),
+                    None,
+                )
+                print((pokemon_name, index))
 
 
-print(getMissingPokemon())
+asyncio.run(getMissingPokemonIndexes())
