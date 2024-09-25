@@ -46,48 +46,50 @@ async def getUniquePokemon():
 
 
 def correctPokemonName(pokemon):
-    if "Dome Fossil" in pokemon:
-        return "Kabuto"
-    if "Helix Fossil" in pokemon:
-        return "Omanyte"
-    if "Claw Fossil" in pokemon:
-        return "Anorith"
-    if "Root Fossil" in pokemon:
-        return "Lileep"
-    if "Skull Fossil" in pokemon:
-        return "Cranidos"
-    if "Armour Fossil" in pokemon:
-        return "Shieldon"
-    if "Cover Fossil" in pokemon:
-        return "Tirtouga"
-    if "Plume Fossil" in pokemon:
-        return "Archen"
-    if "Jaw Fossil" in pokemon:
-        return "Tyrunt"
-    if "Sail Fossil" in pokemon:
-        return "Amaura"
-    if "Old Amber" in pokemon:
-        return "Aerodactyl"
+    pokemon = pokemon.lower().replace(". ", "-").replace("'", "")
 
-    if "sirfetch'd" in pokemon or "farfetch'd" in pokemon:
-        return pokemon.replace("sirfetch'd", "sirfetchd").replace(
-            "farfetch'd", "farfetchd-galar"
-        )
-    if "Galarian " in pokemon:
-        return pokemon.replace("Galarian ", "") + "-Galar"
-    if "Alolan " in pokemon:
-        return pokemon.replace("Alolan ", "") + "-Alola"
+    if "dome fossil" in pokemon:
+        return "kabuto"
+    if "helix fossil" in pokemon:
+        return "omanyte"
+    if "claw fossil" in pokemon:
+        return "anorith"
+    if "root fossil" in pokemon:
+        return "lileep"
+    if "skull fossil" in pokemon:
+        return "cranidos"
+    if "armor fossil" in pokemon:
+        return "shieldon"
+    if "cover fossil" in pokemon:
+        return "tirtouga"
+    if "plume fossil" in pokemon:
+        return "archen"
+    if "jaw fossil" in pokemon:
+        return "tyrunt"
+    if "sail fossil" in pokemon:
+        return "amaura"
+    if "old amber" in pokemon:
+        return "aerodactyl"
 
-    if "Indeedee\u2642\ufe0f" in pokemon or "indeedee♀️" in pokemon:
-        return pokemon.replace("indeedee♂️", "Indeedee\u2640\ufe0f").replace(
-            "indeedee♀️", "indeedee-female"
-        )
+    if "galarian " in pokemon:
+        return pokemon.replace("galarian ", "") + "-galar"
+    if "alolan " in pokemon:
+        return pokemon.replace("alolan ", "") + "-alola"
+
+    if "indeedee\u2642" in pokemon:
+        return "indeedee-male"
+
+    if "indeedee\u2640" in pokemon:
+        return "indeedee-female"
 
     if "flabébé" in pokemon:
         return "flabebe"
 
-    if "nidoran♀️" in pokemon or "nidoran♂️" in pokemon:
-        return pokemon.replace("nidoran♀️", "nidoran-f").replace("nidoran♂️", "nidoran-m")
+    if "nidoran\u2642" in pokemon:
+        return "nidoran-m"
+
+    if "nidoran\u2640" in pokemon:
+        return "nidoran-f"
 
     return pokemon
 

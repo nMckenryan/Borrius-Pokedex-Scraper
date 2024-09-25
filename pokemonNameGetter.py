@@ -4,6 +4,7 @@ import asyncio
 import json
 import aiohttp
 
+from borrius_location_scraper import printLocationJson
 from borrius_pokemon_scraper import fetch_page
 
 
@@ -55,4 +56,5 @@ async def getMissingPokemonIndexes():
                 print((pokemon_name, index))
 
 
+asyncio.run(printLocationJson())
 asyncio.run(getMissingPokemonIndexes())
