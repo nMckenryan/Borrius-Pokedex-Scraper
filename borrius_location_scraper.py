@@ -71,6 +71,10 @@ def correctPokemonName(pokemon):
         return "aerodactyl"
     if "galarian slowpoke" in pokemon:
         return "slowpoke-galar"
+
+    if "galarian darmanitan" in pokemon:
+        return "darmanitan-galar-standard"
+
     if "galarian " in pokemon:
         return pokemon.replace("galarian ", "") + "-galar"
     if "alolan " in pokemon:

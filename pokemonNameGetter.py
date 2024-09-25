@@ -51,9 +51,43 @@ async def getMissingPokemonData():
     for pokemon_name in missingPokemon:
         if pokemon_name == "galarian slowpoke":
             pokemon_name = "slowpoke-galar"
+        if pokemon_name == "morpeko":
+            pokemon_name = "morpeko-full-belly"
+        if pokemon_name == "eiscue":
+            pokemon_name = "eiscue-ice"
+        if pokemon_name == "basculin":
+            pokemon_name = "basculin-red-striped"
+        if pokemon_name == "minior":
+            pokemon_name = "minior-red-meteor"
+        if pokemon_name == "oricorio":
+            pokemon_name = "oricorio-baile"
+        if pokemon_name == "pumpkaboo":
+            pokemon_name = "pumpkaboo-average"
+        if pokemon_name == "gourgeist":
+            pokemon_name = "gourgeist-average"
+        if pokemon_name == "wormadam":
+            pokemon_name = "wormadam-plant"
+        if pokemon_name == "meowstic":
+            pokemon_name = "meowstic-male"
+        if pokemon_name == "wishiwashi":
+            pokemon_name = "wishiwashi-solo"
+        if pokemon_name == "lycanroc":
+            pokemon_name = "lycanroc-midday"
+        if pokemon_name == "darmanitan":
+            pokemon_name = "darmanitan-standard"
+        if pokemon_name == "deoxys":
+            pokemon_name = "deoxys-normal"
+        if pokemon_name == "shaymin":
+            pokemon_name = "shaymin-land"
+        if pokemon_name == "keldeo":
+            pokemon_name = "keldeo-ordinary"
+        if pokemon_name == "enamorus":
+            pokemon_name = "enamorus-incarnate"
 
+        pokemon_name = pokemon_name.rstrip()
         pokemonData = await getPokeApiData(pokemon_name)
-        pokemonReturned.append(pokemonData)
+        pokemon_id = pokemonData["id"]
+        pokemonReturned.append({"pokemon": pokemon_name, "id": pokemon_id})
     return pokemonReturned
 
 

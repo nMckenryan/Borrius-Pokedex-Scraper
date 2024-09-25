@@ -1431,6 +1431,18 @@
                 "encounterMethod": "Grass/Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
             }
         ]
     },
@@ -3635,12 +3647,7 @@
                 "encounterMethod": "Grass/Cave",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
-        "pokemon": "marowak",
-        "locationData": [
+            },
             {
                 "location": "Thundercap Mt. - 3F",
                 "encounterMethod": "Grass/Cave",
@@ -3650,7 +3657,7 @@
         ]
     },
     {
-        "pokemon": "klank",
+        "pokemon": "marowak",
         "locationData": [
             {
                 "location": "Thundercap Mt. - 3F",
@@ -4786,23 +4793,6 @@
         ]
     },
     {
-        "pokemon": "exeggcute-alola",
-        "locationData": [
-            {
-                "location": "Safari Zone - Hard",
-                "encounterMethod": "Grass/Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            },
-            {
-                "location": "Safari Zone - Insane",
-                "encounterMethod": "Grass/Cave",
-                "timeOfDay": "All Day",
-                "isSpecialEncounter": 0
-            }
-        ]
-    },
-    {
         "pokemon": "golisopod",
         "locationData": [
             {
@@ -5492,7 +5482,7 @@
         ]
     },
     {
-        "pokemon": "darmanitan-galar",
+        "pokemon": "darmanitan-galar-standard",
         "locationData": [
             {
                 "location": "Victory Road - Snowy Area",
@@ -6238,7 +6228,7 @@
         ]
     },
     {
-        "pokemon": "Galarian Slowpoke",
+        "pokemon": "Slowpoke-galar",
         "locationData": [
             {
                 "location": "Route 13",

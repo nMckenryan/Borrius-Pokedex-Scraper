@@ -8,6 +8,8 @@ import re
 import aiohttp
 import asyncio
 
+from pokemonNameGetter import getMissingPokemonData
+
 currentTime = datetime.datetime.now()
 
 pokemonJson = [
@@ -313,6 +315,7 @@ async def compile_pokedex():
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
         await createPokemonJson(national_page, starter_numbers, 1)
         await createPokemonJson(borrius_page, borrius_numbers, 10)
+        await getMissingPokemonData()
         end = time.time()
         length = end - start
         print(
