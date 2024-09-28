@@ -1,7 +1,6 @@
 import ast
 import datetime
 import time
-import requests
 import json
 from bs4 import BeautifulSoup
 import re
@@ -298,7 +297,6 @@ async def createPokemonJson(dex_page, numbers, indexCount):
 
 
 borrius_numbers = range(1, 495)
-starter_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]
 
 
 national_page = "https://www.pokemonunboundpokedex.com/national/"
@@ -307,6 +305,22 @@ borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
 async def compile_pokedex():
     start = time.time()
+    special_encounter_numbers = await getMissingPokemonData()
+
+    borrius_numbers = range(1, 495)
+
+    starter_numbers = [
+        246,
+        247,
+        248,
+        374,
+        375,
+        376,
+        443,
+        444,
+        445,
+    ] + list(set(special_encounter_numbers))
+
     print("\n\n---- BORRIUS POKEDEX SCRAPER --------")
     print(
         f"Started creating Borrius Pokedex Json file at {currentTime}\n Creating Json file..."
@@ -314,8 +328,8 @@ async def compile_pokedex():
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
         await createPokemonJson(national_page, starter_numbers, 1)
-        await createPokemonJson(borrius_page, borrius_numbers, 10)
-        await getMissingPokemonData()
+        await createPokemonJson(borrius_page, borrius_numbers, 215)
+
         end = time.time()
         length = end - start
         print(
