@@ -7641,6 +7641,1357 @@
         ]
     },
     {
+        "pokemon": "Tentacool",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 3",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 6",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Pelipper",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 3",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 6",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Tentacruel",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 3",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 6",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Basculin",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Araquanid",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Mantyke",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Marill",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Surskit",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Masquerain",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Azumarill",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Arrokuda",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Palpitoad",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Lombre",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Cramorant",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Alomomola",
+        "locationData": [
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Slowpoke-galar",
+        "locationData": [
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Mantine",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Pyukumuku",
+        "locationData": [
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Psyduck",
+        "locationData": [
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Golduck",
+        "locationData": [
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Finneon",
+        "locationData": [
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Lumineon",
+        "locationData": [
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Poliwhirl",
+        "locationData": [
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Slowpoke",
+        "locationData": [
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Poliwag",
+        "locationData": [
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Politoed",
+        "locationData": [
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Stunfisk",
+        "locationData": [
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Gastrodon",
+        "locationData": [
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Sliggoo",
+        "locationData": [
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Dewgong",
+        "locationData": [
+            {
+                "location": "Icy Hole",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Sealeo",
+        "locationData": [
+            {
+                "location": "Icy Hole",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Lapras",
+        "locationData": [
+            {
+                "location": "Icy Hole",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Seel",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Spheal",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Slugma",
+        "locationData": [
+            {
+                "location": "Cinder Volcano ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Magcargo",
+        "locationData": [
+            {
+                "location": "Cinder Volcano ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Chinchou",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Tynamo",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Lanturn",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Eelektrik",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Grimer",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Muk",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Seadra",
+        "locationData": [
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Quagsire",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Dragonair",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Frillish",
+        "locationData": [
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Jellicent",
+        "locationData": [
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Enamorus",
+        "locationData": [
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Drizzile",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Ditto",
+        "locationData": [
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Dracovish",
+        "locationData": [
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
         "pokemon": "shellder",
         "locationData": [
             {

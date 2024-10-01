@@ -11,6 +11,8 @@ from pokemonNameGetter import getMissingPokemonData
 
 currentTime = datetime.datetime.now()
 
+locations = []
+
 pokemonJson = [
     {
         "info": {
@@ -22,12 +24,16 @@ pokemonJson = [
 ]
 
 
-async def getLocations(pokemonName):
+async def readLocationDataJson():
     with open("scraperData/locationData.json") as f:
         data = json.load(f)
-        for pokemon in data:
-            if pokemonName in pokemon["pokemon"]:
-                return pokemon["locationData"]
+        return data
+
+
+def getPokemonLocations(pokemonName):
+    for pokemon in locations:
+        if pokemonName in pokemon["pokemon"]:
+            return pokemon["locationData"]
     return []
 
 
@@ -247,7 +253,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     .replace("Name: ", ""),
                 )
 
-                locations = await getLocations(pokemonName)
+                locations = getPokemonLocations(pokemonName)
 
                 # APPLY DATA TO JSON
                 pokemon_data = {
@@ -269,6 +275,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     "weight": weightInHectograms,
                     "id": officialDexNumber,
                     "name": pokemonName,
+                    "locations": locations,
                     "capture_rate": {
                         "value": float(
                             top_card.find_all("p", class_="text-3xl font-bold")[1]
@@ -282,7 +289,6 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         .text.strip()
                         .split(" ")[0],
                     },
-                    "moves": moves,
                     "sprites": {
                         "front_default": sprite_link,
                         "other": {"home": {"front_default": official_sprite_link}},
@@ -298,7 +304,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         "maleChance": gender_data[0],
                         "femaleChance": gender_data[1],
                     },
-                    "locations": locations,
+                    "moves": moves,
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
@@ -335,6 +341,7 @@ async def compile_pokedex():
         f"Started creating Borrius Pokedex Json file at {currentTime}\n Creating Json file..."
     )
     try:
+        await readLocationDataJson()
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
         await createPokemonJson(national_page, starter_numbers, 1)
         await createPokemonJson(borrius_page, borrius_numbers, 215)

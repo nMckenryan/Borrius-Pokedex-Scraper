@@ -290,15 +290,15 @@ async def getSurfLocations():
                     (p for p in locationDataList if p["pokemon"] == pokemon), None
                 )
                 if existingPokemon is not None:
-                    #     existingPokemon["locationData"].append(
-                    #         {
-                    #             "location": location_header,
-                    #             "encounterMethod": "Surfing",
-                    #             "timeOfDay": "All Day",
-                    #             "isSpecialEncounter": isSpecialEncounter,
-                    #         }
-                    #     )
-                    # else:
+                    existingPokemon["locationData"].append(
+                        {
+                            "location": location_header,
+                            "encounterMethod": "Surfing",
+                            "timeOfDay": "All Day",
+                            "isSpecialEncounter": isSpecialEncounter,
+                        }
+                    )
+                else:
                     locationDataList.append(
                         {
                             "pokemon": pokemon,
