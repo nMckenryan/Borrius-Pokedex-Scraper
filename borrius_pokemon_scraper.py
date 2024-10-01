@@ -7,11 +7,12 @@ import re
 import aiohttp
 import asyncio
 
+from termcolor import colored
 from pokemonNameGetter import getMissingPokemonData
 
 currentTime = datetime.datetime.now()
 
-locations = []
+locationList = []
 
 pokemonJson = [
     {
@@ -27,12 +28,12 @@ pokemonJson = [
 async def readLocationDataJson():
     with open("scraperData/locationData.json") as f:
         data = json.load(f)
-        return data
+        locationList.extend(data)
 
 
 def getPokemonLocations(pokemonName):
-    for pokemon in locations:
-        if pokemonName in pokemon["pokemon"]:
+    for pokemon in locationList:
+        if pokemonName.lower() in pokemon["pokemon"].lower():
             return pokemon["locationData"]
     return []
 
@@ -253,7 +254,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     .replace("Name: ", ""),
                 )
 
-                locations = getPokemonLocations(pokemonName)
+                pokemonLocations = getPokemonLocations(pokemonName)
 
                 # APPLY DATA TO JSON
                 pokemon_data = {
@@ -275,7 +276,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     "weight": weightInHectograms,
                     "id": officialDexNumber,
                     "name": pokemonName,
-                    "locations": locations,
+                    "locations": pokemonLocations,
                     "capture_rate": {
                         "value": float(
                             top_card.find_all("p", class_="text-3xl font-bold")[1]
@@ -318,6 +319,7 @@ borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
 
 async def compile_pokedex():
+    locationList = await readLocationDataJson()
     start = time.time()
     # special_encounter_numbers = await getMissingPokemonData()
 
@@ -336,12 +338,14 @@ async def compile_pokedex():
     ]
     # + list(set(special_encounter_numbers))
 
-    print("\n\n---- BORRIUS POKEDEX SCRAPER --------")
+    print("\n\n")
+    print(
+        colored("---- BORRIUS POKEDEX SCRAPER ----", "black", "on_yellow"),
+    )
     print(
         f"Started creating Borrius Pokedex Json file at {currentTime}\n Creating Json file..."
     )
     try:
-        await readLocationDataJson()
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
         await createPokemonJson(national_page, starter_numbers, 1)
         await createPokemonJson(borrius_page, borrius_numbers, 215)
@@ -349,10 +353,13 @@ async def compile_pokedex():
         end = time.time()
         length = end - start
         print(
-            f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes"
+            colored(
+                f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes",
+                "green",
+            ),
         )
     except Exception as e:
-        print(f"Failed to retrieve data from Pokemon Unbound Site: {e}")
+        print(colored(f"Failed to retrieve data from Pokemon Unbound Site: {e}", "red"))
 
 
 async def output_pokedex_json():
@@ -364,9 +371,20 @@ async def output_pokedex_json():
         fileName = "scraperData/borrius_pokedex_data.json"
         with open(fileName, "w") as fp:
             json.dump(pokemonJson, fp, indent=4)
-        print(f"{fileName} successfully created")
+
+        print(
+            colored(
+                f"{fileName} successfully created",
+                "green",
+            ),
+        )
     except Exception as e:
-        print(f"Json Generation Failed : {e}")
+        print(
+            colored(
+                f"Json Generation Failed : {e}",
+                "red",
+            ),
+        )
 
 
 async def getPokeApiData(pokemonNumber):
@@ -387,4 +405,9 @@ async def getPokeApiData(pokemonNumber):
 
             return pokeapiData
         except Exception as e:
-            print(f"Failed to retrieve data from PokeAPI: {e}")
+            print(
+                colored(
+                    f"Failed to retrieve data from PokeAPI: {e}",
+                    "red",
+                ),
+            )
