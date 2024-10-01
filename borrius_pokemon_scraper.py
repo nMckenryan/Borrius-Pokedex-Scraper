@@ -117,18 +117,19 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                             }
                         )
 
-                tmhm_moves = []
                 for row in tmhm_move_table.find_all("tr"):
                     columns = row.find_all("td")
                     move_name = columns[1].text.strip()
 
                     for move in moves:
                         if move["move"]["name"] == move_name:
-                            move["move"]["name"] += ", TM/HM"
+                            move["version_group_details"][0]["move_learn_method"][
+                                "name"
+                            ] = "level-up/tm-hm"
                             break
                         else:
                             if len(columns) > 0:
-                                tmhm_moves.append(
+                                moves.append(
                                     {
                                         "move": {
                                             "name": columns[1].text.strip(),
@@ -281,7 +282,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         .text.strip()
                         .split(" ")[0],
                     },
-                    "moves": moves + tmhm_moves,
+                    "moves": moves,
                     "sprites": {
                         "front_default": sprite_link,
                         "other": {"home": {"front_default": official_sprite_link}},
