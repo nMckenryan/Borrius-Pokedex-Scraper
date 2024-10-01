@@ -1,0 +1,3858 @@
+[
+  {
+    "name": "Bulbasaur",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady"
+  },
+  {
+    "name": "Ivysaur",
+    "location": "Evolve Bulbasaur (Lv. 16)"
+  },
+  {
+    "name": "Venusaur",
+    "location": "Evolve Ivysaur (Lv. 32)"
+  },
+  {
+    "name": "Charmander",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady"
+  },
+  {
+    "name": "Charmeleon",
+    "location": "Evolve Charmander (Lv. 16)"
+  },
+  {
+    "name": "Charizard",
+    "location": "Evolve Charmeleon (Lv. 36)"
+  },
+  {
+    "name": "Squirtle",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady"
+  },
+  {
+    "name": "Wartortle",
+    "location": "Evolve Squirtle (Lv. 16)"
+  },
+  {
+    "name": "Blastoise",
+    "location": "Evolve Wartortle (Lv. 36)"
+  },
+  {
+    "name": "Caterpie",
+    "location": "Grim Woods, Vivill Woods (Day)"
+  },
+  {
+    "name": "Metapod",
+    "location": "Vivill Woods (Day)\nEvolve Caterpie (Lv. 7)"
+  },
+  {
+    "name": "Butterfree",
+    "location": "Evolve Metapod (Lv. 10)"
+  },
+  {
+    "name": "Weedle",
+    "location": "Grim Woods, Vivill Woods (Night)"
+  },
+  {
+    "name": "Kakuna",
+    "location": "Vivill Woods (Night)\nEvolve Weedle (Lv. 7)"
+  },
+  {
+    "name": "Beedrill",
+    "location": "Evolve Kakuna (Lv. 10)"
+  },
+  {
+    "name": "Pidgey",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Pidgeotto"
+  },
+  {
+    "name": "Pidgeotto",
+    "location": "Route 17 (Day)\nEvolve Pidgey (Lv. 18)"
+  },
+  {
+    "name": "Pidgeot",
+    "location": "Evolve Pidgeotto (Lv. 36)"
+  },
+  {
+    "name": "Rattata",
+    "location": "Route 2 (Night)"
+  },
+  {
+    "name": "Raticate",
+    "location": "Antisis Sewers\nEvolve Rattata (Lv. 20)"
+  },
+  {
+    "name": "Spearow",
+    "location": "Route 9"
+  },
+  {
+    "name": "Fearow",
+    "location": "Evolve Spearow (Lv. 20)"
+  },
+  {
+    "name": "Ekans",
+    "location": "Route 4"
+  },
+  {
+    "name": "Arbok",
+    "location": "Evolve Ekans (Lv. 22)"
+  },
+  {
+    "name": "Pikachu",
+    "location": "Vivill Woods (Swarm Encounter)\nEvolve Pichu (Max Happiness)"
+  },
+  {
+    "name": "Surfing Pikachu",
+    "location": "Mystery Gift Code: 5AN3UR6XX7TV"
+  },
+  {
+    "name": "Raichu",
+    "location": "Evolve Pikachu by using a Thunder Stone"
+  },
+  {
+    "name": "Sandshrew",
+    "location": "Breed Sandslash"
+  },
+  {
+    "name": "Sandslash",
+    "location": "Great Desert\nEvolve Sandshrew (Lv. 22)"
+  },
+  {
+    "name": "Nidoran",
+    "location": "Route 5"
+  },
+  {
+    "name": "Nidorina",
+    "location": "Evolve Nidoran♀️(Lv. 16)"
+  },
+  {
+    "name": "Nidoqueen",
+    "location": "Evolve Nidorina by using a Moon Stone"
+  },
+  {
+    "name": "Nidoran",
+    "location": "Route 5"
+  },
+  {
+    "name": "Nidorino",
+    "location": "Evolve Nidoran♂️ (Lv. 16)"
+  },
+  {
+    "name": "Nidoking",
+    "location": "Evolve Nidorino by using a Moon Stone"
+  },
+  {
+    "name": "Clefairy",
+    "location": "Crater Town PC (Hidden behind a bookshelf)\nEvolve Cleffa (Max Happiness)"
+  },
+  {
+    "name": "Clefable",
+    "location": "Evolve Clefairy by using a Moon Stone"
+  },
+  {
+    "name": "Vulpix",
+    "location": "Cinder Volcano (Swarm Encounter)"
+  },
+  {
+    "name": "Ninetales",
+    "location": "Evolve Vulpix by using a Fire Stone"
+  },
+  {
+    "name": "Jigglypuff",
+    "location": "Victory Road (Grassy Maze Area)\nEvolve Igglybuff (Max Happiness)"
+  },
+  {
+    "name": "Wigglytuff",
+    "location": "Evolve Jigglypuff by using a Moon Stone"
+  },
+  {
+    "name": "Zubat",
+    "location": "Route 5 (Night), Icicle Cave, KBT Expressway"
+  },
+  {
+    "name": "Golbat",
+    "location": "Icicle Cave B1F, Icy Hole, Cliff Cave, Rift Cave, Antisis Sewers, Victory Road 1F, 4F, Kyurem's Cave, KBT Expressway\nEvolve Zubat (Lv. 22)"
+  },
+  {
+    "name": "Oddish",
+    "location": "Route 14 (Night)"
+  },
+  {
+    "name": "Gloom",
+    "location": "Route 14, Cootes Bog (Night)\nEvolve Oddish (Lv. 21)"
+  },
+  {
+    "name": "Vileplume",
+    "location": "Mystery Gift Code: 6XU6EA9VH2DB\nEvolve Gloom by using a Leaf Stone"
+  },
+  {
+    "name": "Paras",
+    "location": "Vivill Woods (Static)"
+  },
+  {
+    "name": "Parasect",
+    "location": "Evolve Paras (Lv. 24)"
+  },
+  {
+    "name": "Venonat",
+    "location": "Route 5 (Night)"
+  },
+  {
+    "name": "Venomoth",
+    "location": "Evolve Venonat (Lv. 31)"
+  },
+  {
+    "name": "Diglett",
+    "location": "Lost Tunnel"
+  },
+  {
+    "name": "Dugtrio",
+    "location": "Lost Tunnel\nEvolve Diglett (Lv. 26)"
+  },
+  {
+    "name": "Meowth",
+    "location": "Breed Persian"
+  },
+  {
+    "name": "Persian",
+    "location": "Route 18 (Day)\nEvolve Meowth (Lv. 28)"
+  },
+  {
+    "name": "Psyduck",
+    "location": "Grim Woods, Valley Cave, Vivill Woods (Good Rod & Surf) / Tehl Town, Epidimy Town (Surf) / Tarmigan Town, Crystal Peak, Victory Road 1F, B1F, 2F (Good Rod)"
+  },
+  {
+    "name": "Golduck",
+    "location": "Grim Woods, Valley Cave, Vivill Woods, Crystal Peak (Super Rod & Surf) / Tehl Town, Epidimy Town, Ruins of Void (Surf) / Tarmigan Town, Victory Road 1F, B1F, 2F (Super Rod)\nEvolve Psyduck (Lv. 33)"
+  },
+  {
+    "name": "Mankey",
+    "location": "Route 4"
+  },
+  {
+    "name": "Primeape",
+    "location": "Evolve Mankey (Lv. 28)"
+  },
+  {
+    "name": "Growlithe",
+    "location": "Route 5 (Day)"
+  },
+  {
+    "name": "Arcanine",
+    "location": "Evolve Growlithe by using a Fire Stone"
+  },
+  {
+    "name": "Poliwag",
+    "location": "Route 3 (Walk) / Tarmigan Town (Good Rod & Surf) / Dehara City (Good Rod) / Polder Town, Cootes Bog (Old Rod)"
+  },
+  {
+    "name": "Poliwhirl",
+    "location": "Tarmigan Town (Super Rod & Surf) / Dehara City (Super Rod) / Polder Town, Cootes Bog (Good Rod & Super Rod)\nEvolve Poliwag (Lv. 25)"
+  },
+  {
+    "name": "Poliwrath",
+    "location": "Evolve Poliwhirl by using a Water Stone"
+  },
+  {
+    "name": "Abra",
+    "location": "Route 7"
+  },
+  {
+    "name": "Kadabra",
+    "location": "Evolve Abra (Lv. 16)"
+  },
+  {
+    "name": "Alakazam",
+    "location": "Evolve Kadabra by using a Link Stone"
+  },
+  {
+    "name": "Machop",
+    "location": "Cliff Cave"
+  },
+  {
+    "name": "Machoke",
+    "location": "Cliff Cave\nEvolve Machop (Lv. 28)"
+  },
+  {
+    "name": "Machamp",
+    "location": "Evolve Machoke by using a Link Stone"
+  },
+  {
+    "name": "Bellsprout",
+    "location": "Route 14 (Day)"
+  },
+  {
+    "name": "Weepinbell",
+    "location": "Route 14, Cootes Bog (Day)\nEvolve Bellsprout (Lv. 21)"
+  },
+  {
+    "name": "Victreebel",
+    "location": "Evolve Weepinbell by using a Leaf Stone"
+  },
+  {
+    "name": "Tentacool",
+    "location": "Route 2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 15, 16, 17, 18, Dresco Town, Fallshore City, Dehara City, Gurun Town, Vivill Town, Antisis City, Seaport City, Ruins of Void, Vivill Warehouse (Surf)"
+  },
+  {
+    "name": "Tentacruel",
+    "location": "Route 2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 15, 16, 17, 18, Dresco Town, Fallshore City, Dehara City, Gurun Town, Vivill Town, Antisis City, Seaport City, Ruins of Void, Vivill Warehouse (Surf)\nEvolve Tentacool (Lv. 30)"
+  },
+  {
+    "name": "Geodude",
+    "location": "Route 13, 14, 16, 17, 18, Epidimy Town, Cinder Volcano, Valley Cave, KBT, Lost Tunnel, Ruins of Void, Great Desert (Rock Smash) / Cinder Volcano, KBT"
+  },
+  {
+    "name": "Graveler",
+    "location": "Epidimy Town, Cinder Volcano, Lost Tunnel, Tomb of Borrius, Crystal Peak (Rock Smash) / Lost Tunnel, Cinder Volcano (Shadow Basement), Cliff Cave, KBT, Victory Road (B1F)\nEvolve Geodude (Lv. 25)"
+  },
+  {
+    "name": "Golem",
+    "location": "Evolve Graveler by using a Link Stone"
+  },
+  {
+    "name": "Ponyta",
+    "location": "Route 12"
+  },
+  {
+    "name": "Rapidash",
+    "location": "Evolve Ponyta (Lv. 40)"
+  },
+  {
+    "name": "Slowpoke",
+    "location": "Route 3, Route 14 / Tarmigan Town (Surf)"
+  },
+  {
+    "name": "Slowbro",
+    "location": "Evolve Slowpoke (Lv. 37)"
+  },
+  {
+    "name": "Magnemite",
+    "location": "Thundercap Mountain"
+  },
+  {
+    "name": "Magneton",
+    "location": "Thundercap Mountain\nEvolve Magnemite (Lv. 30)"
+  },
+  {
+    "name": "Farfetch'd",
+    "location": "Route 18 (Day)"
+  },
+  {
+    "name": "Doduo",
+    "location": "Route 7 (Day)"
+  },
+  {
+    "name": "Dodrio",
+    "location": "Evolve Doduo (Lv. 31)"
+  },
+  {
+    "name": "Seel",
+    "location": "Icicle Cave, Frost Mountain (Good Rod & Surf) / Icy Hole, Kyurem's Cave (Good Rod)"
+  },
+  {
+    "name": "Dewgong",
+    "location": "Icicle Cave, Icy Hole, Frost Mountain, Kyurem's Cave (Super Rod & Surf)\nEvolve Seel (Lv. 34)"
+  },
+  {
+    "name": "Grimer",
+    "location": "Antisis Sewers (Walk, Old Rod, Good Rod, Surf)"
+  },
+  {
+    "name": "Muk",
+    "location": "Antisis Sewers (Walk, Super Rod, Surf)\nEvolve Grimer (Lv. 38)"
+  },
+  {
+    "name": "Shellder",
+    "location": "Route 2, 3, 14, 15, Icicle Cave, Icy Hole, Dresco Town, Frost Mountain, Ruins of Void, Vivill Town, Vivill Warehouse, Kyurem's Cave (Good Rod & Super Rod) / Route 17 (Static)"
+  },
+  {
+    "name": "Cloyster",
+    "location": "Route 3, 14, 15, Icicle Cave, Icy Hole, Frost Mountain, Vivill Town (Super Rod)\nEvolve Shellder by using a Water Stone"
+  },
+  {
+    "name": "Gastly",
+    "location": "Grim Woods"
+  },
+  {
+    "name": "Haunter",
+    "location": "Rift Cave\nEvolve Gastly (Lv. 25)"
+  },
+  {
+    "name": "Gengar",
+    "location": "Evolve Haunter by using a Link Stone"
+  },
+  {
+    "name": "Onix",
+    "location": "Frost Mountain, Cliff Cave, Crystal Peak"
+  },
+  {
+    "name": "Drowzee",
+    "location": "Route 7 (Night)"
+  },
+  {
+    "name": "Hypno",
+    "location": "Evolve Drowzee (Lv. 26)"
+  },
+  {
+    "name": "Krabby",
+    "location": "Route 3 (Walk, Good Rod) / Route 2, 13, 14, 16, 17, 18, Outside of the Thundercap Mountain (Rock Smash)"
+  },
+  {
+    "name": "Kingler",
+    "location": "Route 3 (Super Rod) / Route 13, 14, 16, 17, 18, Outside of the Thundercap Mountain (Rock Smash)\nEvolve Krabby (Lv. 28)"
+  },
+  {
+    "name": "Voltorb",
+    "location": "Dehara City Gym (Static)"
+  },
+  {
+    "name": "Electrode",
+    "location": "Trade in Blizzard City / Dehara City Gym (Static)\nEvolve Voltorb (Lv. 30)"
+  },
+  {
+    "name": "Exeggcute",
+    "location": "Route 11, Safari Zone (Hard, Insane)"
+  },
+  {
+    "name": "Exeggutor",
+    "location": "Evolve Exeggcute by using a Leaf Stone"
+  },
+  {
+    "name": "Cubone",
+    "location": "Thundercap Mountain (1F, 3F), Safari Zone (Easy)"
+  },
+  {
+    "name": "Marowak",
+    "location": " Thundercap Mountain 3F\nEvolve Cubone (Lv. 28 during the day)"
+  },
+  {
+    "name": "Hitmonlee",
+    "location": "Evolve Tyrogue (Lv. 20, Atk > Def)"
+  },
+  {
+    "name": "Hitmonchan",
+    "location": "Evolve Tyrogue (Lv. 20, Def > Atk)"
+  },
+  {
+    "name": "Lickitung",
+    "location": "Route 5"
+  },
+  {
+    "name": "Koffing",
+    "location": "Antisis Sewers"
+  },
+  {
+    "name": "Weezing",
+    "location": "Antisis Sewers\nEvolve Koffing (Lv. 35)"
+  },
+  {
+    "name": "Rhyhorn",
+    "location": "Safari Zone (Easy, Medium)"
+  },
+  {
+    "name": "Rhydon",
+    "location": "Safari Zone (Hard, Insane)\nEvolve Rhyhorn (Lv. 42)"
+  },
+  {
+    "name": "Chansey",
+    "location": "Victory Road (Grassy Maze Area)\nEvolve Happiny (Level-Up while holding the Oval Stone during the day)"
+  },
+  {
+    "name": "Tangela",
+    "location": "Route 16"
+  },
+  {
+    "name": "Kangaskhan",
+    "location": "Safari Zone (Medium, Hard, Insane)"
+  },
+  {
+    "name": "Horsea",
+    "location": "Route 14, 15, 16, 17, 18, Gurun Town, Antisis City, Seaport City, Ruins of Void, Vivill Town, Vivill Warehouse (Good Rod)"
+  },
+  {
+    "name": "Seadra",
+    "location": "Route 14, 15, 16, 17, 18, Gurun Town, Antisis City, Seaport City, Ruins of Void (Super Rod) / Vivill Town, Vivill Warehouse (Super Rod, Surf)\nEvolve Horsea (Lv. 32)"
+  },
+  {
+    "name": "Goldeen",
+    "location": "Route 6, 7, 9, Auburn Waterway, Tehl Town (Good Rod)"
+  },
+  {
+    "name": "Seaking",
+    "location": "Route 6, 7, 9, Auburn Waterway, Tehl Town (Super Rod)\nEvolve Goldeen (Lv. 33)"
+  },
+  {
+    "name": "Staryu",
+    "location": "Route 2, 3, 4, 5, Dresco Town, Dehara City (Good Rod & Super Rod)"
+  },
+  {
+    "name": "Starmie",
+    "location": "Route 2, 4, 5, Dresco Town, Dehara City (Super Rod)\nEvolve Staryu by using a Water Stone"
+  },
+  {
+    "name": "Mr. Mime",
+    "location": "Route 7 (Swarm Encounter)\nEvolve Mime Jr. (Level-Up while knowing Mimic)"
+  },
+  {
+    "name": "Scyther",
+    "location": "Use Headbutt on any trees in Redwood Village/Forest"
+  },
+  {
+    "name": "Jynx",
+    "location": "Icicle Cave B1F, Icy Hole, Victory Road 4F, Kyurem's Cave\nEvolve Smoochum (Lv. 30)"
+  },
+  {
+    "name": "Electabuzz",
+    "location": "Thundercap Mountain\nEvolve Elekid (Lv. 30)"
+  },
+  {
+    "name": "Magmar",
+    "location": "Cinder Volcano (Shadow Basement), Victory Road B1F\nEvolve Magby (Lv. 30)"
+  },
+  {
+    "name": "Pinsir",
+    "location": "Use Headbutt on any trees in Redwood Village/Forest"
+  },
+  {
+    "name": "Tauros",
+    "location": "Safari Zone (Medium, Hard, Insane), Magnolia Fields"
+  },
+  {
+    "name": "Magikarp",
+    "location": "All Water areas (Old Rod)"
+  },
+  {
+    "name": "Gyarados",
+    "location": "Route 4, 5, 6, 7, 12, 15, 18, Dresco Town, Valley Cave, Auburn Waterway, Tehl Town, Ruins of Void, Vivill Town, Vivill Warehouse, Antisis City, Magnolia Fields, Victory Road 1F, B1F, 2F (Super Rod)\nEvolve Magikarp (Lv. 20)"
+  },
+  {
+    "name": "Lapras",
+    "location": "Icicle Cave, Icy Hole, Frost Mountain, Kyurem's Cave (Surf) / Route 17, Seaport City (Super Rod)"
+  },
+  {
+    "name": "Ditto",
+    "location": "Route 5, 10, Auburn Waterway"
+  },
+  {
+    "name": "Eevee",
+    "location": "Dehara City Game Corner (Purchase for 1500 Coins)"
+  },
+  {
+    "name": "Vaporeon",
+    "location": "Evolve Eevee by using a Water Stone"
+  },
+  {
+    "name": "Jolteon",
+    "location": "Evolve Eevee by using a Thunder Stone"
+  },
+  {
+    "name": "Flareon",
+    "location": "Evolve Eevee by using a Fire Stone"
+  },
+  {
+    "name": "Porygon",
+    "location": "Dehara City Game Corner (Purchase for 9999 Coins)"
+  },
+  {
+    "name": "Omanyte",
+    "location": "Revive a Helix Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Omastar",
+    "location": "Evolve Omanyte (Lv. 40)"
+  },
+  {
+    "name": "Kabuto",
+    "location": "Revive a Dome Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Kabutops",
+    "location": "Evolve Kabuto (Lv. 40)"
+  },
+  {
+    "name": "Aerodactyl",
+    "location": "Revive an Old Amber (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Snorlax",
+    "location": "Redwood Forest (Static, Post-game)\nEvolve Munchlax (Max Happiness)"
+  },
+  {
+    "name": "Articuno",
+    "location": "North of Frozen Heights"
+  },
+  {
+    "name": "Zapdos",
+    "location": "On top of Thundercap Mountain"
+  },
+  {
+    "name": "Moltres",
+    "location": "On top of Cinder Volcano"
+  },
+  {
+    "name": "Dratini",
+    "location": "Breed Dragonair"
+  },
+  {
+    "name": "Dragonair",
+    "location": "Crystal Peak (Surf)\nEvolve Dratini (Lv. 30)"
+  },
+  {
+    "name": "Dragonite",
+    "location": "Evolve Dragonair (Lv. 55)"
+  },
+  {
+    "name": "Mewtwo",
+    "location": "Currently Unavailable\nUse this Mystery Gift code on the second floor of any Pokemon Center after completing the game: 6ZT5ZX7RN4KK"
+  },
+  {
+    "name": "Mew",
+    "location": "Reward for completing the “Darwin Was Right” mission (Post-game)"
+  },
+  {
+    "name": "Chikorita",
+    "location": "Breed Bayleef"
+  },
+  {
+    "name": "Bayleef",
+    "location": "Route 18 (Swarm Encounter)\nEvolve Chikorita (Lv. 16)"
+  },
+  {
+    "name": "Meganium",
+    "location": "Evolve Bayleef (Lv. 32)"
+  },
+  {
+    "name": "Cyndaquil",
+    "location": "Breed Quilava"
+  },
+  {
+    "name": "Quilava",
+    "location": "Magnolia Fields (Swarm Encounter)\nEvolve Cyndaquil (Lv. 14)"
+  },
+  {
+    "name": "Typhlosion",
+    "location": "Evolve Quilava (Lv. 36)"
+  },
+  {
+    "name": "Totodile",
+    "location": "Breed Croconaw"
+  },
+  {
+    "name": "Croconaw",
+    "location": "Cootes Bog (Swarm Encounter)\nEvolve Totodile (Lv. 18)"
+  },
+  {
+    "name": "Feraligatr",
+    "location": "Catchable during the “Protector of the Swamp” mission\nEvolve Croconaw (Lv. 30)"
+  },
+  {
+    "name": "Sentret",
+    "location": "Route 3 (Swarm Encounter)"
+  },
+  {
+    "name": "Furret",
+    "location": "Evolve Sentret (Lv. 15)"
+  },
+  {
+    "name": "Hoothoot",
+    "location": "Route 2, 7, 12 (Night)"
+  },
+  {
+    "name": "Noctowl",
+    "location": "Route 12, 17, 18, Magnolia Fields (Night)\nEvolve Hoothoot (Lv. 20)"
+  },
+  {
+    "name": "Ledyba",
+    "location": "Route 6 (Day)"
+  },
+  {
+    "name": "Ledian",
+    "location": "Route 6, Redwood Forest (Day)\nEvolve Ledyba (Lv. 18)"
+  },
+  {
+    "name": "Spinarak",
+    "location": "Route 6 (Night)"
+  },
+  {
+    "name": "Ariados",
+    "location": "Route 6, Redwood Forest (Night)\nEvolve Spinarak (Lv. 22)"
+  },
+  {
+    "name": "Crobat",
+    "location": "Evolve Golbat (Max Happiness)"
+  },
+  {
+    "name": "Chinchou",
+    "location": "Thundercap Mountain (Good Rod & Surf) / Route 14, 16, 17, Ruins of Void (Underwater)"
+  },
+  {
+    "name": "Lanturn",
+    "location": "Thundercap Mountain (Super Rod & Surf) / Route 14, 16, 17, Ruins of Void (Underwater)\nEvolve Chinchou (Lv. 27)"
+  },
+  {
+    "name": "Pichu",
+    "location": "Breed Pikachu"
+  },
+  {
+    "name": "Cleffa",
+    "location": "Breed Clefairy"
+  },
+  {
+    "name": "Igglybuff",
+    "location": "Breed Jigglypuff"
+  },
+  {
+    "name": "Togepi",
+    "location": "Given as an Egg by an old lady in Fallshore City"
+  },
+  {
+    "name": "Togetic",
+    "location": "Evolve Togepi (Max Happiness)"
+  },
+  {
+    "name": "Natu",
+    "location": "Safari Zone (Easy)"
+  },
+  {
+    "name": "Xatu",
+    "location": "Safari Zone (Medium)\nEvolve Natu (Lv. 25)"
+  },
+  {
+    "name": "Mareep",
+    "location": "Route 7"
+  },
+  {
+    "name": "Flaaffy",
+    "location": "Route 8\nEvolve Mareep (Lv. 15)"
+  },
+  {
+    "name": "Ampharos",
+    "location": "Evolve Flaaffy (Lv. 30)"
+  },
+  {
+    "name": "Bellossom",
+    "location": "Evolve Gloom by using a Sun Stone"
+  },
+  {
+    "name": "Marill",
+    "location": "Route 9, 10, Auburn Waterway (Walk) / Route 9, Tehl Town, Victory Road 1F, B1F, 2F (Surf)\nEvolve Azurill (Max Happiness)"
+  },
+  {
+    "name": "Azumarill",
+    "location": "Route 9, Tehl Town, Victory Road 1F, B1F, 2F (Surf)\nEvolve Marill (Lv. 18)"
+  },
+  {
+    "name": "Sudowoodo",
+    "location": "Route 18\nEvolve Bonsly (Level-Up while knowing Mimic)"
+  },
+  {
+    "name": "Politoed",
+    "location": "Tarmigan Town (Surf) / Polder Town, Cootes Bog (Super Rod)\nEvolve Poliwhirl by using a King's Rock"
+  },
+  {
+    "name": "Hoppip",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Skiploom"
+  },
+  {
+    "name": "Skiploom",
+    "location": "Route 17 (Day)\nEvolve Hoppip (Lv. 18)"
+  },
+  {
+    "name": "Jumpluff",
+    "location": "Evolve Skiploom (Lv. 27)"
+  },
+  {
+    "name": "Aipom",
+    "location": "Use Headbutt on any trees in Redwood Village/Forest"
+  },
+  {
+    "name": "Sunkern",
+    "location": "Route 6 (Day)"
+  },
+  {
+    "name": "Sunflora",
+    "location": "Evolve Sunkern by using a Sun Stone"
+  },
+  {
+    "name": "Yanma",
+    "location": "Route 5 (Day)"
+  },
+  {
+    "name": "Wooper",
+    "location": "Cliff Cave"
+  },
+  {
+    "name": "Quagsire",
+    "location": "Cliff Cave\nEvolve Wooper (Lv. 20)"
+  },
+  {
+    "name": "Espeon",
+    "location": "Evolve Eevee (Max Happiness during the day)"
+  },
+  {
+    "name": "Umbreon",
+    "location": "Evolve Eevee (Max Happiness during the night)"
+  },
+  {
+    "name": "Murkrow",
+    "location": "Route 5 (Night)"
+  },
+  {
+    "name": "Slowking",
+    "location": "Evolve Slowpoke by using a King's Rock"
+  },
+  {
+    "name": "Misdreavus",
+    "location": "Cliff Cave"
+  },
+  {
+    "name": "Unown",
+    "location": "Tomb of Borrius"
+  },
+  {
+    "name": "Wobbuffet",
+    "location": "Safari Zone (Medium, Hard, Insane)\nEvolve Wynaut (Lv. 15)"
+  },
+  {
+    "name": "Girafarig",
+    "location": "Route 16"
+  },
+  {
+    "name": "Pineco",
+    "location": "Use Headbutt on any trees in Redwood Village/Forest"
+  },
+  {
+    "name": "Forretress",
+    "location": "Evolve Pineco (Lv. 31)"
+  },
+  {
+    "name": "Dunsparce",
+    "location": "Valley Cave (Swarm Encounter)"
+  },
+  {
+    "name": "Gligar",
+    "location": "Valley Cave"
+  },
+  {
+    "name": "Steelix",
+    "location": "Cliff Cave, Crystal Peak\nEvolve Onix by using a Metal Coat"
+  },
+  {
+    "name": "Snubbull",
+    "location": "Route 12"
+  },
+  {
+    "name": "Granbull",
+    "location": "Evolve Snubbull (Lv. 23)"
+  },
+  {
+    "name": "Qwilfish",
+    "location": "Crystal Peak, Magnolia Fields (Super Rod)"
+  },
+  {
+    "name": "Scizor",
+    "location": "Evolve Scyther by using a Metal Coat"
+  },
+  {
+    "name": "Shuckle",
+    "location": "Icicle Cave, Cinder Volcano, Thundercap Mountain, Tomb of Borrius (Rock Smash)"
+  },
+  {
+    "name": "Heracross",
+    "location": "Redwood Forest / Use Headbutt on any trees in Redwood Village/Forest"
+  },
+  {
+    "name": "Sneasel",
+    "location": "Frost Mountain / Route 8, Frozen Forest (Night)"
+  },
+  {
+    "name": "Teddiursa",
+    "location": "Breed Ursaring"
+  },
+  {
+    "name": "Ursaring",
+    "location": "Redwood Forest\nEvolve Teddiursa (Lv. 30)"
+  },
+  {
+    "name": "Slugma",
+    "location": "Cinder Volcano, Victory Road B1F"
+  },
+  {
+    "name": "Magcargo",
+    "location": "Cinder Volcano, Victory Road B1F (Lava Surf)\nEvolve Slugma (Lv. 30)"
+  },
+  {
+    "name": "Swinub",
+    "location": "Icicle Cave"
+  },
+  {
+    "name": "Piloswine",
+    "location": "Icicle Cave 1F, B1F, Icy Hole, Kyurem's Cave, Victory Road 4F\nEvolve Swinub (Lv. 33)"
+  },
+  {
+    "name": "Corsola",
+    "location": "Route 13, 14, Outside of the Thundercap Mountain (Rock Smash) / Route 16, 17, 18 (Good Rod, Super Rod, Rock Smash, Underwater) / Gurun Town, Seaport City (Good Rod & Super Rod)"
+  },
+  {
+    "name": "Remoraid",
+    "location": "Route 6, 7, 11, 16, 17, 18, Fallshore City, Gurun Town, Antisis City, Seaport City (Good Rod) / Route 16 (Underwater)"
+  },
+  {
+    "name": "Octillery",
+    "location": "Route 6, 7, 11, 16, 17, 18, Fallshore City, Gurun Town, Antisis City, Seaport City (Super Rod) / Route 16 (Underwater)\nEvolve Remoraid (Lv. 25)"
+  },
+  {
+    "name": "Delibird",
+    "location": "Route 1"
+  },
+  {
+    "name": "Mantine",
+    "location": "Route 14, 18, Gurun Town, Ruins of Void (Surf)\nEvolve Mantyke (Level-Up with a Remoraid in your party)"
+  },
+  {
+    "name": "Skarmory",
+    "location": "Crystal Peak"
+  },
+  {
+    "name": "Houndour",
+    "location": "Route 5 (Night)"
+  },
+  {
+    "name": "Houndoom",
+    "location": "Evolve Houndour (Lv. 24)"
+  },
+  {
+    "name": "Kingdra",
+    "location": "Mystery Gift Code: 8SB5RF1FF3PX\nRuins of Void, Gurun Town (Super Rod)\nEvolve Seadra by using a Dragon Scale"
+  },
+  {
+    "name": "Phanpy",
+    "location": "Valley Cave"
+  },
+  {
+    "name": "Donphan",
+    "location": "Evolve Phanpy (Lv. 25)"
+  },
+  {
+    "name": "Porygon2",
+    "location": "Evolve Porygon by using an Up-Grade"
+  },
+  {
+    "name": "Stantler",
+    "location": "Route 8 (Swarm Encounter)"
+  },
+  {
+    "name": "Smeargle",
+    "location": "Route 6 (Swarm Encounter)"
+  },
+  {
+    "name": "Tyrogue",
+    "location": "Breed Hitmontop"
+  },
+  {
+    "name": "Hitmontop",
+    "location": "Trade for a Lickitung in Epidimy Town\nEvolve Tyrogue (Lv. 20, Atk = Def)"
+  },
+  {
+    "name": "Smoochum",
+    "location": "Icicle Cave"
+  },
+  {
+    "name": "Elekid",
+    "location": "Thundercap Mountain"
+  },
+  {
+    "name": "Magby",
+    "location": "Cinder Volcano"
+  },
+  {
+    "name": "Miltank",
+    "location": "Magnolia Fields"
+  },
+  {
+    "name": "Blissey",
+    "location": "Evolve Chansey (Max Happiness)"
+  },
+  {
+    "name": "Raikou",
+    "location": "Ruins of Void (Roaming)"
+  },
+  {
+    "name": "Entei",
+    "location": "Ruins of Void (Roaming)"
+  },
+  {
+    "name": "Suicune",
+    "location": "Portal in Ruins of Void (Raikou & Entei must be in your party)"
+  },
+  {
+    "name": "Larvitar",
+    "location": "Starter\nCan be acquired either in the Shadow Base Warehouse or your rival’s house in Post-game"
+  },
+  {
+    "name": "Pupitar",
+    "location": "Evolve Larvitar (Lv. 30)"
+  },
+  {
+    "name": "Tyranitar",
+    "location": "Evolve Pupitar (Lv. 48)"
+  },
+  {
+    "name": "Lugia",
+    "location": "Portal in Ruins of Void (Raikou, Entei & Suicune must be in your party)"
+  },
+  {
+    "name": "Ho-oh",
+    "location": "Portal in Ruins of Void (Raikou, Entei & Suicune must be in your party)"
+  },
+  {
+    "name": "Celebi",
+    "location": "Redwood Village (Spiky-Eared Pichu must be in your party)"
+  },
+  {
+    "name": "Treecko",
+    "location": "Safari Zone (Appears randomly every 5 catches on Easy, Medium)"
+  },
+  {
+    "name": "Grovyle",
+    "location": "Safari Zone (Appears randomly every 5 catches on Hard, Insane)\nEvolve Treecko (Lv. 16)"
+  },
+  {
+    "name": "Sceptile",
+    "location": "Evolve Grovyle (Lv. 36)"
+  },
+  {
+    "name": "Torchic",
+    "location": "Safari Zone (Appears randomly every 5 catches on Easy, Medium)"
+  },
+  {
+    "name": "Combusken",
+    "location": "Safari Zone (Appears randomly every 5 catches on Hard, Insane)\nEvolve Torchic (Lv. 16)"
+  },
+  {
+    "name": "Blaziken",
+    "location": "Evolve Combusken (Lv. 36)"
+  },
+  {
+    "name": "Mudkip",
+    "location": "Safari Zone (Appears randomly every 5 catches on Easy, Medium)"
+  },
+  {
+    "name": "Marshtomp",
+    "location": "Safari Zone (Appears randomly every 5 catches on Hard, Insane)\nEvolve Mudkip (Lv. 16)"
+  },
+  {
+    "name": "Swampert",
+    "location": "Evolve Marshtomp (Lv. 36)"
+  },
+  {
+    "name": "Poochyena",
+    "location": "Route 2 (Swarm Encounter)"
+  },
+  {
+    "name": "Mightyena",
+    "location": "Evolve Poochyena (Lv. 18)"
+  },
+  {
+    "name": "Zigzagoon",
+    "location": "Breed Linoone"
+  },
+  {
+    "name": "Linoone",
+    "location": "Route 10, Auburn Waterway\nEvolve Zigzagoon (Lv. 20)"
+  },
+  {
+    "name": "Wurmple",
+    "location": "Vivill Woods"
+  },
+  {
+    "name": "Silcoon",
+    "location": "Vivill Woods\nEvolve Wurmple (Lv. 7)"
+  },
+  {
+    "name": "Beautifly",
+    "location": "Evolve Silcoon (Lv. 10)"
+  },
+  {
+    "name": "Cascoon",
+    "location": "Vivill Woods\nEvolve Wurmple (Lv. 7)"
+  },
+  {
+    "name": "Dustox",
+    "location": "Evolve Cascoon (Lv. 10)"
+  },
+  {
+    "name": "Lotad",
+    "location": "Route 10, Auburn Waterway"
+  },
+  {
+    "name": "Lombre",
+    "location": "Route 10, Auburn Waterway (Walk & Surf) / Fallshore City Gym (Static)\nEvolve Lotad (Lv. 14)"
+  },
+  {
+    "name": "Ludicolo",
+    "location": "Evolve Lombre by using a Water Stone"
+  },
+  {
+    "name": "Seedot",
+    "location": "Grim Woods"
+  },
+  {
+    "name": "Nuzleaf",
+    "location": "Evolve Seedot (Lv. 14)"
+  },
+  {
+    "name": "Shiftry",
+    "location": "Evolve Nuzleaf by using a Leaf Stone"
+  },
+  {
+    "name": "Taillow",
+    "location": "Route 5 (Day)"
+  },
+  {
+    "name": "Swellow",
+    "location": "Evolve Taillow (Lv. 22)"
+  },
+  {
+    "name": "Wingull",
+    "location": "Route 3"
+  },
+  {
+    "name": "Pelipper",
+    "location": "Route 14, 17 / Route 2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 15, 16, 17, 18, Dresco Town, Fallshore City, Dehara City, Gurun Town, Vivill Town, Antisis City, Seaport City, Ruins of Void, Magnolia Fields (Surf)\nEvolve Wingul (Lv. 25)"
+  },
+  {
+    "name": "Ralts",
+    "location": "Route 4"
+  },
+  {
+    "name": "Kirlia",
+    "location": "Evolve Ralts (Lv. 20)"
+  },
+  {
+    "name": "Gardevoir",
+    "location": "Evolve Kirlia (Lv. 30)"
+  },
+  {
+    "name": "Surskit",
+    "location": "Route 3 (Night) / Grim Woods, Route 9, 10, Auburn Waterway, Vivill Woods (Surf)"
+  },
+  {
+    "name": "Masquerain",
+    "location": "Grim Woods, Route 9, 10, Auburn Waterway, Vivill Woods (Surf)\nEvolve Surskit (Lv. 22)"
+  },
+  {
+    "name": "Shroomish",
+    "location": "Route 9"
+  },
+  {
+    "name": "Breloom",
+    "location": "Evolve Shroomish (Lv. 23)"
+  },
+  {
+    "name": "Slakoth",
+    "location": "Breed Vigoroth"
+  },
+  {
+    "name": "Vigoroth",
+    "location": "Redwood Forest\nEvolve Slakoth (Lv. 18)"
+  },
+  {
+    "name": "Slaking",
+    "location": "Evolve Vigoroth (Lv. 36)"
+  },
+  {
+    "name": "Nincada",
+    "location": "Redwood Forest (Swarm Encounter)"
+  },
+  {
+    "name": "Ninjask",
+    "location": "Evolve Nincada (Lv. 20)"
+  },
+  {
+    "name": "Shedinja",
+    "location": "Evolve Nincada (Lv. 20 with an empty slot in your party & an extra Poké Ball in a Cube)"
+  },
+  {
+    "name": "Whismur",
+    "location": "Breed Loudred"
+  },
+  {
+    "name": "Loudred",
+    "location": "Crystal Peak\nEvolve Whismur (Lv. 20)"
+  },
+  {
+    "name": "Exploud",
+    "location": "Evolve Loudred (Lv. 40)"
+  },
+  {
+    "name": "Makuhita",
+    "location": "Icicle Cave, KBT Expressway"
+  },
+  {
+    "name": "Hariyama",
+    "location": "Icicle Cave B1F, Icy Hole, KBT Expressway, Kyurem's Cave, Victory Road 4F\nEvolve Makuhita (Lv. 24)"
+  },
+  {
+    "name": "Azurill",
+    "location": "Route 2\nBreed Marill with a Sea Incense "
+  },
+  {
+    "name": "Nosepass",
+    "location": "KBT Expressway, Valley Cave, Frost Mountain, Thundercap Mountain"
+  },
+  {
+    "name": "Probopass",
+    "location": "Evolve Nosepass by using a Thunder Stone or Level-Up at Thundercap Mountain"
+  },
+  {
+    "name": "Skitty",
+    "location": "Safari Zone (Easy)"
+  },
+  {
+    "name": "Delcatty",
+    "location": "Evolve Skitty by using a Moon Stone"
+  },
+  {
+    "name": "Sableye",
+    "location": "Ruins of Void"
+  },
+  {
+    "name": "Mawile",
+    "location": "Mystery Gift Code: 6KJ4SW2AG3QW\nIcicle Cave (Secret Entrance)"
+  },
+  {
+    "name": "Aron",
+    "location": "KBT Expressway, Valley Cave, Frost Mountain"
+  },
+  {
+    "name": "Lairon",
+    "location": "KBT Expressway, Lost Tunnel\nEvolve Aron (Lv. 32)"
+  },
+  {
+    "name": "Aggron",
+    "location": "Evolve Lairon (Lv. 42)"
+  },
+  {
+    "name": "Meditite",
+    "location": "Route 11"
+  },
+  {
+    "name": "Medicham",
+    "location": "Evolve Meditite (Lv. 37)"
+  },
+  {
+    "name": "Electrike",
+    "location": "Route 2"
+  },
+  {
+    "name": "Manectric",
+    "location": "Evolve Electrike (Lv. 26)"
+  },
+  {
+    "name": "Plusle",
+    "location": "Safari Zone (Easy)"
+  },
+  {
+    "name": "Minun",
+    "location": "Safari Zone (Easy)"
+  },
+  {
+    "name": "Volbeat",
+    "location": "Route 17 (Swarm Encounter)"
+  },
+  {
+    "name": "Illumise",
+    "location": "Route 17 (Swarm Encounter)"
+  },
+  {
+    "name": "Roselia",
+    "location": "Victory Road (Grassy Maze Area)\nEvolve Budew (Max Happiness during the day)"
+  },
+  {
+    "name": "Gulpin",
+    "location": "Route 11"
+  },
+  {
+    "name": "Swalot",
+    "location": "Evolve Gulpin (Lv. 26)"
+  },
+  {
+    "name": "Carvanha",
+    "location": "Route 12, 14, Fallshore City (Good Rod) / Route 17 (Underwater)"
+  },
+  {
+    "name": "Sharpedo",
+    "location": "Route 12, 14, Fallshore City (Super Rod) Route 17 (Underwater)\nEvolve Carvanha (Lv. 30)"
+  },
+  {
+    "name": "Wailmer",
+    "location": "Route 12, 14, Magnolia Fields (Good Rod)"
+  },
+  {
+    "name": "Wailord",
+    "location": "Route 12, 14, Magnolia Fields (Super Rod)\nEvolve Wailmer (Lv. 40)"
+  },
+  {
+    "name": "Numel",
+    "location": "Route 4, Cinder Volcano"
+  },
+  {
+    "name": "Camerupt",
+    "location": "Cinder Volcano (Shadow Basement), Victory Road B1F\nEvolve Numel (Lv. 33)"
+  },
+  {
+    "name": "Torkoal",
+    "location": "Cinder Volcano"
+  },
+  {
+    "name": "Spoink",
+    "location": "Route 11"
+  },
+  {
+    "name": "Grumpig",
+    "location": "Evolve Spoink (Lv. 32)"
+  },
+  {
+    "name": "Spinda",
+    "location": "Safari Zone (Medium, Hard)"
+  },
+  {
+    "name": "Trapinch",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Vibrava"
+  },
+  {
+    "name": "Vibrava",
+    "location": "Great Desert\nEvolve Trapinch (Lv. 35)"
+  },
+  {
+    "name": "Flygon",
+    "location": "Evolve Vibrava (Lv. 45)"
+  },
+  {
+    "name": "Cacnea",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Cacturne"
+  },
+  {
+    "name": "Cacturne",
+    "location": "Great Desert\nEvolve Cacnea (Lv. 32)"
+  },
+  {
+    "name": "Swablu",
+    "location": "Route 11 (Day)"
+  },
+  {
+    "name": "Altaria",
+    "location": "Evolve Swablu (Lv. 35)"
+  },
+  {
+    "name": "Zangoose",
+    "location": "Route 17"
+  },
+  {
+    "name": "Seviper",
+    "location": "Route 17"
+  },
+  {
+    "name": "Lunatone",
+    "location": "Ruins of Void"
+  },
+  {
+    "name": "Solrock",
+    "location": "Ruins of Void"
+  },
+  {
+    "name": "Barboach",
+    "location": "Grim Woods, Route 11, Epidimy Town, Vivill Woods, Polder Town, Cootes Bog (Good Rod)"
+  },
+  {
+    "name": "Whiscash",
+    "location": "Grim Woods, Route 11, Epidimy Town, Vivill Woods, Polder Town, Cootes Bog (Super Rod)\nEvolve Barboach (Lv. 30)"
+  },
+  {
+    "name": "Corphish",
+    "location": "Route 4, 5 (Good Rod)"
+  },
+  {
+    "name": "Crawdaunt",
+    "location": "Route 4, 5 (Super Rod)\nEvolve Corphish (Lv. 30)"
+  },
+  {
+    "name": "Baltoy",
+    "location": "Ruins of Void"
+  },
+  {
+    "name": "Claydol",
+    "location": "Ruins of Void\nEvolve Baltoy (Lv. 36)"
+  },
+  {
+    "name": "Lileep",
+    "location": "Revive a Root Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Cradily",
+    "location": "Evolve Lileep (Lv. 40)"
+  },
+  {
+    "name": "Anorith",
+    "location": "Revive a Claw Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Armaldo",
+    "location": "Evolve Anorith (Lv. 40)"
+  },
+  {
+    "name": "Feebas",
+    "location": "Reward for completing the “Fisher Master” mission"
+  },
+  {
+    "name": "Milotic",
+    "location": "Evolve Feebas by using a Prism Scale"
+  },
+  {
+    "name": "Castform",
+    "location": "Given by a Clown in Seaport Boathouse, Post-game (Requires all Weather TMs & Defog TM)"
+  },
+  {
+    "name": "Kecleon",
+    "location": "Route 16 (Invisible)"
+  },
+  {
+    "name": "Shuppet",
+    "location": "Grim Woods"
+  },
+  {
+    "name": "Banette",
+    "location": "Evolve Shuppet (Lv. 37)"
+  },
+  {
+    "name": "Duskull",
+    "location": "Grim Woods, Rift Cave, Ruins of Void"
+  },
+  {
+    "name": "Dusclops",
+    "location": "Rift Cave, Ruins of Void\nEvolve Duskull (Lv. 37)"
+  },
+  {
+    "name": "Tropius",
+    "location": "Route 17 (Day)"
+  },
+  {
+    "name": "Chimecho",
+    "location": "Rift Cave\nEvolve Chingling (Max Happiness during the night)"
+  },
+  {
+    "name": "Absol",
+    "location": "Mystery Gift Code: 1EN7GK6KR6ZP\nOutside cliffs of Crystal Peak"
+  },
+  {
+    "name": "Wynaut",
+    "location": "Breed Wobbuffet with a Lax Incense"
+  },
+  {
+    "name": "Snorunt",
+    "location": "Route 1, 8"
+  },
+  {
+    "name": "Glalie",
+    "location": "Victory Road (Snowy Area, 4F, Kyurem's Cave)\nEvolve Snorunt (Lv. 30)"
+  },
+  {
+    "name": "Spheal",
+    "location": "Icicle Cave / Frost Mountain (Surf)"
+  },
+  {
+    "name": "Sealeo",
+    "location": "Icicle Cave, Icy Hole, Frost Mountain, Kyurem's Cave (Walk & Surf)\nEvolve Spheal (Lv. 32)"
+  },
+  {
+    "name": "Walrein",
+    "location": "Evolve Sealeo (Lv. 44)"
+  },
+  {
+    "name": "Clamperl",
+    "location": "Route 14, 16, 17, Ruins of Void (Underwater)"
+  },
+  {
+    "name": "Huntail",
+    "location": "Evolve Clamperl by using a Deep Sea Tooth"
+  },
+  {
+    "name": "Gorebyss",
+    "location": "Evolve Clamperl by using a Deep Sea Scale"
+  },
+  {
+    "name": "Relicanth",
+    "location": "Ruins of Void (Underwater)"
+  },
+  {
+    "name": "Luvdisc",
+    "location": "Fallshore City, Epidimy Town, Route 11, 14, Victory Road Grassy Maze Area (Good Rod & Super Rod) / Route 14, Ruins of Void (Underwater)"
+  },
+  {
+    "name": "Bagon",
+    "location": "Route 17"
+  },
+  {
+    "name": "Shelgon",
+    "location": "Evolve Bagon (Lv. 30)"
+  },
+  {
+    "name": "Salamence",
+    "location": "Evolve Shelgon (Lv. 50)"
+  },
+  {
+    "name": "Beldum",
+    "location": "Starter\nCan be acquired either in the Shadow Base Warehouse or your rival’s house in Post-game"
+  },
+  {
+    "name": "Metang",
+    "location": "Evolve Beldum (Lv. 20)"
+  },
+  {
+    "name": "Metagross",
+    "location": "Evolve Metang (Lv. 45)"
+  },
+  {
+    "name": "Regirock",
+    "location": "Desert Ruins (Great Desert - the “Tomb Raider” mission must be completed)"
+  },
+  {
+    "name": "Regice",
+    "location": "Frozen Cave (Frozen Forest - the “Tomb Raider” mission must be completed)"
+  },
+  {
+    "name": "Registeel",
+    "location": "Ancient Tomb (Route 18 - the “Tomb Raider” mission must be completed)"
+  },
+  {
+    "name": "Latias",
+    "location": "Complete 45 missions then talk to the Ranger in the Mission HQ (Roaming - If you're a girl)\nComplete the “No Survivors” mission then go to in front of the Pokémon League with Latios in your party (If you're a boy)"
+  },
+  {
+    "name": "Latios",
+    "location": "Complete 45 missions then talk to the Ranger in the Mission HQ (Roaming - If you're a boy)\nComplete the “No Survivors” mission then go to in front of the Pokémon League with Latias in your party (If you're a girl)"
+  },
+  {
+    "name": "Kyogre",
+    "location": "Bring the Blue Orb to Vivill Warehouse (Underwater)"
+  },
+  {
+    "name": "Groudon",
+    "location": "Bring the Red Orb to Cinder Volcano (Shadow Basement)"
+  },
+  {
+    "name": "Rayquaza",
+    "location": "Bring the Jade Orb to the summit of Crystal Peak"
+  },
+  {
+    "name": "Jirachi",
+    "location": " Crater Town locked house (Talk to an old man in Crater Town first)"
+  },
+  {
+    "name": "Deoxys",
+    "location": "Route 5 to Route 13 path (Jirachi must be in your party)\nFormes: Interact with the meteorites in Crater Town"
+  },
+  {
+    "name": "Turtwig",
+    "location": "Given by a girl in Dehara City"
+  },
+  {
+    "name": "Grotle",
+    "location": "Evolve Turtwig (Lv. 18)"
+  },
+  {
+    "name": "Torterra",
+    "location": "Evolve Grotle (Lv. 32)"
+  },
+  {
+    "name": "Chimchar",
+    "location": "Given by a girl in Dehara City"
+  },
+  {
+    "name": "Monferno",
+    "location": "Evolve Chimchar (Lv. 14)"
+  },
+  {
+    "name": "Infernape",
+    "location": "Evolve Monferno (Lv. 36)"
+  },
+  {
+    "name": "Piplup",
+    "location": "Given by a girl in Dehara City"
+  },
+  {
+    "name": "Prinplup",
+    "location": "Evolve Piplup (Lv. 16)"
+  },
+  {
+    "name": "Empoleon",
+    "location": "Evolve Prinplup (Lv. 36)"
+  },
+  {
+    "name": "Starly",
+    "location": "Route 4(Day)"
+  },
+  {
+    "name": "Staravia",
+    "location": "Evolve Starly (Lv. 14)"
+  },
+  {
+    "name": "Staraptor",
+    "location": "Evolve Staravia (Lv. 34)"
+  },
+  {
+    "name": "Bidoof",
+    "location": "Route 3"
+  },
+  {
+    "name": "Bibarel",
+    "location": "Route 14\nEvolve Bidoof (Lv. 15)"
+  },
+  {
+    "name": "Kricketot",
+    "location": "Route 6 (Night)"
+  },
+  {
+    "name": "Kricketune",
+    "location": "Evolve Kricketot (Lv. 10)"
+  },
+  {
+    "name": "Shinx",
+    "location": "Route 6, 7"
+  },
+  {
+    "name": "Luxio",
+    "location": "Route 6, 7\nEvolve Shinx (Lv. 15)"
+  },
+  {
+    "name": "Luxray",
+    "location": "Evolve Luxio (Lv. 30)"
+  },
+  {
+    "name": "Budew",
+    "location": "Route 4\nBreed Roselia with a Rose Incense"
+  },
+  {
+    "name": "Roserade",
+    "location": "Evolve Roselia by using a Shiny Stone"
+  },
+  {
+    "name": "Cranidos",
+    "location": "Revive a Skull Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Rampardos",
+    "location": "Evolve Cranidos (Lv. 30)"
+  },
+  {
+    "name": "Shieldon",
+    "location": "Revive an Armor Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Bastiodon",
+    "location": "Evolve Shieldon (Lv. 30)"
+  },
+  {
+    "name": "Burmy",
+    "location": "Route 4 (Swarm Encounter)"
+  },
+  {
+    "name": "Wormadam",
+    "location": "Evolve a female Burmy (Lv. 20)"
+  },
+  {
+    "name": "Mothim",
+    "location": "Evolve a male Burmy (Lv. 20)"
+  },
+  {
+    "name": "Combee",
+    "location": "Flower Paradise"
+  },
+  {
+    "name": "Vespiquen",
+    "location": "Evolve a female Combee"
+  },
+  {
+    "name": "Pachirisu",
+    "location": "Trade for a Manectric in Tarmigan Town"
+  },
+  {
+    "name": "Buizel",
+    "location": "Route 3"
+  },
+  {
+    "name": "Floatzel",
+    "location": "Route 14 / Victory Road Grassy Maze Area (Surf)\nEvolve Buizel (Lv. 26)"
+  },
+  {
+    "name": "Cherubi",
+    "location": "Route 3 (Day)"
+  },
+  {
+    "name": "Cherrim",
+    "location": "Evolve Cherubi (Lv. 25)"
+  },
+  {
+    "name": "Shellos",
+    "location": "Route 3 (West Sea)\nBreed Gastrodon-East for East Sea variant"
+  },
+  {
+    "name": "Gastrodon",
+    "location": " Route 14 (West Sea) ; Polder Town, Cootes Bog, Crystal Peak (Surf, East Sea variant)\nEvolve Shellos (Lv. 32)"
+  },
+  {
+    "name": "Ambipom",
+    "location": "Evolve Aipom (Level-Up while knowing Double Hit)"
+  },
+  {
+    "name": "Drifloon",
+    "location": "Breed Drifblim"
+  },
+  {
+    "name": "Drifblim",
+    "location": "Outside cliffs of Crystal Peak\nEvolve Drifloon (Lv. 28)"
+  },
+  {
+    "name": "Buneary",
+    "location": "Route 7"
+  },
+  {
+    "name": "Lopunny",
+    "location": "Mystery Gift Code: 5NB9MQ9DU2FM\nEvolve Buneary (Max Happiness)"
+  },
+  {
+    "name": "Mismagius",
+    "location": "Evolve Misdreavus by using a Dusk Stone"
+  },
+  {
+    "name": "Honchkrow",
+    "location": "Evolve Murkrow by using a Dusk Stone"
+  },
+  {
+    "name": "Glameow",
+    "location": "Obtained randomly from a gentleman in Bellin Town\nRoute 11 (Swarm Encounter)"
+  },
+  {
+    "name": "Purugly",
+    "location": "Evolve Glameow (Lv. 34)"
+  },
+  {
+    "name": "Chingling",
+    "location": "Breed Chimecho with a Pure Incense"
+  },
+  {
+    "name": "Stunky",
+    "location": "Obtained randomly from a gentleman in Bellin Town\nBreed Skuntank"
+  },
+  {
+    "name": "Skuntank",
+    "location": "Route 18 (Night)\nEvolve Stunky (Lv. 34)"
+  },
+  {
+    "name": "Bronzor",
+    "location": "Frost Mountain, Rift Cave 1F"
+  },
+  {
+    "name": "Bronzong",
+    "location": "Ruins of Void, Rift Cave\nEvolve Bronzor (Lv. 33)"
+  },
+  {
+    "name": "Bonsly",
+    "location": "Breed Sudowoodo with a Rock Incense"
+  },
+  {
+    "name": "Mime Jr.",
+    "location": "Breed Mr. Mime with an Odd Incense"
+  },
+  {
+    "name": "Happiny",
+    "location": "Route 18\n Breed Chansey with a Luck Incense"
+  },
+  {
+    "name": "Chatot",
+    "location": "Route 16"
+  },
+  {
+    "name": "Spiritomb",
+    "location": "Talk to an old lady in the Gurun Town PC with an Odd Keystone in your Cube (Post-game)"
+  },
+  {
+    "name": "Gible",
+    "location": "Starter\nCan be acquired either in the Shadow Base Warehouse or your rival’s house in Post-game"
+  },
+  {
+    "name": "Gabite",
+    "location": "Evolve Gible (Lv. 24)"
+  },
+  {
+    "name": "Garchomp",
+    "location": "Evolve Gabite (Lv. 48)"
+  },
+  {
+    "name": "Munchlax",
+    "location": "Breed Snorlax with a Full Incense"
+  },
+  {
+    "name": "Riolu",
+    "location": "Route 2"
+  },
+  {
+    "name": "Lucario",
+    "location": "Evolve Riolu (Max Happiness during the day)"
+  },
+  {
+    "name": "Hippopotas",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Hippowdon"
+  },
+  {
+    "name": "Hippowdon",
+    "location": "Great Desert\nEvolve Hippopotas ( Lv. 34)"
+  },
+  {
+    "name": "Skorupi",
+    "location": "Obtained randomly from a gentleman in Bellin Town\nRoute 9"
+  },
+  {
+    "name": "Drapion",
+    "location": "Cootes Bog\nEvolve Skorupi (Lv. 40)"
+  },
+  {
+    "name": "Croagunk",
+    "location": "Cootes Bog"
+  },
+  {
+    "name": "Toxicroak",
+    "location": "Cootes Bog\nEvolve Croagunk (Lv. 37)"
+  },
+  {
+    "name": "Carnivine",
+    "location": "Cootes Bog"
+  },
+  {
+    "name": "Finneon",
+    "location": "Valley Cave, Epidimy Town, Crystal Peak, Victory Road 1F, B1F, 2F (Good Rod)"
+  },
+  {
+    "name": "Lumineon",
+    "location": "Epidimy Town (Surf) / Valley Cave, Crystal Peak, Victory Road 1F, B1F, 2F (Super Rod)\nEvo Finneon (Lv. 31)"
+  },
+  {
+    "name": "Mantyke",
+    "location": "Route 6, 7, 12, 16, 17, Antisis City, Seaport City (Surf)\nBreed Mantine with a Wave Incense"
+  },
+  {
+    "name": "Snover",
+    "location": "Route 8, Frozen Forest"
+  },
+  {
+    "name": "Abomasnow",
+    "location": "Victory Road Snowy Area\nEvolve Snover (Lv. 40)"
+  },
+  {
+    "name": "Weavile",
+    "location": "Evolve Sneasel (Level-Up while holding the Razor Claw during the night)"
+  },
+  {
+    "name": "Magnezone",
+    "location": "Evolve Magneton by using a Thunder Stone or Level-Up at Thundercap Mountain"
+  },
+  {
+    "name": "Lickilicky",
+    "location": "Evolve Lickitung (Level-Up while knowing Rollout)"
+  },
+  {
+    "name": "Rhyperior",
+    "location": "Evolve Rhydon by using a Protector"
+  },
+  {
+    "name": "Tangrowth",
+    "location": "Evolve Tangela (Level-Up while knowing Ancient Power)"
+  },
+  {
+    "name": "Electivire",
+    "location": "Evolve Electabuzz by using an Electirizer"
+  },
+  {
+    "name": "Magmortar",
+    "location": "Evolve Magmar by using a Magmarizer"
+  },
+  {
+    "name": "Togekiss",
+    "location": "Evolve Togetic by using a Shiny Stone"
+  },
+  {
+    "name": "Yanmega",
+    "location": "Evolve Yanma (Level-Up while knowing Ancient Power)"
+  },
+  {
+    "name": "Leafeon",
+    "location": "Evolve Eevee by using a Leaf Stone"
+  },
+  {
+    "name": "Glaceon",
+    "location": "Evolve Eevee by using an Ice Stone"
+  },
+  {
+    "name": "Gliscor",
+    "location": "Mystery Gift Code: 6PB5PJ1AV5ZE\nEvolve Gligar (Level-Up while holding the Razor Fang during the night)"
+  },
+  {
+    "name": "Mamoswine",
+    "location": "Evolve Piloswine (Level-Up while knowing Ancient Power)"
+  },
+  {
+    "name": "Porygon Z",
+    "location": "Evolve Porygon2 by using a Dubious Disk"
+  },
+  {
+    "name": "Gallade",
+    "location": "Evolve a male Kirlia by using a Dawn Stone"
+  },
+  {
+    "name": "Dusknoir",
+    "location": "Evolve Dusclops by using a Reaper Cloth"
+  },
+  {
+    "name": "Froslass",
+    "location": "Evolve a female Snorunt by using a Dawn Stone"
+  },
+  {
+    "name": "Rotom",
+    "location": "Reward for completing the “Too Much Tv” mission\nForms: Interact with the boxes in Antisis City Warehouse"
+  },
+  {
+    "name": "Uxie",
+    "location": "In front of Dream Research Lab (the “Guardians of the Lake” mission must be activated)"
+  },
+  {
+    "name": "Mesprit",
+    "location": "Shadow Base Zeph's room (the “Guardians of the Lake” mission must be activated)"
+  },
+  {
+    "name": "Azelf",
+    "location": "Above the Pokémon Center on Route 18 (the “Guardians of the Lake” mission must be activated)"
+  },
+  {
+    "name": "Dialga",
+    "location": "Cave of Being (the Lake guardians must be in your party)\nOrigin Forme: Hold an Adamant Orb"
+  },
+  {
+    "name": "Palkia",
+    "location": "Rift Cave (the “A Rift in Space” mission must be activated)\nOrigin Forme: Hold a Lustrous Orb"
+  },
+  {
+    "name": "Heatran",
+    "location": "Cinder Volcano (Magma Stone is required)."
+  },
+  {
+    "name": "Regigigas",
+    "location": "Icy Hole (Regirock, Regice & Registeel must be placed in the first 3 slots in your party)"
+  },
+  {
+    "name": "Giratina",
+    "location": "Distortion World\nOrigin Forme: Hold a Griseous Orb"
+  },
+  {
+    "name": "Cresselia",
+    "location": "Fullmoon Island (Roaming) / Catchable during “The Endless Nightmare” mission"
+  },
+  {
+    "name": "Phione",
+    "location": "Breed Manaphy"
+  },
+  {
+    "name": "Manaphy",
+    "location": "Acquired as an Egg after solving the Braille tablet underwater in the Ruins of Void (Post-game)"
+  },
+  {
+    "name": "Darkrai",
+    "location": "Newmoon Island (“The Endless Nightmare” mission must be completed)"
+  },
+  {
+    "name": "Shaymin",
+    "location": "Flower Paradise\nSky Forme: Use a Gracidea in the daytime"
+  },
+  {
+    "name": "Arceus",
+    "location": "Talk to the scientist in Dream Research Lab (Must have all 17 Plates)"
+  },
+  {
+    "name": "Victini",
+    "location": "Reward for completing the “Gimme a V” mission"
+  },
+  {
+    "name": "Snivy",
+    "location": "Given by a girl on Route 5"
+  },
+  {
+    "name": "Servine",
+    "location": "Evolve Snivy (Lv. 17)"
+  },
+  {
+    "name": "Serperior",
+    "location": "Evolve Servine (Lv. 36)"
+  },
+  {
+    "name": "Tepig",
+    "location": "Given by a girl on Route 5"
+  },
+  {
+    "name": "Pignite",
+    "location": "Evolve Tepig (Lv. 17)"
+  },
+  {
+    "name": "Emboar",
+    "location": "Evolve Pignite (Lv. 36)"
+  },
+  {
+    "name": "Oshawott",
+    "location": "Given by a girl on Route 5"
+  },
+  {
+    "name": "Dewott",
+    "location": "Evolve Oshawott (Lv. 17)"
+  },
+  {
+    "name": "Samurott",
+    "location": "Evolve Dewott (Lv. 36)"
+  },
+  {
+    "name": "Patrat",
+    "location": "Route 2 (Day)"
+  },
+  {
+    "name": "Watchog",
+    "location": "Evolve Patrat (Lv. 20)"
+  },
+  {
+    "name": "Lillipup",
+    "location": "Route 4"
+  },
+  {
+    "name": "Herdier",
+    "location": "Evolve Lillipup (Lv. 16)"
+  },
+  {
+    "name": "Stoutland",
+    "location": "Evolve Herdier (Lv. 32)"
+  },
+  {
+    "name": "Purrloin",
+    "location": "Route 5"
+  },
+  {
+    "name": "Liepard",
+    "location": "Evolve Purrloin (Lv. 20)"
+  },
+  {
+    "name": "Pansage",
+    "location": "Flower Paradise (Pink Flowers)"
+  },
+  {
+    "name": "Simisage",
+    "location": "Evolve Pansage by using a Leaf Stone"
+  },
+  {
+    "name": "Pansear",
+    "location": "Flower Paradise (Red Flowers)"
+  },
+  {
+    "name": "Simisear",
+    "location": "Evolve Pansear by using a Fire Stone"
+  },
+  {
+    "name": "Panpour",
+    "location": "Flower Paradise (Blue Flowers)"
+  },
+  {
+    "name": "Simipour",
+    "location": "Evolve Panpour by using a Water Stone"
+  },
+  {
+    "name": "Munna",
+    "location": "Tarmigan Town (Raid Den) / Breed Musharna"
+  },
+  {
+    "name": "Musharna",
+    "location": "Tarmigan Town (Raid Den)\nEvolve Munna by using a Moon Stone"
+  },
+  {
+    "name": "Pidove",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Tranquill"
+  },
+  {
+    "name": "Tranquill",
+    "location": "Magnolia Fields\nEvolve Pidove (Lv. 21)"
+  },
+  {
+    "name": "Unfezant",
+    "location": "Evolve Tranquill (Lv. 32)"
+  },
+  {
+    "name": "Blitzle",
+    "location": "Safari Zone (Easy)"
+  },
+  {
+    "name": "Zebstrika",
+    "location": "Safari Zone (Medium, Hard)\nEvolve Blitzle (Lv. 27)"
+  },
+  {
+    "name": "Roggenrola",
+    "location": "Icicle Cave, Frost Mountain / Route 2, 8 (Rock Smash)"
+  },
+  {
+    "name": "Boldore",
+    "location": "Icicle Cave B1F, Icy Hole, Victory Road 1F\nEvolve Roggenrola (Lv. 25)"
+  },
+  {
+    "name": "Gigalith",
+    "location": "Evolve Boldore by using a Link Stone"
+  },
+  {
+    "name": "Woobat",
+    "location": "Cinder Volcano, Valley Cave, KBT, Frost Mountain, Lost Tunnel, Crystal Peak, Victory Road"
+  },
+  {
+    "name": "Swoobat",
+    "location": "Evolve Woobat (Max Happiness)"
+  },
+  {
+    "name": "Drilbur",
+    "location": "Icicle Cave (Secret Entrance), Cinder Volcano"
+  },
+  {
+    "name": "Excadrill",
+    "location": "Mystery Gift Code: 7QW9UQ9PY1ZX\nCinder Volcano (Shadow Basement), Victory Road B1F\nEvolve Drilbur (Lv. 31)"
+  },
+  {
+    "name": "Audino",
+    "location": "Route 9"
+  },
+  {
+    "name": "Timburr",
+    "location": "Thundercap Mountain 2F, 4F"
+  },
+  {
+    "name": "Gurdurr",
+    "location": "Thundercap Mountain 2F\nEvolve Timburr (Lv. 25)"
+  },
+  {
+    "name": "Conkeldurr",
+    "location": "Evolve Gurdurr by using a Link Stone"
+  },
+  {
+    "name": "Tympole",
+    "location": "Route 10, Auburn Waterway"
+  },
+  {
+    "name": "Palpitoad",
+    "location": "Route 10, Auburn Waterway (Walk & Surf), Polder Town (Surf)\nEvolve Tympole (Lv. 25)"
+  },
+  {
+    "name": "Seismitoad",
+    "location": "Evolve Palpitoad (Lv. 36)"
+  },
+  {
+    "name": "Throh",
+    "location": "Route 16"
+  },
+  {
+    "name": "Sawk",
+    "location": "Route 16"
+  },
+  {
+    "name": "Sewaddle",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Swadloon"
+  },
+  {
+    "name": "Swadloon",
+    "location": "Vivill Woods\nEvolve Sewaddle (Lv. 20)"
+  },
+  {
+    "name": "Leavanny",
+    "location": "Evolve Swadloon (Max Happiness)"
+  },
+  {
+    "name": "Venipede",
+    "location": "Breed Whirlipede"
+  },
+  {
+    "name": "Whirlipede",
+    "location": "Antisis Sewers (Swarm Encounter)\nEvolve Venipede (Lv. 22)"
+  },
+  {
+    "name": "Scolipede",
+    "location": "Evolve Whirlipede (Lv. 30)"
+  },
+  {
+    "name": "Cottonee",
+    "location": "Vivill Woods"
+  },
+  {
+    "name": "Whimsicott",
+    "location": "Evolve Cottonee by using a Sun Stone"
+  },
+  {
+    "name": "Petilil",
+    "location": "Vivill Woods"
+  },
+  {
+    "name": "Lilligant",
+    "location": "Evolve Petilil by using a Sun Stone"
+  },
+  {
+    "name": "Basculin",
+    "location": "Route 2, 4, 5, 11, 15, Dresco Town, Vivill Town (Surf, Red-Striped), Victory Road Grassy Maze Area (Surf, Blue-Striped)"
+  },
+  {
+    "name": "Sandile",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Krokorok"
+  },
+  {
+    "name": "Krokorok",
+    "location": "Great Desert\nEvolve Sandile (Lv. 29)"
+  },
+  {
+    "name": "Krookodile",
+    "location": "Evolve Krokorok (Lv. 40)"
+  },
+  {
+    "name": "Darumaka",
+    "location": "Great Desert"
+  },
+  {
+    "name": "Darmanitan",
+    "location": "Evolve Darumaka (Lv. 35)"
+  },
+  {
+    "name": "Maractus",
+    "location": "Great Desert (Walk, Static)"
+  },
+  {
+    "name": "Dwebble",
+    "location": "Great Desert"
+  },
+  {
+    "name": "Crustle",
+    "location": "Evolve Dwebble (Lv. 34)"
+  },
+  {
+    "name": "Scraggy",
+    "location": "Route 2"
+  },
+  {
+    "name": "Scrafty",
+    "location": "Evolve Scraggy (Lv. 39)"
+  },
+  {
+    "name": "Sigilyph",
+    "location": "Ruins of Void, Tomb of Borrius"
+  },
+  {
+    "name": "Yamask",
+    "location": "Ruins of Void"
+  },
+  {
+    "name": "Cofagrigus",
+    "location": "Ruins of Void\nEvolve Yamask (Lv. 34)"
+  },
+  {
+    "name": "Tirtouga",
+    "location": "Revive a Cover Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Carracosta",
+    "location": "Evolve Tirtouga (Lv. 37)"
+  },
+  {
+    "name": "Archen",
+    "location": "Revive a Plume Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Archeops",
+    "location": "Evolve Archen (Lv. 37)"
+  },
+  {
+    "name": "Trubbish",
+    "location": "Antisis City dumpsters"
+  },
+  {
+    "name": "Garbodor",
+    "location": "Antisis City dumpsters\nEvolve Trubbish (Lv. 36)"
+  },
+  {
+    "name": "Zorua",
+    "location": "Breed Zoroark"
+  },
+  {
+    "name": "Zoroark",
+    "location": "Redwood Forest (Static - After chasing)\nEvolve Zorua (Lv. 30)"
+  },
+  {
+    "name": "Minccino",
+    "location": "Route 2"
+  },
+  {
+    "name": "Cinccino",
+    "location": "Evolve Minccino by using a Shiny Stone"
+  },
+  {
+    "name": "Gothita",
+    "location": "Route 12 (Night)"
+  },
+  {
+    "name": "Gothorita",
+    "location": "Evolve Gothita (Lv. 32)"
+  },
+  {
+    "name": "Gothitelle",
+    "location": "Evolve Gothorita (Lv. 41)"
+  },
+  {
+    "name": "Solosis",
+    "location": "Route 12 (Day)"
+  },
+  {
+    "name": "Duosion",
+    "location": "Evolve Solosis (Lv. 32)"
+  },
+  {
+    "name": "Reuniclus",
+    "location": "Evolve Duosion (Lv. 41)"
+  },
+  {
+    "name": "Ducklett",
+    "location": "Trade for an Alolan Sandshrew in Dresco Town"
+  },
+  {
+    "name": "Swanna",
+    "location": "Evolve Ducklett (Lv. 30)"
+  },
+  {
+    "name": "Vanillite",
+    "location": "Route 1"
+  },
+  {
+    "name": "Vanillish",
+    "location": "Victory Road (Snowy Area)\nEvolve Vanillite (Lv. 24)"
+  },
+  {
+    "name": "Vanilluxe",
+    "location": "Evolve Vanillish (Lv. 42)"
+  },
+  {
+    "name": "Deerling",
+    "location": "Route 6 (Spring), Route 8 (Winter), Route 9 (Autumn), Route 12 (Summer)"
+  },
+  {
+    "name": "Sawsbuck",
+    "location": "Evolve Deerling (Lv. 34)"
+  },
+  {
+    "name": "Emolga",
+    "location": "Dehara City Game Corner (Purchase for 500 Coins)"
+  },
+  {
+    "name": "Karrablast",
+    "location": "Route 9 (Swarm Encounter)"
+  },
+  {
+    "name": "Escavalier",
+    "location": "Evolve Karrablast by using a Link Stone"
+  },
+  {
+    "name": "Foongus",
+    "location": "Vivill Woods (Trainer ID dependant)\nBreed Amoonguss"
+  },
+  {
+    "name": "Amoonguss",
+    "location": "Trade for a Shiinotic in Vivill Town\nEvolve Foongus (Lv. 39)"
+  },
+  {
+    "name": "Frillish",
+    "location": "Magnolia Fields (Surf)"
+  },
+  {
+    "name": "Jellicent",
+    "location": "Magnolia Fields (Surf)\nEvolve Frillish (Lv. 40)"
+  },
+  {
+    "name": "Alomomola",
+    "location": "Route 13 (Surf)"
+  },
+  {
+    "name": "Joltik",
+    "location": "Thundercap Mountain (Swarm Encounter)."
+  },
+  {
+    "name": "Galvantula",
+    "location": "Evolve Joltik (Lv. 36)"
+  },
+  {
+    "name": "Ferroseed",
+    "location": "Thundercap Mountain (Swarm Encounter)"
+  },
+  {
+    "name": "Ferrothorn",
+    "location": "Evolve Ferroseed (Lv. 40)"
+  },
+  {
+    "name": "Klink",
+    "location": "Thundercap Mountain"
+  },
+  {
+    "name": "Klang",
+    "location": "Thundercap Mountain 3F, 2F\nEvolve Klink (Lv. 35)"
+  },
+  {
+    "name": "Klinklang",
+    "location": "Evolve Klang (Lv. 45)"
+  },
+  {
+    "name": "Tynamo",
+    "location": "Thundercap Mountain"
+  },
+  {
+    "name": "Eelektrik",
+    "location": "Thundercap Mountain 3F\nEvolve Tynamo (Lv. 39)"
+  },
+  {
+    "name": "Eelektross",
+    "location": "Evolve Eelektrik by using a Thunder Stone"
+  },
+  {
+    "name": "Elgyem",
+    "location": "Route 5 (Swarm Encounter)"
+  },
+  {
+    "name": "Beheeyem",
+    "location": "Evolve Elgyem (Lv. 42)"
+  },
+  {
+    "name": "Litwick",
+    "location": "Breed Lampent"
+  },
+  {
+    "name": "Lampent",
+    "location": "Trade for a Zweilous in Redwood Village\nEvolve Litwick (Lv. 41)"
+  },
+  {
+    "name": "Chandelure",
+    "location": "Evolve Lampent by using a Dusk Stone"
+  },
+  {
+    "name": "Axew",
+    "location": "Dehara City Game Corner (Purchase for 5000 Coins)"
+  },
+  {
+    "name": "Fraxure",
+    "location": "Evolve Axew (Lv. 38)"
+  },
+  {
+    "name": "Haxorus",
+    "location": "Evolve Fraxure (Lv. 48)"
+  },
+  {
+    "name": "Cubchoo",
+    "location": "Route 8, Frozen Forest"
+  },
+  {
+    "name": "Beartic",
+    "location": "Victory Road (Snowy Area)\nEvolve Cubchoo (Lv. 37)"
+  },
+  {
+    "name": "Cryogonal",
+    "location": "Frost Mountain"
+  },
+  {
+    "name": "Shelmet",
+    "location": "Route 10 (Swarm Encounter)"
+  },
+  {
+    "name": "Accelgor",
+    "location": "Evolve Shelmet by using a Link Stone"
+  },
+  {
+    "name": "Stunfisk",
+    "location": "Thundercap Mountain, Polder Town, Cootes Bog (Surf)"
+  },
+  {
+    "name": "Mienfoo",
+    "location": "Route 12"
+  },
+  {
+    "name": "Mienshao",
+    "location": "Evolve Mienfoo (Lv. 46)"
+  },
+  {
+    "name": "Druddigon",
+    "location": "Victory Road 2F"
+  },
+  {
+    "name": "Golett",
+    "location": "Rift Cave 1F"
+  },
+  {
+    "name": "Golurk",
+    "location": "Rift Cave B1F, B2F\nEvolve Golett (Lv. 43)"
+  },
+  {
+    "name": "Pawniard",
+    "location": "Route 16"
+  },
+  {
+    "name": "Bisharp",
+    "location": "Evolve Pawniard (Lv. 52)"
+  },
+  {
+    "name": "Bouffalant",
+    "location": "Route 18"
+  },
+  {
+    "name": "Rufflet",
+    "location": "Great Desert (Monday), Outside cliffs of Crystal Peak"
+  },
+  {
+    "name": "Braviary",
+    "location": "Evolve Rufflet (Lv. 50)"
+  },
+  {
+    "name": "Vullaby",
+    "location": "Great Desert (Thursday), Outside cliffs of Crystal Peak"
+  },
+  {
+    "name": "Mandibuzz",
+    "location": "Evolve Vullaby (Lv. 50)"
+  },
+  {
+    "name": "Heatmor",
+    "location": "Cinder Volcano (Shadow Basement), Victory Road (Grassy Maze Area, B1F)"
+  },
+  {
+    "name": "Durant",
+    "location": "Victory Road 1F, B1F, 3F"
+  },
+  {
+    "name": "Deino",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nBreed Zweilous"
+  },
+  {
+    "name": "Zweilous",
+    "location": "Crystal Peak\nEvolve Deino (Lv. 50)"
+  },
+  {
+    "name": "Hydreigon",
+    "location": "Evolve Zweilous (Lv. 64)"
+  },
+  {
+    "name": "Larvesta",
+    "location": "Reward for completing “The Treasure Hunter” mission"
+  },
+  {
+    "name": "Volcarona",
+    "location": "Mystery Gift Code: 9JG3YT3JQ9FX\nEvolve Larvesta (Lv. 59)"
+  },
+  {
+    "name": "Cobalion",
+    "location": "Victory Road Snowy Area (the “Swords of Justice” mission must be activated)"
+  },
+  {
+    "name": "Terrakion",
+    "location": "Victory Road 3F (the “Swords of Justice” mission must be activated)"
+  },
+  {
+    "name": "Virizion",
+    "location": "Victory Road Grassy Maze Area (the “Swords of Justice” mission must be activated)"
+  },
+  {
+    "name": "Tornadus",
+    "location": "Magnolia Fields (Roaming)\nTherian Forme: Use the Reveal Glass"
+  },
+  {
+    "name": "Thundurus",
+    "location": "Magnolia Fields (Roaming)\nTherian Forme: Use the Reveal Glass"
+  },
+  {
+    "name": "Reshiram",
+    "location": "Portal in Crystal Peak 3F (Day)"
+  },
+  {
+    "name": "Zekrom",
+    "location": "Portal in Crystal Peak 3F (Night)"
+  },
+  {
+    "name": "Landorus",
+    "location": "Magnolia Fields (Tornadus & Thundurus must be in your party)\nTherian Forme: Use the Reveal Glass"
+  },
+  {
+    "name": "Kyurem",
+    "location": "Victory Road (Inside a cave in the Snowy Area)\nFormes: Fuse Kyurem with either Zekrom or Reshiram by using the DNA Splicers"
+  },
+  {
+    "name": "Keldeo",
+    "location": "Route 17 (Cobalion, Terrakion & Virizion must be in your party)\nResolute Forme: Learn Secret Sword"
+  },
+  {
+    "name": "Meloetta",
+    "location": "Polder Town (Night)"
+  },
+  {
+    "name": "Genesect",
+    "location": "Currently Unavailable\nUse this Mystery Gift code on the second floor of any Pokemon Center after completing the game: 7HY9JN6EE5YY"
+  },
+  {
+    "name": "Chespin",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady"
+  },
+  {
+    "name": "Quilladin",
+    "location": "Evolve Chespin (Lv. 16)"
+  },
+  {
+    "name": "Chesnaught",
+    "location": "Evolve Quilladin (Lv. 36)"
+  },
+  {
+    "name": "Fennekin",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady"
+  },
+  {
+    "name": "Braixen",
+    "location": "Evolve Fennekin (Lv. 16)"
+  },
+  {
+    "name": "Delphox",
+    "location": "Evolve Braixen (Lv. 36)"
+  },
+  {
+    "name": "Froakie",
+    "location": "Obtained as an egg randomly from the Magnolia Café Egg Lady\nPost-game only"
+  },
+  {
+    "name": "Frogadier",
+    "location": "Evolve Froakie (Lv. 16)"
+  },
+  {
+    "name": "Greninja",
+    "location": "Evolve Frogadier (Lv. 36)"
+  },
+  {
+    "name": "Bunnelby",
+    "location": "Route 6"
+  },
+  {
+    "name": "Diggersby",
+    "location": "Evolve Bunnelby (Lv. 20)"
+  },
+  {
+    "name": "Fletchling",
+    "location": "Route 12 (Day)"
+  },
+  {
+    "name": "Fletchinder",
+    "location": "Route 12 (Day)\nEvolve Fletchling (Lv. 17)"
+  },
+  {
+    "name": "Talonflame",
+    "location": "Evolve Fletchinder (Lv. 35)"
+  },
+  {
+    "name": "Scatterbug",
+    "location": "Vivill Woods"
+  },
+  {
+    "name": "Spewpa",
+    "location": "Vivill Woods\nEvolve Scatterbug (Lv. 9)"
+  },
+  {
+    "name": "Vivillon",
+    "location": "Evolve Spewpa (Lv. 12)"
+  },
+  {
+    "name": "Litleo",
+    "location": "Given by a Kindler on Route 2 for defeating the Challenge Road Trainers"
+  },
+  {
+    "name": "Pyroar",
+    "location": "Evolve Litleo (Lv. 35)"
+  },
+  {
+    "name": "Flabebe",
+    "location": "Flower Paradise"
+  },
+  {
+    "name": "Floette",
+    "location": "Evolve Flabébé (Lv. 19)"
+  },
+  {
+    "name": "Florges",
+    "location": "Evolve Floette by using a Shiny Stone"
+  },
+  {
+    "name": "Skiddo",
+    "location": "Breed Gogoat"
+  },
+  {
+    "name": "Gogoat",
+    "location": "Magnolia Fields\nEvolve Skiddo (Lv. 32)"
+  },
+  {
+    "name": "Pancham",
+    "location": "Route 16"
+  },
+  {
+    "name": "Pangoro",
+    "location": "Mystery Gift Code: 6BZ6CH3WD1CA\nEvolve Pancham (Lv. 32 with a Dark-type Pokémon in your party)"
+  },
+  {
+    "name": "Furfrou",
+    "location": "Magnolia Fields"
+  },
+  {
+    "name": "Espurr",
+    "location": "Route 7 (Day)"
+  },
+  {
+    "name": "Meowstic",
+    "location": "Evolve Espurr (Lv. 25)"
+  },
+  {
+    "name": "Honedge",
+    "location": "Breed Doublade"
+  },
+  {
+    "name": "Doublade",
+    "location": "Safari Zone (Insane)\nEvolve Honedge (Lv. 35)"
+  },
+  {
+    "name": "Aegislash",
+    "location": "Evolve Doublade by using a Dusk Stone"
+  },
+  {
+    "name": "Spritzee",
+    "location": "Route 12 (Swarm Encounter)"
+  },
+  {
+    "name": "Aromatisse",
+    "location": "Evolve Spritzee by using a Sachet"
+  },
+  {
+    "name": "Swirlix",
+    "location": "Route 12 (Swarm Encounter)"
+  },
+  {
+    "name": "Slurpuff",
+    "location": "Evolve Swirlix by using a Whipped Dream"
+  },
+  {
+    "name": "Inkay",
+    "location": "Route 2"
+  },
+  {
+    "name": "Malamar",
+    "location": "Evolve Inkay (Lv. 30)"
+  },
+  {
+    "name": "Binacle",
+    "location": "Route 2, 13, 14, 16, 17, 18, outside of the Thundercap Mountain, Great Desert (Rock Smash) / Route 2 (Static)"
+  },
+  {
+    "name": "Barbaracle",
+    "location": "Evolve Binacle (Lv. 36)"
+  },
+  {
+    "name": "Skrelp",
+    "location": "Route 13 (Good Rod)"
+  },
+  {
+    "name": "Dragalge",
+    "location": "Route 13 (Super Rod)\nEvolve Skrelp (Lv. 48)"
+  },
+  {
+    "name": "Clauncher",
+    "location": "Route 13 (Good Rod)"
+  },
+  {
+    "name": "Clawitzer",
+    "location": "Route 13 (Super Rod)\nEvolve Clauncher (Lv. 37)"
+  },
+  {
+    "name": "Helioptile",
+    "location": "Safari Zone (Easy, Medium, Hard)"
+  },
+  {
+    "name": "Heliolisk",
+    "location": "Safari Zone (Insane)\nEvolve Helioptile by using a Sun Stone"
+  },
+  {
+    "name": "Tyrunt",
+    "location": "Revive a Jaw Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Tyrantrum",
+    "location": "Evolve Tyrunt (Lv. 39 during the day)"
+  },
+  {
+    "name": "Amaura",
+    "location": "Revive a Sail Fossil (Smashing rocks in Great Desert / Mining\nObtained randomly from Moleman in the Lost Tunnel)"
+  },
+  {
+    "name": "Aurorus",
+    "location": "Evolve Amaura (Lv. 39 during the night)"
+  },
+  {
+    "name": "Sylveon",
+    "location": "Evolve Eevee (Level-Up while knowing a Fairy-type move with max happiness)"
+  },
+  {
+    "name": "Hawlucha",
+    "location": "Dehara City Game Corner (Purchase for 1000 Coins)"
+  },
+  {
+    "name": "Dedenne",
+    "location": "Route 12"
+  },
+  {
+    "name": "Carbink",
+    "location": "(Behind any collapsed doorways in the KBT Expressway)"
+  },
+  {
+    "name": "Goomy",
+    "location": "Route 10, Auburn Waterway"
+  },
+  {
+    "name": "Sliggoo",
+    "location": "Polder Town (Surf), Cootes Bog\nEvolve Goomy (Lv. 40)"
+  },
+  {
+    "name": "Goodra",
+    "location": "Evolve Sliggoo (at level 50 when Level-Up during rain or fog)"
+  },
+  {
+    "name": "Klefki",
+    "location": "Dehara City Game Corner (Purchase for 3000 Coins)"
+  },
+  {
+    "name": "Phantump",
+    "location": "Grim Woods"
+  },
+  {
+    "name": "Trevenant",
+    "location": "Mystery Gift Code: 1YB5AJ7AK9RY\nEvolve Phantump by using a Link Stone"
+  },
+  {
+    "name": "Pumpkaboo",
+    "location": "Grim Woods"
+  },
+  {
+    "name": "Gourgeist",
+    "location": "Evolve Pumpkaboo by using a Link Stone"
+  },
+  {
+    "name": "Noibat",
+    "location": "Valley Cave B1F, KBT Expressway, Crystal Peak"
+  },
+  {
+    "name": "Noivern",
+    "location": "Crystal Peak 1F\nEvolve Noibat (Lv. 48)"
+  },
+  {
+    "name": "Bergmite",
+    "location": "Icicle cave"
+  },
+  {
+    "name": "Avalugg",
+    "location": "Icicle cave B1F, Icy Hole, Victory Road 4F\nEvolve Bergmite (Lv. 37)"
+  },
+  {
+    "name": "Xerneas",
+    "location": "Portal in Redwood Forest (Day)"
+  },
+  {
+    "name": "Yveltal",
+    "location": "Portal in Crystal Peak (Night)"
+  },
+  {
+    "name": "Zygarde",
+    "location": "Assemble 10% & 50% Formes by collecting cells throughout Borrius\nComplete Zygarde: Assemble a Power Construct Zygarde after collecting 100 cells"
+  },
+  {
+    "name": "Diancie",
+    "location": "Behind any collapsed doorways in the KBT Expressway (the “Major Miner” mission must be completed)"
+  },
+  {
+    "name": "Hoopa",
+    "location": "On top of Crystal Peak (Storyline)\nUnbound Forme: Use the Prison Bottle"
+  },
+  {
+    "name": "Eternal Floette",
+    "location": "Mystery Gift Code: 1YX5RA7UR9MF\nPortal in Vivill Warehouse B5F"
+  },
+  {
+    "name": "Volcanion",
+    "location": "Cinder Volcano (after re-beating the E4)"
+  },
+  {
+    "name": "Rowlet",
+    "location": "Given by a girl in Seaport City"
+  },
+  {
+    "name": "Dartrix",
+    "location": "Evolve Rowlet (Lv. 17)"
+  },
+  {
+    "name": "Decidueye",
+    "location": "Evolve Dartrix (Lv. 34)"
+  },
+  {
+    "name": "Litten",
+    "location": "Given by a girl in Seaport City"
+  },
+  {
+    "name": "Torracat",
+    "location": "Evolve Litten (Lv. 17)"
+  },
+  {
+    "name": "Incineroar",
+    "location": "Evolve Torracat (Lv. 34)"
+  },
+  {
+    "name": "Popplio",
+    "location": "Given by a girl in Seaport City"
+  },
+  {
+    "name": "Brionne",
+    "location": "Evolve Popplio (Lv. 17)"
+  },
+  {
+    "name": "Primarina",
+    "location": "Evolve Brionne (Lv. 34)"
+  },
+  {
+    "name": "Pikipek",
+    "location": "Route 2 (Day)"
+  },
+  {
+    "name": "Trumbeak",
+    "location": "Evolve Pikipek (Lv. 14)"
+  },
+  {
+    "name": "Toucannon",
+    "location": "Evolve Trumbeak (Lv. 28)"
+  },
+  {
+    "name": "Yungoos",
+    "location": "Route 7 (Day)"
+  },
+  {
+    "name": "Gumshoos",
+    "location": "Route 7 (Day)\nEvolve Yungoos (Lv. 20 during the day)"
+  },
+  {
+    "name": "Grubbin",
+    "location": "Route 9"
+  },
+  {
+    "name": "Charjabug",
+    "location": "Evolve Grubbin (Lv. 20)"
+  },
+  {
+    "name": "Vikavolt",
+    "location": "Mystery Gift Code: 4DG1HH1AF8CQ\nEvolve Charjabug by using a Thunder Stone or Level-Up at Thundercap Mountain"
+  },
+  {
+    "name": "Crabrawler",
+    "location": "Breed Crabominable"
+  },
+  {
+    "name": "Crabominable",
+    "location": "Frozen Forest (Thursday) / Catchable during “The Nine Tails of Snow” mission\nEvolve Crabrawler (Level-Up at Frost Mountain, Route 8, Blizzard City or Frozen Forest)"
+  },
+  {
+    "name": "Oricorio",
+    "location": "Flower Paradise\nChange forms by using Nectar"
+  },
+  {
+    "name": "Cutiefly",
+    "location": "Flower Paradise"
+  },
+  {
+    "name": "Ribombee",
+    "location": "Evolve Cutiefly (Lv. 25)"
+  },
+  {
+    "name": "Rockruff",
+    "location": "Route 12"
+  },
+  {
+    "name": "Lycanroc",
+    "location": "Evolve Rockruff (Lv. 25)\nMidday Form: From 5:00 AM - 4:59 PM\nDusk Form: From 5:00 PM - 7:59 PM\nMidnight Form: From 8:00 PM - 4:59 AM"
+  },
+  {
+    "name": "Wishiwashi",
+    "location": "Route 9, 10, Tehl Town, Auburn Waterway (Good Rod & Super Rod)"
+  },
+  {
+    "name": "Mareanie",
+    "location": "Route 14, Ruins of Void (Underwater)"
+  },
+  {
+    "name": "Toxapex",
+    "location": "Route 14, Ruins of Void (Underwater)\nEvolve Mareanie (Lv. 38)"
+  },
+  {
+    "name": "Mudbray",
+    "location": "Breed Mudsdale"
+  },
+  {
+    "name": "Mudsdale",
+    "location": "Magnolia Fields\nEvolve Mudbray (Lv. 30)"
+  },
+  {
+    "name": "Dewpider",
+    "location": "Route 3 (Day)"
+  },
+  {
+    "name": "Araquanid",
+    "location": "Route 3 (Surf)\nEvolve Dewpider (Lv. 22)"
+  },
+  {
+    "name": "Fomantis",
+    "location": "Breed Lurantis"
+  },
+  {
+    "name": "Lurantis",
+    "location": "Victory Road Grassy Maze Area\nEvolve Fomantis (Lv. 34 during the day)"
+  },
+  {
+    "name": "Morelull",
+    "location": "Vivill Woods (Trainer ID dependant)\nBreed Shiinotic"
+  },
+  {
+    "name": "Shiinotic",
+    "location": "Trade for an Amoonguss in Vivill Town\nEvolve Morelull (Lv. 24)"
+  },
+  {
+    "name": "Salandit",
+    "location": "Cinder Volcano"
+  },
+  {
+    "name": "Salazzle",
+    "location": "Victory Road B1F\nEvolve a female Salandit (Lv. 33)"
+  },
+  {
+    "name": "Stufful",
+    "location": "Route 2"
+  },
+  {
+    "name": "Bewear",
+    "location": "Evolve Stufful (Lv. 27)"
+  },
+  {
+    "name": "Bounsweet",
+    "location": "Safari Zone (Easy)"
+  },
+  {
+    "name": "Steenee",
+    "location": "Safari Zone (Medium)\nEvolve Bounsweet (Lv. 18)"
+  },
+  {
+    "name": "Tsareena",
+    "location": "Evolve Steenee (Level-Up while knowing Stomp)"
+  },
+  {
+    "name": "Comfey",
+    "location": "Flower Paradise"
+  },
+  {
+    "name": "Oranguru",
+    "location": "Redwood Forest"
+  },
+  {
+    "name": "Passimian",
+    "location": "Redwood Forest"
+  },
+  {
+    "name": "Wimpod",
+    "location": "Breed Golisopod"
+  },
+  {
+    "name": "Golisopod",
+    "location": "Safari Zone (Hard, Insane)\nEvolve Wimpod (Lv. 30)"
+  },
+  {
+    "name": "Sandygast",
+    "location": "Interact with the Sand Castles on Route 3 (Monday & Tuesday), on Dehara Beach (Sunday & Wednesday)"
+  },
+  {
+    "name": "Palossand",
+    "location": "Evolve Sandygast (Lv. 42)"
+  },
+  {
+    "name": "Pyukumuku",
+    "location": "Fallshore City, Dehara City (Surf)"
+  },
+  {
+    "name": "Type: Null",
+    "location": "Complete 20 missions then talk to the Ranger in the Mission HQ\nShow a Type: Null or Silvally to the scientist in Cube Corp."
+  },
+  {
+    "name": "Silvally",
+    "location": "Evolve Type: Null (Max Happiness)"
+  },
+  {
+    "name": "Minior",
+    "location": "Route 1, 8, Victory Road (Snowy Area)"
+  },
+  {
+    "name": "Komala",
+    "location": "Redwood Forest"
+  },
+  {
+    "name": "Turtonator",
+    "location": "Victory Road 2F, 3F"
+  },
+  {
+    "name": "Togedemaru",
+    "location": "Route 11"
+  },
+  {
+    "name": "Mimikyu",
+    "location": "Seaport City Warehouse (Static)"
+  },
+  {
+    "name": "Bruxish",
+    "location": "Route 9, 10, Tehl Town, Auburn Waterway, Victory Road Grassy Maze Area (Super Rod)"
+  },
+  {
+    "name": "Drampa",
+    "location": "Victory Road 2F, 3F"
+  },
+  {
+    "name": "Dhelmise",
+    "location": "Vivill Warehouse (Super Rod)"
+  },
+  {
+    "name": "Jangmo-o",
+    "location": "Breed Hakamo-o"
+  },
+  {
+    "name": "Hakamo-o",
+    "location": "Victory Road 3F\nEvolve Jangmo-o (Lv. 35)"
+  },
+  {
+    "name": "Kommo-o",
+    "location": "Mystery Gift Code: 6UK9NZ5QY4EG\nEvolve Hakamo-o (Lv. 45)"
+  },
+  {
+    "name": "Tapu Koko",
+    "location": "Portal outside of Cliff Cave"
+  },
+  {
+    "name": "Tapu Lele",
+    "location": "Portal on Route 17"
+  },
+  {
+    "name": "Tapu Bulu",
+    "location": "Portal on Route 9"
+  },
+  {
+    "name": "Tapu Fini",
+    "location": "Portal on Route 2"
+  },
+  {
+    "name": "Cosmog",
+    "location": "In the bag on Route 12 beach"
+  },
+  {
+    "name": "Cosmoem",
+    "location": "Evolve Cosmog (Lv. 43)"
+  },
+  {
+    "name": "Solgaleo",
+    "location": "Evolve Cosmoem (Lv. 53 during the day)\nPortal on Route 12 during the day if Lunala is in your party"
+  },
+  {
+    "name": "Lunala",
+    "location": "Evolve Cosmoem (Lv. 53 during the night)\nPortal on Route 12 during the night if Solgaleo is in your party"
+  },
+  {
+    "name": "Nihilego",
+    "location": "Portal beneath the Route 14 (Night)"
+  },
+  {
+    "name": "Buzzwole",
+    "location": "Portal above Cinder Volcano (Day)"
+  },
+  {
+    "name": "Pheromosa",
+    "location": "Portal in Great Desert (Day)"
+  },
+  {
+    "name": "Xurkitree",
+    "location": "Portal in Thundercap Mountain (Night)"
+  },
+  {
+    "name": "Celesteela",
+    "location": "Portal in Crater Town (Night)"
+  },
+  {
+    "name": "Kartana",
+    "location": "Portal in Vivill Woods (Day)"
+  },
+  {
+    "name": "Guzzlord",
+    "location": "Portal in Antisis Sewers (Night)"
+  },
+  {
+    "name": "Necrozma",
+    "location": "Portal in Frost Mountain (Night)\n(Solgaleo & Lunala must be in your party)\nFormes: Fuse Necrozma with either Solgaleo or Lunala by using the N-Solarizer/Lunarizer"
+  },
+  {
+    "name": "Magearna",
+    "location": "Tomb of Borrius"
+  },
+  {
+    "name": "Marshadow",
+    "location": "Currently Unavailable\nUse this Mystery Gift code on the second floor of any Pokemon Center after completing the game: 5GQ3CU5UZ7WS"
+  },
+  {
+    "name": "Poipole",
+    "location": "Currently Unavailable\nUse this Mystery Gift code on the second floor of any Pokemon Center after completing the game: 4QP1SH1BN8JF"
+  },
+  {
+    "name": "Naganadel",
+    "location": "Evolve Poipole (Level-Up while knowing Dragon Pulse)"
+  },
+  {
+    "name": "Stakataka",
+    "location": "Portal on Route 7 (Day)"
+  },
+  {
+    "name": "Blacephalon",
+    "location": "Portal in Magnolia Fields (Night)"
+  },
+  {
+    "name": "Zeraora",
+    "location": "Thundercap Mountain 4F (the ADM is required)"
+  },
+  {
+    "name": "Meltan",
+    "location": "Currently Unavailable\nUse this Mystery Gift code on the second floor of any Pokemon Center after completing the game: 8VE4VF5PA4NH"
+  },
+  {
+    "name": "Melmetal",
+    "location": "Evolve Meltan by using a Metal Coat"
+  },
+  {
+    "name": "Alolan Rattata",
+    "location": "Route 7 (Night)"
+  },
+  {
+    "name": "Alolan Raticate",
+    "location": "Route 7 (Night)\nEvolve Alolan Rattata (Lv. 20 during the night)"
+  },
+  {
+    "name": "Alolan Raichu",
+    "location": "Evolve Pikachu by using a Thunder Stone while standing on the seashore and water is splashing under your feet"
+  },
+  {
+    "name": "Alolan Sandshrew",
+    "location": "Outside of Icicle Cave (“The Food Thief” mission must be activated)"
+  },
+  {
+    "name": "Alolan Sandslash",
+    "location": "Evolve Alolan Sandshrew by using an Ice Stone"
+  },
+  {
+    "name": "Alolan Vulpix",
+    "location": "Reward for completing the “Nine Tails of Snow” mission"
+  },
+  {
+    "name": "Alolan Ninetales",
+    "location": "Evolve Alolan Vulpix by using an Ice Stone"
+  },
+  {
+    "name": "Alolan Diglett",
+    "location": "Safari Zone (Medium, Hard)"
+  },
+  {
+    "name": "Alolan Dugtrio",
+    "location": "Safari Zone (Insane)\nEvolve Alolan Diglett (Lv. 26)"
+  },
+  {
+    "name": "Alolan Meowth",
+    "location": "Safari Zone (Easy)"
+  },
+  {
+    "name": "Alolan Persian",
+    "location": "Evolve Alolan Meowth (Max Happiness)"
+  },
+  {
+    "name": "Alolan Geodude",
+    "location": "Cliff Cave (Walk), Thundercap Mountain (Rock Smash)"
+  },
+  {
+    "name": "Alolan Graveler",
+    "location": "Cliff Cave (Walk), Thundercap Mountain (Rock Smash)\nEvolve Alolan Geodude (Lv. 25)"
+  },
+  {
+    "name": "Alolan Golem",
+    "location": "Evolve Alolan Graveler by using a Link Stone"
+  },
+  {
+    "name": "Alolan Grimer",
+    "location": "Reward for completing the “Supply and Demand” mission"
+  },
+  {
+    "name": "Alolan Muk",
+    "location": "Evolve Alolan Grimer (Lv. 38)"
+  },
+  {
+    "name": "Alolan Exeggutor",
+    "location": "Evolve an Exeggcute caught in Safari Zone by using a Leaf Stone"
+  },
+  {
+    "name": "Alolan Marowak",
+    "location": "Evolve Cubone (Lv. 28 during the night)"
+  },
+  {
+    "name": "Spiky-Eared Pichu",
+    "location": "Seaport City Breeder's School (Show a Pichu to a breeder there)"
+  },
+  {
+    "name": "Grookey",
+    "location": "Breed Thwackey\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Thwackey",
+    "location": "Redwood Forest (Special Dexnav encounter)\nEvolve Grookey (Lv. 16)"
+  },
+  {
+    "name": "Rillaboom",
+    "location": "Evolve Thwackey (Lv. 35)"
+  },
+  {
+    "name": "Scorbunny",
+    "location": "Breed Raboot\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Raboot",
+    "location": "Redwood Forest (Special Dexnav encounter)\nEvolve Scorbunny (Lv. 16)"
+  },
+  {
+    "name": "Cinderace",
+    "location": "Evolve Raboot (Lv. 35)"
+  },
+  {
+    "name": "Sobble",
+    "location": "Breed Drizzile\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Drizzile",
+    "location": "Redwood Forest (Surf - Special Dexnav encounter)\nEvolve Sobble (Lv. 16)"
+  },
+  {
+    "name": "Inteleon",
+    "location": "Evolve Drizzile (Lv. 35)"
+  },
+  {
+    "name": "Skwovet",
+    "location": "Route 3 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Greedent",
+    "location": "Evolve Skwovet (Lv. 24)"
+  },
+  {
+    "name": "Rookidee",
+    "location": "Breed Corvisquire\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Corvisquire",
+    "location": "Victory Road - Grass Maze Area (Special Dexnav encounter)\nEvolve Rookidee (Lv. 18)"
+  },
+  {
+    "name": "Corviknight",
+    "location": "Evolve Corvisquire (Lv. 38)"
+  },
+  {
+    "name": "Blipbug",
+    "location": "Grim Woods (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Dottler",
+    "location": "Evolve Blipbug (Lv. 10)"
+  },
+  {
+    "name": "Orbeetle",
+    "location": "Evolve Dottler (Lv. 30)"
+  },
+  {
+    "name": "Nickit",
+    "location": "Route 5 - Night (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Thievul",
+    "location": "Evolve Nickit (Lv. 18)"
+  },
+  {
+    "name": "Wooloo",
+    "location": "Breed Dubwool\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Dubwool",
+    "location": "Magnolia Fields (Special Dexnav encounter)\nEvolve Wooloo (Lv. 24)"
+  },
+  {
+    "name": "Gossifleur",
+    "location": "Breed Eldegoss\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Eldegoss",
+    "location": "Route 14 (Special Dexnav encounter)\nEvolve Gossifleur (Lv. 20)"
+  },
+  {
+    "name": "Chewtle",
+    "location": "Route 3 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Drednaw",
+    "location": "Evolve Chewtle (Lv. 22)"
+  },
+  {
+    "name": "Yamper",
+    "location": "Route 5 - Day (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Boltund",
+    "location": "Evolve Yamper (Lv. 25)"
+  },
+  {
+    "name": "Rolycoly",
+    "location": "Cinder Volcano (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Carkol",
+    "location": "Cinder Volcano - Shadow Base (Special Dexnav encounter)\nEvolve Rolycoly (Lv. 18)"
+  },
+  {
+    "name": "Coalossal",
+    "location": "Evolve Carkol (Lv. 34)"
+  },
+  {
+    "name": "Applin",
+    "location": "Route 12 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Flapple",
+    "location": "Evolve Applin by using a Tart Apple"
+  },
+  {
+    "name": "Appletun",
+    "location": "Evolve Applin by using a Sweet Apple"
+  },
+  {
+    "name": "Silicobra",
+    "location": "Great Desert (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Sandaconda",
+    "location": "Evolve Silicobra (Lv. 36)"
+  },
+  {
+    "name": "Arrokuda",
+    "location": "Route 9 (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Barraskewda",
+    "location": "Evolve Arrokuda (Lv. 26)"
+  },
+  {
+    "name": "Toxel",
+    "location": "Route 9 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Toxtricity",
+    "location": "Evolve Toxel (Lv. 30)\nIts forms are based on its Nature"
+  },
+  {
+    "name": "Sizzlipede",
+    "location": "Route 4 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Centiskorch",
+    "location": "Evolve Sizzlipede (Lv. 28)"
+  },
+  {
+    "name": "Clobbopus",
+    "location": "Route 2 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Grapploct",
+    "location": "Evolve Clobbopus (Level-Up while knowing Taunt)"
+  },
+  {
+    "name": "Sinistea",
+    "location": "Rift Cave (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Polteageist",
+    "location": "Evolve Sinistea by using a Cracked/Chipped Pot"
+  },
+  {
+    "name": "Hatenna",
+    "location": "Breed Hattrem\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Hattrem",
+    "location": "Vivill Woods - Day (Special Dexnav encounter)\nEvolve Hatenna (Lv. 32)"
+  },
+  {
+    "name": "Hatterene",
+    "location": "Evolve Hattrem (Lv. 42)"
+  },
+  {
+    "name": "Impidimp",
+    "location": "Breed Morgrem\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Morgrem",
+    "location": "Vivill Woods - Night (Special Dexnav encounter)\nEvolve Impidimp (Lv. 32)"
+  },
+  {
+    "name": "Grimmsnarl",
+    "location": "Evolve Morgrem (Lv. 42)"
+  },
+  {
+    "name": "Milcery",
+    "location": "Route 11 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Alcremie",
+    "location": "Evolve Milcery by using a Sweet items"
+  },
+  {
+    "name": "Snom",
+    "location": "Frozen Forest (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Frosmoth",
+    "location": "Evolve Snom (Max Happiness during the night)"
+  },
+  {
+    "name": "Cufant",
+    "location": "Breed Copperajah\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Copperajah",
+    "location": "Route 16 (Special Dexnav encounter)\nEvolve Cufant (Lv. 34)"
+  },
+  {
+    "name": "Duraludon",
+    "location": "Crystal Peak (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Dreepy",
+    "location": "Breed Drakloak\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Drakloak",
+    "location": "Victory Road - Cave (Special Dexnav encounter)\nEvolve Dreepy (Lv. 50)"
+  },
+  {
+    "name": "Dragapult",
+    "location": "Evolve Drakloak (Lv. 60)"
+  },
+  {
+    "name": "Kubfu",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Urshifu",
+    "location": "Evolve Kubfu by using a Dusk Stone (Single-Strike Forme) or a Water Stone (Rapid-Strike Forme)"
+  },
+  {
+    "name": "Cramorant",
+    "location": "Route 10, Auburn Waterway (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Falinks",
+    "location": "Route 16 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Pincurchin",
+    "location": "Thundercap Mt. (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Stonjourner",
+    "location": "Route 18 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Eiscue",
+    "location": "Icy Hole (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Indeedee",
+    "location": "Route 7 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Morpeko",
+    "location": "Route 6 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Dracozolt",
+    "location": "Crystal Peak - Cube Corp. exit (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Arctozolt",
+    "location": "Crystal Peak - Cube Corp. exit (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Dracovish",
+    "location": "Cube Corp. (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Arctovish",
+    "location": "Cube Corp. (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Zacian",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud\nCrowned Forme: Hold a Rusted Sword"
+  },
+  {
+    "name": "Zamazenta",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud\nCrowned Forme: Hold a Rusted Shield"
+  },
+  {
+    "name": "Eternatus",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Zarude",
+    "location": "Mystery Gift Code: 3YT4BV7PH4UT\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Regieleki",
+    "location": "Icy Hole - Regigigas must be caught (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Regidrago",
+    "location": "Icy Hole - Regigigas must be caught (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Glastrier",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Spectrier",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Calyrex",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Calyrex-Ice",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Calyrex-Shadow",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Meowth",
+    "location": "Valley Cave (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Perrserker",
+    "location": "Valley Cave - Post-game (Special Dexnav encounter)\nEvolve Galarian Meowth (Lv. 28)"
+  },
+  {
+    "name": "Galarian Ponyta",
+    "location": "Route 12 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Rapidash",
+    "location": "Mystery Gift Code: 1CG6MD2DF2ZH\nEvolve Galarian Ponyta (Lv. 40)"
+  },
+  {
+    "name": "Galarian Slowpoke",
+    "location": "Route 13, 14 (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Slowbro",
+    "location": "Mystery Gift Code: 7QQ8PQ5DY7MK\nEvolve Galarian Slowpoke by using a Galarica Cuff"
+  },
+  {
+    "name": "Galarian Slowking",
+    "location": "Mystery Gift Code: 6YY8NA7YC2EG\nEvolve Galarian Slowpoke by using a Galarica Wreath"
+  },
+  {
+    "name": "Galarian Farfetch'd",
+    "location": "Route 17 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Sirfetch'd",
+    "location": "Route 17 - Post-game (Special Dexnav encounter)\nEvolve Galarian Farfetch'd by landing three critical hits in a single battle"
+  },
+  {
+    "name": "Galarian Weezing",
+    "location": "Antisis Sewers (Special Dexnav encounter)\nMystery Gift Code: 5QZ5EJ3VQ5DK\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Mr. Mime",
+    "location": "Route 8 (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Mr. Rime",
+    "location": "Route 8 - Post-game (Special Dexnav encounter)\nEvolve Galarian Mr. Mime (Lv. 42)"
+  },
+  {
+    "name": "Galarian Corsola",
+    "location": "Underwater (Special Dexnav encounter)\n Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Cursola",
+    "location": "Evolve Galarian Corsola (Lv. 38)"
+  },
+  {
+    "name": "Galarian Zigzagoon",
+    "location": "Breed Galarian Linoone\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Linoone",
+    "location": "Route 10 (Special Dexnav encounter)\nEvolve Galarian Zigzagoon (Lv. 20)"
+  },
+  {
+    "name": "Obstagoon",
+    "location": "Route 10 - Post-game (Special Dexnav encounter)\nEvolve Galarian Linoone (Lv. 35 during the night)"
+  },
+  {
+    "name": "Galarian Darumaka",
+    "location": "Breed Galarian Darmanitan\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Darmanitan",
+    "location": "Victory Road - Snowy Area (Special Dexnav encounter)\nEvolve Galarian Darumaka by using an Ice Stone"
+  },
+  {
+    "name": "Galarian Yamask",
+    "location": "Ruins of Void (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Runerigus",
+    "location": "Ruins of Void - Post-game (Special Dexnav encounter)\nEvolve Galarian Yamask (Lv. 35)"
+  },
+  {
+    "name": "Galarian Stunfisk",
+    "location": "Cootes Bog (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Articuno",
+    "location": "Mystery Gift Code: 2XH4TC5JY4MG\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Moltres",
+    "location": "Mystery Gift Code: 4NV7CX6YX1SD\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Galarian Zapdos",
+    "location": "Mystery Gift Code: 9TA2WT6TW5AP\nTrade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Hisuian Growlithe",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Hisuian Arcanine",
+    "location": "Mystery Gift Code: 1WX2KX7RA1HT\nEvolve Hisuian Growlithe by using a Fire Stone"
+  },
+  {
+    "name": "Hisuian Voltorb",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Hisuian Electrode",
+    "location": "Mystery Gift Code: 4BN3PR8SR9ED\nEvolve Hisuian Voltorb by using a Leaf Stone"
+  },
+  {
+    "name": "Hisuian Typhlosion",
+    "location": "Evolve Quilava (Lv. 36 while holding the Hisui Rock)"
+  },
+  {
+    "name": "Hisuian Qwilfish",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Hisuian Sneasel",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Hisuian Samurott",
+    "location": "Evolve Dewott (Lv. 36 while holding the Hisui Rock)"
+  },
+  {
+    "name": "Hisuian Lilligant",
+    "location": "Evolve Petilil by using a Sun Stone while holding the Hisui Rock"
+  },
+  {
+    "name": "Hisuian Basculin",
+    "location": "Trade from supported CFRU Rom Hacks by using Unbound Cloud"
+  },
+  {
+    "name": "Hisuian Zorua",
+    "location": "Breed Hisuian Zoroark"
+  },
+  {
+    "name": "Hisuian Zoroark",
+    "location": "Mystery Gift Code: 6QW3ZY6EA1SQ\nEvolve Hisuian Zorua (Lv. 30)"
+  },
+  {
+    "name": "Hisuian Braviary",
+    "location": "Evolve Rufflet (Lv. 50 while holding the Hisui Rock)"
+  },
+  {
+    "name": "Hisuian Sliggoo",
+    "location": "Evolve Goomy (Lv. 40 while holding the Hisui Rock)"
+  },
+  {
+    "name": "Hisuian Goodra",
+    "location": "Evolve Hisuian Sliggoo (at level 50 when Level-Up during rain or fog)"
+  },
+  {
+    "name": "Hisuian Avalugg",
+    "location": "Evolve Bergmite (Lv. 37 while holding the Hisui Rock)"
+  },
+  {
+    "name": "Hisuian Decidueye",
+    "location": "Evolve Dartrix (Lv. 34 while holding the Hisui Rock)"
+  },
+  {
+    "name": "Wyrdeer",
+    "location": "Evolve Stantler (Level-Up while knowing Psyshield Bash)"
+  },
+  {
+    "name": "Kleavor",
+    "location": "Evolve Scyther by using a Black Augurite"
+  },
+  {
+    "name": "Ursaluna",
+    "location": "Evolve Ursaring by using a Peat Block during the night"
+  },
+  {
+    "name": "Basculegion",
+    "location": "Evolve Hisuian Basculin (Level-Up while knowing Wave Crash)"
+  },
+  {
+    "name": "Sneasler",
+    "location": "Evolve Hisuian Sneasel (Level-Up while holding the Razor Claw during the day)"
+  },
+  {
+    "name": "Overqwil",
+    "location": "Evolve Hisuian Qwilfish (Level-Up while knowing Barb Barrage)"
+  },
+  {
+    "name": "Enamorus",
+    "location": "Magnolia Fields - Landorus must be in your party (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud\nTherian Forme: Use the Reveal Glass"
+  }
+]

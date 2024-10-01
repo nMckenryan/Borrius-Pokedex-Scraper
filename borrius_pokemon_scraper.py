@@ -120,32 +120,39 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                 tmhm_moves = []
                 for row in tmhm_move_table.find_all("tr"):
                     columns = row.find_all("td")
-                    if len(columns) > 0:
-                        tmhm_moves.append(
-                            {
-                                "move": {
-                                    "name": columns[1].text.strip(),
-                                    "type": columns[2].text.strip(),
-                                    "category": columns[3].text.strip(),
-                                    "power": columns[4]
-                                    .text.strip()
-                                    .replace("\u2014", "-"),
-                                    "accuracy": columns[5]
-                                    .text.strip()
-                                    .replace("\u2014", "-"),
-                                },
-                                "version_group_details": [
+                    move_name = columns[1].text.strip()
+
+                    for move in moves:
+                        if move["move"]["name"] == move_name:
+                            move["move"]["name"] += ", TM/HM"
+                            break
+                        else:
+                            if len(columns) > 0:
+                                tmhm_moves.append(
                                     {
-                                        "level_learned_at": 0,
-                                        "move_learn_method": {
-                                            "name": "machine",
-                                            "url": "https://pokeapi.co/api/v2/move-learn-method/4/",
+                                        "move": {
+                                            "name": columns[1].text.strip(),
+                                            "type": columns[2].text.strip(),
+                                            "category": columns[3].text.strip(),
+                                            "power": columns[4]
+                                            .text.strip()
+                                            .replace("\u2014", "-"),
+                                            "accuracy": columns[5]
+                                            .text.strip()
+                                            .replace("\u2014", "-"),
                                         },
-                                        "version_group": {"name": "unbound"},
+                                        "version_group_details": [
+                                            {
+                                                "level_learned_at": 0,
+                                                "move_learn_method": {
+                                                    "name": "machine",
+                                                    "url": "https://pokeapi.co/api/v2/move-learn-method/4/",
+                                                },
+                                                "version_group": {"name": "unbound"},
+                                            }
+                                        ],
                                     }
-                                ],
-                            }
-                        )
+                                )
 
                 # GENDER RATES
                 gender_data = re.findall(
@@ -305,7 +312,7 @@ borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
 async def compile_pokedex():
     start = time.time()
-    special_encounter_numbers = await getMissingPokemonData()
+    # special_encounter_numbers = await getMissingPokemonData()
 
     borrius_numbers = range(1, 495)
 
@@ -319,7 +326,8 @@ async def compile_pokedex():
         443,
         444,
         445,
-    ] + list(set(special_encounter_numbers))
+    ]
+    # + list(set(special_encounter_numbers))
 
     print("\n\n---- BORRIUS POKEDEX SCRAPER --------")
     print(
