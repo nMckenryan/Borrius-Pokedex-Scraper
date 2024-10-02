@@ -6,44 +6,6 @@ wb = openpyxl.load_workbook("./scraperData/borrius_location_data.xlsx", data_onl
 locationDataList = []
 
 
-async def getUniquePokemon():
-    starters = [
-        "Larvitar",
-        "Metang",
-        "Gible",
-    ]
-
-    for starter in starters:
-        locationDataList.append(
-            {
-                "pokemon": starter,
-                "locationData": [
-                    {
-                        "location": "Frozen Heights",
-                        "encounterMethod": "Starter",
-                        "timeOfDay": "All Day",
-                        "isSpecialEncounter": 0,
-                    }
-                ],
-            }
-        )
-
-    # Handle Magikarp as it is very prevalent
-    locationDataList.append(
-        {
-            "pokemon": "Magikarp",
-            "locationData": [
-                {
-                    "location": "Pretty much every Water Spot",
-                    "encounterMethod": "Old Rod",
-                    "timeOfDay": "All Day",
-                    "isSpecialEncounter": 0,
-                }
-            ],
-        }
-    )
-
-
 def correctPokemonName(pokemon):
     pokemon = pokemon.lower().replace(". ", "-").replace("'", "")
     if "dome fossil" in pokemon:
@@ -149,20 +111,7 @@ async def getGrassCaveLocations():
                             "isSpecialEncounter": isSpecialEncounter,
                         }
                     )
-                else:
-                    locationDataList.append(
-                        {
-                            "pokemon": pokemonName,
-                            "locationData": [
-                                {
-                                    "location": location_header,
-                                    "encounterMethod": "Grass/Cave",
-                                    "timeOfDay": timeOfDay,
-                                    "isSpecialEncounter": isSpecialEncounter,
-                                }
-                            ],
-                        }
-                    )
+            
 
     except Exception as e:
         print(f"Failed to get Grass/Cave Locations: {e}")
@@ -249,20 +198,7 @@ async def getFishingLocations():
                             "isSpecialEncounter": isSpecialEncounter,
                         }
                     )
-                else:
-                    locationDataList.append(
-                        {
-                            "pokemon": pokemonName,
-                            "locationData": [
-                                {
-                                    "location": location_header,
-                                    "encounterMethod": method,
-                                    "timeOfDay": "All Day",
-                                    "isSpecialEncounter": isSpecialEncounter,
-                                }
-                            ],
-                        }
-                    )
+               
     except Exception as e:
         print(f"Failed to retrieve fishing data {e}")
 
@@ -290,28 +226,15 @@ async def getSurfLocations():
                     (p for p in locationDataList if p["pokemon"] == pokemon), None
                 )
                 if existingPokemon is not None:
-                    #     existingPokemon["locationData"].append(
-                    #         {
-                    #             "location": location_header,
-                    #             "encounterMethod": "Surfing",
-                    #             "timeOfDay": "All Day",
-                    #             "isSpecialEncounter": isSpecialEncounter,
-                    #         }
-                    #     )
-                    # else:
-                    locationDataList.append(
+                    existingPokemon["locationData"].append(
                         {
-                            "pokemon": pokemon,
-                            "locationData": [
-                                {
-                                    "location": location_header,
-                                    "encounterMethod": "Surfing",
-                                    "timeOfDay": "All Day",
-                                    "isSpecialEncounter": isSpecialEncounter,
-                                }
-                            ],
+                            "location": location_header,
+                            "encounterMethod": "Surfing",
+                            "timeOfDay": "All Day",
+                            "isSpecialEncounter": isSpecialEncounter,
                         }
                     )
+                
     except Exception as e:
         print(f"Failed to get Surf Locations: {e}")
 
@@ -327,7 +250,7 @@ def fillInEvolutionGaps():
                     (p for p in locationDataList if p["pokemon"] == pokemonName), None
                 )
 
-                if existingPokemon is not None:
+                if existingPokemon is not None and len(existingPokemon["locationData"]) == 0:
                     existingPokemon["locationData"].append(
                         {
                             "location": pokemon["location"],
@@ -336,31 +259,30 @@ def fillInEvolutionGaps():
                             "isSpecialEncounter": 0,
                         }
                     )
-                else:
-                    locationDataList.append(
-                        {
-                            "pokemon": pokemonName,
-                            "locationData": [
-                                {
-                                    "location": pokemon["location"],
-                                    "encounterMethod": "Evolution",
-                                    "timeOfDay": "All Day",
-                                    "isSpecialEncounter": 0,
-                                }
-                            ],
-                        }
-                    )
 
     except Exception as e:
         print(f"fillInEvolutionGaps failed: {e}")
 
 
+def getBorriusPokemonNames():
+    with open("scraperData/borrius_pokedex_data.json", "r") as file:
+        data = json.load(file)
+
+        for pokemon in data[0]["pokemon"]:
+            locationDataList.append(
+                {
+                    "pokemon": pokemon["name"].lower(),
+                    "locationData": [],
+                }
+            )
+
+
 async def printLocationJson():
     try:
+        getBorriusPokemonNames()
         await getGrassCaveLocations()
         await getSurfLocations()
         await getFishingLocations()
-        await getUniquePokemon()
         fillInEvolutionGaps()
 
         fileName = "scraperData/locationData.json"

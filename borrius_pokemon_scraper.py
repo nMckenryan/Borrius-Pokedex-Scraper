@@ -26,7 +26,7 @@ async def getLocations(pokemonName):
     with open("scraperData/locationData.json") as f:
         data = json.load(f)
         for pokemon in data:
-            if pokemonName in pokemon["pokemon"]:
+            if pokemonName.lower() in pokemon["pokemon"].lower():
                 return pokemon["locationData"]
     return []
 
@@ -117,43 +117,51 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                             }
                         )
 
+                tmhm_moves = []
                 for row in tmhm_move_table.find_all("tr"):
                     columns = row.find_all("td")
-                    move_name = columns[1].text.strip()
-
-                    for move in moves:
-                        if move["move"]["name"] == move_name:
-                            move["version_group_details"][0]["move_learn_method"][
-                                "name"
-                            ] = "level-up/tm-hm"
-                            break
-                        else:
-                            if len(columns) > 0:
-                                moves.append(
+                    if len(columns) > 0:
+                        tmhm_moves.append(
+                            {
+                                "move": {
+                                    "name": columns[1].text.strip(),
+                                    "type": columns[2].text.strip(),
+                                    "category": columns[3].text.strip(),
+                                    "power": columns[4]
+                                    .text.strip()
+                                    .replace("\u2014", "-"),
+                                    "accuracy": columns[5]
+                                    .text.strip()
+                                    .replace("\u2014", "-"),
+                                },
+                                "version_group_details": [
                                     {
-                                        "move": {
-                                            "name": columns[1].text.strip(),
-                                            "type": columns[2].text.strip(),
-                                            "category": columns[3].text.strip(),
-                                            "power": columns[4]
-                                            .text.strip()
-                                            .replace("\u2014", "-"),
-                                            "accuracy": columns[5]
-                                            .text.strip()
-                                            .replace("\u2014", "-"),
+                                        "level_learned_at": 0,
+                                        "move_learn_method": {
+                                            "name": "machine",
+                                            "url": "https://pokeapi.co/api/v2/move-learn-method/4/",
                                         },
-                                        "version_group_details": [
-                                            {
-                                                "level_learned_at": 0,
-                                                "move_learn_method": {
-                                                    "name": "machine",
-                                                    "url": "https://pokeapi.co/api/v2/move-learn-method/4/",
-                                                },
-                                                "version_group": {"name": "unbound"},
-                                            }
-                                        ],
+                                        "version_group": {"name": "unbound"},
                                     }
-                                )
+                                ],
+                            }
+                        )
+
+                # COMBINE TMHM AND MOVES TABLES
+                combined_moves = moves + tmhm_moves
+                for combined_move in combined_moves:
+                    for tmhm_move in tmhm_moves:
+                        if (
+                            combined_move["move"]["name"] == tmhm_move["move"]["name"]
+                            and combined_move["version_group_details"][0][
+                                "move_learn_method"
+                            ]["name"]
+                            != "machine"
+                        ):
+                            combined_move["version_group_details"][0][
+                                "move_learn_method"
+                            ]["name"] = "level-up/tm"
+                            break
 
                 # GENDER RATES
                 gender_data = re.findall(
@@ -269,6 +277,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     "weight": weightInHectograms,
                     "id": officialDexNumber,
                     "name": pokemonName,
+                    "locations": locations,
                     "capture_rate": {
                         "value": float(
                             top_card.find_all("p", class_="text-3xl font-bold")[1]
@@ -282,7 +291,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         .text.strip()
                         .split(" ")[0],
                     },
-                    "moves": moves,
+                    "moves": combined_moves,
                     "sprites": {
                         "front_default": sprite_link,
                         "other": {"home": {"front_default": official_sprite_link}},
@@ -298,7 +307,6 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         "maleChance": gender_data[0],
                         "femaleChance": gender_data[1],
                     },
-                    "locations": locations,
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
