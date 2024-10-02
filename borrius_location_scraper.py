@@ -111,7 +111,6 @@ async def getGrassCaveLocations():
                             "isSpecialEncounter": isSpecialEncounter,
                         }
                     )
-            
 
     except Exception as e:
         print(f"Failed to get Grass/Cave Locations: {e}")
@@ -198,7 +197,7 @@ async def getFishingLocations():
                             "isSpecialEncounter": isSpecialEncounter,
                         }
                     )
-               
+
     except Exception as e:
         print(f"Failed to retrieve fishing data {e}")
 
@@ -234,7 +233,7 @@ async def getSurfLocations():
                             "isSpecialEncounter": isSpecialEncounter,
                         }
                     )
-                
+
     except Exception as e:
         print(f"Failed to get Surf Locations: {e}")
 
@@ -250,7 +249,10 @@ def fillInEvolutionGaps():
                     (p for p in locationDataList if p["pokemon"] == pokemonName), None
                 )
 
-                if existingPokemon is not None and len(existingPokemon["locationData"]) == 0:
+                if (
+                    existingPokemon is not None
+                    and len(existingPokemon["locationData"]) == 0
+                ):
                     existingPokemon["locationData"].append(
                         {
                             "location": pokemon["location"],
