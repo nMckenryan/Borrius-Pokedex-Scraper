@@ -1,5 +1,6 @@
 import json
 import openpyxl
+from termcolor import colored
 
 wb = openpyxl.load_workbook("./scraperData/borrius_location_data.xlsx", data_only=True)
 
@@ -290,6 +291,17 @@ async def printLocationJson():
         fileName = "scraperData/locationData.json"
         with open(fileName, "w") as fp:
             json.dump(locationDataList, fp, indent=4)
-        print(f"{fileName} successfully created")
+
+        print(
+            colored(
+                f"locationData {fileName} successfully created",
+                "green",
+            ),
+        )
     except Exception as e:
-        print(f"locationData Json Generation Failed : {e}")
+        print(
+            colored(
+                f"locationData Json Generation Failed : {e}",
+                "red",
+            ),
+        )
