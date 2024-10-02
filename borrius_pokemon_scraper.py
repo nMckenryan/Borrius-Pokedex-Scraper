@@ -8,6 +8,7 @@ import aiohttp
 import asyncio
 
 from termcolor import colored
+from borrius_location_scraper import correctPokemonName
 from pokemonNameGetter import getMissingPokemonData
 
 currentTime = datetime.datetime.now()
@@ -283,7 +284,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     "height": heightInDecimetres,
                     "weight": weightInHectograms,
                     "id": officialDexNumber,
-                    "name": pokemonName,
+                    "name": correctPokemonName(pokemonName),
                     "locations": pokemonLocations,
                     "capture_rate": {
                         "value": float(
@@ -314,7 +315,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         "maleChance": gender_data[0],
                         "femaleChance": gender_data[1],
                     },
-                    "locations": locations,
+                    "locations": pokemonLocations,
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
@@ -328,7 +329,7 @@ borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
 
 async def compile_pokedex():
-    locationList = await readLocationDataJson()
+    await readLocationDataJson()
     start = time.time()
     # special_encounter_numbers = await getMissingPokemonData()
 
@@ -363,7 +364,7 @@ async def compile_pokedex():
         length = end - start
         print(
             colored(
-                f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes",
+                f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes)",
                 "green",
             ),
         )
