@@ -4,10 +4,13 @@ import asyncio
 import json
 import aiohttp
 
-from borrius_location_scraper import printLocationJson
-
 
 def getMissingPokemonList():
+    """
+    Retrieves a list of pokemon that are in the location data but not the borrius pokedex data.
+
+    :return: A list of pokemon names that are in the location data but not the borrius pokedex data.
+    """
     try:
         with open("scraperData/locationData.json") as f:
             location_data = json.load(f)
@@ -76,6 +79,7 @@ def getMissingPokemonList():
         print(f"Failed to retrieve missing pokemon data: {e}")
 
 
+# Retrieves pokemondata from pokeapi to fill gaps
 async def getPokeApiData(pokemon):
     async with aiohttp.ClientSession() as session:
         try:
@@ -107,8 +111,3 @@ async def getMissingPokemonData():
             print(f"Failed to retrieve data from PokeAPI: {e}")
 
     return sorted(list(pokemonReturned.values()), key=lambda x: x)
-
-
-# asyncio.run(printLocationJson())
-# data = asyncio.run(getMissingPokemonData())
-# print("done")

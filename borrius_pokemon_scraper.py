@@ -1,3 +1,22 @@
+"""
+This script is used to scrape the Borrius Pokedex from the Pokemon Unbound website
+and generate a JSON file containing the data for all the Pokemon in the Borrius
+Dex.
+
+The script works by first reading in the location data from a JSON file, then
+scraping the data from the Pokemon Unbound website for the Borrius Pokedex, and
+finally combining the two datasets and writing the combined data to a new JSON
+file.
+
+The script can be run from the command line with the following command:
+
+    python borrius_pokemon_scraper.py
+
+This will generate a JSON file called 'borrius_pokedex_data.json' in the
+'scraperData' directory which contains the data for all the Pokemon in the
+Borrius Dex.
+"""
+
 import ast
 import datetime
 import time
@@ -9,7 +28,6 @@ import asyncio
 
 from termcolor import colored
 from borrius_location_scraper import correctPokemonName
-from pokemonNameGetter import getMissingPokemonData
 
 currentTime = datetime.datetime.now()
 
@@ -331,7 +349,6 @@ borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 async def compile_pokedex():
     await readLocationDataJson()
     start = time.time()
-    # special_encounter_numbers = await getMissingPokemonData()
 
     borrius_numbers = range(1, 495)
 
@@ -358,7 +375,7 @@ async def compile_pokedex():
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
         await createPokemonJson(national_page, starter_numbers, 1)
-        await createPokemonJson(borrius_page, borrius_numbers, 215)
+        await createPokemonJson(borrius_page, borrius_numbers, 10)
 
         end = time.time()
         length = end - start

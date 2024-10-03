@@ -1252,8 +1252,45 @@
         ]
     },
     {
-        "pokemon": "flab\u00e9b\u00e9",
-        "locationData": []
+        "pokemon": "flabebe",
+        "locationData": [
+            {
+                "location": "Flower Paradise",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise (Pink Flowers)",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise (Blue Flowers)",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise (Red Flowers)",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise (Blue-Yellow Flowers)",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Flower Paradise (Pink-Purple Flowers)",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
     },
     {
         "pokemon": "floette",
@@ -2461,8 +2498,15 @@
         ]
     },
     {
-        "pokemon": "nidoran\u2642 (male)",
-        "locationData": []
+        "pokemon": "nidoran-m",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
     },
     {
         "pokemon": "nidorino",
@@ -2487,8 +2531,15 @@
         ]
     },
     {
-        "pokemon": "nidoran\u2640 (female)",
-        "locationData": []
+        "pokemon": "nidoran-f",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
     },
     {
         "pokemon": "nidorina",
@@ -3295,8 +3346,15 @@
         ]
     },
     {
-        "pokemon": "mr. mime",
-        "locationData": []
+        "pokemon": "mr-mime",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
     },
     {
         "pokemon": "magikarp",
@@ -5942,7 +6000,14 @@
     },
     {
         "pokemon": "porygon-z",
-        "locationData": []
+        "locationData": [
+            {
+                "location": "Evolve Porygon2 by using a Dubious Disk",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
     },
     {
         "pokemon": "emolga",
@@ -6356,7 +6421,7 @@
         ]
     },
     {
-        "pokemon": "basculin",
+        "pokemon": "basculin-red-striped",
         "locationData": [
             {
                 "location": "Route 2, 4, 5, 11, 15, Dresco Town, Vivill Town (Surf, Red-Striped), Victory Road Grassy Maze Area (Surf, Blue-Striped)",
@@ -7532,6 +7597,4149 @@
             {
                 "location": "On top of Crystal Peak (Storyline)\nUnbound Forme: Use the Prison Bottle",
                 "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "clobbopus",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "skwovet",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "chewtle",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "sizzlipede",
+        "locationData": [
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 10",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "yamper",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "nickit",
+        "locationData": [
+            {
+                "location": "Route 5",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "rattata-alola",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "raticate-alola",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "indeedee-male",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "indeedee-female",
+        "locationData": [
+            {
+                "location": "Route 7",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "mr-mime-galar",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "mr-rime",
+        "locationData": [
+            {
+                "location": "Route 8",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "audino",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "toxel",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "linoone-galar",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "obstagoon",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "milcery",
+        "locationData": [
+            {
+                "location": "Route 11",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "ponyta-galar",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "applin",
+        "locationData": [
+            {
+                "location": "Route 12",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "eldegoss",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "copperajah",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "falinks",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "farfetchd-galar",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "sirfetchd",
+        "locationData": [
+            {
+                "location": "Route 17",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "skuntank",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "persian",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "bouffalant",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "sudowoodo",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "bayleef",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "stonjourner",
+        "locationData": [
+            {
+                "location": "Route 18",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "regieleki",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "regidrago",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "sandshrew-alola",
+        "locationData": [
+            {
+                "location": "Icicle Cave4F (Outside)",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "blipbug",
+        "locationData": [
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "rolycoly",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "carkol",
+        "locationData": [
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "meowth-galar",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "perrserker",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "snom",
+        "locationData": [
+            {
+                "location": "Frozen Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "diglett",
+        "locationData": [
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "dugtrio",
+        "locationData": [
+            {
+                "location": "Lost Tunnel",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "pincurchin",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "geodude-alola",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt. - Outside",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "graveler-alola",
+        "locationData": [
+            {
+                "location": "Cliff Cave",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt. - Inside",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "yamask-galar",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "runerigus",
+        "locationData": [
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "sinistea",
+        "locationData": [
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "silicobra",
+        "locationData": [
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "whirlipede",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "weezing-galar",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "unown",
+        "locationData": [
+            {
+                "location": "Tomb of Borrius",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "swadloon",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "hattrem",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "morgrem",
+        "locationData": [
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "carnivine",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "toxicroak",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "croconaw",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "stunfisk-galar",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "skitty",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "rhyhorn",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "natu",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "meowth-alola",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "plusle",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "minun",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "bounsweet",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "blitzle",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "helioptile",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "treecko",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "torchic",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "mudkip",
+        "locationData": [
+            {
+                "location": "Safari Zone",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "steenee",
+        "locationData": [
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "zebstrika",
+        "locationData": [
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "xatu",
+        "locationData": [
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "diglett-alola",
+        "locationData": [
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "spinda",
+        "locationData": [
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "wobbuffet",
+        "locationData": [
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "tauros",
+        "locationData": [
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "kangaskhan",
+        "locationData": [
+            {
+                "location": "Safari Zone - Medium",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "rhydon",
+        "locationData": [
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "golisopod",
+        "locationData": [
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "grovyle",
+        "locationData": [
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "combusken",
+        "locationData": [
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "marshtomp",
+        "locationData": [
+            {
+                "location": "Safari Zone - Hard",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "doublade",
+        "locationData": [
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "heliolisk",
+        "locationData": [
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "dugtrio-alola",
+        "locationData": [
+            {
+                "location": "Safari Zone - Insane",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "loudred",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak - 1F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "zweilous",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak - 1F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "skarmory",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak - 1F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "duraludon",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "dracozolt",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "arctozolt",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "drifblim",
+        "locationData": [
+            {
+                "location": "Crystal Peak - Outside",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "rufflet",
+        "locationData": [
+            {
+                "location": "Crystal Peak - Outside",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "vullaby",
+        "locationData": [
+            {
+                "location": "Crystal Peak - Outside",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "absol",
+        "locationData": [
+            {
+                "location": "Crystal Peak - Outside",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "tranquill",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "furfrou",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "mudsdale",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "gogoat",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "miltank",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "quilava",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "dubwool",
+        "locationData": [
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "vigoroth",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "ursaring",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "heracross",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest - Headbutt Trees",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "komala",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "passimian",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "oranguru",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "raboot",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "thwackey",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "aipom",
+        "locationData": [
+            {
+                "location": "Redwood Forest - Headbutt Trees",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "pineco",
+        "locationData": [
+            {
+                "location": "Redwood Forest - Headbutt Trees",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "scyther",
+        "locationData": [
+            {
+                "location": "Redwood Forest - Headbutt Trees",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "pinsir",
+        "locationData": [
+            {
+                "location": "Redwood Forest - Headbutt Trees",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "nincada",
+        "locationData": [
+            {
+                "location": "Redwood Forest - Headbutt Trees",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "durant",
+        "locationData": [
+            {
+                "location": "Victory Road - 1F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - B1F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - 3F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "druddigon",
+        "locationData": [
+            {
+                "location": "Victory Road - 2F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "turtonator",
+        "locationData": [
+            {
+                "location": "Victory Road - 2F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - 3F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "drampa",
+        "locationData": [
+            {
+                "location": "Victory Road - 2F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - 3F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "drakloak",
+        "locationData": [
+            {
+                "location": "Victory Road - 2F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "lurantis",
+        "locationData": [
+            {
+                "location": "Victory Road  - Maze Area",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "jigglypuff",
+        "locationData": [
+            {
+                "location": "Victory Road  - Maze Area",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "corvisquire",
+        "locationData": [
+            {
+                "location": "Victory Road  - Maze Area",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "hakamo-o",
+        "locationData": [
+            {
+                "location": "Victory Road - 3F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "darmanitan-galar-standard",
+        "locationData": [
+            {
+                "location": "Victory Road - Snowy Area",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "tentacool",
+        "locationData": []
+    },
+    {
+        "pokemon": "pelipper",
+        "locationData": []
+    },
+    {
+        "pokemon": "tentacruel",
+        "locationData": []
+    },
+    {
+        "pokemon": "basculin",
+        "locationData": []
+    },
+    {
+        "pokemon": "araquanid",
+        "locationData": []
+    },
+    {
+        "pokemon": "mantyke",
+        "locationData": []
+    },
+    {
+        "pokemon": "marill",
+        "locationData": []
+    },
+    {
+        "pokemon": "surskit",
+        "locationData": []
+    },
+    {
+        "pokemon": "masquerain",
+        "locationData": []
+    },
+    {
+        "pokemon": "azumarill",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": [
+            {
+                "location": "Route 9 (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "palpitoad",
+        "locationData": []
+    },
+    {
+        "pokemon": "lombre",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": [
+            {
+                "location": "Route 10, Auburn Waterway (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "alomomola",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": [
+            {
+                "location": "Route 13, 14 (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "mantine",
+        "locationData": []
+    },
+    {
+        "pokemon": "pyukumuku",
+        "locationData": []
+    },
+    {
+        "pokemon": "psyduck",
+        "locationData": []
+    },
+    {
+        "pokemon": "golduck",
+        "locationData": []
+    },
+    {
+        "pokemon": "finneon",
+        "locationData": []
+    },
+    {
+        "pokemon": "lumineon",
+        "locationData": []
+    },
+    {
+        "pokemon": "poliwhirl",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke",
+        "locationData": []
+    },
+    {
+        "pokemon": "poliwag",
+        "locationData": []
+    },
+    {
+        "pokemon": "politoed",
+        "locationData": []
+    },
+    {
+        "pokemon": "stunfisk",
+        "locationData": []
+    },
+    {
+        "pokemon": "gastrodon",
+        "locationData": []
+    },
+    {
+        "pokemon": "sliggoo",
+        "locationData": []
+    },
+    {
+        "pokemon": "dewgong",
+        "locationData": []
+    },
+    {
+        "pokemon": "sealeo",
+        "locationData": []
+    },
+    {
+        "pokemon": "lapras",
+        "locationData": []
+    },
+    {
+        "pokemon": "seel",
+        "locationData": []
+    },
+    {
+        "pokemon": "spheal",
+        "locationData": []
+    },
+    {
+        "pokemon": "slugma",
+        "locationData": []
+    },
+    {
+        "pokemon": "magcargo",
+        "locationData": []
+    },
+    {
+        "pokemon": "woobat",
+        "locationData": []
+    },
+    {
+        "pokemon": "chinchou",
+        "locationData": []
+    },
+    {
+        "pokemon": "tynamo",
+        "locationData": []
+    },
+    {
+        "pokemon": "lanturn",
+        "locationData": []
+    },
+    {
+        "pokemon": "eelektrik",
+        "locationData": []
+    },
+    {
+        "pokemon": "grimer",
+        "locationData": []
+    },
+    {
+        "pokemon": "golbat",
+        "locationData": []
+    },
+    {
+        "pokemon": "muk",
+        "locationData": []
+    },
+    {
+        "pokemon": "seadra",
+        "locationData": []
+    },
+    {
+        "pokemon": "quagsire",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": [
+            {
+                "location": "Crystal Peak (Surf)\nEvolve Dratini (Lv. 30)",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": [
+            {
+                "location": "Magnolia Fields (Surf)",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": [
+            {
+                "location": "Magnolia Fields (Surf)\nEvolve Frillish (Lv. 40)",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "enamorus",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": [
+            {
+                "location": "Redwood Forest (Surf - Special Dexnav encounter)\nEvolve Sobble (Lv. 16)",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": [
+            {
+                "location": "Cube Corp. (Surf - Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "binacle",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 13",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt. - Outside",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "bruxish",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - Maze Area",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "corsola",
+        "locationData": [
+            {
+                "location": "Route 13",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Good Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Good Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Good Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Good Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Good Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt. - Outside",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "clamperl",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "mareanie",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "toxapex",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "cursola",
+        "locationData": [
+            {
+                "location": "Route 16",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "shuckle",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cinder Volcano ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt. - Inside",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Tomb of Borrius ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "gyarados",
+        "locationData": []
+    },
+    {
+        "pokemon": "relicanth",
+        "locationData": [
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Underwater",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "shieldon",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "anorith",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "tirtouga",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "omanyte",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "archen",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "lileep",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "amaura",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "cranidos",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "aerodactyl",
+        "locationData": [
+            {
+                "location": "Great Desert ",
+                "encounterMethod": "Rock Smash",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "qwilfish",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "special encounter",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 3",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 6",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 8",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 10",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cinder Volcano",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frozen Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Rift Cave",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Great Desert",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - 2F",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road  - Maze Area",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - Snowy Area",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "morpeko",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "eiscue",
+        "locationData": [
+            {
+                "location": "Ice Hole",
+                "encounterMethod": "Grass/Cave",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Tentacool",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 3",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 6",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Pelipper",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 3",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 6",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Tentacruel",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 3",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 6",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Basculin",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Araquanid",
+        "locationData": [
+            {
+                "location": "Route 3",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Mantyke",
+        "locationData": [
+            {
+                "location": "Route 6",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Marill",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Surskit",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Masquerain",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Azumarill",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Arrokuda",
+        "locationData": [
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Palpitoad",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Lombre",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Cramorant",
+        "locationData": [
+            {
+                "location": "Route 10",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Alomomola",
+        "locationData": [
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Slowpoke-galar",
+        "locationData": [
+            {
+                "location": "Route 13",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            },
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Mantine",
+        "locationData": [
+            {
+                "location": "Route 14",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Pyukumuku",
+        "locationData": [
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Psyduck",
+        "locationData": [
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Golduck",
+        "locationData": [
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Finneon",
+        "locationData": [
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Lumineon",
+        "locationData": [
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Poliwhirl",
+        "locationData": [
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Slowpoke",
+        "locationData": [
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Poliwag",
+        "locationData": [
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Politoed",
+        "locationData": [
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Stunfisk",
+        "locationData": [
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Gastrodon",
+        "locationData": [
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Sliggoo",
+        "locationData": [
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Dewgong",
+        "locationData": [
+            {
+                "location": "Icy Hole",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Sealeo",
+        "locationData": [
+            {
+                "location": "Icy Hole",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Lapras",
+        "locationData": [
+            {
+                "location": "Icy Hole",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Seel",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Spheal",
+        "locationData": [
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Slugma",
+        "locationData": [
+            {
+                "location": "Cinder Volcano ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Magcargo",
+        "locationData": [
+            {
+                "location": "Cinder Volcano ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Woobat",
+        "locationData": [
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Chinchou",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Tynamo",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Lanturn",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Eelektrik",
+        "locationData": [
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Grimer",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Golbat",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Muk",
+        "locationData": [
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Seadra",
+        "locationData": [
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Quagsire",
+        "locationData": [
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Dragonair",
+        "locationData": [
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Frillish",
+        "locationData": [
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Jellicent",
+        "locationData": [
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Enamorus",
+        "locationData": [
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Drizzile",
+        "locationData": [
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "Ditto",
+        "locationData": [
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "Dracovish",
+        "locationData": [
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Surfing",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 1
+            }
+        ]
+    },
+    {
+        "pokemon": "super rod",
+        "locationData": [
+            {
+                "location": "Route 2",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 3",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 4",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 5",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 6",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 7",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 9 + Autl Woods",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 10",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 11",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 12",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 13",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14 - Small Island",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14 - West",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 14 - East",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 15",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 16",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 17",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Route 18",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dresco Town",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Fallshore City",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Tehl Town",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Epidimy Town",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Tarmigan Town",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Dehara City",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Gurun Town",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Town",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis City",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Seaport City",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icy Hole",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Icicle Cave",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Grim Woods",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Valley Cave",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Frost Mountain ",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Auburn Waterway",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Thundercap Mt.",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Woods",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Vivill Warehouse",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Crystal Peak",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Magnolia Fields ",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Redwood Forest",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cube Corp.",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - (1F - B1F - 2F)",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - Maze Area",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Victory Road - Kyurem's Cave",
+                "encounterMethod": "Super Rod",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "old rod",
+        "locationData": [
+            {
+                "location": "Polder Town",
+                "encounterMethod": "Unknown",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Antisis Sewers",
+                "encounterMethod": "Unknown",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            },
+            {
+                "location": "Cootes Bog",
+                "encounterMethod": "Unknown",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
+    },
+    {
+        "pokemon": "gyarados ",
+        "locationData": [
+            {
+                "location": "Ruins of Void ",
+                "encounterMethod": "Super Rod",
                 "timeOfDay": "All Day",
                 "isSpecialEncounter": 0
             }
