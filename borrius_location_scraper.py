@@ -6,8 +6,6 @@ from pokemonNameGetter import getMissingPokemonData, getMissingPokemonList
 
 wb = openpyxl.load_workbook("./scraperData/borrius_location_data.xlsx", data_only=True)
 
-locationDataList = []
-
 
 def correctPokemonName(pokemon):
     """
@@ -66,7 +64,7 @@ def correctPokemonName(pokemon):
     return pokemon
 
 
-async def getGrassCaveLocations():
+async def getGrassCaveLocations(locationDataList):
     """
     Grabs all the Pokemon and their locations from the Grass & Cave Encounters sheet of the spreadsheet.
     Applies the headers as locationData.location and the values as "pokemon" to each locationData object in the locationDataList.
@@ -148,7 +146,7 @@ async def getGrassCaveLocations():
 
 
 # Fish Locations also includes rocksmash
-async def getFishingLocations():
+async def getFishingLocations(locationDataList):
     """
     Retrieves all the fishing and rock smash locations from the spreadsheet.
 
@@ -258,7 +256,7 @@ async def getFishingLocations():
 
 
 # SURF LOCATIONS
-async def getSurfLocations():
+async def getSurfLocations(locationDataList):
     """
     Retrieves all the surfing locations from the spreadsheet.
 
@@ -317,7 +315,7 @@ async def getSurfLocations():
         )
 
 
-def fillInEvolutionGaps():
+def fillInEvolutionGaps(locationDataList):
     """
     Fills in any missing evolution data by grabbing the locations from pokelocation.json and applying them to the pokemon's locationData if it exists and is currently empty.
 
@@ -356,7 +354,8 @@ def fillInEvolutionGaps():
         )
 
 
-async def getBorriusPokemonNames():
+# Gets all 901 pokemon (special encounters and main borrius)
+async def getFullBorriusPokemonNames(locationDataList):
     with open("scraperData/borrius_pokedex_data.json", "r") as file:
         data = json.load(file)
         missingPokemon = getMissingPokemonList()
@@ -392,13 +391,13 @@ async def printLocationJson():
 
     The function prints a success message if the json file is successfully created, and an error message if the json file generation fails.
     """
-
+    locationDataList = []
     try:
-        await getBorriusPokemonNames()
-        await getGrassCaveLocations()
-        await getSurfLocations()
-        await getFishingLocations()
-        fillInEvolutionGaps()
+        await getFullBorriusPokemonNames(locationDataList)
+        await getGrassCaveLocations(locationDataList)
+        await getSurfLocations(locationDataList)
+        await getFishingLocations(locationDataList)
+        fillInEvolutionGaps(locationDataList)
 
         fileName = "scraperData/locationData.json"
         with open(fileName, "w") as fp:
