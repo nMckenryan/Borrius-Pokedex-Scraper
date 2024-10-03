@@ -52,6 +52,8 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Make this available publically/for other projects
 - [] Collate Alolan Forms
 - [] Get this data, and add to dex
+- [/] Handle movelists so they're not collosal lists for each pokemon
+- [] Rewrite docs
 
 ### FUTURE FEATURES:
 
@@ -66,5 +68,4 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 
 - [/] Patch in missing data from PokeAPI
   - [x] Line up data for use with Curadex project
-  - [] Add official portraits from PokeApi
-  - [] Handle movelists so they're not collosal lists for each pokemon
+  - [x] Add official portraits from PokeApi

@@ -1,14 +1,37 @@
+"""
+This script is used to scrape the Borrius Pokedex from the Pokemon Unbound website
+and generate a JSON file containing the data for all the Pokemon in the Borrius
+Dex.
+
+The script works by first reading in the location data from a JSON file, then
+scraping the data from the Pokemon Unbound website for the Borrius Pokedex, and
+finally combining the two datasets and writing the combined data to a new JSON
+file.
+
+The script can be run from the command line with the following command:
+
+    python borrius_pokemon_scraper.py
+
+This will generate a JSON file called 'borrius_pokedex_data.json' in the
+'scraperData' directory which contains the data for all the Pokemon in the
+Borrius Dex.
+"""
+
 import ast
 import datetime
 import time
-import requests
 import json
 from bs4 import BeautifulSoup
 import re
 import aiohttp
 import asyncio
 
+from termcolor import colored
+from borrius_location_scraper import correctPokemonName
+
 currentTime = datetime.datetime.now()
+
+locationList = []
 
 pokemonJson = [
     {
@@ -21,12 +44,16 @@ pokemonJson = [
 ]
 
 
-async def getLocations(pokemonName):
+async def readLocationDataJson():
     with open("scraperData/locationData.json") as f:
         data = json.load(f)
-        for pokemon in data:
-            if pokemonName in pokemon["pokemon"]:
-                return pokemon["locationData"]
+        locationList.extend(data)
+
+
+def getPokemonLocations(pokemonName):
+    for pokemon in locationList:
+        if pokemonName.lower() in pokemon["pokemon"].lower():
+            return pokemon["locationData"]
     return []
 
 
@@ -146,6 +173,22 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                             }
                         )
 
+                # COMBINE TMHM AND MOVES TABLES
+                combined_moves = moves + tmhm_moves
+                for combined_move in combined_moves:
+                    for tmhm_move in tmhm_moves:
+                        if (
+                            combined_move["move"]["name"] == tmhm_move["move"]["name"]
+                            and combined_move["version_group_details"][0][
+                                "move_learn_method"
+                            ]["name"]
+                            != "machine"
+                        ):
+                            combined_move["version_group_details"][0][
+                                "move_learn_method"
+                            ]["name"] = "level-up/tm"
+                            break
+
                 # GENDER RATES
                 gender_data = re.findall(
                     r"\d+",
@@ -238,7 +281,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     .replace("Name: ", ""),
                 )
 
-                locations = await getLocations(pokemonName)
+                pokemonLocations = getPokemonLocations(pokemonName)
 
                 # APPLY DATA TO JSON
                 pokemon_data = {
@@ -259,7 +302,8 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     "height": heightInDecimetres,
                     "weight": weightInHectograms,
                     "id": officialDexNumber,
-                    "name": pokemonName,
+                    "name": correctPokemonName(pokemonName),
+                    "locations": pokemonLocations,
                     "capture_rate": {
                         "value": float(
                             top_card.find_all("p", class_="text-3xl font-bold")[1]
@@ -273,7 +317,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         .text.strip()
                         .split(" ")[0],
                     },
-                    "moves": moves + tmhm_moves,
+                    "moves": combined_moves,
                     "sprites": {
                         "front_default": sprite_link,
                         "other": {"home": {"front_default": official_sprite_link}},
@@ -289,14 +333,13 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                         "maleChance": gender_data[0],
                         "femaleChance": gender_data[1],
                     },
-                    "locations": locations,
+                    "locations": pokemonLocations,
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
 
 
 borrius_numbers = range(1, 495)
-starter_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]
 
 
 national_page = "https://www.pokemonunboundpokedex.com/national/"
@@ -304,8 +347,28 @@ borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
 
 async def compile_pokedex():
+    await readLocationDataJson()
     start = time.time()
-    print("\n\n---- BORRIUS POKEDEX SCRAPER --------")
+
+    borrius_numbers = range(1, 495)
+
+    starter_numbers = [
+        246,
+        247,
+        248,
+        374,
+        375,
+        376,
+        443,
+        444,
+        445,
+    ]
+    # + list(set(special_encounter_numbers))
+
+    print("\n\n")
+    print(
+        colored("---- BORRIUS POKEDEX SCRAPER ----", "black", "on_yellow"),
+    )
     print(
         f"Started creating Borrius Pokedex Json file at {currentTime}\n Creating Json file..."
     )
@@ -313,13 +376,17 @@ async def compile_pokedex():
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
         await createPokemonJson(national_page, starter_numbers, 1)
         await createPokemonJson(borrius_page, borrius_numbers, 10)
+
         end = time.time()
         length = end - start
         print(
-            f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes"
+            colored(
+                f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes)",
+                "green",
+            ),
         )
     except Exception as e:
-        print(f"Failed to retrieve data from Pokemon Unbound Site: {e}")
+        print(colored(f"Failed to retrieve data from Pokemon Unbound Site: {e}", "red"))
 
 
 async def output_pokedex_json():
@@ -331,9 +398,20 @@ async def output_pokedex_json():
         fileName = "scraperData/borrius_pokedex_data.json"
         with open(fileName, "w") as fp:
             json.dump(pokemonJson, fp, indent=4)
-        print(f"{fileName} successfully created")
+
+        print(
+            colored(
+                f"{fileName} successfully created",
+                "green",
+            ),
+        )
     except Exception as e:
-        print(f"Json Generation Failed : {e}")
+        print(
+            colored(
+                f"Json Generation Failed : {e}",
+                "red",
+            ),
+        )
 
 
 async def getPokeApiData(pokemonNumber):
@@ -354,4 +432,9 @@ async def getPokeApiData(pokemonNumber):
 
             return pokeapiData
         except Exception as e:
-            print(f"Failed to retrieve data from PokeAPI: {e}")
+            print(
+                colored(
+                    f"Failed to retrieve data from PokeAPI: {e}",
+                    "red",
+                ),
+            )
