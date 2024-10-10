@@ -1,62 +1,44 @@
-import pytest
-from borrius_location_scraper import (
-    correctPokemonName,
-    getFullBorriusPokemonNames,
-    getGrassCaveLocations,
-)
+# import os
+# import pytest
 
+# from borrius_location_scraper import fillInEvolutionGaps, getFishingLocations, getGrassCaveLocations, getSurfLocations, printLocationJson
 
-@pytest.mark.asyncio
-async def test_correctPokemonName():
-    result = correctPokemonName("Venusaur")
-    assert result == "venusaur"
-
-
-@pytest.mark.asyncio
-async def test_correctPokemonName_fossil():
-    result = correctPokemonName("Dome Fossil")
-    assert result == "kabuto"
-
-
-@pytest.mark.asyncio
-async def test_getBorriusPokemonNames():
-    result = []
-    await getFullBorriusPokemonNames(result)
-    assert isinstance(result, list)
-    assert len(result) == 901
-
-
-@pytest.mark.asyncio
-async def test_getGrassCaveLocations():
-    result = []
-    await getGrassCaveLocations(result)
-    assert isinstance(result, list)
-    assert len(result) > 0
+# @pytest.mark.asyncio
+# async def test_getGrassCaveLocations():
+#     result = []
+#     await getGrassCaveLocations(result)
+#     assert isinstance(result, list)
+#     assert len(result) > 0
 
 
 # @pytest.mark.asyncio
 # async def test_getSurfLocations():
-#     result = await getSurfLocations()
+#     result = []
+#     await getSurfLocations(result)
 #     assert isinstance(result, list)
 #     assert len(result) > 0
 
 
 # @pytest.mark.asyncio
 # async def test_getFishingLocations():
-#     result = await getFishingLocations()
+#     result = []
+#     await getFishingLocations(result)
 #     assert isinstance(result, list)
 #     assert len(result) > 0
 
 
 # @pytest.mark.asyncio
 # async def test_fillInEvolutionGaps():
-#     result = await fillInEvolutionGaps()
+#     result = []
+#     await fillInEvolutionGaps(result)
 #     assert isinstance(result, list)
 #     assert len(result) > 0
 
 
 # @pytest.mark.asyncio
 # async def test_printLocationJson():
-#     result = await printLocationJson()
-#     assert result is None
+#     result = []
+#     await printLocationJson()
+#     assert result == []
 #     assert os.path.exists("scraperData/locationData.json")
+

@@ -27,44 +27,13 @@ import aiohttp
 import asyncio
 
 from termcolor import colored
-from borrius_location_scraper import correctPokemonName
 
-currentTime = datetime.datetime.now()
+from helpers import correct_pokemon_name, fetch_page, get_evolution_data_from_pokeapi, get_pokemon_locations, read_location_data_json,\
+    borrius_pokedex_indexes
 
-locationList = []
-
-pokemonJson = [
-    {
-        "info": {
-            "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
-            "dataPulledOn": str(currentTime),
-        },
-        "pokemon": [],
-    }
-]
-
-
-async def readLocationDataJson():
-    with open("scraperData/locationData.json") as f:
-        data = json.load(f)
-        locationList.extend(data)
-
-
-def getPokemonLocations(pokemonName):
-    for pokemon in locationList:
-        if pokemonName.lower() in pokemon["pokemon"].lower():
-            return pokemon["locationData"]
-    return []
-
-
-# Loop through all 494 in the borrius dex
-async def fetch_page(session, link):
-    async with session.get(link) as page:
-        if page.status == 200:
-            return await page.text()
-
-
-async def createPokemonJson(dex_page, numbers, indexCount):
+async def createPokemonJson(dex_page, numbers, indexCount, pokemonJson):
+    
+    borrius_pokemon_names = []
     async with aiohttp.ClientSession() as session:
         tasks = []
         for i in numbers:
@@ -95,7 +64,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                 officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
 
                 try:
-                    getEvoDetails = await getPokeApiData(officialDexNumber)
+                    getEvoDetails = await get_evolution_data_from_pokeapi(officialDexNumber)
                     evoDetails = getEvoDetails.get("evolution_details", {}).get(
                         "chain", None
                     )
@@ -275,14 +244,19 @@ async def createPokemonJson(dex_page, numbers, indexCount):
 
                 typeArray = ast.literal_eval(tA)
 
-                pokemonName = str(
+                retrievedName = str(
                     top_card.find("h3", class_="card-title text-4xl")
                     .text.strip()
                     .replace("Name: ", ""),
                 )
-
-                pokemonLocations = getPokemonLocations(pokemonName)
-
+                
+                pokemonName = correct_pokemon_name(retrievedName)
+                
+                borrius_pokemon_names.append(pokemonName)
+                
+                pokemonLocations = get_pokemon_locations(pokemonName)
+                
+            
                 # APPLY DATA TO JSON
                 pokemon_data = {
                     "abilities": abilities,
@@ -302,7 +276,7 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                     "height": heightInDecimetres,
                     "weight": weightInHectograms,
                     "id": officialDexNumber,
-                    "name": correctPokemonName(pokemonName),
+                    "name": pokemonName,
                     "locations": pokemonLocations,
                     "capture_rate": {
                         "value": float(
@@ -337,44 +311,28 @@ async def createPokemonJson(dex_page, numbers, indexCount):
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
-
-
-borrius_numbers = range(1, 495)
-
-
-national_page = "https://www.pokemonunboundpokedex.com/national/"
-borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
-
-
+# reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
-    await readLocationDataJson()
-    start = time.time()
+    # await read_location_data_json()
+    
+    national_page = "https://www.pokemonunboundpokedex.com/national/"
+    borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
-    borrius_numbers = range(1, 495)
-
-    starter_numbers = [
-        246,
-        247,
-        248,
-        374,
-        375,
-        376,
-        443,
-        444,
-        445,
-    ]
-    # + list(set(special_encounter_numbers))
-
+    borrius_numbers = borrius_pokedex_indexes.get("borrius_numbers")
+    national_numbers = borrius_pokedex_indexes.get("national_numbers")
+    
+    
     print("\n\n")
     print(
         colored("---- BORRIUS POKEDEX SCRAPER ----", "black", "on_yellow"),
     )
+    start = time.time()
     print(
-        f"Started creating Borrius Pokedex Json file at {currentTime}\n Creating Json file..."
+        f"Started creating Borrius Pokedex Json file at {datetime.datetime.now()}\n Creating Json file..."
     )
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        await createPokemonJson(national_page, starter_numbers, 1)
+        await createPokemonJson(national_page, national_numbers, 1)
         await createPokemonJson(borrius_page, borrius_numbers, 10)
 
         end = time.time()
@@ -390,7 +348,23 @@ async def compile_pokedex():
 
 
 async def output_pokedex_json():
-    await compile_pokedex()
+    
+    currentTime = datetime.datetime.now()
+
+    locationList = []
+
+
+    pokemonJson = [
+    {
+        "info": {
+            "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
+            "dataPulledOn": str(currentTime),
+        },
+        "pokemon": [],
+    }
+    ]
+
+    await compile_pokedex(pokemonJson)
 
     printTime = datetime.datetime.now()
     print(f"Printing JSON to file process started at {printTime}")
@@ -412,29 +386,3 @@ async def output_pokedex_json():
                 "red",
             ),
         )
-
-
-async def getPokeApiData(pokemonNumber):
-    async with aiohttp.ClientSession() as session:
-        try:
-            pokeapi_species = await session.get(
-                f"https://pokeapi.co/api/v2/pokemon-species/{pokemonNumber}"
-            )
-
-            speciesData = await pokeapi_species.json()
-
-            evoChainUrl = speciesData["evolution_chain"]["url"]
-
-            pokeapi_evochain = await session.get(evoChainUrl)
-            evoData = await pokeapi_evochain.json()
-
-            pokeapiData = {"evolution_details": evoData}
-
-            return pokeapiData
-        except Exception as e:
-            print(
-                colored(
-                    f"Failed to retrieve data from PokeAPI: {e}",
-                    "red",
-                ),
-            )
