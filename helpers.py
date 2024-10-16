@@ -135,7 +135,7 @@ def correct_pokemon_name(pokemon):
 async def initialise_pokemon_location_template(location_data_list):
     with open("scraperData/borrius_pokedex_data.json", "r") as file:
         data = json.load(file)
-        missing_pokemon = get_special_encounter_pokemon()
+        # missing_pokemon = get_special_encounter_pokemon()
 
         for pokemon in data[0]["pokemon"]:
             location_data_list.append(
@@ -145,13 +145,13 @@ async def initialise_pokemon_location_template(location_data_list):
                 }
             )
 
-        for mp in missing_pokemon:
-            location_data_list.append(
-                {
-                    "pokemon": mp.lower(),
-                    "locationData": [],
-                }
-            )
+        # for mp in missing_pokemon:
+        #     location_data_list.append(
+        #         {
+        #             "pokemon": mp.lower(),
+        #             "locationData": [],
+        #         }
+        #     )
 
 # checks current borrius pokedex data and compares it to the pokemon in the location data, any pokemon that are in the location data but not the borrius pokedex data are special encounters. 
 # returns an array of pokemon that are special encoutners.

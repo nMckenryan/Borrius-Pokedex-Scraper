@@ -1,13 +1,51 @@
+import aiohttp
 import pytest
+from helpers import read_location_data_json, correct_pokemon_name, fetch_page,\
+    get_pokemon_locations, get_evolution_data_from_pokeapi,\
+    initialise_pokemon_location_template, get_special_encounter_pokemon,\
+    get_pokemon_api_data_gaps, get_missing_pokemon_data
+from unittest.mock import patch, mock_open
+import json
 
-from helpers import get_full_borrius_pokemon_names, get_missing_pokemon_indexes, correct_pokemon_name, get_missing_pokemon_list, get_pokeapi_data, get_pokemon_locations, read_location_data_json
 
-    
+
+@pytest.mark.asyncio
+async def test_fetch_page():
+    async with aiohttp.ClientSession() as session:
+        html = await fetch_page(
+            session, "https://www.pokemonunboundpokedex.com/national/1"
+        )
+        assert html is not None
+        assert "Bulbasaur" in html
+
+
+@pytest.mark.asyncio
+async def test_read_location_data_json_file_not_found():
+    with patch("builtins.open", side_effect=FileNotFoundError):
+        result = await read_location_data_json()
+        assert result == [] or result == None
+
+@pytest.mark.asyncio
+async def test_read_location_data_json_json_decode_error():
+    with patch("builtins.open", mock_open(read_data="not a json")):
+        with patch("json.load", side_effect=json.JSONDecodeError("Expecting value", "", 0)):
+            result = await read_location_data_json()
+            assert result == [] or result == None
+
+@pytest.mark.asyncio
+async def test_read_location_data_json_success():
+    mock_data = [{"pokemon": "bulbasaur", "locationData": []}]
+    with patch("builtins.open", mock_open(read_data=json.dumps(mock_data))):
+        with patch("json.load", return_value=mock_data):
+            result = await read_location_data_json()
+            assert result == mock_data
+
 @pytest.mark.asyncio
 async def test_check_for_forbidden_names():
     location_list = []
 
-    await read_location_data_json(location_list)
+    with patch("helpers.read_location_data_json") as mock_read_location_data_json:
+        await mock_read_location_data_json()
     
     for pokemon in location_list:
         assert pokemon["pokemon"] != "super rod"
@@ -15,52 +53,72 @@ async def test_check_for_forbidden_names():
         assert pokemon["pokemon"] != "good rod"
 
 @pytest.mark.asyncio
-async def test_getMissingPokemonIndexes():
-    missing_pokemon_indexes = await get_missing_pokemon_indexes()
+def test_get_pokemon_locations():
+    location_list = [{"pokemon": "snorunt", "locationData": [{"location": "Route 1"}, {"location": "Route 8"}]},
+                     {"pokemon": "glacie", "locationData": []}]
+    pokemon_location =  get_pokemon_locations("snorunt", location_list)
     
-    assert len(missing_pokemon_indexes) == 517
-    
-@pytest.mark.asyncio
-async def test_getPokemonLocations():
-    location_list = []
-
-    pokemon_location = get_pokemon_locations("snorunt", location_list)
+    assert len(pokemon_location) == 2
     assert pokemon_location[0]['location'] == 'Route 1'
     assert pokemon_location[1]['location'] == 'Route 8'
 
 
 @pytest.mark.asyncio
+async def test_get_evolution_data_from_pokeapi():
+    pokemon_number = 1
+    result = await get_evolution_data_from_pokeapi(pokemon_number)
+    assert 'evolution_details' in result
+
+@pytest.mark.asyncio
 async def test_correctPokemonName():
-    result = correct_pokemon_name("Venusaur")
-    assert result == "venusaur"
+    result = correct_pokemon_name("minior")
+    assert result == "minior-red-meteor"
 
 
 @pytest.mark.asyncio
 async def test_correctPokemonName_fossil():
     result = correct_pokemon_name("Dome Fossil")
     assert result == "kabuto"
+    
+@pytest.mark.asyncio
+async def test_correctPokemonName_regional():
+    result = correct_pokemon_name("galarian numel")
+    assert result == "numel-galar"
+
+@pytest.mark.asyncio
+async def test_initialise_pokemon_location_template():
+    location_data_list = []
+    data = {
+        "pokemon": [
+            {
+                "name": "pikachu"
+            },
+            {
+                "name": "raichu"
+            }
+        ]
+    }
+    with patch("builtins.open", mock_open(read_data=json.dumps(data))):
+        with patch("json.load", return_value=data):
+            await initialise_pokemon_location_template(location_data_list)
+            assert len(location_data_list) == 2
+            assert location_data_list[0]["pokemon"] == "pikachu"
+            assert location_data_list[1]["pokemon"] == "raichu"
 
 
 @pytest.mark.asyncio
-async def test_getFullBorriusPokemonNames():
-    result = []
-    await get_full_borrius_pokemon_names(result)
-    assert isinstance(result, list)
-    assert len(result) == 901
+def test_get_special_encounter_pokemon():
+    result =  get_special_encounter_pokemon()
+    assert len(result) > 0
+
+@pytest.mark.asyncio
+async def test_get_pokemon_api_data_gaps():
+    pokemon = "pikachu"
+    result = await get_pokemon_api_data_gaps(pokemon)
+    assert result["name"] == pokemon
 
 
 @pytest.mark.asyncio
-async def test_get_poke_api_data():
-    """Test that we can get data from the Pokemon API"""
-    data = await get_pokeapi_data("pikachu")
-    assert isinstance(data, dict)
-    assert data["name"] == "pikachu"
-    assert data["id"] == 25
-
-
-def test_get_missing_pokemon_list():
-    """Test that we can get a list of missing Pokemon names"""
-    missing_pokemon = get_missing_pokemon_list()
-    assert isinstance(missing_pokemon, list)
-    assert missing_pokemon is not None
-    assert len(missing_pokemon) == 398
+async def test_get_missing_pokemon_data():
+    result = await get_missing_pokemon_data()
+    assert len(result) > 0

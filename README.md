@@ -50,10 +50,26 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Save JSON to a file
 - [x] Implement Error Messages for process
 - [x] Make this available publically/for other projects
+
 - [] Collate Alolan Forms
-- [] Get this data, and add to dex
+  - [] Get this data, and add to dex after original versions (e.g. 30.a? )
+
+- [/] Display Special Encounter Pokemon data 
+  - [ ] Collate (include in search but not basic?)
+  - [ ] Get pokemon evolutions data from pokeapi for spec. encounter
 - [/] Handle movelists so they're not collosal lists for each pokemon
-- [] Rewrite docs
+- [ ] Reconfigure for use with Yda
+
+- [ ] Make API available
+- [ ] Write endpoints for: 
+  - [ ] Locations
+  - [ ] Pokemon
+  - [ ] Moves
+  - [ ] Pokemon of certain type
+  - [ ] Pokemon of certain ability
+  
+- [ ] Finish Unit Tests
+- [] Rewrite docs to note changes of above
 
 ### FUTURE FEATURES:
 
@@ -65,7 +81,6 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Compile Docker Image
 - [x] Publish Docker Image to Dockerhub
 - [x] Publish Docker Image to Google Cloud https://borrius-pokemon-scraper-321133146790.australia-southeast1.run.app/borrius_pokemon
-
-- [/] Patch in missing data from PokeAPI
+- [x] Patch in missing data from PokeAPI
   - [x] Line up data for use with Curadex project
   - [x] Add official portraits from PokeApi
