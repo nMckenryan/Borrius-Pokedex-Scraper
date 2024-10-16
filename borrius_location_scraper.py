@@ -2,7 +2,7 @@ import json
 import openpyxl
 from termcolor import colored
 
-from helpers import correct_pokemon_name, get_full_borrius_pokemon_names
+from helpers import correct_pokemon_name
 
 wb = openpyxl.load_workbook("./scraperData/borrius_location_data.xlsx", data_only=True)
 
@@ -216,6 +216,7 @@ async def getSurfLocations(locationDataList):
                 pokemon = surfSheet.cell(row=row, column=col).value
                 if pokemon is None:
                     continue
+
                 # Special encounters are always shown at the bottom of the row.
                 if pokemon == "Special Encounter":
                     isSpecialEncounter = 1
@@ -225,6 +226,7 @@ async def getSurfLocations(locationDataList):
                 existingPokemon = next(
                     (p for p in locationDataList if p["pokemon"] == pokemon), None
                 )
+                
                 if existingPokemon is not None:
                     existingPokemon["locationData"].append(
                         {
@@ -314,7 +316,7 @@ async def printLocationJson():
     """
     locationDataList = []
     try:
-        await get_full_borrius_pokemon_names(locationDataList)
+        # await get_full_borrius_pokemon_names(locationDataList)
         await getGrassCaveLocations(locationDataList)
         await getSurfLocations(locationDataList)
         await getFishingLocations(locationDataList)
