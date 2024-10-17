@@ -1,1 +1,5 @@
 scraperData/~$borrius_location_data.xlsx
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
