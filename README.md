@@ -60,15 +60,15 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [/] Handle movelists so they're not collosal lists for each pokemon
 - [ ] Reconfigure for use with Yda
 
-- [ ] Make API available
-- [ ] Write endpoints for: 
-  - [ ] Locations
-  - [ ] Pokemon
-  - [ ] Moves
-  - [ ] Pokemon of certain type
-  - [ ] Pokemon of certain ability
-  
+- [x] Write unit tests
 - [ ] Finish Unit Tests
+
+- [x] Make API available
+- [ ] Write endpoints for: 
+  - [x] Locations
+  - [x] Pokemon
+  - [x] Pokemon of certain type
+
 - [] Rewrite docs to note changes of above
 
 ### FUTURE FEATURES:
