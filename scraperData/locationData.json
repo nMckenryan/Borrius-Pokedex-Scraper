@@ -9212,46 +9212,6 @@
         ]
     },
     {
-        "pokemon": "tentacool",
-        "locationData": []
-    },
-    {
-        "pokemon": "pelipper",
-        "locationData": []
-    },
-    {
-        "pokemon": "tentacruel",
-        "locationData": []
-    },
-    {
-        "pokemon": "basculin",
-        "locationData": []
-    },
-    {
-        "pokemon": "araquanid",
-        "locationData": []
-    },
-    {
-        "pokemon": "mantyke",
-        "locationData": []
-    },
-    {
-        "pokemon": "marill",
-        "locationData": []
-    },
-    {
-        "pokemon": "surskit",
-        "locationData": []
-    },
-    {
-        "pokemon": "masquerain",
-        "locationData": []
-    },
-    {
-        "pokemon": "azumarill",
-        "locationData": []
-    },
-    {
         "pokemon": "arrokuda",
         "locationData": [
             {
@@ -9261,14 +9221,6 @@
                 "isSpecialEncounter": 0
             }
         ]
-    },
-    {
-        "pokemon": "palpitoad",
-        "locationData": []
-    },
-    {
-        "pokemon": "lombre",
-        "locationData": []
     },
     {
         "pokemon": "cramorant",
@@ -9282,10 +9234,6 @@
         ]
     },
     {
-        "pokemon": "alomomola",
-        "locationData": []
-    },
-    {
         "pokemon": "slowpoke-galar",
         "locationData": [
             {
@@ -9295,126 +9243,6 @@
                 "isSpecialEncounter": 0
             }
         ]
-    },
-    {
-        "pokemon": "mantine",
-        "locationData": []
-    },
-    {
-        "pokemon": "pyukumuku",
-        "locationData": []
-    },
-    {
-        "pokemon": "psyduck",
-        "locationData": []
-    },
-    {
-        "pokemon": "golduck",
-        "locationData": []
-    },
-    {
-        "pokemon": "finneon",
-        "locationData": []
-    },
-    {
-        "pokemon": "lumineon",
-        "locationData": []
-    },
-    {
-        "pokemon": "poliwhirl",
-        "locationData": []
-    },
-    {
-        "pokemon": "slowpoke",
-        "locationData": []
-    },
-    {
-        "pokemon": "poliwag",
-        "locationData": []
-    },
-    {
-        "pokemon": "politoed",
-        "locationData": []
-    },
-    {
-        "pokemon": "stunfisk",
-        "locationData": []
-    },
-    {
-        "pokemon": "gastrodon",
-        "locationData": []
-    },
-    {
-        "pokemon": "sliggoo",
-        "locationData": []
-    },
-    {
-        "pokemon": "dewgong",
-        "locationData": []
-    },
-    {
-        "pokemon": "sealeo",
-        "locationData": []
-    },
-    {
-        "pokemon": "lapras",
-        "locationData": []
-    },
-    {
-        "pokemon": "seel",
-        "locationData": []
-    },
-    {
-        "pokemon": "spheal",
-        "locationData": []
-    },
-    {
-        "pokemon": "slugma",
-        "locationData": []
-    },
-    {
-        "pokemon": "magcargo",
-        "locationData": []
-    },
-    {
-        "pokemon": "woobat",
-        "locationData": []
-    },
-    {
-        "pokemon": "chinchou",
-        "locationData": []
-    },
-    {
-        "pokemon": "tynamo",
-        "locationData": []
-    },
-    {
-        "pokemon": "lanturn",
-        "locationData": []
-    },
-    {
-        "pokemon": "eelektrik",
-        "locationData": []
-    },
-    {
-        "pokemon": "grimer",
-        "locationData": []
-    },
-    {
-        "pokemon": "golbat",
-        "locationData": []
-    },
-    {
-        "pokemon": "muk",
-        "locationData": []
-    },
-    {
-        "pokemon": "seadra",
-        "locationData": []
-    },
-    {
-        "pokemon": "quagsire",
-        "locationData": []
     },
     {
         "pokemon": "dragonair",
@@ -9450,8 +9278,15 @@
         ]
     },
     {
-        "pokemon": "enamorus",
-        "locationData": []
+        "pokemon": "enamorus-incarnate",
+        "locationData": [
+            {
+                "location": "Magnolia Fields - Landorus must be in your party (Special Dexnav encounter)\nTrade from supported CFRU Rom Hacks by using Unbound Cloud\nTherian Forme: Use the Reveal Glass",
+                "encounterMethod": "Evolution",
+                "timeOfDay": "All Day",
+                "isSpecialEncounter": 0
+            }
+        ]
     },
     {
         "pokemon": "drizzile",
@@ -9712,10 +9547,6 @@
         ]
     },
     {
-        "pokemon": "gyarados",
-        "locationData": []
-    },
-    {
         "pokemon": "relicanth",
         "locationData": [
             {
@@ -9841,6 +9672,1490 @@
                 "isSpecialEncounter": 0
             }
         ]
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "clobbopus",
+        "locationData": []
+    },
+    {
+        "pokemon": "skwovet",
+        "locationData": []
+    },
+    {
+        "pokemon": "chewtle",
+        "locationData": []
+    },
+    {
+        "pokemon": "sizzlipede",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "yamper",
+        "locationData": []
+    },
+    {
+        "pokemon": "nickit",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "rattata-alola",
+        "locationData": []
+    },
+    {
+        "pokemon": "raticate-alola",
+        "locationData": []
+    },
+    {
+        "pokemon": "indeedee-male",
+        "locationData": []
+    },
+    {
+        "pokemon": "indeedee-female",
+        "locationData": []
+    },
+    {
+        "pokemon": "mr-mime-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "mr-rime",
+        "locationData": []
+    },
+    {
+        "pokemon": "audino",
+        "locationData": []
+    },
+    {
+        "pokemon": "toxel",
+        "locationData": []
+    },
+    {
+        "pokemon": "linoone-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "obstagoon",
+        "locationData": []
+    },
+    {
+        "pokemon": "milcery",
+        "locationData": []
+    },
+    {
+        "pokemon": "ponyta-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "applin",
+        "locationData": []
+    },
+    {
+        "pokemon": "eldegoss",
+        "locationData": []
+    },
+    {
+        "pokemon": "copperajah",
+        "locationData": []
+    },
+    {
+        "pokemon": "falinks",
+        "locationData": []
+    },
+    {
+        "pokemon": "farfetchd-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "sirfetchd",
+        "locationData": []
+    },
+    {
+        "pokemon": "skuntank",
+        "locationData": []
+    },
+    {
+        "pokemon": "persian",
+        "locationData": []
+    },
+    {
+        "pokemon": "bouffalant",
+        "locationData": []
+    },
+    {
+        "pokemon": "sudowoodo",
+        "locationData": []
+    },
+    {
+        "pokemon": "bayleef",
+        "locationData": []
+    },
+    {
+        "pokemon": "stonjourner",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "regieleki",
+        "locationData": []
+    },
+    {
+        "pokemon": "regidrago",
+        "locationData": []
+    },
+    {
+        "pokemon": "sandshrew-alola",
+        "locationData": []
+    },
+    {
+        "pokemon": "blipbug",
+        "locationData": []
+    },
+    {
+        "pokemon": "rolycoly",
+        "locationData": []
+    },
+    {
+        "pokemon": "carkol",
+        "locationData": []
+    },
+    {
+        "pokemon": "meowth-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "perrserker",
+        "locationData": []
+    },
+    {
+        "pokemon": "snom",
+        "locationData": []
+    },
+    {
+        "pokemon": "diglett",
+        "locationData": []
+    },
+    {
+        "pokemon": "dugtrio",
+        "locationData": []
+    },
+    {
+        "pokemon": "pincurchin",
+        "locationData": []
+    },
+    {
+        "pokemon": "geodude-alola",
+        "locationData": []
+    },
+    {
+        "pokemon": "graveler-alola",
+        "locationData": []
+    },
+    {
+        "pokemon": "yamask-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "runerigus",
+        "locationData": []
+    },
+    {
+        "pokemon": "sinistea",
+        "locationData": []
+    },
+    {
+        "pokemon": "silicobra",
+        "locationData": []
+    },
+    {
+        "pokemon": "whirlipede",
+        "locationData": []
+    },
+    {
+        "pokemon": "weezing-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "unown",
+        "locationData": []
+    },
+    {
+        "pokemon": "swadloon",
+        "locationData": []
+    },
+    {
+        "pokemon": "hattrem",
+        "locationData": []
+    },
+    {
+        "pokemon": "morgrem",
+        "locationData": []
+    },
+    {
+        "pokemon": "carnivine",
+        "locationData": []
+    },
+    {
+        "pokemon": "toxicroak",
+        "locationData": []
+    },
+    {
+        "pokemon": "croconaw",
+        "locationData": []
+    },
+    {
+        "pokemon": "stunfisk-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "skitty",
+        "locationData": []
+    },
+    {
+        "pokemon": "rhyhorn",
+        "locationData": []
+    },
+    {
+        "pokemon": "natu",
+        "locationData": []
+    },
+    {
+        "pokemon": "meowth-alola",
+        "locationData": []
+    },
+    {
+        "pokemon": "plusle",
+        "locationData": []
+    },
+    {
+        "pokemon": "minun",
+        "locationData": []
+    },
+    {
+        "pokemon": "bounsweet",
+        "locationData": []
+    },
+    {
+        "pokemon": "blitzle",
+        "locationData": []
+    },
+    {
+        "pokemon": "helioptile",
+        "locationData": []
+    },
+    {
+        "pokemon": "treecko",
+        "locationData": []
+    },
+    {
+        "pokemon": "torchic",
+        "locationData": []
+    },
+    {
+        "pokemon": "mudkip",
+        "locationData": []
+    },
+    {
+        "pokemon": "steenee",
+        "locationData": []
+    },
+    {
+        "pokemon": "zebstrika",
+        "locationData": []
+    },
+    {
+        "pokemon": "xatu",
+        "locationData": []
+    },
+    {
+        "pokemon": "diglett-alola",
+        "locationData": []
+    },
+    {
+        "pokemon": "spinda",
+        "locationData": []
+    },
+    {
+        "pokemon": "wobbuffet",
+        "locationData": []
+    },
+    {
+        "pokemon": "tauros",
+        "locationData": []
+    },
+    {
+        "pokemon": "kangaskhan",
+        "locationData": []
+    },
+    {
+        "pokemon": "rhydon",
+        "locationData": []
+    },
+    {
+        "pokemon": "golisopod",
+        "locationData": []
+    },
+    {
+        "pokemon": "grovyle",
+        "locationData": []
+    },
+    {
+        "pokemon": "combusken",
+        "locationData": []
+    },
+    {
+        "pokemon": "marshtomp",
+        "locationData": []
+    },
+    {
+        "pokemon": "doublade",
+        "locationData": []
+    },
+    {
+        "pokemon": "heliolisk",
+        "locationData": []
+    },
+    {
+        "pokemon": "dugtrio-alola",
+        "locationData": []
+    },
+    {
+        "pokemon": "loudred",
+        "locationData": []
+    },
+    {
+        "pokemon": "zweilous",
+        "locationData": []
+    },
+    {
+        "pokemon": "skarmory",
+        "locationData": []
+    },
+    {
+        "pokemon": "duraludon",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracozolt",
+        "locationData": []
+    },
+    {
+        "pokemon": "arctozolt",
+        "locationData": []
+    },
+    {
+        "pokemon": "drifblim",
+        "locationData": []
+    },
+    {
+        "pokemon": "rufflet",
+        "locationData": []
+    },
+    {
+        "pokemon": "vullaby",
+        "locationData": []
+    },
+    {
+        "pokemon": "absol",
+        "locationData": []
+    },
+    {
+        "pokemon": "tranquill",
+        "locationData": []
+    },
+    {
+        "pokemon": "furfrou",
+        "locationData": []
+    },
+    {
+        "pokemon": "mudsdale",
+        "locationData": []
+    },
+    {
+        "pokemon": "gogoat",
+        "locationData": []
+    },
+    {
+        "pokemon": "miltank",
+        "locationData": []
+    },
+    {
+        "pokemon": "quilava",
+        "locationData": []
+    },
+    {
+        "pokemon": "dubwool",
+        "locationData": []
+    },
+    {
+        "pokemon": "vigoroth",
+        "locationData": []
+    },
+    {
+        "pokemon": "ursaring",
+        "locationData": []
+    },
+    {
+        "pokemon": "heracross",
+        "locationData": []
+    },
+    {
+        "pokemon": "komala",
+        "locationData": []
+    },
+    {
+        "pokemon": "passimian",
+        "locationData": []
+    },
+    {
+        "pokemon": "oranguru",
+        "locationData": []
+    },
+    {
+        "pokemon": "raboot",
+        "locationData": []
+    },
+    {
+        "pokemon": "thwackey",
+        "locationData": []
+    },
+    {
+        "pokemon": "aipom",
+        "locationData": []
+    },
+    {
+        "pokemon": "pineco",
+        "locationData": []
+    },
+    {
+        "pokemon": "scyther",
+        "locationData": []
+    },
+    {
+        "pokemon": "pinsir",
+        "locationData": []
+    },
+    {
+        "pokemon": "nincada",
+        "locationData": []
+    },
+    {
+        "pokemon": "durant",
+        "locationData": []
+    },
+    {
+        "pokemon": "druddigon",
+        "locationData": []
+    },
+    {
+        "pokemon": "turtonator",
+        "locationData": []
+    },
+    {
+        "pokemon": "drampa",
+        "locationData": []
+    },
+    {
+        "pokemon": "drakloak",
+        "locationData": []
+    },
+    {
+        "pokemon": "lurantis",
+        "locationData": []
+    },
+    {
+        "pokemon": "jigglypuff",
+        "locationData": []
+    },
+    {
+        "pokemon": "corvisquire",
+        "locationData": []
+    },
+    {
+        "pokemon": "hakamo-o",
+        "locationData": []
+    },
+    {
+        "pokemon": "darmanitan-galar-standard",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "binacle",
+        "locationData": []
+    },
+    {
+        "pokemon": "bruxish",
+        "locationData": []
+    },
+    {
+        "pokemon": "corsola",
+        "locationData": []
+    },
+    {
+        "pokemon": "clamperl",
+        "locationData": []
+    },
+    {
+        "pokemon": "mareanie",
+        "locationData": []
+    },
+    {
+        "pokemon": "toxapex",
+        "locationData": []
+    },
+    {
+        "pokemon": "cursola",
+        "locationData": []
+    },
+    {
+        "pokemon": "shuckle",
+        "locationData": []
+    },
+    {
+        "pokemon": "relicanth",
+        "locationData": []
+    },
+    {
+        "pokemon": "shieldon",
+        "locationData": []
+    },
+    {
+        "pokemon": "anorith",
+        "locationData": []
+    },
+    {
+        "pokemon": "tirtouga",
+        "locationData": []
+    },
+    {
+        "pokemon": "omanyte",
+        "locationData": []
+    },
+    {
+        "pokemon": "archen",
+        "locationData": []
+    },
+    {
+        "pokemon": "lileep",
+        "locationData": []
+    },
+    {
+        "pokemon": "amaura",
+        "locationData": []
+    },
+    {
+        "pokemon": "cranidos",
+        "locationData": []
+    },
+    {
+        "pokemon": "aerodactyl",
+        "locationData": []
+    },
+    {
+        "pokemon": "qwilfish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "basculin-red-striped",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus-incarnate",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "morpeko-full-belly",
+        "locationData": []
+    },
+    {
+        "pokemon": "eiscue-ice",
+        "locationData": []
+    },
+    {
+        "pokemon": "tentacool",
+        "locationData": []
+    },
+    {
+        "pokemon": "pelipper",
+        "locationData": []
+    },
+    {
+        "pokemon": "tentacruel",
+        "locationData": []
+    },
+    {
+        "pokemon": "basculin",
+        "locationData": []
+    },
+    {
+        "pokemon": "araquanid",
+        "locationData": []
+    },
+    {
+        "pokemon": "mantyke",
+        "locationData": []
+    },
+    {
+        "pokemon": "marill",
+        "locationData": []
+    },
+    {
+        "pokemon": "surskit",
+        "locationData": []
+    },
+    {
+        "pokemon": "masquerain",
+        "locationData": []
+    },
+    {
+        "pokemon": "azumarill",
+        "locationData": []
+    },
+    {
+        "pokemon": "arrokuda",
+        "locationData": []
+    },
+    {
+        "pokemon": "palpitoad",
+        "locationData": []
+    },
+    {
+        "pokemon": "lombre",
+        "locationData": []
+    },
+    {
+        "pokemon": "cramorant",
+        "locationData": []
+    },
+    {
+        "pokemon": "alomomola",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke-galar",
+        "locationData": []
+    },
+    {
+        "pokemon": "mantine",
+        "locationData": []
+    },
+    {
+        "pokemon": "pyukumuku",
+        "locationData": []
+    },
+    {
+        "pokemon": "psyduck",
+        "locationData": []
+    },
+    {
+        "pokemon": "golduck",
+        "locationData": []
+    },
+    {
+        "pokemon": "finneon",
+        "locationData": []
+    },
+    {
+        "pokemon": "lumineon",
+        "locationData": []
+    },
+    {
+        "pokemon": "poliwhirl",
+        "locationData": []
+    },
+    {
+        "pokemon": "slowpoke",
+        "locationData": []
+    },
+    {
+        "pokemon": "poliwag",
+        "locationData": []
+    },
+    {
+        "pokemon": "politoed",
+        "locationData": []
+    },
+    {
+        "pokemon": "stunfisk",
+        "locationData": []
+    },
+    {
+        "pokemon": "gastrodon",
+        "locationData": []
+    },
+    {
+        "pokemon": "sliggoo",
+        "locationData": []
+    },
+    {
+        "pokemon": "dewgong",
+        "locationData": []
+    },
+    {
+        "pokemon": "sealeo",
+        "locationData": []
+    },
+    {
+        "pokemon": "lapras",
+        "locationData": []
+    },
+    {
+        "pokemon": "seel",
+        "locationData": []
+    },
+    {
+        "pokemon": "spheal",
+        "locationData": []
+    },
+    {
+        "pokemon": "slugma",
+        "locationData": []
+    },
+    {
+        "pokemon": "magcargo",
+        "locationData": []
+    },
+    {
+        "pokemon": "woobat",
+        "locationData": []
+    },
+    {
+        "pokemon": "chinchou",
+        "locationData": []
+    },
+    {
+        "pokemon": "tynamo",
+        "locationData": []
+    },
+    {
+        "pokemon": "lanturn",
+        "locationData": []
+    },
+    {
+        "pokemon": "eelektrik",
+        "locationData": []
+    },
+    {
+        "pokemon": "grimer",
+        "locationData": []
+    },
+    {
+        "pokemon": "golbat",
+        "locationData": []
+    },
+    {
+        "pokemon": "muk",
+        "locationData": []
+    },
+    {
+        "pokemon": "seadra",
+        "locationData": []
+    },
+    {
+        "pokemon": "quagsire",
+        "locationData": []
+    },
+    {
+        "pokemon": "dragonair",
+        "locationData": []
+    },
+    {
+        "pokemon": "frillish",
+        "locationData": []
+    },
+    {
+        "pokemon": "jellicent",
+        "locationData": []
+    },
+    {
+        "pokemon": "enamorus",
+        "locationData": []
+    },
+    {
+        "pokemon": "drizzile",
+        "locationData": []
+    },
+    {
+        "pokemon": "ditto",
+        "locationData": []
+    },
+    {
+        "pokemon": "dracovish",
+        "locationData": []
+    },
+    {
+        "pokemon": "gyarados",
+        "locationData": []
     },
     {
         "pokemon": "special encounter",
