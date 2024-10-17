@@ -7,7 +7,7 @@ from helpers import correct_pokemon_name
 wb = openpyxl.load_workbook("./scraperData/borrius_location_data.xlsx", data_only=True)
 
 
-async def getGrassCaveLocations(locationDataList):
+async def get_grasscave_locations(locationDataList):
     """
     Grabs all the Pokemon and their locations from the Grass & Cave Encounters sheet of the spreadsheet.
     Applies the headers as locationData.location and the values as "pokemon" to each locationData object in the locationDataList.
@@ -89,7 +89,7 @@ async def getGrassCaveLocations(locationDataList):
 
 
 # Fish Locations also includes rocksmash
-async def getFishingLocations(locationDataList):
+async def get_fishing_locations(locationDataList):
     """
     Retrieves all the fishing and rock smash locations from the spreadsheet.
 
@@ -199,7 +199,7 @@ async def getFishingLocations(locationDataList):
 
 
 # SURF LOCATIONS
-async def getSurfLocations(locationDataList):
+async def get_surf_locations(locationDataList):
     """
     Retrieves all the surfing locations from the spreadsheet.
 
@@ -260,7 +260,7 @@ async def getSurfLocations(locationDataList):
         )
 
 
-def fillInEvolutionGaps(locationDataList):
+def fill_in_evolution_gaps(locationDataList):
     """
     Fills in any missing evolution data by grabbing the locations from pokelocation.json and applying them to the pokemon's locationData if it exists and is currently empty.
 
@@ -293,22 +293,20 @@ def fillInEvolutionGaps(locationDataList):
     except Exception as e:
         print(
             colored(
-                f"fillInEvolutionGaps failed: {e}",
+                f"fill_in_evolution_gaps failed: {e}",
                 "red",
             ),
         )
 
-
-
-async def printLocationJson():
+async def print_location_json():
     """
     Combines data from borrius_pokedex_data.json and pokelocation.json to create a single json file containing all the data from both files.
 
     The function first loads the borrius_pokedex_data.json file and uses it to populate the locationDataList with pokemon names that may not exist in the pokelocation.json file.
 
-    It then runs the getGrassCaveLocations, getSurfLocations, and getFishingLocations functions to fill in the location data for each pokemon.
+    It then runs the get_grasscave_locations, get_surf_locations, and get_fishing_locations functions to fill in the location data for each pokemon.
 
-    The fillInEvolutionGaps function is then run to fill in any missing location data for pokemon that evolve from other pokemon.
+    The fill_in_evolution_gaps function is then run to fill in any missing location data for pokemon that evolve from other pokemon.
 
     Finally, the function writes the locationDataList to a json file named locationData.json in the scraperData directory.
 
@@ -317,18 +315,16 @@ async def printLocationJson():
     locationDataList = []
     try:
         # await get_full_borrius_pokemon_names(locationDataList)
-        await getGrassCaveLocations(locationDataList)
-        await getSurfLocations(locationDataList)
-        await getFishingLocations(locationDataList)
-        fillInEvolutionGaps(locationDataList)
-
-        fileName = "scraperData/locationData.json"
-        with open(fileName, "w") as fp:
-            json.dump(locationDataList, fp, indent=4)
-
+        await get_grasscave_locations(locationDataList)
+        await get_surf_locations(locationDataList)
+        await get_fishing_locations(locationDataList)
+        fill_in_evolution_gaps(locationDataList)
+        
+        print_json_file(locationDataList)
+        
         print(
             colored(
-                f"locationData {fileName} successfully created",
+                "locationData.json successfully created",
                 "green",
             ),
         )
@@ -339,3 +335,9 @@ async def printLocationJson():
                 "red",
             ),
         )
+
+
+def print_json_file(ld):
+    fileName = "scraperData/locationData.json"
+    with open(fileName, "w") as fp:
+        json.dump(ld, fp, indent=4)

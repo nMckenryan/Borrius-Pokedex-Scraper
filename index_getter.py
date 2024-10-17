@@ -27,4 +27,4 @@ async def get_pokemon_indexes():
     async with aiohttp.ClientSession() as session:
         tasks = [get_pokemon_index_from_name(pokemon) for pokemon in missing_pokemon]
         results = await asyncio.gather(*tasks, return_exceptions=True)
-        return [x for x in results if x is not None]
+        return [x for x in results if isinstance(x, int)]

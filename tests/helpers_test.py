@@ -88,22 +88,11 @@ async def test_correctPokemonName_regional():
 @pytest.mark.asyncio
 async def test_initialise_pokemon_location_template():
     location_data_list = []
-    data = {
-        "pokemon": [
-            {
-                "name": "pikachu"
-            },
-            {
-                "name": "raichu"
-            }
-        ]
-    }
-    with patch("builtins.open", mock_open(read_data=json.dumps(data))):
-        with patch("json.load", return_value=data):
-            await initialise_pokemon_location_template(location_data_list)
-            assert len(location_data_list) == 2
-            assert location_data_list[0]["pokemon"] == "pikachu"
-            assert location_data_list[1]["pokemon"] == "raichu"
+
+    await initialise_pokemon_location_template(location_data_list)
+    assert len(location_data_list) == 503
+    assert location_data_list[0]["pokemon"] == "larvitar"
+    assert location_data_list[502]["pokemon"] == "hoopa"
 
 
 @pytest.mark.asyncio
