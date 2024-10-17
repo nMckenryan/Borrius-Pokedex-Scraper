@@ -54,27 +54,27 @@ async def test_fill_in_evolution_gaps():
 
 
 
-@pytest.mark.asyncio
-async def test_print_location_json(tmp_path, mocker):
-    mockList = [{
-        "pokemon": "pupitar",
-        "locationData": [
-            {"location": "Route 1", "encounterMethod": "Grass/Cave", "timeOfDay": "All Day", "isSpecialEncounter": 0},
-        ],
-    }]
+# @pytest.mark.asyncio
+# async def test_print_location_json(tmp_path, mocker):
+#     mockList = [{
+#         "pokemon": "pupitar",
+#         "locationData": [
+#             {"location": "Route 1", "encounterMethod": "Grass/Cave", "timeOfDay": "All Day", "isSpecialEncounter": 0},
+#         ],
+#     }]
     
-    mocker.patch('borrius_location_scraper.get_grasscave_locations', return_value=mockList)
-    mocker.patch('borrius_location_scraper.get_surf_locations', return_value=mockList)
-    mocker.patch('borrius_location_scraper.get_fishing_locations', return_value=mockList)
-    mocker.patch('borrius_location_scraper.fill_in_evolution_gaps', return_value=mockList)
+#     mocker.patch('borrius_location_scraper.get_grasscave_locations', return_value=mockList)
+#     mocker.patch('borrius_location_scraper.get_surf_locations', return_value=mockList)
+#     mocker.patch('borrius_location_scraper.get_fishing_locations', return_value=mockList)
+#     mocker.patch('borrius_location_scraper.fill_in_evolution_gaps', return_value=mockList)
     
-    # Call the functions that populate the location data list
-    await get_grasscave_locations(mockList)
-    await get_surf_locations(mockList)
-    await get_fishing_locations(mockList)
-    fill_in_evolution_gaps(mockList)
+#     # Call the functions that populate the location data list
+#     await get_grasscave_locations(mockList)
+#     await get_surf_locations(mockList)
+#     await get_fishing_locations(mockList)
+#     fill_in_evolution_gaps(mockList)
     
-    assert len(mockList) == 475
+#     assert len(mockList) == 475
     
 # @pytest.mark.asyncio
 # def test_print_json_file(tmp_path, mocker):

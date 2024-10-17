@@ -1,22 +1,23 @@
 import pytest
 
-from borrius_pokemon_scraper import createPokemonJson
-from helpers import borrius_pokedex_indexes
+from borrius_pokemon_scraper import compile_pokedex
 
 
 @pytest.mark.asyncio
 async def test_compile_pokedex():
-    """Test that we can compile the borrius pokedex"""
     pokemonJson = [
         {
             "info": {
                 "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
-                "dataPulledOn": "",
+                "dataPulledOn": None,
             },
             "pokemon": [],
         }
     ]
+    
+    
 
-    await createPokemonJson("https://www.pokemonunboundpokedex.com/borrius/", borrius_pokedex_indexes["borrius_numbers"], 10, pokemonJson)
+    await compile_pokedex()
 
-    assert len(pokemonJson[0]["pokemon"]) == 494
+    assert len(pokemonJson[0]["pokemon"]) == 503
+    assert pokemonJson[0]["info"]["dataPulledOn"] is not None
