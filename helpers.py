@@ -1,6 +1,7 @@
 
 import asyncio
 import aiohttp
+from bs4 import BeautifulSoup
 from termcolor import colored
 import json
 
@@ -29,7 +30,7 @@ async def read_location_data_json():
     except FileNotFoundError:
         print(
             colored(
-                "locationData.json file not found, creating new file",
+                "locationData.json file not found",
                 "yellow",
             ),
         )
@@ -222,3 +223,42 @@ async def get_missing_pokemon_data():
             print(f"Failed to retrieve data from PokeAPI: {e}")
 
     return sorted(list(pokemonReturned.values()), key=lambda x: x)
+
+async def get_pokemon_names_from_unbound_pokedex():
+    page = "https://www.pokemonunboundpokedex.com/borrius/"
+    
+    async with aiohttp.ClientSession() as session:
+        try:
+            html = await fetch_page(session, page)
+            soup = BeautifulSoup(html, "html.parser")
+
+            pokemon_name = soup.find_all("button", class_="btn")
+            
+            pokemon_name_list = [x.text for x in pokemon_name]
+            
+            return pokemon_name_list
+        except Exception as e:
+            print(f"Failed to retrieve name data from Unbound Pokedex: {e}")
+
+async def get_pokemon_index_from_name(pokemon_name):
+    corrected_pokemon_name = correct_pokemon_name(pokemon_name)
+    async with aiohttp.ClientSession() as session:
+        try:
+            pokeapi_response = await session.get(
+                f"https://pokeapi.co/api/v2/pokemon/{corrected_pokemon_name}"
+            )
+            data = await pokeapi_response.json()
+            pokemon_id = data["id"]
+            return pokemon_id
+        except Exception as e:
+            print(f"Failed to retrieve data from PokeAPI: {e}")
+
+async def get_pokemon_indexes_from_list(pokemon_name):
+    index_list = []
+    
+    try:
+        for pokemon in pokemon_name:
+            index_list.append(await get_pokemon_index_from_name(pokemon))
+        return index_list
+    except Exception as e:
+        print(f"Failed to retrieve data from PokeAPI: {e}")

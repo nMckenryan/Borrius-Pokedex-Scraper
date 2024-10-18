@@ -31,8 +31,23 @@ from termcolor import colored
 from helpers import correct_pokemon_name, fetch_page, get_evolution_data_from_pokeapi, get_pokemon_locations, read_location_data_json,\
     borrius_pokedex_indexes
 
-async def createPokemonJson(dex_page, numbers, indexCount, pokemonJson):
+# SCRAPE POKEMON DATA FROM BORRIUS POKEDEX
+async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
+    """
+    This function scrapes data for Pokemon from the Borrius Pokedex website.
+    It retrieves information such as stats, moves, abilities, location, sprites, and evolution chain for each Pokemon.
+
+    Parameters:
+    - dex_page (str): The base URL for the Pokedex page
+    - numbers (list): A list of Pokemon numbers to scrape
+    - indexCount (int): The index count for the Pokemon data
+    - pokemonJson (list): A list containing the JSON data for the Pokemon
+
+    Returns:
+    None
+    """
     
+    location_data = read_location_data_json()
     borrius_pokemon_names = []
     async with aiohttp.ClientSession() as session:
         tasks = []
@@ -254,7 +269,7 @@ async def createPokemonJson(dex_page, numbers, indexCount, pokemonJson):
                 
                 borrius_pokemon_names.append(pokemonName)
                 
-                pokemonLocations = get_pokemon_locations(pokemonName)
+                pokemonLocations = get_pokemon_locations(pokemonName, location_data)
                 
             
                 # APPLY DATA TO JSON
@@ -277,7 +292,7 @@ async def createPokemonJson(dex_page, numbers, indexCount, pokemonJson):
                     "weight": weightInHectograms,
                     "id": officialDexNumber,
                     "name": pokemonName,
-                    "locations": pokemonLocations,
+                    "types": typeArray,
                     "capture_rate": {
                         "value": float(
                             top_card.find_all("p", class_="text-3xl font-bold")[1]
@@ -298,7 +313,7 @@ async def createPokemonJson(dex_page, numbers, indexCount, pokemonJson):
                     },
                     "evolution_chain": evoDetails,
                     "stats": stats_table_output,
-                    "types": typeArray,
+
                     "gender": {
                         "isGenderless": top_card.find_all(
                             "p", class_="text-3xl font-bold"
@@ -311,10 +326,10 @@ async def createPokemonJson(dex_page, numbers, indexCount, pokemonJson):
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
+                
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
-    # await read_location_data_json()
-    
+
     national_page = "https://www.pokemonunboundpokedex.com/national/"
     borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
@@ -332,8 +347,8 @@ async def compile_pokedex():
     )
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        await createPokemonJson(national_page, national_numbers, 1)
-        await createPokemonJson(borrius_page, borrius_numbers, 10)
+        await scrape_pokemon_data(national_page, national_numbers, 1)
+        await scrape_pokemon_data(borrius_page, borrius_numbers, 10)
 
         end = time.time()
         length = end - start
