@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Web Scraper API that extracts data from the [Pokemon Unbound Pokedex](https://pokemonunbound.com/pokedex) website and outputs it to a JSON file.
+A Web Scraper API that extracts pokemon number data from [Pokemon Unbound Pokedex](https://pokemonunbound.com/pokedex) website and outputs it to a JSON file.
 
 - Built with Python and BeautifulSoup, Based on a tutorial from [RealPython](https://github.com/realpython/materials/blob/master/web-scraping-bs4/)
 - API Endpoints Managed by FastAPI, Hosted on Google Cloud via a Docker Container
