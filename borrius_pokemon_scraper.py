@@ -28,7 +28,7 @@ import asyncio
 
 from termcolor import colored
 
-from helpers import correct_pokemon_name, fetch_page, get_evolution_data_from_pokeapi, get_pokemon_locations, read_location_data_json,\
+from helpers import correct_pokemon_name, fetch_page, get_evolution_data_from_pokeapi, read_location_data_json,\
     borrius_pokedex_indexes
 
 # SCRAPE POKEMON DATA FROM BORRIUS POKEDEX
@@ -269,7 +269,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 
                 borrius_pokemon_names.append(pokemonName)
                 
-                pokemonLocations = get_pokemon_locations(pokemonName, location_data)
+                pokemonLocations = []
                 
             
                 # APPLY DATA TO JSON

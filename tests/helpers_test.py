@@ -1,11 +1,13 @@
 import aiohttp
 import pytest
-from helpers import get_pokemon_index_from_name, get_pokemon_indexes_from_list, get_pokemon_names_from_unbound_pokedex, read_location_data_json, correct_pokemon_name, fetch_page,\
+from helpers import get_pokemon_indexes_from_list, get_pokemon_names_from_unbound_pokedex, read_location_data_json, correct_pokemon_name, fetch_page,\
     get_pokemon_locations, get_evolution_data_from_pokeapi,\
     initialise_pokemon_location_template, get_special_encounter_pokemon,\
     get_pokemon_api_data_gaps, get_missing_pokemon_data
 from unittest.mock import patch, mock_open
 import json
+
+from index_getter import get_pokemon_index_from_name
 
 
 
