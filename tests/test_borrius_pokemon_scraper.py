@@ -1,7 +1,7 @@
 import pytest
 
-from borrius_pokemon_scraper import compile_pokedex, scrape_pokemon_data
 import datetime
+from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_data
 
 
 @pytest.mark.asyncio

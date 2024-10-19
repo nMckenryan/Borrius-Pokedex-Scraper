@@ -179,7 +179,8 @@ def get_special_encounter_pokemon():
 
         sortedResults = []
 
-        for pokemon_name in results:
+        for pn in results:
+            pokemon_name = pn
             if pokemon_name in [
                 "super rod",
                 "good rod",

@@ -1,9 +1,9 @@
 import pytest
-from borrius_location_scraper import get_grasscave_locations, get_fishing_locations, \
-    get_surf_locations, fill_in_evolution_gaps, print_json_file, print_location_json
-from unittest.mock import patch, mock_open
+
 import json
 from unittest import mock
+
+from mainFunctions.borrius_location_scraper import fill_in_evolution_gaps, get_fishing_locations, get_grasscave_locations, get_surf_locations
 
 
 @pytest.mark.asyncio

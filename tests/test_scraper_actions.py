@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-from scraper_actions import get_name, get_types
+from mainFunctions.scraper_actions import get_name, get_types
 
 top_card = BeautifulSoup('<div><h3 class="card-title text-4xl">Name: Pikachu</h3></div>', 'html.parser')
 

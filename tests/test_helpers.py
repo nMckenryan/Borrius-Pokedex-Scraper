@@ -1,11 +1,11 @@
+
+import json
+from unittest.mock import mock_open, patch
+
 import aiohttp
 import pytest
-from helpers import get_pokemon_index_from_name, get_pokemon_indexes_from_list, get_pokemon_names_from_unbound_pokedex, read_location_data_json, correct_pokemon_name, fetch_page, \
-    get_pokemon_locations, get_evolution_data_from_pokeapi, \
-    initialise_pokemon_location_template, get_special_encounter_pokemon, \
-    get_pokemon_api_data_gaps, get_missing_pokemon_data
-from unittest.mock import patch, mock_open
-import json
+
+from mainFunctions.helpers import correct_pokemon_name, fetch_page, get_evolution_data_from_pokeapi, get_missing_pokemon_data, get_pokemon_api_data_gaps, get_pokemon_index_from_name, get_pokemon_indexes_from_list, get_pokemon_locations, get_pokemon_names_from_unbound_pokedex, get_special_encounter_pokemon, initialise_pokemon_location_template, read_location_data_json
 
 
 @pytest.mark.asyncio
@@ -46,7 +46,7 @@ async def test_read_location_data_json_success():
 async def test_check_for_forbidden_names():
     location_list = []
 
-    with patch("helpers.read_location_data_json") as mock_read_location_data_json:
+    with patch("mainFunctions.helpers.read_location_data_json") as mock_read_location_data_json:
         await mock_read_location_data_json()
     
     for pokemon in location_list:

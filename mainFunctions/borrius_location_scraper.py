@@ -2,7 +2,7 @@ import json
 import openpyxl
 from termcolor import colored
 
-from helpers import correct_pokemon_name
+from mainFunctions.helpers import correct_pokemon_name
 
 wb = openpyxl.load_workbook("./scraperData/borrius_location_data.xlsx", data_only=True)
 
@@ -297,6 +297,7 @@ def fill_in_evolution_gaps(locationDataList):
                 "red",
             ),
         )
+
 
 async def print_location_json():
     """
