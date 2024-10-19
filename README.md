@@ -28,7 +28,7 @@ A Web Scraper API that extracts pokemon number data from [Pokemon Unbound Pokede
 
 ## Instructions
 
-#### Note: As the project is completed, the Pokedex is unlikely to have changed, so you may want ot download the [ JSON provided](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json). Otherwise:
+### Note: As the project is completed, the Pokedex is unlikely to have changed, so you may want ot download the [ JSON provided](https://github.com/nMckenryan/BorriusPokedexScraper/blob/main/borrius_pokedex_data.json). Otherwise
 
 ### USING THE API ENDPOINT
 
@@ -42,7 +42,7 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 3. Wait for the process to completes (takes around >2 minutes)
 4. Open the `borrius_pokedex_data.json` file in your favorite text editor and enjoy
 
-### TO DO:
+### TO DO
 
 - [x] Scrape all pokemon
 - [x] Extract Sprite Data from Site! (Not yet Implemented)
@@ -64,14 +64,14 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [ ] Finish Unit Tests
 
 - [x] Make API available
-- [ ] Write endpoints for: 
+- [ ] Write endpoints for:
   - [x] Locations
   - [x] Pokemon
   - [x] Pokemon of certain type
 
 - [] Rewrite docs to note changes of above
 
-### FUTURE FEATURES:
+### FUTURE FEATURES
 
 - [x] Download and store images for perpetuity in case i need to self host
 - [x] Get real pokemon national number (extract from url, Recycling!)
