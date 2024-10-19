@@ -1,4 +1,4 @@
-import aiohttp
+import aiohttp 
 import pytest
 from helpers import get_pokemon_indexes_from_list, get_pokemon_names_from_unbound_pokedex, read_location_data_json, correct_pokemon_name, fetch_page,\
     get_pokemon_locations, get_evolution_data_from_pokeapi,\
@@ -25,14 +25,14 @@ async def test_fetch_page():
 async def test_read_location_data_json_file_not_found():
     with patch("builtins.open", side_effect=FileNotFoundError):
         result = await read_location_data_json()
-        assert result == [] or result == None
+        assert result == [] or result is None
 
 @pytest.mark.asyncio
 async def test_read_location_data_json_json_decode_error():
     with patch("builtins.open", mock_open(read_data="not a json")):
         with patch("json.load", side_effect=json.JSONDecodeError("Expecting value", "", 0)):
             result = await read_location_data_json()
-            assert result == [] or result == None
+            assert result == [] or result is None
 
 @pytest.mark.asyncio
 async def test_read_location_data_json_success():

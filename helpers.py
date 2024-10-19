@@ -226,32 +226,24 @@ async def get_missing_pokemon_data():
     return sorted(list(pokemonReturned.values()), key=lambda x: x)
 
 
+
 async def get_pokemon_names_from_unbound_pokedex():
-    borrius_url = "https://www.pokemonunboundpokedex.com/borrius/"
-    
-    starter_indexes = [246, 247, 248, 374, 375, 376, 443, 444, 445]
+    page = "https://www.pokemonunboundpokedex.com/borrius/"
     
     async with aiohttp.ClientSession() as session:
-        tasks = [fetch_page(session, f"{borrius_url}{index}/") for index in starter_indexes]
-        starter_pokemon_html = await asyncio.gather(*tasks)
-        
-        tasks = [BeautifulSoup(html, "html.parser") for html in starter_pokemon_html]
-        starter_pokemon_soup = await asyncio.gather(*tasks)
-        
-        tasks = [soup.find_all("button", class_="btn") for soup in starter_pokemon_soup]
-        starter_pokemon_buttons = await asyncio.gather(*tasks)
-        
-        tasks = [[button.text for button in buttons] for buttons in starter_pokemon_buttons]
-        starter_pokemon_names = await asyncio.gather(*tasks)
-        
-        html = await fetch_page(session, borrius_url)
-        soup = BeautifulSoup(html, "html.parser")
-        
-        pokemon_name = soup.find_all("button", class_="btn")
-        pokemon_name_list = [x.text for x in pokemon_name]
-        
-        return starter_pokemon_names + pokemon_name_list
+        try:
+            html = await fetch_page(session, page)
+            soup = BeautifulSoup(html, "html.parser")
 
+            pokemon_name = soup.find_all("button", class_="btn")
+            
+            pokemon_name_list = [x.text for x in pokemon_name]
+            
+            return pokemon_name_list
+        except Exception as e:
+            print(f"Failed to retrieve name data from Unbound Pokedex: {e}")
+
+async def get_pokemon_index_from_name(pokemon_name):
     corrected_pokemon_name = correct_pokemon_name(pokemon_name)
     async with aiohttp.ClientSession() as session:
         try:
@@ -263,7 +255,7 @@ async def get_pokemon_names_from_unbound_pokedex():
             return pokemon_id
         except Exception as e:
             print(f"Failed to retrieve data from PokeAPI: {e}")
-
+            
 async def get_pokemon_indexes_from_list(pokemon_name):
     index_list = []
     
