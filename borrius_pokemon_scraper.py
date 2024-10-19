@@ -17,19 +17,22 @@ This will generate a JSON file called 'borrius_pokedex_data.json' in the
 Borrius Dex.
 """
 
-import ast
 import datetime
 import time
 import json
 from bs4 import BeautifulSoup
-import re
 import aiohttp
 import asyncio
 
 from termcolor import colored
 
-from helpers import correct_pokemon_name, fetch_page, get_evolution_data_from_pokeapi, get_pokemon_locations, read_location_data_json,\
+from helpers import correct_pokemon_name, fetch_page, get_pokemon_locations, read_location_data_json, \
     borrius_pokedex_indexes
+    
+from scraper_actions import get_evo_details, get_moves_for_pokemon, get_tmhm_moves, \
+    merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
+    get_types, get_name
+
 
 # SCRAPE POKEMON DATA FROM BORRIUS POKEDEX
 async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
@@ -46,9 +49,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
     Returns:
     None
     """
-    
-    location_data = read_location_data_json()
-    borrius_pokemon_names = []
+
     async with aiohttp.ClientSession() as session:
         tasks = []
         for i in numbers:
@@ -56,6 +57,8 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
             tasks.append(fetch_page(session, link))
 
         pages = await asyncio.gather(*tasks)
+        
+        location_data = await read_location_data_json()
 
         for page in pages:
             if page is not None:
@@ -77,18 +80,6 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 # Get SPRITES (also extracts actual pokemon number from official dex)
                 sprite_src = soup.find("img")["src"]
                 officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
-
-                try:
-                    getEvoDetails = await get_evolution_data_from_pokeapi(officialDexNumber)
-                    evoDetails = getEvoDetails.get("evolution_details", {}).get(
-                        "chain", None
-                    )
-                except Exception as e:
-                    print(
-                        f"Failed to retrieve pokeapi data for {officialDexNumber}: {e}"
-                    )
-                    evoDetails = None
-
                 sprite_link = str(
                     f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",
                 )
@@ -96,204 +87,38 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 official_sprite_link = str(
                     f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{str(officialDexNumber)}.png"
                 )
-                # MOVES
-                moves = []
-                for row in move_table.find_all("tr"):
-                    columns = row.find_all("td")
-                    if len(columns) > 0:
-                        moves.append(
-                            {
-                                "move": {
-                                    "name": columns[1].text.strip(),
-                                    "type": columns[2].text.strip(),
-                                    "category": columns[3].text.strip(),
-                                    "power": columns[4]
-                                    .text.strip()
-                                    .replace("\u2014", "-"),
-                                    "accuracy": columns[5]
-                                    .text.strip()
-                                    .replace("\u2014", "-"),
-                                },
-                                "version_group_details": [
-                                    {
-                                        "level_learned_at": columns[0].text.strip(),
-                                        "move_learn_method": {
-                                            "name": "level-up",
-                                            "url": "https://pokeapi.co/api/v2/move-learn-method/1/",
-                                        },
-                                        "version_group": {"name": "unbound"},
-                                    }
-                                ],
-                            }
-                        )
 
-                tmhm_moves = []
-                for row in tmhm_move_table.find_all("tr"):
-                    columns = row.find_all("td")
-                    if len(columns) > 0:
-                        tmhm_moves.append(
-                            {
-                                "move": {
-                                    "name": columns[1].text.strip(),
-                                    "type": columns[2].text.strip(),
-                                    "category": columns[3].text.strip(),
-                                    "power": columns[4]
-                                    .text.strip()
-                                    .replace("\u2014", "-"),
-                                    "accuracy": columns[5]
-                                    .text.strip()
-                                    .replace("\u2014", "-"),
-                                },
-                                "version_group_details": [
-                                    {
-                                        "level_learned_at": 0,
-                                        "move_learn_method": {
-                                            "name": "machine",
-                                            "url": "https://pokeapi.co/api/v2/move-learn-method/4/",
-                                        },
-                                        "version_group": {"name": "unbound"},
-                                    }
-                                ],
-                            }
-                        )
+                evoDetails = await get_evo_details(officialDexNumber)
+                
+                # MOVES
+                moves = get_moves_for_pokemon(move_table)
+
+                tmhm_moves = get_tmhm_moves(tmhm_move_table)
 
                 # COMBINE TMHM AND MOVES TABLES
-                combined_moves = moves + tmhm_moves
-                for combined_move in combined_moves:
-                    for tmhm_move in tmhm_moves:
-                        if (
-                            combined_move["move"]["name"] == tmhm_move["move"]["name"]
-                            and combined_move["version_group_details"][0][
-                                "move_learn_method"
-                            ]["name"]
-                            != "machine"
-                        ):
-                            combined_move["version_group_details"][0][
-                                "move_learn_method"
-                            ]["name"] = "level-up/tm"
-                            break
+                combined_moves = merge_moves(moves, tmhm_moves)
 
                 # GENDER RATES
-                gender_data = re.findall(
-                    r"\d+",
-                    top_card.find_all("p", class_="text-3xl font-bold")[2].text.strip(),
-                )
-                isGenderLess = len(gender_data) == 0
-                if isGenderLess:
-                    gender_data = [0, 0]
+                gender_data = get_gender_data(top_card)
 
                 # STATS
-                stats_table_output = {}
-                stats = [
-                    "hp",
-                    "attack",
-                    "defense",
-                    "specialAttack",
-                    "specialDefense",
-                    "speed",
-                ]
-
-                for i, stat in enumerate(stats):
-                    stats_table_output[stat] = {
-                        "base_stat": int(
-                            stats_table.find_all("td")[i * 3].text.strip()
-                        ),
-                        "effort": 0,
-                        "stat": {
-                            "name": stat,
-                            "url": f"https://pokeapi.co/api/v2/stat/{i+1}/",
-                        },
-                    }
+                stats_table_output = get_stats(stats_table)
 
                 # ABILITIES
-                abl = top_card.find_all("p", class_="text-3xl font-bold")[
-                    3
-                ].text.strip()
+                abilities = get_abilities(top_card)
 
-                abilitiesList = ast.literal_eval(abl)
-
-                abilities = []
-                for ability in abilitiesList:
-                    ab = {
-                        "ability": {
-                            "name": ability,
-                            # "url": f"https://pokeapi.co/api/v2/ability/{ability.lower()}/",
-                        },
-                        "is_hidden": 0,
-                        "slot": 1,
-                    }
-                    abilities.append(ab)
-
-                    # WEIGHT
-                weightInHectograms = (
-                    float(
-                        top_card.find_all("p", class_="text-3xl font-bold")[4]
-                        .text.strip()
-                        .split(" ")[0]
-                        .replace("\u00a0", "")
-                        .replace("kg", "")
-                        .replace(" ", "")
-                        .replace(".", "")
-                        .replace(",", "")
-                    )
-                    * 10
-                )
-
-                # HEIGHT
-                heightInDecimetres = (
-                    float(
-                        top_card.find_all("p", class_="text-3xl font-bold")[5]
-                        .text.strip()
-                        .split(" ")[0]
-                        .replace("\u00a0", "")
-                        .replace("m", "")
-                        .replace(" ", "")
-                        .replace(".", "")
-                        .replace(",", "")
-                    )
-                    * 10
-                )
+                # WEIGHT & HEIGHT
+                weightInHectograms, heightInDecimetres = get_weight_height(top_card)
 
                 # TYPES
-                tA = top_card.find_all("p", class_="text-3xl font-bold")[0].text.strip()
-
-                typeArray = ast.literal_eval(tA)
-
-                retrievedName = str(
-                    top_card.find("h3", class_="card-title text-4xl")
-                    .text.strip()
-                    .replace("Name: ", ""),
-                )
+                typeArray = get_types(top_card)
                 
-                pokemonName = correct_pokemon_name(retrievedName)
-                
-                borrius_pokemon_names.append(pokemonName)
+                rawName = get_name(top_card)
+                pokemonName = correct_pokemon_name(rawName)
                 
                 pokemonLocations = get_pokemon_locations(pokemonName, location_data)
                 
-            
-                # APPLY DATA TO JSON
-                pokemon_data = {
-                    "abilities": abilities,
-                    "game_indices": [
-                        {
-                            "game_index": indexCount,
-                            "version": {
-                                "name": "red",
-                                "url": "https://pokeapi.co/api/v2/version/1/",
-                            },
-                        },
-                        {
-                            "game_index": officialDexNumber,
-                            "version": {"name": "unbound", "url": "-"},
-                        },
-                    ],
-                    "height": heightInDecimetres,
-                    "weight": weightInHectograms,
-                    "id": officialDexNumber,
-                    "name": pokemonName,
-                    "types": typeArray,
-                    "capture_rate": {
+                capture_rates = {
                         "value": float(
                             top_card.find_all("p", class_="text-3xl font-bold")[1]
                             .text.strip()
@@ -305,27 +130,45 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                         )[1]
                         .text.strip()
                         .split(" ")[0],
-                    },
-                    "moves": combined_moves,
-                    "sprites": {
-                        "front_default": sprite_link,
-                        "other": {"home": {"front_default": official_sprite_link}},
-                    },
-                    "evolution_chain": evoDetails,
-                    "stats": stats_table_output,
-
-                    "gender": {
+                    }
+                
+                gender_data = {
                         "isGenderless": top_card.find_all(
                             "p", class_="text-3xl font-bold"
                         )[2].text.strip()
                         == "Genderless",
                         "maleChance": gender_data[0],
                         "femaleChance": gender_data[1],
+                    }
+                
+                sprites_data = {
+                        "front_default": sprite_link,
+                        "other": {"home": {"front_default": official_sprite_link}},
                     },
+            
+                # APPLY DATA TO JSON
+                pokemon_data = {
+                    "id": officialDexNumber,
+                    "name": pokemonName,
+                    "types": typeArray,
+                    "abilities": abilities,
+                    "game_indices": {
+                        "unbound_index": indexCount,
+                        "official_index": officialDexNumber,
+                    },
+                    "height": heightInDecimetres,
+                    "weight": weightInHectograms,
+                    "capture_rate": capture_rates,
+                    "sprites": sprites_data,
+                    "stats": stats_table_output,
+                    "gender": gender_data,
+                    "evolution_chain": evoDetails,
                     "locations": pokemonLocations,
+                    "moves": combined_moves,
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
+
                 
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
@@ -335,7 +178,6 @@ async def compile_pokedex():
 
     borrius_numbers = borrius_pokedex_indexes.get("borrius_numbers")
     national_numbers = borrius_pokedex_indexes.get("national_numbers")
-    
     
     print("\n\n")
     print(
@@ -367,7 +209,6 @@ async def output_pokedex_json():
     currentTime = datetime.datetime.now()
 
     locationList = []
-
 
     pokemonJson = [
     {
