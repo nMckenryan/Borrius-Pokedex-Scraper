@@ -61,10 +61,10 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [ ] Reconfigure for use with Yda
 
 - [x] Write unit tests
-- [ ] Finish Unit Tests
+- [x] Finish Unit Tests
 
 - [x] Make API available
-- [ ] Write endpoints for: 
+- [x] Write endpoints for: 
   - [x] Locations
   - [x] Pokemon
   - [x] Pokemon of certain type

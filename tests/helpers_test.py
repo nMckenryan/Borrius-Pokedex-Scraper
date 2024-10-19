@@ -7,7 +7,7 @@ from helpers import get_pokemon_indexes_from_list, get_pokemon_names_from_unboun
 from unittest.mock import patch, mock_open
 import json
 
-from index_getter import get_pokemon_index_from_name
+from one_off_functions.index_getter import get_pokemon_index_from_name
 
 
 

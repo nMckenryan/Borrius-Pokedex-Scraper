@@ -242,6 +242,7 @@ async def get_pokemon_names_from_unbound_pokedex():
             return pokemon_name_list
         except Exception as e:
             print(f"Failed to retrieve name data from Unbound Pokedex: {e}")
+            return []
 
 async def get_pokemon_index_from_name(pokemon_name):
     corrected_pokemon_name = correct_pokemon_name(pokemon_name)

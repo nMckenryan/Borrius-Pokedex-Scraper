@@ -1,5 +1,5 @@
 import pytest
-from index_getter import get_pokemon_indexes, get_pokemon_index_from_name
+from one_off_functions.index_getter import get_pokemon_indexes, get_pokemon_index_from_name
 
 @pytest.mark.asyncio
 async def test_get_pokemon_index_from_name():
