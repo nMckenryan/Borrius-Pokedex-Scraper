@@ -65,13 +65,24 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 
 - [x] Make API available
 - [x] Write endpoints for: 
+- [x] Write endpoints for: 
   - [x] Locations
   - [x] Pokemon
   - [x] Pokemon of certain type
-
+- [ ] Remove Anachronicistic pokemon (e.g. Annihilape)
+- [ ] Set Regional pokemon
+- [ ] Clean up move data, long data
 - [] Rewrite docs to note changes of above
-
-### FUTURE FEATURES
+- [] No moves pokemon
+  - [] Beldum
+  - [] Metapod
+  - [] Kakuna
+  - [] Abra
+  - [] Silcoon
+  - [] Cascoon
+  - [] Spewpa
+ 
+### FUTURE FEATURES:
 
 - [x] Download and store images for perpetuity in case i need to self host
 - [x] Get real pokemon national number (extract from url, Recycling!)
