@@ -1,7 +1,9 @@
 import pytest
 
-from borrius_location_scraper import fill_in_evolution_gaps, get_grasscave_locations,\
-    get_fishing_locations, get_surf_locations
+import json
+from unittest import mock
+
+from mainFunctions.borrius_location_scraper import fill_in_evolution_gaps, get_fishing_locations, get_grasscave_locations, get_surf_locations
 
 
 @pytest.mark.asyncio
@@ -25,7 +27,7 @@ async def test_get_fishing_locations():
     assert len(locationDataList) == 75
     assert locationDataList[0]["pokemon"] == "shellder"
     assert len(locationDataList[0]["locationData"]) == 27
-    assert locationDataList[0]["locationData"][0] == {'location': 'Route 2', 'encounterMethod': 'Good Rod',  'timeOfDay': 'All Day', 'isSpecialEncounter': 0}
+    assert locationDataList[0]["locationData"][0] == {'location': 'Route 2', 'encounterMethod': 'Good Rod', 'timeOfDay': 'All Day', 'isSpecialEncounter': 0}
     
     
 @pytest.mark.asyncio
@@ -38,6 +40,7 @@ async def test_get_surf_locations():
     assert locationDataList[0]["pokemon"] == "Tentacool"
     assert len(locationDataList[0]["locationData"]) == 23
     assert locationDataList[0]["locationData"][0] == {'location': 'Route 2', 'encounterMethod': 'Surfing', 'timeOfDay': 'All Day', 'isSpecialEncounter': 0}
+
     
 @pytest.mark.asyncio
 async def test_fill_in_evolution_gaps():
@@ -48,10 +51,6 @@ async def test_fill_in_evolution_gaps():
 
     assert len(locationDataList[0]["locationData"]) == 1
     assert locationDataList[0]["locationData"][0] == {'location': 'Evolve Larvitar (Lv. 30)', 'encounterMethod': 'Evolution', 'timeOfDay': 'All Day', 'isSpecialEncounter': 0}
-
-
-
-
 
 # @pytest.mark.asyncio
 # async def test_print_location_json(tmp_path, mocker):

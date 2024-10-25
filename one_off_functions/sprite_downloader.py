@@ -14,11 +14,9 @@
 # national_page = "https://www.pokemonunboundpokedex.com/national/"
 # borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
 
-
 # for i in borrius_numbers:
 #     sprite_link = f"https://www.pokemonunboundpokedex.com/static/pixelart/{i}.png"
 #     for j in national_page:
-        
     
 #     sprite_link = f"https://www.pokemonunboundpokedex.com/static/pixelart/{i}.png"
 #     download_sprite(sprite_link, f"sprites/test{i}.png")

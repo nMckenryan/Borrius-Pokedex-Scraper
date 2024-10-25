@@ -21,6 +21,8 @@ async def get_pokemon_index_from_name(pokemon_name):
                 "red",
             ),
         )
+
+
 # list through the above
 async def get_pokemon_indexes():
     missing_pokemon = get_special_encounter_pokemon()

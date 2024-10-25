@@ -4,14 +4,13 @@ import aiohttp
 from bs4 import BeautifulSoup
 from termcolor import colored
 import json
-from distlib import index
-
 
 borrius_pokedex_indexes = {
     "national_numbers": [246, 247, 248, 374, 375, 376, 443, 444, 445],
     # + get_missing_pokemon_indexes(),
     "borrius_numbers": range(1, 495),
 }
+
 
 # Get data from BorriusPokedex web page for scraping
 async def fetch_page(session, link):
@@ -41,6 +40,7 @@ async def read_location_data_json():
                 f"Failed to read locationData.json, error: {e}", "red",
             ),
         )
+
 
 # search thru location_list for a given pokemon
 def get_pokemon_locations(pokemon_name, location_list):
@@ -75,15 +75,17 @@ async def get_evolution_data_from_pokeapi(pokemon_number):
                     "red",
                 ),
             )
+
+
 # Corrects name of pokemon so it can be successfully found in pokeapi
-def correct_pokemon_name(pokemon):
+def correct_pokemon_name(p):
     """
     Corrects the name of the given Pokemon to match the name as used in the scraperData/pokelocation.json file.
     This is necessary because some Pokemon have special characters, or have names that are different in the English version of Borrius.
     :param pokemon: The name of the Pokemon that needs to be corrected.
     :return: The corrected name of the Pokemon.
     """
-    pokemon = pokemon.lower().replace(". ", "-").replace("'", "")
+    pokemon = p.lower().replace(". ", "-").replace("'", "")
     corrections = {
         "dome fossil": "kabuto",
         "helix fossil": "omanyte",
@@ -155,6 +157,7 @@ async def initialise_pokemon_location_template(location_data_list):
         #         }
         #     )
 
+
 # checks current borrius pokedex data and compares it to the pokemon in the location data, any pokemon that are in the location data but not the borrius pokedex data are special encounters. 
 # returns an array of pokemon that are special encoutners.
 def get_special_encounter_pokemon():
@@ -176,7 +179,8 @@ def get_special_encounter_pokemon():
 
         sortedResults = []
 
-        for pokemon_name in results:
+        for pn in results:
+            pokemon_name = pn
             if pokemon_name in [
                 "super rod",
                 "good rod",
@@ -226,7 +230,6 @@ async def get_missing_pokemon_data():
     return sorted(list(pokemonReturned.values()), key=lambda x: x)
 
 
-
 async def get_pokemon_names_from_unbound_pokedex():
     page = "https://www.pokemonunboundpokedex.com/borrius/"
     
@@ -242,7 +245,7 @@ async def get_pokemon_names_from_unbound_pokedex():
             return pokemon_name_list
         except Exception as e:
             print(f"Failed to retrieve name data from Unbound Pokedex: {e}")
-            return []
+
 
 async def get_pokemon_index_from_name(pokemon_name):
     corrected_pokemon_name = correct_pokemon_name(pokemon_name)
@@ -256,7 +259,8 @@ async def get_pokemon_index_from_name(pokemon_name):
             return pokemon_id
         except Exception as e:
             print(f"Failed to retrieve data from PokeAPI: {e}")
-            
+
+
 async def get_pokemon_indexes_from_list(pokemon_name):
     index_list = []
     
