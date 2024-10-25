@@ -1,9 +1,7 @@
 from bs4 import BeautifulSoup
 import aiohttp
 import asyncio
-
-
-from helpers import fetch_page, get_pokemon_names_from_unbound_pokedex
+from mainFunctions.helpers import get_pokemon_names_from_unbound_pokedex, fetch_page
 
 pokemon_list = []
 
@@ -30,18 +28,4 @@ async def scrape_yda_pokemon_data():
                 print(f"Failed to get data for Pokemon : {page}")
                 
     return pokemon_list
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-           
      

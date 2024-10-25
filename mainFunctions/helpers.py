@@ -4,12 +4,25 @@ import aiohttp
 from bs4 import BeautifulSoup
 from termcolor import colored
 import json
+import datetime
 
-borrius_pokedex_indexes = {
-    "national_numbers": [246, 247, 248, 374, 375, 376, 443, 444, 445],
-    # + get_missing_pokemon_indexes(),
-    "borrius_numbers": range(1, 495),
-}
+
+class BorriusPokedexHelpers:
+
+    def __init__(self):
+        self.national_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]  # + get_missing_pokemon_indexes(),
+        self.borrius_numbers = range(1, 495)
+        self.national_page = "https://www.pokemonunboundpokedex.com/national/"
+        self.borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
+        self.json_header = [
+            {
+                "info": {
+                    "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
+                    "dataPulledOn": str(datetime.datetime.now()),
+                },
+                "pokemon": [],
+            }
+        ]
 
 
 # Get data from BorriusPokedex web page for scraping
