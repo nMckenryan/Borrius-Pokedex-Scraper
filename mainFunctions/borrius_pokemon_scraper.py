@@ -173,11 +173,11 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
 
-    national_page = "https://www.pokemonunboundpokedex.com/national/"
-    borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
-
-    borrius_numbers = borrius_pokedex_indexes.get("borrius_numbers")
-    national_numbers = borrius_pokedex_indexes.get("national_numbers")
+    borrius_page = BorriusPokedexHelpers("borrius_page")
+    borrius_numbers = BorriusPokedexHelpers("borrius_numbers")
+    national_page = BorriusPokedexHelpers("national_page")
+    national_numbers = BorriusPokedexHelpers("national_numbers")
+    header = BorriusPokedexHelpers("json_header")
     
     print("\n\n")
     print(
@@ -189,8 +189,8 @@ async def compile_pokedex():
     )
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        await scrape_pokemon_data(national_page, national_numbers, 1)
-        await scrape_pokemon_data(borrius_page, borrius_numbers, 10)
+        await scrape_pokemon_data(national_page, national_numbers, 1, header)
+        await scrape_pokemon_data(borrius_page, borrius_numbers, 10, header)
 
         end = time.time()
         length = end - start

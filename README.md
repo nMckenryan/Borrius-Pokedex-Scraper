@@ -52,26 +52,29 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Make this available publically/for other projects
 
 - [] Collate Alolan Forms
+
   - [] Get this data, and add to dex after original versions (e.g. 30.a? )
 
-- [/] Display Special Encounter Pokemon data 
+- [/] Display Special Encounter Pokemon data
   - [ ] Collate (include in search but not basic?)
   - [ ] Get pokemon evolutions data from pokeapi for spec. encounter
 - [/] Handle movelists so they're not collosal lists for each pokemon
 - [ ] Reconfigure for use with Yda
 
 - [x] Write unit tests
-- [ ] Finish Unit Tests
+- [x] Finish Unit Tests
 
 - [x] Make API available
 - [ ] Write endpoints for:
   - [x] Locations
   - [x] Pokemon
   - [x] Pokemon of certain type
-
+- [ ] Remove Anachronicistic pokemon (e.g. Annihilape)
+- [ ] Set Regional pokemon
+- [ ] Clean up move data, long data
 - [] Rewrite docs to note changes of above
 
-### FUTURE FEATURES
+### FUTURE FEATURES:
 
 - [x] Download and store images for perpetuity in case i need to self host
 - [x] Get real pokemon national number (extract from url, Recycling!)
