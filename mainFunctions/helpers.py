@@ -65,11 +65,11 @@ def get_pokemon_locations(pokemon_name, location_list):
 
 
 # get a pokemon's evolution chain data from pokeapi
-async def get_evolution_data_from_pokeapi(moves_table, officialDexNumber):
+async def get_evolution_data_from_pokeapi(officialDexNumber):
     async with aiohttp.ClientSession() as session:
         try:
             pokeapi_species = await session.get(
-                f"https://pokeapi.co/api/v2/pokemon-species/{pokemon_number}"
+                f"https://pokeapi.co/api/v2/pokemon-species/{officialDexNumber}"
             )
 
             species_data = await pokeapi_species.json()
