@@ -1,6 +1,8 @@
 
 
 import re
+
+import aiohttp
 from mainFunctions.helpers import get_evolution_data_from_pokeapi
 import ast
 
@@ -151,6 +153,39 @@ def get_moves_for_pokemon(move_table):
             )
             
     return moves
+
+
+async def get_missing_moves_from_pokeapi(pokemon_number) -> list:
+    returned_moves = []
+    async with aiohttp.ClientSession() as session:
+        try:
+            async with session.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_number}') as response:
+                missing_moves = await response.json()
+                
+                ml  = missing_moves["moves"]
+                
+                for move in ml:
+                    move_link = f"https://pokeapi.co/api/v2/move/{move['move']['name']}/"
+                    mg = await session.get(move_link)
+                    move_get = await mg.json()
+                    
+                    returned_moves.append({
+                            "name": move_get["name"],
+                            "type": move_get["type"]["name"],
+                            "category": move_get["damage_class"]["name"],
+                            "power": move_get["power"],
+                            "accuracy": move_get["accuracy"],
+                    })
+
+            return returned_moves
+            
+        except Exception as e:
+            print(
+                colored(
+                    f"Failed to retrieve missing move data {pokemon_number} from PokeAPI: {e}",
+                    "red",
+                ),
+            )
 
 
 def get_tmhm_moves(tmhm_move_table):

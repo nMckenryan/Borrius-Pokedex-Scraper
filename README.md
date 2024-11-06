@@ -52,7 +52,6 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [x] Make this available publically/for other projects
 
 - [] Collate Alolan Forms
-
   - [] Get this data, and add to dex after original versions (e.g. 30.a? )
 
 - [/] Display Special Encounter Pokemon data
@@ -73,6 +72,8 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [ ] Set Regional pokemon
 - [ ] Clean up move data, long data
 - [] Rewrite docs to note changes of above
+- [x] Fix missing move data for pokemon
+- [] Get json algo working again
 
 ### FUTURE FEATURES:
 

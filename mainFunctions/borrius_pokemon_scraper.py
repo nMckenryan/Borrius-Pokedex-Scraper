@@ -25,13 +25,11 @@ import aiohttp
 import asyncio
 
 from termcolor import colored
-
-from mainFunctions.helpers import correct_pokemon_name, fetch_page, get_pokemon_locations, read_location_data_json, \
-    borrius_pokedex_indexes
     
+from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_pokemon_locations, read_location_data_json
 from mainFunctions.scraper_actions import get_evo_details, get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
-    get_types, get_name
+    get_types, get_name, get_missing_moves_from_pokeapi
 
 
 # SCRAPE POKEMON DATA FROM BORRIUS POKEDEX
@@ -92,6 +90,9 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 
                 # MOVES
                 moves = get_moves_for_pokemon(move_table)
+                
+                if(moves) == []:
+                    moves = get_missing_moves_from_pokeapi(move_table, officialDexNumber)
 
                 tmhm_moves = get_tmhm_moves(tmhm_move_table)
 
