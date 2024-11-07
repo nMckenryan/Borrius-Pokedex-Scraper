@@ -263,10 +263,8 @@ async def test_borrius_pokedex_json_check_abilities():
 async def test_borrius_pokedex_json_check_index():
     for pokemon in data[0]["pokemon"]:
         assert "game_indices" in pokemon
-
-        for index in pokemon["game_indices"]:
-            assert "game_index" in index
-            assert "version" in index
+        assert isinstance(pokemon["game_indices"]["unbound_index"], int)
+        assert isinstance(pokemon["game_indices"]["official_index"], int)
 
 
 @pytest.mark.asyncio

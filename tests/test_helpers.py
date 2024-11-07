@@ -55,7 +55,6 @@ async def test_check_for_forbidden_names():
         assert pokemon["pokemon"] != "good rod"
 
 
-@pytest.mark.asyncio
 def test_get_pokemon_locations():
     location_list = [{"pokemon": "snorunt", "locationData": [{"location": "Route 1"}, {"location": "Route 8"}]},
                      {"pokemon": "glacie", "locationData": []}]
@@ -101,7 +100,6 @@ async def test_initialise_pokemon_location_template():
     assert location_data_list[502]["pokemon"] == "hoopa"
 
 
-@pytest.mark.asyncio
 def test_get_special_encounter_pokemon():
     result = get_special_encounter_pokemon()
     assert len(result) > 0

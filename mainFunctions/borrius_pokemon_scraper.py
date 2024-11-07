@@ -26,8 +26,8 @@ import asyncio
 
 from termcolor import colored
     
-from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_pokemon_locations, read_location_data_json
-from mainFunctions.scraper_actions import get_evo_details, get_moves_for_pokemon, get_tmhm_moves, \
+from helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_pokemon_locations, read_location_data_json
+from scraper_actions import get_evo_details, get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
     get_types, get_name, get_missing_moves_from_pokeapi
 
@@ -46,9 +46,11 @@ Parameters:
 Returns:
 None
 """
+
+bph = BorriusPokedexHelpers()
+json_file = bph.json_header
+
 async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
-
-
     async with aiohttp.ClientSession() as session:
         tasks = []
         for i in numbers:
@@ -170,17 +172,11 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
-
+                
                 
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
 
-    borrius_page = BorriusPokedexHelpers("borrius_page")
-    borrius_numbers = BorriusPokedexHelpers("borrius_numbers")
-    national_page = BorriusPokedexHelpers("national_page")
-    national_numbers = BorriusPokedexHelpers("national_numbers")
-    header = BorriusPokedexHelpers("json_header")
-    
     print("\n\n")
     print(
         colored("---- BORRIUS POKEDEX SCRAPER ----", "black", "on_yellow"),
@@ -191,8 +187,8 @@ async def compile_pokedex():
     )
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        await scrape_pokemon_data(national_page, national_numbers, 1, header)
-        await scrape_pokemon_data(borrius_page, borrius_numbers, 10, header)
+        await scrape_pokemon_data(bph.national_page, bph.national_numbers, 1, json_file)
+        await scrape_pokemon_data(bph.borrius_page, bph.borrius_numbers, 10, json_file)
 
         end = time.time()
         length = end - start
@@ -207,29 +203,15 @@ async def compile_pokedex():
 
 
 async def output_pokedex_json():
-    
-    currentTime = datetime.datetime.now()
 
-    locationList = []
-
-    pokemonJson = [
-    {
-        "info": {
-            "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
-            "dataPulledOn": str(currentTime),
-        },
-        "pokemon": [],
-    }
-    ]
-
-    await compile_pokedex(pokemonJson)
+    await compile_pokedex()
 
     printTime = datetime.datetime.now()
     print(f"Printing JSON to file process started at {printTime}")
     try:
         fileName = "scraperData/borrius_pokedex_data.json"
         with open(fileName, "w") as fp:
-            json.dump(pokemonJson, fp, indent=4)
+            json.dump(json_file, fp, indent=4)
 
         print(
             colored(

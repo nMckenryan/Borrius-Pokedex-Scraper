@@ -3,7 +3,7 @@
 import re
 
 import aiohttp
-from mainFunctions.helpers import get_evolution_data_from_pokeapi
+from helpers import get_evolution_data_from_pokeapi
 import ast
 
 
@@ -77,11 +77,7 @@ def get_abilities(top_card):
     abilities = []
     for ability in abilitiesList:
         ab = {
-            "ability": {
-                "name": ability,
-                # "url": f"https://pokeapi.co/api/v2/ability/{ability.lower()}/",
-            },
-            "is_hidden": 0,
+            "ability_name": ability,
             "slot": 1,
         }
         abilities.append(ab)
@@ -104,11 +100,7 @@ def get_stats(stats_table):
             "base_stat": int(
                 stats_table.find_all("td")[i * 3].text.strip()
             ),
-            "effort": 0,
-            "stat": {
-                "name": stat,
-                "url": f"https://pokeapi.co/api/v2/stat/{i+1}/",
-            },
+            "effort": 0
         }
         
     return stats_table_output
@@ -132,23 +124,13 @@ def get_moves_for_pokemon(move_table):
         if len(columns) > 0:
             moves.append(
                 {
-                    "move": {
-                        "name": columns[1].text.strip(),
-                        "type": columns[2].text.strip(),
-                        "category": columns[3].text.strip(),
-                        "power": columns[4].text.strip().replace("\u2014", "-"),
-                        "accuracy": columns[5].text.strip().replace("\u2014", "-"),
-                    },
-                    "version_group_details": [
-                        {
-                            "level_learned_at": columns[0].text.strip(),
-                            "move_learn_method": {
-                                "name": "level-up",
-                                "url": "https://pokeapi.co/api/v2/move-learn-method/1/",
-                            },
-                            "version_group": {"name": "unbound"},
-                        }
-                    ],
+                    "name": columns[1].text.strip(),
+                    "type": columns[2].text.strip(),
+                    "category": columns[3].text.strip(),
+                    "power": columns[4].text.strip().replace("\u2014", "-"),
+                    "accuracy": columns[5].text.strip().replace("\u2014", "-"),
+                    "level_learned_at": columns[0].text.strip(),
+                    "method": "level-up"
                 }
             )
             
@@ -175,6 +157,8 @@ async def get_missing_moves_from_pokeapi(pokemon_number) -> list:
                             "category": move_get["damage_class"]["name"],
                             "power": move_get["power"],
                             "accuracy": move_get["accuracy"],
+                            "level_learned_at": move_get["level_learned_at"],
+                            "method": 'level-up'
                     })
 
             return returned_moves

@@ -39,7 +39,7 @@ async def test_scrape_pokemon_data_borrius_first():
     await scrape_pokemon_data(borrius_page, [1], 1, pokemonJson)
     firstPokemon = pokemonJson[0].get("pokemon")[0]
     
-    assert firstPokemon.get("name") == "snorunt"
+    assert firstPokemon.get("name") == 'snorunt'
     assert firstPokemon.get("id") == 361
     assert firstPokemon.get("abilities") != []
     assert firstPokemon.get("moves") != []
