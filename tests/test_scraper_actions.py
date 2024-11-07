@@ -24,7 +24,7 @@ def test_get_types_two():
     assert get_types(two_type) == ['Fire', 'Water']
 
 @pytest.mark.asyncio
-async def test_get_moves_for_pokemon():
+async def test_get_missing_moves_for_pokemon():
     moveList = await get_missing_moves_from_pokeapi(374)
     assert len(moveList) == 8
     assert moveList[0] == {'name': 'headbutt', 'type': 'normal', 'category': 'physical', 'power': 70, 'accuracy': 100}

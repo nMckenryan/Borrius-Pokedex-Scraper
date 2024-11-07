@@ -33,20 +33,21 @@ from mainFunctions.scraper_actions import get_evo_details, get_moves_for_pokemon
 
 
 # SCRAPE POKEMON DATA FROM BORRIUS POKEDEX
+"""
+This function scrapes data for Pokemon from the Borrius Pokedex website.
+It retrieves information such as stats, moves, abilities, location, sprites, and evolution chain for each Pokemon.
+
+Parameters:
+- dex_page (str): The base URL for the Pokedex page
+- numbers (list): A list of Pokemon numbers to scrape
+- indexCount (int): The index count for the Pokemon data
+- pokemonJson (list): A list containing the JSON data for the Pokemon
+
+Returns:
+None
+"""
 async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
-    """
-    This function scrapes data for Pokemon from the Borrius Pokedex website.
-    It retrieves information such as stats, moves, abilities, location, sprites, and evolution chain for each Pokemon.
 
-    Parameters:
-    - dex_page (str): The base URL for the Pokedex page
-    - numbers (list): A list of Pokemon numbers to scrape
-    - indexCount (int): The index count for the Pokemon data
-    - pokemonJson (list): A list containing the JSON data for the Pokemon
-
-    Returns:
-    None
-    """
 
     async with aiohttp.ClientSession() as session:
         tasks = []
@@ -92,7 +93,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 moves = get_moves_for_pokemon(move_table)
                 
                 if(moves) == []:
-                    moves = get_missing_moves_from_pokeapi(move_table, officialDexNumber)
+                    moves = await get_missing_moves_from_pokeapi(officialDexNumber)
 
                 tmhm_moves = get_tmhm_moves(tmhm_move_table)
 
