@@ -1,27 +1,17 @@
 import pytest
+from termcolor import colored
 from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_data
 from mainFunctions.helpers import BorriusPokedexHelpers
 import datetime
 
 borrius_data = BorriusPokedexHelpers()
 borrius_page = borrius_data.borrius_page
-national_page = "https://www.pokemonunboundpokedex.com/national/"
-borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
-national_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]  # + get_missing_pokemon_indexes(),
-borrius_numbers = range(1, 495)
-pokemonJson = [
-    {
-        "info": {
-            "description": "Data pulled from BorriusPokedexScraper. https://github.com/nMckenryan/BorriusPokedexScraper",
-            "dataPulledOn": str(datetime.datetime.now()),
-        },
-        "pokemon": [],
-    }
-]
+
+pokemonJson =borrius_data.json_header
 
 @pytest.mark.asyncio
 async def test_get_all_starters():
-    await scrape_pokemon_data(national_page, national_numbers, 0, pokemonJson)
+    await scrape_pokemon_data(borrius_data.national_page, borrius_data.national_numbers, 0, pokemonJson)
     for pokemon in pokemonJson[0].get("pokemon"):
         assert pokemon.get("name") != ""
         assert pokemon.get("description") != ""
@@ -51,12 +41,12 @@ async def test_scrape_pokemon_data_borrius_first():
 
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_check_all_generated():
-    await scrape_pokemon_data(borrius_page, borrius_numbers, 1, pokemonJson)
+    await scrape_pokemon_data(borrius_page, borrius_data.borrius_numbers, 1, pokemonJson)
     assert(len(pokemonJson[0].get("pokemon")) == 494)
 
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_check_null_checks():
-    await scrape_pokemon_data(borrius_page, borrius_numbers, 1, pokemonJson)
+    await scrape_pokemon_data(borrius_page, borrius_data.borrius_numbers, 1, pokemonJson)
     
     for pokemon in pokemonJson[0].get("pokemon"):
         try:

@@ -1,22 +1,3 @@
-"""
-This script is used to scrape the Borrius Pokedex from the Pokemon Unbound website
-and generate a JSON file containing the data for all the Pokemon in the Borrius
-Dex.
-
-The script works by first reading in the location data from a JSON file, then
-scraping the data from the Pokemon Unbound website for the Borrius Pokedex, and
-finally combining the two datasets and writing the combined data to a new JSON
-file.
-
-The script can be run from the command line with the following command:
-
-    python borrius_pokemon_scraper.py
-
-This will generate a JSON file called 'borrius_pokedex_data.json' in the
-'scraperData' directory which contains the data for all the Pokemon in the
-Borrius Dex.
-"""
-
 import datetime
 import time
 import json
@@ -33,19 +14,6 @@ from scraper_actions import get_evo_details, get_moves_for_pokemon, get_tmhm_mov
 
 
 # SCRAPE POKEMON DATA FROM BORRIUS POKEDEX
-"""
-This function scrapes data for Pokemon from the Borrius Pokedex website.
-It retrieves information such as stats, moves, abilities, location, sprites, and evolution chain for each Pokemon.
-
-Parameters:
-- dex_page (str): The base URL for the Pokedex page
-- numbers (list): A list of Pokemon numbers to scrape
-- indexCount (int): The index count for the Pokemon data
-- pokemonJson (list): A list containing the JSON data for the Pokemon
-
-Returns:
-None
-"""
 
 bph = BorriusPokedexHelpers()
 json_file = bph.json_header
@@ -92,7 +60,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 evoDetails = await get_evo_details(officialDexNumber)
                 
                 # MOVES
-                moves = get_moves_for_pokemon(move_table)
+                moves = get_moves_for_pokemon(move_table, officialDexNumber)
                 
                 if(moves) == []:
                     moves = await get_missing_moves_from_pokeapi(officialDexNumber)
@@ -187,8 +155,16 @@ async def compile_pokedex():
     )
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        await scrape_pokemon_data(bph.national_page, bph.national_numbers, 1, json_file)
-        await scrape_pokemon_data(bph.borrius_page, bph.borrius_numbers, 10, json_file)
+        try:
+            await scrape_pokemon_data(bph.national_page, bph.national_numbers, 1, json_file)
+        except Exception as e:
+            print(colored(f"Failed to retrieve starters: {e}", "red"))
+
+        try: 
+            await scrape_pokemon_data(bph.borrius_page, bph.borrius_numbers, 10, json_file)
+        except Exception as e:
+            print(colored(f"Failed to retrieve main dex: {e}", "red"))
+
 
         end = time.time()
         length = end - start
