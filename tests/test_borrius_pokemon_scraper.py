@@ -23,7 +23,7 @@ async def test_get_all_starters():
         assert pokemon.get("sprites") != []
         assert pokemon.get("stats") != []
 
-
+## TODO: Alternates between Larvitar and Snorunt? alternates between adding Starters, and avoiding them.
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_borrius_first():
     await scrape_pokemon_data(borrius_page, [1], 1, pokemonJson)
@@ -39,10 +39,12 @@ async def test_scrape_pokemon_data_borrius_first():
     assert firstPokemon.get("sprites") != []
     assert firstPokemon.get("stats") != []
 
+## Takes a long time
+## TODO: Suffers same issue as above.
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_check_all_generated():
     await scrape_pokemon_data(borrius_page, borrius_data.borrius_numbers, 1, pokemonJson)
-    assert(len(pokemonJson[0].get("pokemon")) == 494)
+    assert(len(pokemonJson[0].get("pokemon")) == 504)
 
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_check_null_checks():

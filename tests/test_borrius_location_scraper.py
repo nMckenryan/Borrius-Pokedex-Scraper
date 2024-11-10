@@ -45,7 +45,7 @@ async def test_get_surf_locations():
 @pytest.mark.asyncio
 async def test_fill_in_evolution_gaps():
     locationDataList = [{"pokemon": "pupitar", "locationData": []}]
-    get_surf_locations(locationDataList)
+    await get_surf_locations(locationDataList)
     
     fill_in_evolution_gaps(locationDataList)
 
