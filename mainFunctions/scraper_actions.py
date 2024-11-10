@@ -1,7 +1,9 @@
 
 
 import re
-from mainFunctions.helpers import get_evolution_data_from_pokeapi
+
+import aiohttp
+from termcolor import colored
 import ast
 
 
@@ -20,19 +22,9 @@ def get_types(top_card):
     return typeArray 
 
 
-async def get_evo_details(officialDexNumber):
-    try:
-        getEvoDetails = await get_evolution_data_from_pokeapi(officialDexNumber)
-        evoDetails = getEvoDetails.get("evolution_details", {}).get(
-                        "chain", None
-                    )
-    except Exception as e:
-        print(f"Failed to retrieve pokeapi data for {officialDexNumber}: {e}")
-        evoDetails = None
-    return evoDetails
-
 
 def get_weight_height(top_card):
+    
     weightInHectograms = (
         float(
             top_card.find_all("p", class_="text-3xl font-bold")[4]
@@ -75,11 +67,7 @@ def get_abilities(top_card):
     abilities = []
     for ability in abilitiesList:
         ab = {
-            "ability": {
-                "name": ability,
-                # "url": f"https://pokeapi.co/api/v2/ability/{ability.lower()}/",
-            },
-            "is_hidden": 0,
+            "ability_name": ability,
             "slot": 1,
         }
         abilities.append(ab)
@@ -102,11 +90,7 @@ def get_stats(stats_table):
             "base_stat": int(
                 stats_table.find_all("td")[i * 3].text.strip()
             ),
-            "effort": 0,
-            "stat": {
-                "name": stat,
-                "url": f"https://pokeapi.co/api/v2/stat/{i+1}/",
-            },
+            "effort": 0
         }
         
     return stats_table_output
@@ -123,34 +107,62 @@ def get_gender_data(top_card):
     return gender_data
 
 
-def get_moves_for_pokemon(move_table):
+def get_moves_for_pokemon(move_table, officialDexNumber):
     moves = []
-    for row in move_table.find_all("tr"):
-        columns = row.find_all("td")
-        if len(columns) > 0:
-            moves.append(
-                {
-                    "move": {
+    try:
+        for row in move_table.find_all("tr"):
+            columns = row.find_all("td")
+            if len(columns) > 0:
+                moves.append(
+                    {
                         "name": columns[1].text.strip(),
                         "type": columns[2].text.strip(),
                         "category": columns[3].text.strip(),
                         "power": columns[4].text.strip().replace("\u2014", "-"),
                         "accuracy": columns[5].text.strip().replace("\u2014", "-"),
-                    },
-                    "version_group_details": [
-                        {
-                            "level_learned_at": columns[0].text.strip(),
-                            "move_learn_method": {
-                                "name": "level-up",
-                                "url": "https://pokeapi.co/api/v2/move-learn-method/1/",
-                            },
-                            "version_group": {"name": "unbound"},
-                        }
-                    ],
-                }
-            )
-            
+                        "level_learned_at": columns[0].text.strip(),
+                        "method": "level-up"
+                    }
+                )
+    except Exception as e:
+        print(f"Error processing move table for pokemon {officialDexNumber}: {e}")
+    
     return moves
+
+
+async def get_missing_moves_from_pokeapi(pokemon_number) -> list:
+    returned_moves = []
+    async with aiohttp.ClientSession() as session:
+        try:
+            async with session.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_number}') as response:
+                missing_moves = await response.json()
+                
+                ml  = missing_moves["moves"]
+                
+                for move in ml:
+                    move_link = f"https://pokeapi.co/api/v2/move/{move['move']['name']}/"
+                    mg = await session.get(move_link)
+                    move_get = await mg.json()
+                    
+                    returned_moves.append({
+                            "name": move_get["name"],
+                            "type": move_get["type"]["name"],
+                            "category": move_get["damage_class"]["name"],
+                            "power": move_get["power"],
+                            "accuracy": move_get["accuracy"],
+                            "level_learned_at":  move["version_group_details"][-1]["level_learned_at"],
+                            "method":  move["version_group_details"][-1]["move_learn_method"]["name"]
+                    })
+
+            return returned_moves
+            
+        except Exception as e:
+            print(
+                colored(
+                    f"Failed to retrieve missing move data {pokemon_number} from PokeAPI: {e}",
+                    "red",
+                ),
+            )
 
 
 def get_tmhm_moves(tmhm_move_table):
@@ -160,27 +172,13 @@ def get_tmhm_moves(tmhm_move_table):
         if len(columns) > 0:
             tmhm_moves.append(
                 {
-                    "move": {
-                        "name": columns[1].text.strip(),
-                        "type": columns[2].text.strip(),
-                        "category": columns[3].text.strip(),
-                        "power": columns[4]
-                        .text.strip()
-                        .replace("\u2014", "-"),
-                        "accuracy": columns[5]
-                        .text.strip()
-                        .replace("\u2014", "-"),
-                    },
-                    "version_group_details": [
-                        {
-                            "level_learned_at": 0,
-                            "move_learn_method": {
-                                "name": "machine",
-                                "url": "https://pokeapi.co/api/v2/move-learn-method/4/",
-                            },
-                            "version_group": {"name": "unbound"},
-                        }
-                    ],
+                    "name": columns[1].text.strip(),
+                    "type": columns[2].text.strip(),
+                    "category": columns[3].text.strip(),
+                    "power": columns[4].text.strip(),
+                    "accuracy": columns[5].text.strip().replace("\u2014", "-"),
+                    "level_learned_at": 0,
+                    "method": 'machine'
                 }
             )
             
@@ -188,16 +186,29 @@ def get_tmhm_moves(tmhm_move_table):
 
 
 def merge_moves(moves, tmhm_moves):
-    combined_moves = moves + tmhm_moves
-    for combined_move in combined_moves:
+    
+    
+    combined_moves = []
+    for move in moves:
         for tmhm_move in tmhm_moves:
-            if (
-                    combined_move["move"]["name"] == tmhm_move["move"]["name"]
-                    and combined_move["version_group_details"][0][
-                        "move_learn_method"
-                    ]["name"]
-                    != "machine"
-                ):
-                combined_move["version_group_details"][0]["move_learn_method"]["name"] = "level-up/tm"
+            if move["name"] == tmhm_move["name"]:
+                combined_moves.append(
+                    {
+                        "name": move["name"],
+                        "type": move["type"],
+                        "category": move["category"],
+                        "power": move["power"],
+                        "accuracy": move["accuracy"],
+                        "level_learned_at": move["level_learned_at"],
+                        "method": "level-up/TM"
+                    }
+                )
                 break
+        else:
+            combined_moves.append(move)
+    for tmhm_move in tmhm_moves:
+        if tmhm_move not in combined_moves:
+            combined_moves.append(tmhm_move)
+
     return combined_moves
+   

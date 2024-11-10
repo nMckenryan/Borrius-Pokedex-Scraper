@@ -65,11 +65,11 @@ def get_pokemon_locations(pokemon_name, location_list):
 
 
 # get a pokemon's evolution chain data from pokeapi
-async def get_evolution_data_from_pokeapi(pokemon_number):
+async def get_evolution_data_from_pokeapi(officialDexNumber):
     async with aiohttp.ClientSession() as session:
         try:
             pokeapi_species = await session.get(
-                f"https://pokeapi.co/api/v2/pokemon-species/{pokemon_number}"
+                f"https://pokeapi.co/api/v2/pokemon-species/{officialDexNumber}"
             )
 
             species_data = await pokeapi_species.json()
@@ -90,6 +90,16 @@ async def get_evolution_data_from_pokeapi(pokemon_number):
                 ),
             )
 
+async def get_evo_details(officialDexNumber):
+    try:
+        getEvoDetails = await get_evolution_data_from_pokeapi(officialDexNumber)
+        evoDetails = getEvoDetails.get("evolution_details", {}).get(
+                        "chain", None
+                    )
+    except Exception as e:
+        print(f"Failed to retrieve pokeapi data for {officialDexNumber}: {e}")
+        evoDetails = None
+    return evoDetails
 
 # Corrects name of pokemon so it can be successfully found in pokeapi
 def correct_pokemon_name(p):
