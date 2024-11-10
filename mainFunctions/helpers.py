@@ -90,6 +90,16 @@ async def get_evolution_data_from_pokeapi(officialDexNumber):
                 ),
             )
 
+async def get_evo_details(officialDexNumber):
+    try:
+        getEvoDetails = await get_evolution_data_from_pokeapi(officialDexNumber)
+        evoDetails = getEvoDetails.get("evolution_details", {}).get(
+                        "chain", None
+                    )
+    except Exception as e:
+        print(f"Failed to retrieve pokeapi data for {officialDexNumber}: {e}")
+        evoDetails = None
+    return evoDetails
 
 # Corrects name of pokemon so it can be successfully found in pokeapi
 def correct_pokemon_name(p):

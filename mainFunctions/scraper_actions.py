@@ -4,7 +4,6 @@ import re
 
 import aiohttp
 from termcolor import colored
-from helpers import get_evolution_data_from_pokeapi
 import ast
 
 
@@ -23,19 +22,9 @@ def get_types(top_card):
     return typeArray 
 
 
-async def get_evo_details(officialDexNumber):
-    try:
-        getEvoDetails = await get_evolution_data_from_pokeapi(officialDexNumber)
-        evoDetails = getEvoDetails.get("evolution_details", {}).get(
-                        "chain", None
-                    )
-    except Exception as e:
-        print(f"Failed to retrieve pokeapi data for {officialDexNumber}: {e}")
-        evoDetails = None
-    return evoDetails
-
 
 def get_weight_height(top_card):
+    
     weightInHectograms = (
         float(
             top_card.find_all("p", class_="text-3xl font-bold")[4]
