@@ -1,31 +1,18 @@
 import pytest
 from termcolor import colored
 from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_data
-from mainFunctions.helpers import BorriusPokedexHelpers
+from mainFunctions.helpers import BorriusPokedexHelpers, get_missing_pokemon_data
 import datetime
 
 borrius_data = BorriusPokedexHelpers()
 borrius_page = borrius_data.borrius_page
 
-pokemonJson =borrius_data.json_header
+pokemonJson = borrius_data.json_header
 
-@pytest.mark.asyncio
-async def test_get_all_starters():
-    await scrape_pokemon_data(borrius_data.national_page, borrius_data.national_numbers, 0, pokemonJson)
-    for pokemon in pokemonJson[0].get("pokemon"):
-        assert pokemon.get("name") != ""
-        assert pokemon.get("description") != ""
-        assert pokemon.get("abilities") != []
-        assert pokemon.get("moves") != []
-        assert pokemon.get("location") != ""
-        assert pokemon.get("types") != []
-        assert pokemon.get("evolutionChain") != []
-        assert pokemon.get("sprites") != []
-        assert pokemon.get("stats") != []
 
-## TODO: Alternates between Larvitar and Snorunt? alternates between adding Starters, and avoiding them.
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_borrius_first():
+    pokemonJson = borrius_data.json_header
     await scrape_pokemon_data(borrius_page, [1], 1, pokemonJson)
     firstPokemon = pokemonJson[0].get("pokemon")[0]
     
@@ -39,8 +26,41 @@ async def test_scrape_pokemon_data_borrius_first():
     assert firstPokemon.get("sprites") != []
     assert firstPokemon.get("stats") != []
 
-## Takes a long time
-## TODO: Suffers same issue as above.
+
+@pytest.mark.asyncio
+async def test_get_all_starters():
+    pokemonJson = borrius_data.json_header
+    await scrape_pokemon_data(borrius_data.national_page, borrius_data.national_numbers, 0, pokemonJson)
+    for pokemon in pokemonJson[0].get("pokemon"):
+        assert pokemon.get("name") != ""
+        assert pokemon.get("description") != ""
+        assert pokemon.get("abilities") != []
+        assert pokemon.get("moves") != []
+        assert pokemon.get("location") != ""
+        assert pokemon.get("types") != []
+        assert pokemon.get("evolutionChain") != []
+        assert pokemon.get("sprites") != []
+        assert pokemon.get("stats") != []
+
+# ~180 in total
+@pytest.mark.asyncio
+async def test_get_all_spec_encs():
+    pokemonJson = borrius_data.json_header
+    spn = await get_missing_pokemon_data()
+    await scrape_pokemon_data(borrius_data.national_page, spn, 0, pokemonJson)
+    for pokemon in pokemonJson[0].get("pokemon"):
+        assert pokemon.get("name") != ""
+        assert pokemon.get("description") != ""
+        assert pokemon.get("abilities") != []
+        assert pokemon.get("moves") != []
+        assert pokemon.get("location") != ""
+        assert pokemon.get("types") != []
+        assert pokemon.get("evolutionChain") != []
+        assert pokemon.get("sprites") != []
+        assert pokemon.get("stats") != []
+
+
+
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_check_all_generated():
     await scrape_pokemon_data(borrius_page, borrius_data.borrius_numbers, 1, pokemonJson)
