@@ -50,6 +50,7 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [/] Display Special Encounter Pokemon data
   - [ ] Collate (include in search but not basic?)
   - [ ] Get pokemon evolutions data from pokeapi for spec. encounter
+ [ ] Fix: Could not find learned move table for 10186
 
 ### FUTURE FEATURES:
 

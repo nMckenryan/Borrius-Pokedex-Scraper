@@ -8,9 +8,8 @@ import datetime
 
 
 class BorriusPokedexHelpers:
-
     def __init__(self):
-        self.national_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]  # + get_missing_pokemon_indexes(),
+        self.national_numbers = [246, 247, 248, 374, 375, 376, 443, 444, 445]
         self.borrius_numbers = range(1, 495)
         self.national_page = "https://www.pokemonunboundpokedex.com/national/"
         self.borrius_page = "https://www.pokemonunboundpokedex.com/borrius/"
@@ -64,7 +63,7 @@ def get_pokemon_locations(pokemon_name, location_list):
     return []
 
 
-# get a pokemon's evolution chain data from pokeapi
+# get a pokemon's evolution chain data from pokeapi. (gets pokemon's evo chain URL, then gets THAT data)
 async def get_evolution_data_from_pokeapi(officialDexNumber):
     async with aiohttp.ClientSession() as session:
         try:
@@ -85,7 +84,7 @@ async def get_evolution_data_from_pokeapi(officialDexNumber):
         except Exception as e:
             print(
                 colored(
-                    f"Failed to retrieve data from PokeAPI: {e}",
+                    f"Failed to retrieve evolution data {officialDexNumber} from PokeAPI: {e}",
                     "red",
                 ),
             )

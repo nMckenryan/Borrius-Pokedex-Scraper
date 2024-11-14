@@ -4,7 +4,9 @@ from fastapi import FastAPI
 from pip._vendor.typing_extensions import Annotated
 from fastapi.param_functions import Query
 
-app = FastAPI()
+app = FastAPI(
+        swagger_ui_parameters={'syntaxHighlight': False}
+)
 
 
 @app.get("/borrius_pokemon/info")
@@ -13,6 +15,12 @@ async def read_info():
         pokemon_data = json.load(json_file)[0].get("info")
     return {"borrius_pokemon": pokemon_data}
 
+
+@app.get("/borrius_pokemon/")
+async def read_pokemon():
+    with open("scraperData/borrius_pokedex_data.json") as json_file:
+        pokemon_data = json.load(json_file)[0].get("pokemon")
+    return {"borrius_pokemon": pokemon_data}
 
 @app.get("/borrius_pokemon/")
 async def read_pokemon():

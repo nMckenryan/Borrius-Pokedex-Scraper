@@ -6,9 +6,9 @@ import aiohttp
 import asyncio
 
 from termcolor import colored
-    
-from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_evo_details, get_pokemon_locations, read_location_data_json
-from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
+
+from helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_evo_details, get_pokemon_locations, read_location_data_json, get_missing_pokemon_data
+from scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
     get_types, get_name, get_missing_moves_from_pokeapi
 
@@ -43,8 +43,19 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                     lambda tag: tag.name == "div" and "Level Up Moves" in tag.decode(),
                     class_="overflow-x-auto col-span-6 col-start-2 justify-stretch",
                 )
-                move_table = learned_move_table_parent.find("tbody")
-                tmhm_move_table = tmhm_move_table_parent.find("tbody")
+                
+                try:
+                    move_table = learned_move_table_parent.find("tbody")
+                except AttributeError:
+                    print(f"Error: Could not find learned move table for {i}")
+                    move_table = []
+                try:
+                    tmhm_move_table = tmhm_move_table_parent.find("tbody")
+                except AttributeError:
+                    print(f"Error: Could not find TMHM move table for {i}")
+                    tmhm_move_table = []
+                
+                
 
                 # Get SPRITES (also extracts actual pokemon number from official dex)
                 sprite_src = soup.find("img")["src"]
@@ -141,36 +152,40 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
                 
-                
+async def scrape_pokemon_category(page, numbers, start_index, category_name):
+    try:
+        return await scrape_pokemon_data(page, numbers, start_index, json_file)
+    except Exception as e:
+        print(colored(f"Failed to retrieve {category_name}: {e}", "red"))
+        return []
+
+
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
-
-    print("\n\n")
-    print(
-        colored("---- BORRIUS POKEDEX SCRAPER ----", "black", "on_yellow"),
-    )
+    special_encounter_numbers = await get_missing_pokemon_data()
     start = time.time()
+    
     print(
-        f"Started creating Borrius Pokedex Json file at {datetime.datetime.now()}\n Creating Json file..."
+        colored(f"\n\n ---- BORRIUS POKEDEX SCRAPER ---- \n Started creating Borrius Pokedex Json file at {datetime.datetime.now()} \n Creating Json file...", "black", "on_yellow"),
     )
+
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        try:
-            await scrape_pokemon_data(bph.national_page, bph.national_numbers, 1, json_file)
-        except Exception as e:
-            print(colored(f"Failed to retrieve starters: {e}", "red"))
-
-        try: 
-            await scrape_pokemon_data(bph.borrius_page, bph.borrius_numbers, 10, json_file)
-        except Exception as e:
-            print(colored(f"Failed to retrieve main dex: {e}", "red"))
-
-
+        results = await asyncio.gather(
+            scrape_pokemon_category(bph.national_page, bph.national_numbers, 1, "starters"),
+            scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 10, "main dex"),
+            scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
+        )
+        
+        # for pokemon_list in results:
+        #     json_file[0]["pokemon"].extend(pokemon_list)
+            
+            
         end = time.time()
         length = end - start
         print(
             colored(
-                f"successfully created JSON in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes)",
+                f"successfully created pokemon data in {format(length, '.2f')} seconds ({format(length / 60, '.2f')} minutes)",
                 "green",
             ),
         )
@@ -179,7 +194,6 @@ async def compile_pokedex():
 
 
 async def output_pokedex_json():
-
     await compile_pokedex()
 
     printTime = datetime.datetime.now()
