@@ -23,8 +23,6 @@ class BorriusPokedexHelpers:
             }
         ]
 
-
-
 # Get data from BorriusPokedex web page for scraping
 async def fetch_page(session, link):
     async with session.get(link) as page:
@@ -53,6 +51,15 @@ async def read_location_data_json():
                 f"Failed to read locationData.json, error: {e}", "red",
             ),
         )
+
+def get_regional_forms_by_name(pokemon_list):
+    
+    regional_forms = []
+    
+    for p in pokemon_list:
+        if "galar" in p['pokemon'] or "alola" in p['pokemon'] or "hisui" in p['pokemon']:
+            regional_forms.append(correct_pokemon_name(p['pokemon']))
+    return regional_forms
 
 
 # search thru location_list for a given pokemon
