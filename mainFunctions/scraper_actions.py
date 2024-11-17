@@ -89,8 +89,7 @@ def get_stats(stats_table):
         stats_table_output[stat] = {
             "base_stat": int(
                 stats_table.find_all("td")[i * 3].text.strip()
-            ),
-            "effort": 0
+            )
         }
         
     return stats_table_output

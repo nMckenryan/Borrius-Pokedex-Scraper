@@ -44,8 +44,9 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 
 ### TO DO
 
-- [] Collate Alolan, Hisui, Galar Forms
-  - [] Get this data, and add to dex after original versions (e.g. 30.a? )
+- [x] Collate Alolan, Hisui, Galar Forms
+  - [] Get this data from yda
+  - [] Add to dex after original versions (e.g. 30.a? )
 - [] Fix issue with generating Starters intermittently. failing tests.
 - [x] Display Special Encounter Pokemon data
   - [ ] Collate (include in search but not basic?)

@@ -18,6 +18,8 @@ from scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
 bph = BorriusPokedexHelpers()
 json_file = bph.json_header
 
+
+
 async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
     async with aiohttp.ClientSession() as session:
         tasks = []
@@ -60,13 +62,6 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 # Get SPRITES (also extracts actual pokemon number from official dex)
                 sprite_src = soup.find("img")["src"]
                 officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
-                sprite_link = str(
-                    f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",
-                )
-
-                official_sprite_link = str(
-                    f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{str(officialDexNumber)}.png"
-                )
 
                 evoDetails = await get_evo_details(officialDexNumber)
                 
@@ -123,11 +118,6 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                         "maleChance": gender_data[0],
                         "femaleChance": gender_data[1],
                     }
-                
-                sprites_data = {
-                        "front_default": sprite_link,
-                        "other": {"home": {"front_default": official_sprite_link}},
-                    },
             
                 # APPLY DATA TO JSON
                 pokemon_data = {
@@ -142,7 +132,10 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                     "height": heightInDecimetres,
                     "weight": weightInHectograms,
                     "capture_rate": capture_rates,
-                    "sprites": sprites_data,
+                    "sprites": {
+                        "front_default": str(f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}"),
+                        "official_artwork": str(f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{str(officialDexNumber)}.png")
+                    },
                     "stats": stats_table_output,
                     "gender": gender_data,
                     "evolution_chain": evoDetails,
@@ -151,6 +144,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
+                
                 
 async def scrape_pokemon_category(page, numbers, start_index, category_name):
     try:
@@ -162,7 +156,7 @@ async def scrape_pokemon_category(page, numbers, start_index, category_name):
 
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
-    special_encounter_numbers = await get_missing_pokemon_data()
+    # special_encounter_numbers = await get_missing_pokemon_data()
     start = time.time()
     
     print(
@@ -171,15 +165,14 @@ async def compile_pokedex():
 
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        results = await asyncio.gather(
+        
+        await asyncio.gather(
             scrape_pokemon_category(bph.national_page, bph.national_numbers, 1, "starters"),
             scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 10, "main dex"),
-            scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
-        )
-        
-        # for pokemon_list in results:
-        #     json_file[0]["pokemon"].extend(pokemon_list)
+            # scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 503, "regional"),
             
+            # scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
+        )            
             
         end = time.time()
         length = end - start
