@@ -42,7 +42,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                     class_="overflow-x-auto col-span-6 col-start-2 justify-stretch",
                 )
                 tmhm_move_table_parent = soup.find(
-                    lambda tag: tag.name == "div" and "Level Up Moves" in tag.decode(),
+                    lambda tag: tag.name == "div" and "TM/HM Moves" in tag.decode(),
                     class_="overflow-x-auto col-span-6 col-start-2 justify-stretch",
                 )
                 
@@ -51,6 +51,8 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 except AttributeError:
                     print(f"Error: Could not find learned move table for {i}")
                     move_table = []
+                    
+                    
                 try:
                     tmhm_move_table = tmhm_move_table_parent.find("tbody")
                 except AttributeError:
@@ -157,10 +159,14 @@ async def scrape_pokemon_category(page, numbers, start_index, category_name):
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
     # special_encounter_numbers = await get_missing_pokemon_data()
-    start = time.time()
+    start = time.perf_counter()
     
     print(
-        colored(f"\n\n ---- BORRIUS POKEDEX SCRAPER ---- \n Started creating Borrius Pokedex Json file at {datetime.datetime.now()} \n Creating Json file...", "black", "on_yellow"),
+        colored(f"\n\n ---- BORRIUS POKEDEX SCRAPER ---- ", "black", "on_yellow"),
+    )
+
+    print(
+        colored(f"Started creating Borrius Pokedex Json file at {datetime.datetime.now()} \n Creating Json file...", "yellow"),
     )
 
     try:
@@ -174,7 +180,7 @@ async def compile_pokedex():
             # scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
         )            
             
-        end = time.time()
+        end = time.perf_counter()
         length = end - start
         print(
             colored(
