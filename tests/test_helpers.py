@@ -5,7 +5,7 @@ from unittest.mock import mock_open, patch
 import aiohttp
 import pytest
 
-from mainFunctions.helpers import correct_pokemon_name, fetch_page, get_evolution_data_from_pokeapi, get_missing_pokemon_data, get_pokemon_api_data_gaps, get_pokemon_index_from_name, get_pokemon_indexes_from_list, get_pokemon_locations, get_pokemon_names_from_unbound_pokedex, get_regional_forms, get_regional_forms_by_name, get_special_encounter_pokemon, initialise_pokemon_location_template, read_location_data_json
+from mainFunctions.helpers import EvoObject, correct_pokemon_name, fetch_page, get_evo_trigger, get_evolution_data_from_pokeapi, get_missing_pokemon_data, get_pokemon_api_data_gaps, get_pokemon_index_from_name, get_pokemon_indexes_from_list, get_pokemon_locations, get_pokemon_names_from_unbound_pokedex, get_regional_forms_by_name, get_special_encounter_pokemon, initialise_pokemon_location_template, read_location_data_json
 
 
 @pytest.mark.asyncio
@@ -150,3 +150,79 @@ async def test_get_regional_forms_by_name_real():
     pokemon_location = await read_location_data_json()
     regional_form_list = get_regional_forms_by_name(pokemon_location)
     assert len(regional_form_list) == 18
+    
+    
+def test_get_evo_trigger():
+    sample_evo = [
+        {
+            "gender": None,
+            "held_item": {
+                "name": "kings-rock",
+                "url": "https://pokeapi.co/api/v2/item/198/"
+            },
+            "item": None,
+            "known_move": None,
+            "known_move_type": None,
+            "location": None,
+            "min_affection": None,
+            "min_beauty": None,
+            "min_happiness": None,
+            "min_level": None,
+            "needs_overworld_rain": False,
+            "party_species": None,
+            "party_type": None,
+            "relative_physical_stats": None,
+            "time_of_day": "",
+            "trade_species": None,
+            "trigger": {
+                "name": "trade",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/2/"
+            },
+            "turn_upside_down": False
+        }
+    ]
+    
+    desired_result = EvoObject( 0, "trade", ['kings-rock']
+    )
+    result = get_evo_trigger(sample_evo)
+    assert result.evo_trigger == desired_result.evo_trigger
+    assert result.evo_conditions == desired_result.evo_conditions
+    assert result.evo_stage == desired_result.evo_stage
+    
+    
+def test_get_evo_trigger():
+    sample_evo = [
+        {
+            "gender": None,
+            "held_item": {
+                "name": "kings-rock",
+                "url": "https://pokeapi.co/api/v2/item/198/"
+            },
+            "item": None,
+            "known_move": None,
+            "known_move_type": None,
+            "location": None,
+            "min_affection": None,
+            "min_beauty": None,
+            "min_happiness": None,
+            "min_level": None,
+            "needs_overworld_rain": False,
+            "party_species": None,
+            "party_type": None,
+            "relative_physical_stats": None,
+            "time_of_day": "",
+            "trade_species": None,
+            "trigger": {
+                "name": "trade",
+                "url": "https://pokeapi.co/api/v2/evolution-trigger/2/"
+            },
+            "turn_upside_down": False
+        }
+    ]
+    
+    desired_result = EvoObject( 0, "trade", ['kings-rock']
+    )
+    result = get_evo_trigger(sample_evo)
+    assert result.evo_trigger == desired_result.evo_trigger
+    assert result.evo_conditions == desired_result.evo_conditions
+    assert result.evo_stage == desired_result.evo_stage

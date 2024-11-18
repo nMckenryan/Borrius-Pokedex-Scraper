@@ -1,5 +1,6 @@
 
 import asyncio
+from types import SimpleNamespace
 import aiohttp
 from bs4 import BeautifulSoup
 from termcolor import colored
@@ -70,6 +71,8 @@ def get_pokemon_locations(pokemon_name, location_list):
     return []
 
 
+
+
 # get a pokemon's evolution chain data from pokeapi. (gets pokemon's evo chain URL, then gets THAT data)
 async def get_evolution_data_from_pokeapi(officialDexNumber):
     async with aiohttp.ClientSession() as session:
@@ -95,6 +98,57 @@ async def get_evolution_data_from_pokeapi(officialDexNumber):
                     "red",
                 ),
             )
+class EvoObject:
+
+    def __init__(self, evo_stage, evo_trigger, evo_conditions):
+        self.evo_stage = evo_stage
+        self.evo_trigger = evo_trigger
+        self.evo_conditions = evo_conditions
+
+
+def get_evo_trigger(ed):
+    evo_refactored = json.loads(json.dumps(ed), object_hook=lambda d: SimpleNamespace(**d))
+    evo_object = EvoObject(0, "", [])
+
+    gender = evo_refactored[0].gender
+    held_item = evo_refactored[0].held_item
+    item = evo_refactored[0].item
+    known_move = evo_refactored[0].known_move
+    min_affection = evo_refactored[0].min_affection
+    needs_overworld_rain = evo_refactored[0].needs_overworld_rain
+    time_of_day = evo_refactored[0].time_of_day
+    trade_species = evo_refactored[0].trade_species
+    trigger = evo_refactored[0].trigger
+
+    if gender is not None:
+        evo_object.evo_conditions.append("Female" if gender == 1 else "Male")
+    if held_item is not None:
+        evo_object.evo_conditions.append(held_item.name)
+    if item is not None:
+        evo_object.evo_conditions.append(item.name)
+    if known_move is not None:
+        evo_object.evo_conditions.append(known_move.name)
+    if min_affection is not None:
+        evo_object.evo_conditions.append(min_affection)
+    if needs_overworld_rain:
+        evo_object.evo_conditions.append("Rain")
+    if time_of_day:
+        evo_object.evo_conditions.append(time_of_day)
+    if trade_species is not None:
+        evo_object.evo_conditions.append(trade_species.name)
+
+    evo_object.evo_trigger = trigger.name
+
+    return evo_object
+
+# def refactor_pokeapi_evo_data(evo_data):
+#     if(evo_data["evolution_chain"]["evolves_to"] == []):
+#         return []
+    
+#     for evo in evo_data:
+        
+            
+
 
 async def get_evo_details(officialDexNumber):
     try:

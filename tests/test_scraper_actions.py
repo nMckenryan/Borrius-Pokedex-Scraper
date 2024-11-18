@@ -45,7 +45,7 @@ def test_merge_moves():
     
     expected_results = [
         {"name": "level-move", "type": "normal", "category": "physical", "power": 100, "accuracy": 50, "level_learned_at": 0, "method": "level-up"},
-        {"name": "tm-and-level-move", "type": "normal", "category": "physical", "power": 70, "accuracy": 100, "level_learned_at": 15, "method": "level-up/tm"},
+        {"name": "tm-and-level-move", "type": "normal", "category": "physical", "power": 70, "accuracy": 100, "level_learned_at": 15, "method": "level-up&machine"},
         {"name": "tm-move", "type": "normal", "category": "physical", "power": 70, "accuracy": 100, "level_learned_at": 0, "method": "machine"},
     ]
     
