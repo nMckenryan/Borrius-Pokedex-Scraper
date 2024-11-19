@@ -34,7 +34,7 @@ A Web Scraper API that extracts pokemon number data from [Pokemon Unbound Pokede
 
 Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australia-southeast1.run.app/docs
 
-### Installing and running manually
+### Installing and generating JSON manually
 
 0. Install Python dependancies from requirements.txt
 1. Download and extract the project by cloning this project or running the ZIP
@@ -42,17 +42,25 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 3. Wait for the process to completes (takes around >2 minutes)
 4. Open the `borrius_pokedex_data.json` file in your favorite text editor and enjoy
 
+### Running the Docker Container/Api locally
+
+0. Install all required dependancies (make sure docker desktop is running)
+1. Run `docker build -t borrius-pokemon-scraper .`
+2. Run `docker run -p 8000:8000 borrius-pokemon-scraper`
+
+
 ### TO DO
 
-- [x] Collate Alolan, Hisui, Galar Forms
-  - [] Get this data from yda
+- [x] Collate Alolan, Hisui, Galar Forms invluded in the game
   - [] Add to dex after original versions (e.g. 30.a? )
 - [] Fix issue with generating Starters intermittently. failing tests.
-- [x] Display Special Encounter Pokemon data
-  - [ ] Collate (include in search but not basic?)
-  - [ ] Get pokemon evolutions data from pokeapi for spec. encounter
+
+- [x] - Rewrite evolution compile
+  - [] - integrate
  [ ] Fix: Could not find learned move table for 10186
 
 ### FUTURE FEATURES:
 
 - [ ] Reconfigure for use with Yda
+- [x] Display Special Encounter Pokemon data
+  - [ ] Get pokemon evolutions data from pokeapi for spec. encounter
