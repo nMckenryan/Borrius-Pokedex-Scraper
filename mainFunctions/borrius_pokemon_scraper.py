@@ -7,8 +7,8 @@ import asyncio
 
 from termcolor import colored
 
-from helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_evo_details, get_pokemon_locations, read_location_data_json, get_missing_pokemon_data
-from scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
+from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_evo_details, get_pokemon_locations, read_location_data_json
+from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
     get_types, get_name, get_missing_moves_from_pokeapi
 

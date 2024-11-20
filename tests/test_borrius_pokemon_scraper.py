@@ -1,20 +1,33 @@
+import time
 import pytest
 from termcolor import colored
 from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_data
 from mainFunctions.helpers import BorriusPokedexHelpers, get_missing_pokemon_data
 import datetime
 
+
 borrius_data = BorriusPokedexHelpers()
-borrius_page = borrius_data.borrius_page
 
-pokemonJson = borrius_data.json_header
+starter_json = borrius_data.json_header
+borrius_dex_json = borrius_data.json_header
+pokemon_json = []
 
+@pytest.fixture(scope="module")
+async def setup():
 
+    spn = await get_missing_pokemon_data()
+    
+    await scrape_pokemon_data(borrius_data.national_page, borrius_data.national_numbers, 0, starter_json)
+    await scrape_pokemon_data(borrius_data.borrius_page, borrius_data.borrius_numbers, 10, borrius_dex_json)
+
+    pokemon_json = starter_json[0]["pokemon"].copy()
+    pokemon_json.extend(borrius_dex_json[0]["pokemon"])
+
+    
 @pytest.mark.asyncio
-async def test_scrape_pokemon_data_borrius_first():
-    pokemonJson = borrius_data.json_header
-    await scrape_pokemon_data(borrius_page, [1], 1, pokemonJson)
-    firstPokemon = pokemonJson[0].get("pokemon")[0]
+async def test_scrape_pokemon_data_borrius_first(setup):
+    await setup
+    firstPokemon = borrius_dex_json[0].get("pokemon")[10]
     
     assert firstPokemon.get("name") == 'snorunt'
     assert firstPokemon.get("id") == 361
@@ -28,10 +41,8 @@ async def test_scrape_pokemon_data_borrius_first():
 
 
 @pytest.mark.asyncio
-async def test_get_all_starters():
-    pokemonJson = borrius_data.json_header
-    await scrape_pokemon_data(borrius_data.national_page, borrius_data.national_numbers, 0, pokemonJson)
-    for pokemon in pokemonJson[0].get("pokemon"):
+async def test_get_all_starters(setup):
+    for pokemon in starter_json[0].get("pokemon"):
         assert pokemon.get("name") != ""
         assert pokemon.get("description") != ""
         assert pokemon.get("abilities") != []
@@ -44,11 +55,8 @@ async def test_get_all_starters():
 
 # ~180 in total
 @pytest.mark.asyncio
-async def test_get_all_spec_encs():
-    pokemonJson = borrius_data.json_header
-    spn = await get_missing_pokemon_data()
-    await scrape_pokemon_data(borrius_data.national_page, spn, 0, pokemonJson)
-    for pokemon in pokemonJson[0].get("pokemon"):
+async def test_get_all_special_encounters(setup):
+    for pokemon in pokemon_json[0].get("pokemon"):
         assert pokemon.get("name") != ""
         assert pokemon.get("description") != ""
         assert pokemon.get("abilities") != []
@@ -62,15 +70,16 @@ async def test_get_all_spec_encs():
 
 
 @pytest.mark.asyncio
-async def test_scrape_pokemon_data_check_all_generated():
-    await scrape_pokemon_data(borrius_page, borrius_data.borrius_numbers, 1, pokemonJson)
-    assert(len(pokemonJson[0].get("pokemon")) == 504)
+async def test_scrape_pokemon_data_check_all_generated_in_order(setup):
+    expected_order = borrius_data.national_numbers + list(borrius_data.borrius_numbers)
+    
+    assert(len(pokemon_json[0].get("pokemon")) == 503)
+    assert [pokemon["id"] for pokemon in pokemon_json[0]["pokemon"]] == expected_order
+
 
 @pytest.mark.asyncio
-async def test_scrape_pokemon_data_check_null_checks():
-    await scrape_pokemon_data(borrius_page, borrius_data.borrius_numbers, 1, pokemonJson)
-    
-    for pokemon in pokemonJson[0].get("pokemon"):
+async def test_scrape_pokemon_data_check_null_checks(setup):
+    for pokemon in pokemon_json[0].get("pokemon"):
         try:
             assert pokemon.get("id") is not None
             assert pokemon.get("name") != ''
