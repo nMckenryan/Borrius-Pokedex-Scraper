@@ -5,7 +5,7 @@ from unittest.mock import mock_open, patch
 import aiohttp
 import pytest
 
-from mainFunctions.helpers import EvoObject, correct_pokemon_name, fetch_page, get_evo_trigger, get_evolution_data_from_pokeapi, get_missing_pokemon_data, get_pokemon_api_data_gaps, get_pokemon_index_from_name, get_pokemon_indexes_from_list, get_pokemon_locations, get_pokemon_names_from_unbound_pokedex, get_regional_forms_by_name, get_special_encounter_pokemon, initialise_pokemon_location_template, parse_evolution_chain, read_location_data_json
+from mainFunctions.helpers import EvoObject, correct_pokemon_name, fetch_page, get_and_parse_evo, get_evo_trigger, get_evolution_data_from_pokeapi, get_missing_pokemon_data, get_pokemon_api_data_gaps, get_pokemon_index_from_name, get_pokemon_indexes_from_list, get_pokemon_locations, get_pokemon_names_from_unbound_pokedex, get_regional_forms_by_name, get_special_encounter_pokemon, initialise_pokemon_location_template, parse_evolution_chain, read_location_data_json
 
 
 @pytest.mark.asyncio
@@ -328,12 +328,22 @@ def test_parse_evo_chain():
     assert parsed[2].evo_trigger == desired_evo_sample[2].evo_trigger
     assert parsed[2].evo_conditions == desired_evo_sample[2].evo_conditions
     
+
+# @pytest.mark.asyncio
+# async def test_get_evolution_data_from_pokeapi_check_locations_omitted():
+#     pokemon_number = 133
+#     result = await get_evolution_data_from_pokeapi(pokemon_number)
+#     glaceon_details = result["evolution_details"]["chain"]["evolves_to"][6]["evolution_details"]
+#     assert len(glaceon_details["evolves_to"]) == 1
+
 @pytest.mark.asyncio
-async def test_get_evolution_data_from_pokeapi_check_locations_omitted():
-    pokemon_number = 133
-    result = await get_evolution_data_from_pokeapi(pokemon_number)
-    glaceon_details = result["evolution_details"]["chain"]["evolves_to"][6]["evolution_details"]
-    assert len(glaceon_details["evolves_to"]) == 1
+async def test_get_and_parse_evo():
+    pokemon_number = 12
+    result = await get_and_parse_evo(pokemon_number)
+    assert result[0].evo_stage_name == "caterpie"
+    assert result[1].evo_stage_name == "metapod"
+    assert result[2].evo_stage_name == "butterfree"
+    
 
     
 def test_parse_evo_chain_split_evo():

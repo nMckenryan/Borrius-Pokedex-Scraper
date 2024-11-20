@@ -7,7 +7,7 @@ import asyncio
 
 from termcolor import colored
 
-from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_evo_details, get_pokemon_locations, read_location_data_json
+from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_and_parse_evo, get_evo_details, get_pokemon_locations, parse_evolution_chain, read_location_data_json
 from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
     get_types, get_name, get_missing_moves_from_pokeapi
@@ -17,6 +17,31 @@ from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves
 
 bph = BorriusPokedexHelpers()
 json_file = bph.json_header
+
+
+async def scrape_pokemon_indexes():
+    async with aiohttp.ClientSession() as session:
+        tasks = []
+        index_list = bph.national_numbers
+        for i in bph.borrius_numbers:
+            link = f"{bph.borrius_page}{i}"
+            tasks.append(fetch_page(session, link))
+
+        pages = await asyncio.gather(*tasks)
+        
+        for page in pages:
+            if page is not None:
+                # GET DATA FROM PAGE
+                soup = BeautifulSoup(page, "html.parser")
+
+                # Get SPRITES (also extracts actual pokemon number from official dex)
+                sprite_src = soup.find("img")["src"]
+                officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
+                
+                
+                index_list.append(officialDexNumber)
+        return index_list
+                
 
 
 
@@ -65,7 +90,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 sprite_src = soup.find("img")["src"]
                 officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
 
-                evoDetails = await get_evo_details(officialDexNumber)
+                evoDetails = await get_and_parse_evo(officialDexNumber)
                 
                 # MOVES
                 moves = get_moves_for_pokemon(move_table, officialDexNumber)

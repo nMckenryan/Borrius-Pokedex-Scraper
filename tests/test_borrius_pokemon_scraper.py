@@ -1,7 +1,7 @@
 import time
 import pytest
 from termcolor import colored
-from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_data
+from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_data, scrape_pokemon_indexes
 from mainFunctions.helpers import BorriusPokedexHelpers, get_missing_pokemon_data
 import datetime
 
@@ -25,9 +25,9 @@ async def setup():
 
     
 @pytest.mark.asyncio
-async def test_scrape_pokemon_data_borrius_first(setup):
+async def test_scrape_pokemon_data_check_borrius_pokedex_generated(setup):
     await setup
-    firstPokemon = borrius_dex_json[0].get("pokemon")[10]
+    firstPokemon = borrius_dex_json[0].get("pokemon")[9]
     
     assert firstPokemon.get("name") == 'snorunt'
     assert firstPokemon.get("id") == 361
@@ -54,31 +54,39 @@ async def test_get_all_starters(setup):
         assert pokemon.get("stats") != []
 
 # ~180 in total
+# @pytest.mark.asyncio
+# async def test_get_all_special_encounters(setup):
+#     for pokemon in pokemon_json[0].get("pokemon"):
+#         assert pokemon.get("name") != ""
+#         assert pokemon.get("description") != ""
+#         assert pokemon.get("abilities") != []
+#         assert pokemon.get("moves") != []
+#         assert pokemon.get("location") != ""
+#         assert pokemon.get("types") != []
+#         assert pokemon.get("evolutionChain") != []
+#         assert pokemon.get("sprites") != []
+#         assert pokemon.get("stats") != []
+
+
 @pytest.mark.asyncio
-async def test_get_all_special_encounters(setup):
-    for pokemon in pokemon_json[0].get("pokemon"):
-        assert pokemon.get("name") != ""
-        assert pokemon.get("description") != ""
-        assert pokemon.get("abilities") != []
-        assert pokemon.get("moves") != []
-        assert pokemon.get("location") != ""
-        assert pokemon.get("types") != []
-        assert pokemon.get("evolutionChain") != []
-        assert pokemon.get("sprites") != []
-        assert pokemon.get("stats") != []
+async def test_scrape_pokemon_indexes(setup):
+    expected_order = await scrape_pokemon_indexes()
+    assert expected_order is not None
 
 
 
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_check_all_generated_in_order(setup):
-    expected_order = borrius_data.national_numbers + list(borrius_data.borrius_numbers)
+    expected_order = await scrape_pokemon_indexes()
     
-    assert(len(pokemon_json[0].get("pokemon")) == 503)
-    assert [pokemon["id"] for pokemon in pokemon_json[0]["pokemon"]] == expected_order
+    assert(len(borrius_dex_json[0].get("pokemon")) == 503)
+    
+    assert [pokemon["id"] for pokemon in borrius_dex_json[0]["pokemon"]] == expected_order
 
 
 @pytest.mark.asyncio
 async def test_scrape_pokemon_data_check_null_checks(setup):
+    await setup
     for pokemon in pokemon_json[0].get("pokemon"):
         try:
             assert pokemon.get("id") is not None

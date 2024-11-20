@@ -71,8 +71,6 @@ def get_pokemon_locations(pokemon_name, location_list):
     return []
 
 
-
-
 # get a pokemon's evolution chain data from pokeapi. (gets pokemon's evo chain URL, then gets THAT data)
 async def get_evolution_data_from_pokeapi(officialDexNumber):
     async with aiohttp.ClientSession() as session:
@@ -215,6 +213,10 @@ async def get_evo_details(officialDexNumber):
         evoDetails = None
     return evoDetails
 
+async def get_and_parse_evo(dex):
+    poke_api_evo_chain = await get_evo_details(dex)
+    evo_list = parse_evolution_chain(poke_api_evo_chain)
+    return evo_list
 
 
 # Corrects name of pokemon so it can be successfully found in pokeapi
