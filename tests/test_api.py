@@ -17,9 +17,9 @@ def test_read_pokemon_all():
     assert 'hoopa' in response.text
 
 def test_read_pokemon_by_id():
-    response = client.get("/borrius_pokemon/11")
+    response = client.get("/borrius_pokemon/1")
     assert response.status_code == 200  
-    assert 'snorunt' in response.text
+    assert 'larvitar' in response.text
 
 def test_read_pokemon_by_name():
     response = client.get("/borrius_pokemon/name/snorunt")

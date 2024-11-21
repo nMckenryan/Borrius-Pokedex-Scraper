@@ -1,7 +1,7 @@
 import json
 import pytest
 
-from mainFunctions.helpers import BorriusPokedexHelpers
+from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_names
 
 @pytest.fixture(autouse=True)
 def setup():
@@ -32,10 +32,11 @@ async def test_borrius_pokedex_json_has_full_data():
         assert "capture_rate" in pokemon
         assert "locations" in pokemon
 
-
-def test_check_pokedex_json_in_right_order():
-    expected_order = BorriusPokedexHelpers().national_numbers + list(BorriusPokedexHelpers().borrius_numbers)
-    assert [pokemon["id"] for pokemon in data[0]["pokemon"]] == expected_order
+@pytest.mark.asyncio
+async def test_check_pokedex_json_in_right_order():
+    expected_order = await scrape_pokemon_names()
+    pokemonNames = [pokemon["name"] for pokemon in data[0]["pokemon"]]
+    assert pokemonNames == expected_order
 
 @pytest.mark.asyncio
 async def test_borrius_pokedex_json_check_abilities():
