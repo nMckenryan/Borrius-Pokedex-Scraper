@@ -7,8 +7,8 @@ import asyncio
 
 from termcolor import colored
 
-from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_and_parse_evo, get_evo_details, get_pokemon_locations, parse_evolution_chain, read_location_data_json
-from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
+from helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_and_parse_evo, get_pokemon_locations, read_location_data_json
+from scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
     get_types, get_name, get_missing_moves_from_pokeapi
 
@@ -19,10 +19,10 @@ bph = BorriusPokedexHelpers()
 json_file = bph.json_header
 
 
-async def scrape_pokemon_indexes():
+async def scrape_pokemon_names():
     async with aiohttp.ClientSession() as session:
         tasks = []
-        index_list = bph.national_numbers
+        index_list = ["larvitar", "pupitar", "tyranitar", "beldum", "metang", "metagross", "gible", "gabite", "garchomp"]
         for i in bph.borrius_numbers:
             link = f"{bph.borrius_page}{i}"
             tasks.append(fetch_page(session, link))
@@ -34,12 +34,12 @@ async def scrape_pokemon_indexes():
                 # GET DATA FROM PAGE
                 soup = BeautifulSoup(page, "html.parser")
 
-                # Get SPRITES (also extracts actual pokemon number from official dex)
-                sprite_src = soup.find("img")["src"]
-                officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
+                top_card = soup.find("div", class_="card-body")
                 
-                
-                index_list.append(officialDexNumber)
+                rawName = get_name(top_card)
+                pokemonName = correct_pokemon_name(rawName)
+                                
+                index_list.append(pokemonName)
         return index_list
                 
 
@@ -91,6 +91,16 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
 
                 evoDetails = await get_and_parse_evo(officialDexNumber)
+                
+                evoDetailsJson = []
+                
+                for ed in evoDetails:
+                    evoDetailsJson.append({
+                        "stage": ed.evo_stage,
+                        "evo_name": ed.evo_stage_name,
+                        "evo_trigger": ed.evo_trigger,
+                        "evo_conditions": ed.evo_conditions
+                    })
                 
                 # MOVES
                 moves = get_moves_for_pokemon(move_table, officialDexNumber)
@@ -165,7 +175,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                     },
                     "stats": stats_table_output,
                     "gender": gender_data,
-                    "evolution_chain": evoDetails,
+                    "evolution_chain": evoDetailsJson,
                     "locations": pokemonLocations,
                     "moves": combined_moves,
                 }

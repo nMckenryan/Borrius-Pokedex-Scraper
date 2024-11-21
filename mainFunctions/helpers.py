@@ -403,11 +403,11 @@ async def get_pokemon_index_from_name(pokemon_name):
             print(f"Failed to retrieve data from PokeAPI: {e}")
 
 
-async def get_pokemon_indexes_from_list(pokemon_name):
+async def get_pokemon_indexes_from_list(pokemon_list):
     index_list = []
     
     try:
-        for pokemon in pokemon_name:
+        for pokemon in pokemon_list:
             index_list.append(await get_pokemon_index_from_name(pokemon))
         return index_list
     except Exception as e:
