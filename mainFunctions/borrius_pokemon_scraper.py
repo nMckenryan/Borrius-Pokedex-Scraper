@@ -158,14 +158,11 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
             
                 # APPLY DATA TO JSON
                 pokemon_data = {
-                    "id": officialDexNumber,
+                    "id": indexCount,
+                    "national_id":  officialDexNumber,
                     "name": pokemonName,
                     "types": typeArray,
                     "abilities": abilities,
-                    "game_indices": {
-                        "unbound_index": indexCount,
-                        "official_index": officialDexNumber,
-                    },
                     "height": heightInDecimetres,
                     "weight": weightInHectograms,
                     "capture_rate": capture_rates,
@@ -209,9 +206,8 @@ async def compile_pokedex():
         
         await asyncio.gather(
             scrape_pokemon_category(bph.national_page, bph.national_numbers, 1, "starters"),
-            scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 10, "main dex"),
+            scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 9, "main dex"),
             # scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 503, "regional"),
-            
             # scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
         )            
             

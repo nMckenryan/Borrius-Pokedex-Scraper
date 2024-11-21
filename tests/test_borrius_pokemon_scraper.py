@@ -30,7 +30,8 @@ async def test_scrape_pokemon_data_check_borrius_pokedex_generated(setup):
     firstPokemon = borrius_dex_json[0].get("pokemon")[9]
     
     assert firstPokemon.get("name") == 'snorunt'
-    assert firstPokemon.get("id") == 361
+    assert firstPokemon.get("id") == 10
+    assert firstPokemon.get("national_id") == 361
     assert firstPokemon.get("abilities") != []
     assert firstPokemon.get("moves") != []
     assert firstPokemon.get("location") != ""
@@ -90,7 +91,8 @@ async def test_scrape_pokemon_data_check_all_generated_in_order(setup):
 async def test_scrape_pokemon_data_check_null_checks(setup):
     for pokemon in borrius_dex_json[0].get("pokemon"):
         try:
-            assert pokemon.get("id") is not None
+            assert pokemon.get("id") != 0
+            assert pokemon.get("national_id") != 0
             assert pokemon.get("name") != ''
             assert pokemon.get("abilities") != []
             assert pokemon.get("moves") != []
