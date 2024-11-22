@@ -1,5 +1,6 @@
 
 import asyncio
+from types import SimpleNamespace
 import aiohttp
 from bs4 import BeautifulSoup
 from termcolor import colored
@@ -84,6 +85,19 @@ async def get_evolution_data_from_pokeapi(officialDexNumber):
 
             pokeapi_evochain = await session.get(evo_chain_url)
             evo_data = await pokeapi_evochain.json()
+            
+            sanitised_evo_data = evo_data.get("chain", {}).get("evolves_to", {})
+            
+            sorted = []
+            
+            for ed in sanitised_evo_data:
+                last_evo_method = ed.get("evolution_details")
+                if(len(last_evo_method) > 1):
+                    for e in last_evo_method:
+                        if(e.get("location") == None):
+                            sorted.append(e)
+                    
+                
 
             pokeapi_data = {"evolution_details": evo_data}
 
@@ -95,6 +109,98 @@ async def get_evolution_data_from_pokeapi(officialDexNumber):
                     "red",
                 ),
             )
+class EvoObject:
+    def __init__(self, evo_stage, evo_name, evo_trigger, evo_conditions):
+        self.evo_stage = evo_stage
+        self.evo_stage_name = evo_name
+        self.evo_trigger = evo_trigger
+        self.evo_conditions = evo_conditions
+
+
+def get_evo_trigger(ed):
+    evo_refactored = json.loads(json.dumps(ed), object_hook=lambda d: SimpleNamespace(**d))
+    evo_object = EvoObject(0, "", "", [])
+
+    gender = evo_refactored[0].gender
+    held_item = evo_refactored[0].held_item
+    item = evo_refactored[0].item
+    known_move = evo_refactored[0].known_move
+    known_move_type = evo_refactored[0].known_move_type
+    min_affection = evo_refactored[0].min_affection
+    min_happiness = evo_refactored[0].min_happiness
+    needs_overworld_rain = evo_refactored[0].needs_overworld_rain
+    time_of_day = evo_refactored[0].time_of_day
+    trade_species = evo_refactored[0].trade_species
+    min_level = evo_refactored[0].min_level
+    trigger = evo_refactored[0].trigger
+    
+    if gender is not None:
+        evo_object.evo_conditions.append("Female" if gender == 1 else "Male")
+    if held_item is not None:
+        evo_object.evo_conditions.append("Hold: " + held_item.name)
+    if item is not None:
+        evo_object.evo_conditions.append("Use: " + item.name)
+    if known_move is not None:
+        evo_object.evo_conditions.append("Know: " + known_move.name)
+    if known_move_type is not None:
+        evo_object.evo_conditions.append("Known Move Type: " + known_move_type.name)
+    if min_affection is not None:
+        evo_object.evo_conditions.append("Affection: " + str(min_affection))
+    if min_happiness is not None:
+        evo_object.evo_conditions.append("Happiness: " + str(min_happiness))
+    if needs_overworld_rain:
+        evo_object.evo_conditions.append("Rain")
+    if time_of_day:
+        evo_object.evo_conditions.append("Time of Day: " + time_of_day)
+    if trade_species is not None:
+        evo_object.evo_conditions.append("Trade species " + trade_species.name)
+    if min_level is not None:
+        evo_object.evo_conditions.append(min_level)
+
+    evo_object.evo_trigger = trigger.name
+
+
+    return evo_object
+
+
+def parse_evolution_chain(chain_data):
+    evolution_list = []
+    evo_name = chain_data['species']['name']
+    first = EvoObject(1, evo_name, "base", [])
+    evolution_list.append(first)
+    
+    def process_evolution(evolution_data, index):
+        if not evolution_data:
+            return
+
+        current_species = evolution_data['species']
+        
+        
+        # Process evolution details if they exist
+        if evolution_data["evolution_details"]:
+            evo_details = get_evo_trigger(evolution_data["evolution_details"])
+            evo_details.evo_stage = index
+            evo_details.evo_stage_name = current_species["name"]
+            evolution_list.append(evo_details)
+        
+        
+        # Recursively process next evolutions
+        if evolution_data["evolves_to"]:
+            for i, evolution in enumerate(evolution_data["evolves_to"], start=index+1):
+                process_evolution(evolution, i)
+            
+
+    # Start processing from the first evolution
+    if chain_data["evolves_to"]:
+        if len(chain_data["evolves_to"]) > 1:
+            for evolution in chain_data["evolves_to"]:
+                process_evolution(evolution, 2)
+        else:
+            for i, evolution in enumerate(chain_data["evolves_to"], start=2):
+                process_evolution(evolution, i)
+    
+    return evolution_list
+
 
 async def get_evo_details(officialDexNumber):
     try:
@@ -106,6 +212,12 @@ async def get_evo_details(officialDexNumber):
         print(f"Failed to retrieve pokeapi data for {officialDexNumber}: {e}")
         evoDetails = None
     return evoDetails
+
+async def get_and_parse_evo(dex):
+    poke_api_evo_chain = await get_evo_details(dex)
+    evo_list = parse_evolution_chain(poke_api_evo_chain)
+    return evo_list
+
 
 # Corrects name of pokemon so it can be successfully found in pokeapi
 def correct_pokemon_name(p):
@@ -291,11 +403,11 @@ async def get_pokemon_index_from_name(pokemon_name):
             print(f"Failed to retrieve data from PokeAPI: {e}")
 
 
-async def get_pokemon_indexes_from_list(pokemon_name):
+async def get_pokemon_indexes_from_list(pokemon_list):
     index_list = []
     
     try:
-        for pokemon in pokemon_name:
+        for pokemon in pokemon_list:
             index_list.append(await get_pokemon_index_from_name(pokemon))
         return index_list
     except Exception as e:

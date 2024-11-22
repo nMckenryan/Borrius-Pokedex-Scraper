@@ -1,6 +1,8 @@
 import json
 import pytest
 
+from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_names
+
 @pytest.fixture(autouse=True)
 def setup():
     with open("scraperData/borrius_pokedex_data.json") as f:
@@ -17,8 +19,8 @@ async def test_borrius_pokedex_json_has_all_pokemon():
 async def test_borrius_pokedex_json_has_full_data():
     for pokemon in data[0]["pokemon"]:
         assert "abilities" in pokemon
-        assert "game_indices" in pokemon
         assert "id" in pokemon
+        assert "national_id" in pokemon
         assert "name" in pokemon
         assert "types" in pokemon
         assert "weight" in pokemon
@@ -30,6 +32,11 @@ async def test_borrius_pokedex_json_has_full_data():
         assert "capture_rate" in pokemon
         assert "locations" in pokemon
 
+@pytest.mark.asyncio
+async def test_check_pokedex_json_in_right_order():
+    expected_order = await scrape_pokemon_names()
+    pokemonNames = [pokemon["name"] for pokemon in data[0]["pokemon"]]
+    assert pokemonNames == expected_order
 
 @pytest.mark.asyncio
 async def test_borrius_pokedex_json_check_abilities():
@@ -45,9 +52,8 @@ async def test_borrius_pokedex_json_check_abilities():
 @pytest.mark.asyncio
 async def test_borrius_pokedex_json_check_index():
     for pokemon in data[0]["pokemon"]:
-        assert "game_indices" in pokemon
-        assert isinstance(pokemon["game_indices"]["unbound_index"], int)
-        assert isinstance(pokemon["game_indices"]["official_index"], int)
+        assert isinstance(pokemon["national_id"], int)
+        assert isinstance(pokemon["id"], int)
 
 
 @pytest.mark.asyncio

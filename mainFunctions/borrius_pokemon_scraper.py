@@ -7,8 +7,8 @@ import asyncio
 
 from termcolor import colored
 
-from helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_evo_details, get_pokemon_locations, read_location_data_json, get_missing_pokemon_data
-from scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
+from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_and_parse_evo, get_pokemon_locations, read_location_data_json
+from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
     get_types, get_name, get_missing_moves_from_pokeapi
 
@@ -17,6 +17,33 @@ from scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
 
 bph = BorriusPokedexHelpers()
 json_file = bph.json_header
+
+
+async def scrape_pokemon_names():
+    async with aiohttp.ClientSession() as session:
+        tasks = []
+        index_list = ["larvitar", "pupitar", "tyranitar", "beldum", "metang", "metagross", "gible", "gabite", "garchomp"]
+        for i in bph.borrius_numbers:
+            link = f"{bph.borrius_page}{i}"
+            tasks.append(fetch_page(session, link))
+
+        pages = await asyncio.gather(*tasks)
+        
+        for page in pages:
+            if page is not None:
+                # GET DATA FROM PAGE
+                soup = BeautifulSoup(page, "html.parser")
+
+                top_card = soup.find("div", class_="card-body")
+                
+                rawName = get_name(top_card)
+                pokemonName = correct_pokemon_name(rawName)
+                                
+                index_list.append(pokemonName)
+        return index_list
+                
+
+
 
 async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
     async with aiohttp.ClientSession() as session:
@@ -40,7 +67,7 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                     class_="overflow-x-auto col-span-6 col-start-2 justify-stretch",
                 )
                 tmhm_move_table_parent = soup.find(
-                    lambda tag: tag.name == "div" and "Level Up Moves" in tag.decode(),
+                    lambda tag: tag.name == "div" and "TM/HM Moves" in tag.decode(),
                     class_="overflow-x-auto col-span-6 col-start-2 justify-stretch",
                 )
                 
@@ -49,6 +76,8 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 except AttributeError:
                     print(f"Error: Could not find learned move table for {i}")
                     move_table = []
+                    
+                    
                 try:
                     tmhm_move_table = tmhm_move_table_parent.find("tbody")
                 except AttributeError:
@@ -60,15 +89,18 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                 # Get SPRITES (also extracts actual pokemon number from official dex)
                 sprite_src = soup.find("img")["src"]
                 officialDexNumber = int(sprite_src.split("/")[4].split(".")[0])
-                sprite_link = str(
-                    f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}",
-                )
 
-                official_sprite_link = str(
-                    f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{str(officialDexNumber)}.png"
-                )
-
-                evoDetails = await get_evo_details(officialDexNumber)
+                evoDetails = await get_and_parse_evo(officialDexNumber)
+                
+                evoDetailsJson = []
+                
+                for ed in evoDetails:
+                    evoDetailsJson.append({
+                        "stage": ed.evo_stage,
+                        "evo_name": ed.evo_stage_name,
+                        "evo_trigger": ed.evo_trigger,
+                        "evo_conditions": ed.evo_conditions
+                    })
                 
                 # MOVES
                 moves = get_moves_for_pokemon(move_table, officialDexNumber)
@@ -123,34 +155,30 @@ async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
                         "maleChance": gender_data[0],
                         "femaleChance": gender_data[1],
                     }
-                
-                sprites_data = {
-                        "front_default": sprite_link,
-                        "other": {"home": {"front_default": official_sprite_link}},
-                    },
             
                 # APPLY DATA TO JSON
                 pokemon_data = {
-                    "id": officialDexNumber,
+                    "id": indexCount,
+                    "national_id":  officialDexNumber,
                     "name": pokemonName,
                     "types": typeArray,
                     "abilities": abilities,
-                    "game_indices": {
-                        "unbound_index": indexCount,
-                        "official_index": officialDexNumber,
-                    },
                     "height": heightInDecimetres,
                     "weight": weightInHectograms,
                     "capture_rate": capture_rates,
-                    "sprites": sprites_data,
+                    "sprites": {
+                        "front_default": str(f"https://www.pokemonunboundpokedex.com/{sprite_src.replace('../', '')}"),
+                        "official_artwork": str(f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{str(officialDexNumber)}.png")
+                    },
                     "stats": stats_table_output,
                     "gender": gender_data,
-                    "evolution_chain": evoDetails,
+                    "evolution_chain": evoDetailsJson,
                     "locations": pokemonLocations,
                     "moves": combined_moves,
                 }
                 indexCount += 1
                 pokemonJson[0]["pokemon"].append(pokemon_data)
+                
                 
 async def scrape_pokemon_category(page, numbers, start_index, category_name):
     try:
@@ -162,26 +190,30 @@ async def scrape_pokemon_category(page, numbers, start_index, category_name):
 
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
-    special_encounter_numbers = await get_missing_pokemon_data()
-    start = time.time()
+    # special_encounter_numbers = await get_missing_pokemon_data()
+    start = time.perf_counter()
     
     print(
-        colored(f"\n\n ---- BORRIUS POKEDEX SCRAPER ---- \n Started creating Borrius Pokedex Json file at {datetime.datetime.now()} \n Creating Json file...", "black", "on_yellow"),
+        colored(f"\n\n ---- BORRIUS POKEDEX SCRAPER ---- ", "black", "on_yellow"),
+    )
+
+    print(
+        colored(f"Started creating Borrius Pokedex Json file at {datetime.datetime.now()} \n Creating Json file...", "yellow"),
     )
 
     try:
         # Retrieves 9 starters for the National Dex and 494 in the Borrius National Dex (both come from separate pages)
-        results = await asyncio.gather(
+        
+        await asyncio.gather(
             scrape_pokemon_category(bph.national_page, bph.national_numbers, 1, "starters"),
             scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 10, "main dex"),
-            scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
-        )
+            # scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 503, "regional"),
+            # scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
+        )            
         
-        # for pokemon_list in results:
-        #     json_file[0]["pokemon"].extend(pokemon_list)
-            
-            
-        end = time.time()
+        json_file[0]["pokemon"].sort(key=lambda x: x["id"])
+        
+        end = time.perf_counter()
         length = end - start
         print(
             colored(

@@ -20,7 +20,8 @@ async def scrape_yda_pokemon_data():
         for page in pages:
             if page is not None and not isinstance(page, Exception):
                 soup = BeautifulSoup(page, "html.parser")
-                species_name_element = soup.select('div#speciesName')
+                fa = soup.findAll('span')
+                species_name_element = soup.select('span#speciesName')
                 species_name = species_name_element.text()
                 pokemon_list.append(species_name)
 

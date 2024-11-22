@@ -89,8 +89,7 @@ def get_stats(stats_table):
         stats_table_output[stat] = {
             "base_stat": int(
                 stats_table.find_all("td")[i * 3].text.strip()
-            ),
-            "effort": 0
+            )
         }
         
     return stats_table_output
@@ -169,14 +168,15 @@ def get_tmhm_moves(tmhm_move_table):
     tmhm_moves = []
     for row in tmhm_move_table.find_all("tr"):
         columns = row.find_all("td")
+        button_element = row.find("button", class_="btn btn-primary my-button text-2xl")
         if len(columns) > 0:
             tmhm_moves.append(
                 {
-                    "name": columns[1].text.strip(),
-                    "type": columns[2].text.strip(),
-                    "category": columns[3].text.strip(),
-                    "power": columns[4].text.strip(),
-                    "accuracy": columns[5].text.strip().replace("\u2014", "-"),
+                    "name": button_element.find(text=True).strip(),
+                    "type": columns[1].text.strip(),
+                    "category": columns[2].text.strip(),
+                    "power": columns[3].text.strip(),
+                    "accuracy": columns[4].text.strip().replace("\u2014", "-"),
                     "level_learned_at": 0,
                     "method": 'machine'
                 }
@@ -184,31 +184,17 @@ def get_tmhm_moves(tmhm_move_table):
             
     return tmhm_moves
 
-
 def merge_moves(moves, tmhm_moves):
-    
-    
-    combined_moves = []
-    for move in moves:
-        for tmhm_move in tmhm_moves:
-            if move["name"] == tmhm_move["name"]:
-                combined_moves.append(
-                    {
-                        "name": move["name"],
-                        "type": move["type"],
-                        "category": move["category"],
-                        "power": move["power"],
-                        "accuracy": move["accuracy"],
-                        "level_learned_at": move["level_learned_at"],
-                        "method": "level-up/TM"
-                    }
-                )
-                break
-        else:
-            combined_moves.append(move)
-    for tmhm_move in tmhm_moves:
-        if tmhm_move not in combined_moves:
-            combined_moves.append(tmhm_move)
+    combined_moves = {}
 
-    return combined_moves
-   
+    for move in moves + tmhm_moves:
+        name = move.get('name')
+        if not name:
+            continue
+            
+        if name in combined_moves:
+            combined_moves[name]['method'] = f"level-up&machine"
+        else:
+            combined_moves[name] = move.copy()
+
+    return list(combined_moves.values())
