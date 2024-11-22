@@ -89,53 +89,6 @@ def get_pokemon_locations(pokemon_name, location_list):
     return []
 
 
-# get a pokemon's evolution chain data from pokeapi. (gets pokemon's evo chain URL, then gets THAT data)
-async def get_evolution_data_from_pokeapi(officialDexNumber):
-    async with aiohttp.ClientSession() as session:
-        try:
-            pokeapi_species = await session.get(
-                f"https://pokeapi.co/api/v2/pokemon-species/{officialDexNumber}"
-            )
-
-            species_data = await pokeapi_species.json()
-
-            evo_chain_url = species_data["evolution_chain"]["url"]
-
-            pokeapi_evochain = await session.get(evo_chain_url)
-            evo_data = await pokeapi_evochain.json()
-            
-            sanitised_evo_data = evo_data.get("chain", {}).get("evolves_to", {})
-            
-            sorted = []
-            
-            for ed in sanitised_evo_data:
-                last_evo_method = ed.get("evolution_details")
-                if(len(last_evo_method) > 1):
-                    for e in last_evo_method:
-                        if(e.get("location") == None):
-                            sorted.append(e)
-                    
-                
-
-            pokeapi_data = {"evolution_details": evo_data}
-
-            return pokeapi_data
-        except Exception as e:
-            print(
-                colored(
-                    f"Failed to retrieve evolution data {officialDexNumber} from PokeAPI: {e}",
-                    "red",
-                ),
-            )
-            
-class EvoObject:
-    def __init__(self, evo_stage, evo_name, evo_trigger, evo_conditions):
-        self.evo_stage = evo_stage
-        self.evo_stage_name = evo_name
-        self.evo_trigger = evo_trigger
-        self.evo_conditions = evo_conditions
-
-
 def get_evo_trigger(ed):
     evo_refactored = json.loads(json.dumps(ed), object_hook=lambda d: SimpleNamespace(**d))
     evo_object = EvoObject(0, "", "", [])
@@ -236,6 +189,58 @@ async def get_and_parse_evo(dex):
     poke_api_evo_chain = await get_evo_details(dex)
     evo_list = parse_evolution_chain(poke_api_evo_chain)
     return evo_list
+
+async def get_and_parse_evo_regional(evo_list):
+    evo_list = parse_evolution_chain(evo_list["chain"])
+    return evo_list
+
+
+# get a pokemon's evolution chain data from pokeapi. (gets pokemon's evo chain URL, then gets THAT data)
+async def get_evolution_data_from_pokeapi(officialDexNumber):
+    async with aiohttp.ClientSession() as session:
+        try:
+            pokeapi_species = await session.get(
+                f"https://pokeapi.co/api/v2/pokemon-species/{officialDexNumber}"
+            )
+
+            species_data = await pokeapi_species.json()
+
+            evo_chain_url = species_data["evolution_chain"]["url"]
+
+            pokeapi_evochain = await session.get(evo_chain_url)
+            evo_data = await pokeapi_evochain.json()
+            
+            sanitised_evo_data = evo_data.get("chain", {}).get("evolves_to", {})
+            
+            sorted = []
+            
+            for ed in sanitised_evo_data:
+                last_evo_method = ed.get("evolution_details")
+                if(len(last_evo_method) > 1):
+                    for e in last_evo_method:
+                        if(e.get("location") == None):
+                            sorted.append(e)
+                    
+                
+
+            pokeapi_data = {"evolution_details": evo_data}
+
+            return pokeapi_data
+        except Exception as e:
+            print(
+                colored(
+                    f"Failed to retrieve evolution data {officialDexNumber} from PokeAPI: {e}",
+                    "red",
+                ),
+            )
+            
+class EvoObject:
+    def __init__(self, evo_stage, evo_name, evo_trigger, evo_conditions):
+        self.evo_stage = evo_stage
+        self.evo_stage_name = evo_name
+        self.evo_trigger = evo_trigger
+        self.evo_conditions = evo_conditions
+
 
 
 # Corrects name of pokemon so it can be successfully found in pokeapi

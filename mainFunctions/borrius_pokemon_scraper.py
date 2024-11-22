@@ -7,7 +7,7 @@ import asyncio
 
 from termcolor import colored
 
-from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_and_parse_evo, get_pokemon_locations, get_regional_forms_by_name, read_location_data_json
+from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_and_parse_evo, get_and_parse_evo_regional, get_pokemon_locations, get_regional_forms_by_name, read_location_data_json
 from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
     get_types, get_name, get_missing_moves_from_pokeapi
@@ -62,8 +62,13 @@ async def get_regional_from_pokeapi(list_of_pokemon, index_count, pokemon_json):
                         # The chance of this Pokémon being female, in eighths; or -1 for genderless.
                         gender_rate = species_response.get("gender_rate")
                         
-                        evoDetails = [] 
-                        # await get_and_parse_evo(national_id)
+                        evo_chain_url = species_response["evolution_chain"]["url"]
+
+                        pokeapi_evochain = await session.get(evo_chain_url)
+                        evo_data = await pokeapi_evochain.json()
+                        
+                        
+                        evoDetails =  await get_and_parse_evo_regional(evo_data)
                         
                         evoDetailsJson = []
                         
@@ -112,7 +117,7 @@ async def get_regional_from_pokeapi(list_of_pokemon, index_count, pokemon_json):
                             },
                             "stats": stats,
                             "gender": gender_data,
-                            "evolution_chain": [],
+                            "evolution_chain": evoDetailsJson,
                             "locations": [],
                             "moves": [],
                         }
