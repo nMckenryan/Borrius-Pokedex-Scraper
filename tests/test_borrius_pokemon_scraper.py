@@ -1,8 +1,8 @@
 import time
 import pytest
 from termcolor import colored
-from mainFunctions.borrius_pokemon_scraper import scrape_pokemon_data, scrape_pokemon_names
-from mainFunctions.helpers import BorriusPokedexHelpers, get_missing_pokemon_data
+from mainFunctions.borrius_pokemon_scraper import get_regional_from_pokeapi, scrape_pokemon_data, scrape_pokemon_names
+from mainFunctions.helpers import BorriusPokedexHelpers, get_missing_pokemon_data, get_regional_forms_by_name, read_location_data_json
 import datetime
 
 
@@ -109,3 +109,23 @@ async def test_scrape_pokemon_data_check_null_checks(setup):
                 ),
             )
             
+@pytest.mark.asyncio
+async def test_get_regional_from_pokeapi():
+    bph = BorriusPokedexHelpers()
+    pokemon_json = bph.json_header
+    pokemon_location = await read_location_data_json()
+    regional_pokemon_list = get_regional_forms_by_name(pokemon_location)
+    await get_regional_from_pokeapi(regional_pokemon_list, 1, pokemon_json)
+    
+    assert len(pokemon_json[0]["pokemon"]) == 18
+    for pokemon in pokemon_json:
+        assert pokemon.get("id") != 0
+        assert pokemon.get("national_id") != 0
+        assert pokemon.get("name") != ''
+        assert pokemon.get("abilities") != []
+        assert pokemon.get("moves") != []
+        assert pokemon.get("location") != []
+        assert pokemon.get("types") != []
+        assert pokemon.get("evolutionChain") != []
+        assert pokemon.get("sprites") != []
+        assert pokemon.get("stats") != []

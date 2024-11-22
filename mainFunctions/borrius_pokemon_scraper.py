@@ -7,7 +7,7 @@ import asyncio
 
 from termcolor import colored
 
-from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_and_parse_evo, get_pokemon_locations, read_location_data_json
+from mainFunctions.helpers import BorriusPokedexHelpers, correct_pokemon_name, fetch_page, get_and_parse_evo, get_pokemon_locations, get_regional_forms_by_name, read_location_data_json
 from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves, \
     merge_moves, get_gender_data, get_stats, get_abilities, get_weight_height, \
     get_types, get_name, get_missing_moves_from_pokeapi
@@ -17,7 +17,6 @@ from mainFunctions.scraper_actions import  get_moves_for_pokemon, get_tmhm_moves
 
 bph = BorriusPokedexHelpers()
 json_file = bph.json_header
-
 
 async def scrape_pokemon_names():
     async with aiohttp.ClientSession() as session:
@@ -42,7 +41,93 @@ async def scrape_pokemon_names():
                 index_list.append(pokemonName)
         return index_list
                 
+async def get_regional_from_pokeapi(list_of_pokemon, index_count, pokemon_json):
+    async with aiohttp.ClientSession() as session:
+                for p in list_of_pokemon:
+                    try:
+                        pokeapi = await session.get(
+                            f"https://pokeapi.co/api/v2/pokemon/{p}"
+                        )
+                        
+                        response = await pokeapi.json()
+                        
+                        pokeapi_species = await session.get(
+                            response.get("species").get("url")
+                        )
+                        
+                        species_response = await pokeapi_species.json()
+                        
+                        national_id = response.get("id")
+                        
+                        # The chance of this Pokémon being female, in eighths; or -1 for genderless.
+                        gender_rate = species_response.get("gender_rate")
+                        
+                        evoDetails = [] 
+                        # await get_and_parse_evo(national_id)
+                        
+                        evoDetailsJson = []
+                        
+                        for ed in evoDetails:
+                            evoDetailsJson.append({
+                                "stage": ed.evo_stage,
+                                "evo_name": ed.evo_stage_name,
+                                "evo_trigger": ed.evo_trigger,
+                                "evo_conditions": ed.evo_conditions
+                            })
+                        
+                        
+                        gender_data = {
+                            "isGenderless": gender_rate == -1,
+                            "maleChance": 100 / gender_rate,
+                            "femaleChance": 100 % gender_rate,
+                        }
 
+                        
+                        abilities = []
+                        types = []
+                        stats = []
+                        
+                        
+                        for ability in response.get("abilities"):
+                            abilities.append(ability["ability"]["name"])
+                            
+                        for type in response.get("types"):
+                            types.append(type["type"]["name"])
+                        
+                        for stat in response.get("stats"):
+                            stats.append({stat["stat"]["name"]: stat["base_stat"]})                        
+
+                        pokemon_data = {
+                            "id": index_count,
+                            "national_id": national_id,
+                            "name": response.get("name"),
+                            "types": types,
+                            "abilities": abilities,
+                            "height": response.get("height"),
+                            "weight": response.get("weight"),
+                            "capture_rate": species_response.get("capture_rate"),
+                            "sprites": {
+                                "front_default": response.get("sprites").get("front_default"),
+                                "official_artwork": response.get("sprites").get("other").get("official-artwork").get("front_default"),
+                            },
+                            "stats": stats,
+                            "gender": gender_data,
+                            "evolution_chain": [],
+                            "locations": [],
+                            "moves": [],
+                        }
+                        index_count += 1
+                        pokemon_json[0]["pokemon"].append(pokemon_data)
+                                
+                        
+                    except Exception as e:
+                        print(
+                            colored(
+                                f"Failed to retrieve evolution data {p} from PokeAPI: {e}",
+                                "red",
+                            ),
+                        )
+            
 
 
 async def scrape_pokemon_data(dex_page, numbers, indexCount, pokemonJson):
@@ -190,7 +275,10 @@ async def scrape_pokemon_category(page, numbers, start_index, category_name):
 
 # reads through the borrius pokedex website and gets basic data. 
 async def compile_pokedex():
+    pokemon_location = await read_location_data_json()
+    regional_form_list = get_regional_forms_by_name(pokemon_location)
     # special_encounter_numbers = await get_missing_pokemon_data()
+    
     start = time.perf_counter()
     
     print(
@@ -207,7 +295,7 @@ async def compile_pokedex():
         await asyncio.gather(
             scrape_pokemon_category(bph.national_page, bph.national_numbers, 1, "starters"),
             scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 10, "main dex"),
-            # scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 503, "regional"),
+            scrape_pokemon_category(bph.borrius_page, bph, 503, "regional"),
             # scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
         )            
         

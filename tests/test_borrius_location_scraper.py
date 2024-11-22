@@ -4,6 +4,7 @@ import json
 from unittest import mock
 
 from mainFunctions.borrius_location_scraper import fill_in_evolution_gaps, get_fishing_locations, get_grasscave_locations, get_surf_locations
+from mainFunctions.helpers import correct_pokemon_name
 
 
 @pytest.mark.asyncio

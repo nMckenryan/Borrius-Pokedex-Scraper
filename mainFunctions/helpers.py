@@ -54,13 +54,31 @@ async def read_location_data_json():
         )
 
 def get_regional_forms_by_name(pokemon_list):
-    
     regional_forms = []
-    
     for p in pokemon_list:
         if "galar" in p['pokemon'] or "alola" in p['pokemon'] or "hisui" in p['pokemon']:
             regional_forms.append(correct_pokemon_name(p['pokemon']))
     return regional_forms
+
+async def get_pokemon_index_from_regional_name(pokemon_list):
+    regional_index_list = []
+    async with aiohttp.ClientSession() as session:
+            for p in pokemon_list:
+                try:
+                    pokeapi_species = await session.get(
+                        f"https://pokeapi.co/api/v2/pokemon/{p}"
+                    )
+                    json = await pokeapi_species.json()
+                    regional_index_list.append(json["id"])
+                except Exception as e:
+                    print(
+                        colored(
+                            f"Failed to retrieve evolution data {p} from PokeAPI: {e}",
+                            "red",
+                        ),
+                    )
+    return regional_index_list
+
 
 
 # search thru location_list for a given pokemon
@@ -109,6 +127,7 @@ async def get_evolution_data_from_pokeapi(officialDexNumber):
                     "red",
                 ),
             )
+            
 class EvoObject:
     def __init__(self, evo_stage, evo_name, evo_trigger, evo_conditions):
         self.evo_stage = evo_stage
