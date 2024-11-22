@@ -206,11 +206,13 @@ async def compile_pokedex():
         
         await asyncio.gather(
             scrape_pokemon_category(bph.national_page, bph.national_numbers, 1, "starters"),
-            scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 9, "main dex"),
+            scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 10, "main dex"),
             # scrape_pokemon_category(bph.borrius_page, bph.borrius_numbers, 503, "regional"),
             # scrape_pokemon_category(bph.borrius_page, special_encounter_numbers, 503, "special")
         )            
-            
+        
+        json_file[0]["pokemon"].sort(key=lambda x: x["id"])
+        
         end = time.perf_counter()
         length = end - start
         print(

@@ -56,8 +56,9 @@ Check out the Endpoints at https://borrius-pokemon-scraper-321133146790.australi
 - [] Fix issue with generating Starters intermittently. failing tests.
 
 - [x] - Rewrite evolution compile
-  - [] - integrate
- [ ] Fix: Could not find learned move table for 10186
+  - [x] - integrate
+ - [x] Fix: Could not find learned move table for 10186
+ - [] Ensure it's compiled in the right way
 
 ### FUTURE FEATURES:
 
